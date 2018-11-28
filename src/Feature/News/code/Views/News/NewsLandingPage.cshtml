@@ -1,0 +1,20 @@
+﻿@using Wageworks.Feature.News
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+
+@model Wageworks.Feature.News.Models.NewsListViewModel
+@using System.Linq
+
+@if (Model?.PagedItems != null)
+{
+    if (Model.HideContainer)
+    {
+        @Html.Partial("NewsGridPartial", Model)
+    }
+    else
+    {
+        <section class="container" id="news-article-list">
+            @Html.Partial("NewsGridPartial", Model)
+        </section>
+    }
+
+}

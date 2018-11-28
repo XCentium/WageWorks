@@ -1,0 +1,14 @@
+﻿@using Wageworks.Feature.News
+@using Wageworks.Foundation.Alerts
+@using Wageworks.Foundation.Alerts.Extensions
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+@if (!Model?.Item?.IsDerived(Templates.NewsArticle.ID) ?? true)
+{
+  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.NewsArticle.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+  return;
+}
+
+<article class="expert-advice">
+  @Html.Sitecore().Field(Templates.NewsArticle.Fields.SeeMoreStories, Model.Item)
+</article>
