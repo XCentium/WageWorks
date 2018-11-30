@@ -1,0 +1,24 @@
+﻿---
+ID: "0453379e-70ce-41b9-bd4d-9cd499a131e7"
+Parent: "61c1637c-db10-466b-abfd-a790c89bba5c"
+Template: "7a3a4317-e123-4e7f-a8c8-807dc22c281c"
+Path: /sitecore/system/Settings/Foundation/Theming/Promo Styles/Short Promo
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ea3ca5d-cb2c-419d-8e7f-6c7ecd5ab819"
+      Hint: CSS Class Name
+      Value: "expert-landing__promo"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180305T234402Z
+    - ID: "d5a78b01-ff70-455f-9a35-47a8207c3a7f"
+      Hint: Title
+      Value: Short Promo

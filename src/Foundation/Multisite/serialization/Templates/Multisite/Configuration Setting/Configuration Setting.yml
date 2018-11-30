@@ -1,0 +1,18 @@
+﻿---
+ID: "a00ecc8f-ebf2-4e4d-8514-f29b323c2034"
+Parent: "624c575e-334b-41e4-a303-11040249609e"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Multisite/Configuration Setting/Configuration Setting
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180314T232312Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

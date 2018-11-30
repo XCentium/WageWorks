@@ -1,0 +1,24 @@
+﻿---
+ID: "c814faca-bf59-4ee4-9394-e1544963f009"
+Parent: "5db2452c-1aaa-4ed9-986c-706aa76f696f"
+Template: "059cfbdf-49fc-4f14-a4e5-b63e1e1afb1e"
+Path: /sitecore/system/Settings/Analytics/Page Events/DineEquity/Search/Search No Results
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+- ID: "ac6ba888-4213-43bd-b787-d8da2b6b881f"
+  Hint: Name
+  Value: "Search: No Results"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180110T233655Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{39156DC0-21C6-4F64-B641-31E85C8F5DFE}"

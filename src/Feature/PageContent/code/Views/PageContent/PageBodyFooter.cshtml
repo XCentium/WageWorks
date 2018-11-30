@@ -1,0 +1,14 @@
+﻿@using Wageworks.Feature.PageContent
+@using Wageworks.Foundation.Alerts
+@using Wageworks.Foundation.Alerts.Extensions
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+@if (!Model?.Item?.IsDerived(Templates.HasPageContent.ID) ?? true)
+{
+  @Html.PageEditorError(AlertTexts.InvalidDataSourceTemplate(Templates.HasPageContent.ID), AlertTexts.InvalidDataSourceTemplateFriendlyMessage, Model.Item?.ID, Model.Rendering.Item?.ID)
+  return;
+}
+
+<section>
+  @Html.Sitecore().Field(Templates.HasPageContent.Fields.BodyFooter, Model.Item)
+</section>

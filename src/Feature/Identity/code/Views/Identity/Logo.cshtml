@@ -1,0 +1,21 @@
+﻿@using Vista.Feature.Identity
+@using Vista.Feature.Identity.Repositories
+@using Vista.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Links
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+
+@{
+  var identity = IdentityRepository.Get(Model.Item);
+  if (identity == null)
+  {
+    return;
+  }
+  //TODO: Resolve context site from item (implement in Foundation.Multisite)
+  var homeUrl = Sitecore.Context.Site?.GetStartItem()?.Url() ?? "/";
+  var hasTagline = identity.FieldHasValue(Templates.Identity.Fields.LogoTagLine);
+}
+
+<a class="navbar-brand logo" href="@homeUrl">
+    @Html.Sitecore().ImageField(Templates.Identity.Fields.Logo, identity, mh: 80)
+</a>

@@ -1,0 +1,68 @@
+﻿@model Wageworks.Feature.Teasers.Models.PromoSectionViewModel
+@using System.Linq
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+
+@if (Model != null && Model.PromoItems != null && Model.PromoItems.Any())
+{
+
+    <section class="new-products container @Model.CssClass ">
+        @if (!string.IsNullOrEmpty(Model.Title))
+        {
+            <div class="new-products__title" id="@Model.Title.ToCleanUrl()-section">
+                @if (Model.MoreLink != null && !String.IsNullOrEmpty(Model.MoreLink.Url))
+                {
+                    <a href="@Model.MoreLink.Url" target="@Model.MoreLink.Target">@Model.Title</a>
+                }
+                else
+                {
+                    @Model.Title
+                }
+            </div>
+        }
+
+        @foreach (var promoItem in Model.PromoItems)
+        {
+
+            var bg = string.IsNullOrWhiteSpace(promoItem.BackgroundImage) ? "" : "background-image: url('" + promoItem.BackgroundImage + "')";
+
+            <section class="promo container image-left @promoItem.CssClass">
+                <div class="promo__background" style="@bg">
+                    <img src="@promoItem.ForegroundImage" alt="" />
+                </div>
+
+                <div class="promo__content-wrapper container ">
+                    <div class="promo__content">
+                        @if (!string.IsNullOrEmpty(promoItem.Badge))
+                        {
+                            <div class="promo__badge">@promoItem.Badge</div>
+                        }
+                        <h2>@Html.Raw(promoItem.Title)</h2>
+
+                        @if (!string.IsNullOrEmpty(promoItem.Headline))
+                        {
+                            <div class="promo__name">
+                                @Html.Raw(promoItem.Headline)
+                            </div>
+                        }
+
+                        <div class="promo__copy">
+                            @Html.Raw(promoItem.Body)
+                        </div>
+                        <div class="promo__ctas">
+                            @foreach (var cta in promoItem.Links)
+                            {
+                                @Html.Partial("_CallToAction", cta)
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                @foreach (var cta in promoItem.Links)
+                {
+                    @Html.Partial("_VideoCTA", cta)
+                }
+            </section>
+        }
+    </section>
+}
+

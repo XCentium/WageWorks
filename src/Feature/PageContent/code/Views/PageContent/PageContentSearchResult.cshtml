@@ -1,0 +1,22 @@
+﻿@using Wageworks.Feature.PageContent
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@model Wageworks.Foundation.Indexing.Models.ISearchResult
+
+<section class="search-item fullwidth">
+    <div class="content--left">
+        <!-- can use product__badge--gray or --red -->
+        <a href="@Model.Url">
+            @Html.Sitecore().ImageField(Templates.HasPageContent.Fields.Image, Model.Item, mw: 305, cssClass: "product__image")
+        </a>
+    </div> 
+    <div class="content--right">
+        <div class="product__title"><a href="@Model.Url">@Html.Raw(Model.Title)</a></div>
+        @if (!string.IsNullOrWhiteSpace(Model.Description))
+        {
+            <div class="product__description">
+                @Html.Raw(Model.Description)
+            </div>
+        }
+
+    </div>
+</section>

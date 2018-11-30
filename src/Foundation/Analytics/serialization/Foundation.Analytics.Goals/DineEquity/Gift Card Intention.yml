@@ -1,0 +1,35 @@
+﻿---
+ID: "72f638ac-47ea-40d0-855f-071a1370b9c8"
+Parent: "88c2c3dd-e25e-45db-b5f9-05696493e3a0"
+Template: "475e9026-333f-432d-a4dc-52e03b75cb6b"
+Path: /sitecore/system/Marketing Control Panel/Goals/DineEquity/Gift Card Intention
+DB: master
+SharedFields:
+- ID: "2f2ae296-8b58-4d94-8eee-0e82589d61a4"
+  Hint: Show in Page Events
+  Type: Checkbox
+  Value: 1
+- ID: "33ae0e84-74a0-437f-ab2b-859dfa96f6c9"
+  Hint: Points
+  Value: 25
+- ID: "6f10e607-2d04-4c0d-963a-fc79b5c4e8ce"
+  Hint: Track as Latest Event
+  Type: Checkbox
+  Value: 1
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+- ID: "ac6ba888-4213-43bd-b787-d8da2b6b881f"
+  Hint: Name
+  Value: Gift Card Intention
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180109T221300Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{EDCBB550-BED3-490F-82B8-7B2F14CCD26E}"

@@ -1,0 +1,18 @@
+﻿---
+ID: "90c2163e-88e9-499a-be9f-3c7cfd1e66aa"
+Parent: "a1d5669d-905d-40b9-805a-6b6e845f6e2e"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Foundation/Alerts/Alert Message Bar
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/Alerts/AlertMessageBar.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180308T061516Z

@@ -1,0 +1,14 @@
+﻿---
+ID: "cb103441-438b-4330-8d57-e37629068ba2"
+Parent: "a54ec0fb-4ec1-4ac6-aaf4-c99d5c8a5cb2"
+Template: "a54ec0fb-4ec1-4ac6-aaf4-c99d5c8a5cb2"
+Path: /sitecore/templates/Foundation/Theming/ParametersTemplate_HeaderStyles/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180221T160612Z

@@ -1,0 +1,19 @@
+﻿@using Wageworks.Foundation.Alerts
+@using Wageworks.Foundation.Dictionary.Extensions
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Links
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div class="alert alert-dismissible fade show" role="alert">
+    <div class="alert__wrapper container">
+        <div class="alert__content">
+            @Html.Sitecore().Field(TemplateConstants.Alert.Fields.Text, @Model.Item) @Html.Sitecore().Field(TemplateConstants.Alert.Fields.ReadMoreLink, @Model.Item)
+        </div>
+
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true"><i class="icon icon-close"></i></span>
+        </button>
+    </div>
+</div>
+
+

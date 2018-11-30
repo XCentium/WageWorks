@@ -1,0 +1,22 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@using Wageworks.Feature.PageContent
+
+<section class="container promotions__combo">
+    <section class="promotions__left">
+        @Html.Sitecore().Field(Templates.HeadinePage.Fields.Headline, Model.Item)
+    </section>
+    <section class="promotions__right">
+        @if (!string.IsNullOrEmpty(Model.Item[Templates.HeadinePage.Fields.SubheadlineBackground]))
+        {
+            <div class="promotions__right__bg" style="background-image: @Model.Item.ImageUrl(Templates.HeadinePage.Fields.SubheadlineBackground).ToCssUrlValue();"></div>
+        }
+        <div class="promotions__right__content">
+            @if (!string.IsNullOrEmpty(Model.Item[Templates.HeadinePage.Fields.SubheadlineForeground]))
+            {
+                <img src="@Model.Item.ImageUrl(Templates.HeadinePage.Fields.SubheadlineForeground)" />
+            }
+            @Html.Sitecore().Field(Templates.HeadinePage.Fields.Subheadline, Model.Item)
+        </div>
+    </section>
+</section>

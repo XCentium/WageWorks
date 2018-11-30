@@ -1,0 +1,15 @@
+﻿@using Vista.Feature.Identity
+@using Vista.Feature.Identity.Repositories
+@using Vista.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+  var identity = IdentityRepository.Get(Model.Item);
+  if (identity == null)
+  {
+    return;
+  }
+}
+<span class="copyright">
+  @Html.Sitecore().Field(Templates.Identity.Fields.Copyright, identity)
+</span>

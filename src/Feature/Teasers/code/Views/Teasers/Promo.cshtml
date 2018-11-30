@@ -1,0 +1,108 @@
+﻿@model Wageworks.Feature.Teasers.Models.PromoViewModel
+
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+
+@if (Model != null && Model.PromoItem != null)
+{
+    <section class="promo @Model.CssClass @Model.PromoItem.CssClass">
+        @* TODO - new fields so individual promos can have intros *@
+        @if (!string.IsNullOrWhiteSpace(Model.PromoItem.SectionTitle) || !string.IsNullOrWhiteSpace(Model.PromoItem.Headline))
+        {
+            <div class="promo__intro">
+                @if (!string.IsNullOrWhiteSpace(Model.PromoItem.SectionTitle))
+                {
+                    <h2 class="promo__intro--title">@Model.PromoItem.SectionTitle</h2>
+                }
+                @if (!string.IsNullOrWhiteSpace(Model.PromoItem.Headline))
+                {
+                    <div class="promo__intro--copy">
+                        @Html.Raw(Model.PromoItem.Headline)
+                    </div>
+                }
+            </div>
+        }
+        @if (Model.PromoItem.HasBackgroundVideo)
+        {
+            <div class="video-wrapper">
+                <video aria-label="" autoplay loop="" playsinline="" autobuffer="" poster="@Model.PromoItem.BackgroundImage" style="background: #000;">
+                    <source type="video/mp4" src="@Model.PromoItem.BackgroundVideo">
+                </video>
+            </div>
+
+            <script type="text/javascript">
+                var callback = function () {
+                    $(".promo video").prop("volume", 0);
+
+                };
+
+                if (
+                    document.readyState === "complete" ||
+                    (document.readyState !== "loading" && !document.documentElement.doScroll)
+                ) {
+                    callback();
+                } else {
+                    document.addEventListener("DOMContentLoaded", callback);
+                }
+
+            </script>
+        }
+        else
+        {
+            if (Model.PromoItem.HasForgegroundVideo)
+            {
+                <div class="promo__background">
+                    <section class="yt__player">
+                        <div class="yt__video" data-yt-id="@Model.PromoItem.ForegroundVideo.ToYoutubeId()"></div>
+                        <div class="yt__screenshot">
+                            <div class="promo__background" style="background-image: url(@Model.PromoItem.BackgroundImage);"></div>
+                        </div>
+                        <a class="yt__play" href=""></a>
+                    </section>
+                </div>
+            }
+            else
+            {
+                var bg = string.IsNullOrWhiteSpace(Model.PromoItem.BackgroundImage) ? "" : "background-image: url('" + Model.PromoItem.BackgroundImage + "')";
+                <div class="promo__background" style="@bg"></div>
+            }
+        }
+
+        <div class="promo__content-wrapper container @(Model.PromoItem.Links.Any() ? "" : "no-ctas")">
+            <div class="promo__content">
+                @if (!string.IsNullOrEmpty(Model.PromoItem.Badge))
+                {
+                    <p class="promo__badge">@Model.PromoItem.Badge</p>
+                }
+
+                @if (!string.IsNullOrEmpty(Model.PromoItem.ForegroundImage))
+                {
+                    <img class="promo__content-img" src="@Model.PromoItem.ForegroundImage" alt="@Model.PromoItem.Title" />
+                }
+
+                <h2>
+                    @Html.Raw(Model.PromoItem.Title)
+                </h2>
+
+                <div class="promo__copy">
+                    @Html.Raw(Model.PromoItem.Body)
+                </div>
+
+                @if (Model.PromoItem.Links.Any())
+                {
+                    <div class="promo__ctas">
+                        @foreach (var cta in Model.PromoItem.Links)
+                        {
+                            @Html.Partial("_CallToAction", cta)
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+
+        @foreach (var cta in Model.PromoItem.Links)
+        {
+            @Html.Partial("_VideoCTA", cta)
+        }
+    </section>
+}
+

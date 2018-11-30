@@ -1,0 +1,14 @@
+﻿---
+ID: "0de3471b-926a-47eb-8cab-a2ef9878e713"
+Parent: "572f73cd-21a9-442c-ba2a-35f514cefd35"
+Template: "7bddb419-3cfd-42d5-9bd2-91aeee773389"
+Path: /sitecore/system/Settings/Foundation/Theming/Header Styles
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180320T232503Z

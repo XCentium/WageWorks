@@ -1,0 +1,14 @@
+﻿---
+ID: "602c17fe-a843-40b7-a382-f51652ca7b78"
+Parent: "f923489b-6723-48c2-8d63-7703365ac730"
+Template: "f923489b-6723-48c2-8d63-7703365ac730"
+Path: /sitecore/templates/Foundation/Theming/ParametersTemplate_GridStyles/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180221T160612Z

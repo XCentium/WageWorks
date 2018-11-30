@@ -1,0 +1,14 @@
+﻿---
+ID: "f2d84478-01ae-48e9-a6cb-4e47867e7414"
+Parent: "bdbc2a8e-e773-4b20-be51-63543f8a66a7"
+Template: "bdbc2a8e-e773-4b20-be51-63543f8a66a7"
+Path: /sitecore/templates/Foundation/Theming/ParametersTemplate_PromoSectionStyles/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180221T160612Z

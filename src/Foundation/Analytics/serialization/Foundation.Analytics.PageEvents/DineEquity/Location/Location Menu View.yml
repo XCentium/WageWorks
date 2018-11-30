@@ -1,0 +1,24 @@
+﻿---
+ID: "61151d5d-1e8b-4b4a-9c54-788b7e10fbd7"
+Parent: "b9d8a08a-56e6-44a8-869d-5490b475eee1"
+Template: "059cfbdf-49fc-4f14-a4e5-b63e1e1afb1e"
+Path: /sitecore/system/Settings/Analytics/Page Events/DineEquity/Location/Location Menu View
+DB: master
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{689E2994-4656-4C58-9112-7826CB46EE69}"
+- ID: "ac6ba888-4213-43bd-b787-d8da2b6b881f"
+  Hint: Name
+  Value: Location Menu View
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180110T233956Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{39156DC0-21C6-4F64-B641-31E85C8F5DFE}"

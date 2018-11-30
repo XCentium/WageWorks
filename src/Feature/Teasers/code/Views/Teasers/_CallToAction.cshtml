@@ -1,0 +1,18 @@
+﻿@model Wageworks.Feature.Teasers.Models.CallToActionLinkModel
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+
+@if (Model.IsVideoPopup)
+{
+    <a href="@Model.Url" target="@Model.Target" class="@(Model.RenderAsLink ? "" : "btn") @Model.CssClass" data-toggle="modal" data-target="#modal-@Model.Id">
+        @Model.Name
+        <i class="icon icon-cta"></i>
+    </a>
+}
+else
+{
+<a href="@Model.Url" target="@Model.Target" class="@(Model.RenderAsLink ? "" : "btn") @Model.CssClass">
+    @Html.Raw(Model.Name)
+    <i class="icon icon-cta"></i>
+</a>
+}
+

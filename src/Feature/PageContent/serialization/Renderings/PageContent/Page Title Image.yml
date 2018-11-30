@@ -1,0 +1,21 @@
+﻿---
+ID: "c3a89d9a-daa8-43d2-a890-cbdcc5067952"
+Parent: "d5d2ab0a-3909-4e22-af15-3bef1e97a0c0"
+Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Path: /sitecore/layout/Renderings/Feature/PageContent/Page Title Image
+DB: master
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/PageContent/PageTitleImage.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{A54EC0FB-4EC1-4AC6-AAF4-C99D5C8A5CB2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160212T113307Z

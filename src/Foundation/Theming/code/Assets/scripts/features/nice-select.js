@@ -1,0 +1,3 @@
+﻿$(function () {
+    $('.nice-select').niceSelect();
+});

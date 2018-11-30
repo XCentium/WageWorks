@@ -1,0 +1,14 @@
+﻿---
+ID: "980f6d94-18d8-4038-bf13-309e8a9cc72c"
+Parent: "13cce8fd-eaeb-41ef-8024-fad32a3392b6"
+Template: "13cce8fd-eaeb-41ef-8024-fad32a3392b6"
+Path: /sitecore/templates/Foundation/Theming/ParametersTemplate_PromoStyles/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180221T160612Z

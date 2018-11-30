@@ -1,0 +1,20 @@
+﻿---
+ID: "40d9504c-c2ec-466d-949d-e68a99d94ccc"
+Parent: "5b757aef-09a8-440f-9042-aa82c2409d27"
+Template: "7a3a4317-e123-4e7f-a8c8-807dc22c281c"
+Path: /sitecore/system/Settings/Foundation/Theming/Grid Styles/Hide CTAs
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ea3ca5d-cb2c-419d-8e7f-6c7ecd5ab819"
+      Hint: CSS Class Name
+      Value: "hide-ctas"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180404T035331Z
+    - ID: "d5a78b01-ff70-455f-9a35-47a8207c3a7f"
+      Hint: Title
+      Value: Hide CTAs

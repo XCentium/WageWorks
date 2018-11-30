@@ -1,0 +1,24 @@
+﻿---
+ID: "e4be4b7c-dc44-4325-9f67-ec0af574fdff"
+Parent: "61c1637c-db10-466b-abfd-a790c89bba5c"
+Template: "7a3a4317-e123-4e7f-a8c8-807dc22c281c"
+Path: /sitecore/system/Settings/Foundation/Theming/Promo Styles/Logo
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ea3ca5d-cb2c-419d-8e7f-6c7ecd5ab819"
+      Hint: CSS Class Name
+      Value: logo
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180523T225825Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JoshXC
+    - ID: "d5a78b01-ff70-455f-9a35-47a8207c3a7f"
+      Hint: Title
+      Value: Logo

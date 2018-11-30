@@ -1,0 +1,28 @@
+﻿---
+ID: "175a4e27-bec4-43b4-8b7e-8eeb9bf4340d"
+Parent: "61c1637c-db10-466b-abfd-a790c89bba5c"
+Template: "7bddb419-3cfd-42d5-9bd2-91aeee773389"
+Path: /sitecore/system/Settings/Foundation/Theming/Promo Styles/Promo Sections
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {7A3A4317-E123-4E7F-A8C8-807DC22C281C}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2000
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180320T221228Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

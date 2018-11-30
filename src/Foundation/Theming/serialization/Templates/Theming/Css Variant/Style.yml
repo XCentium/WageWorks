@@ -1,0 +1,18 @@
+﻿---
+ID: "f3903023-d8b8-4778-a245-948830df3b03"
+Parent: "7a3a4317-e123-4e7f-a8c8-807dc22c281c"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Theming/Css Variant/Style
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180208T222652Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

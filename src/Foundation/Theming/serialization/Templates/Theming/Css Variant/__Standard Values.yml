@@ -1,0 +1,19 @@
+﻿---
+ID: "fb7c49be-38d8-4abc-8921-fcbbb70f5202"
+Parent: "7a3a4317-e123-4e7f-a8c8-807dc22c281c"
+Template: "7a3a4317-e123-4e7f-a8c8-807dc22c281c"
+Path: /sitecore/templates/Foundation/Theming/Css Variant/__Standard Values
+DB: master
+SharedFields:
+- ID: "fd4e2050-186c-4375-8b99-e8a85dd7436e"
+  Hint: __Enable item fallback
+  Type: Checkbox
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180508T184700Z

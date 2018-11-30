@@ -1,0 +1,21 @@
+﻿---
+ID: "d06ef38b-1845-4803-980f-140bdaad9c0a"
+Parent: "9574a71f-af6d-4b02-a30a-6184110f88e2"
+Template: "9574a71f-af6d-4b02-a30a-6184110f88e2"
+Path: /sitecore/templates/Feature/Teasers/_PromoSection/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180220T223555Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "b2b3422b-8feb-4225-8465-d602463e91bf"
+      Hint: Name
+      Value: $name

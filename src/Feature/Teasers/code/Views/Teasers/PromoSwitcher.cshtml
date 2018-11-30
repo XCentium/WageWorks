@@ -1,0 +1,49 @@
+﻿@model Wageworks.Feature.Teasers.Models.PromoSectionViewModel
+@using System.Linq
+
+@if (Model != null && Model.PromoItems != null && Model.PromoItems.Any())
+{
+    var i = 1;
+
+    <section>
+        <div class="difference__component">
+            <h2>@Model.Title</h2>
+            <p class="difference__component__description">
+                @Html.Raw(Model.Description)
+            </p>
+            <div class="toggler container">
+                <div class="difference__component__diagram">
+                    @if (!string.IsNullOrEmpty(Model.BackgroundImage))
+                    {
+                        <img src="@Model.BackgroundImage" />
+                    }
+
+                    <div class="toggler__links">
+                        @for (var idx = 1; idx <= Model.PromoItems.Count; idx++)
+                        {
+                            <a href="#" class="difference__component__point difference__component__point--@idx">@idx</a>
+                        }
+                    </div>
+                </div>
+                <div class="toggler__panels">
+                    @foreach (var promoItem in Model.PromoItems)
+                    {
+                        <div class="toggler__panel">
+                            <div class="difference__component__panel">
+                                <div class="difference__component__image" style="background-image:url(@promoItem.BackgroundImage)"></div>
+                                <div class="difference__component__content">
+                                    <h4>@promoItem.Headline <span>@(i++)</span></h4>
+                                    <h6>@Html.Raw(promoItem.Title)</h6>
+                                    <p>
+                                        @Html.Raw(promoItem.Body)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </section>
+}

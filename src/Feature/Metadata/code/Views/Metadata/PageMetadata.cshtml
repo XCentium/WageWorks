@@ -1,0 +1,34 @@
+﻿@using Wageworks.Foundation.Commerce.Extensions
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@model Wageworks.Feature.Metadata.Models.IMetadata
+
+@if (Model == null)
+{
+    return;
+}
+
+@if (!string.IsNullOrEmpty(Model.Title))
+{
+    <title>@Html.Raw(Model.Title)</title>
+}
+@if (Model.KeywordsList.Any())
+{
+    <meta name="keywords" content="@string.Join(", ", Model.KeywordsList)" />
+}
+@if (!string.IsNullOrEmpty(Model.Description))
+{
+    <meta name="description" content="@Html.Raw(Model.Description)" />
+}
+@if (Model.Robots.Any())
+{
+    <meta name="robots" content="@string.Join(",", Model.Robots)" />
+}
+@foreach (var custom in Model.CustomMetadata)
+{
+    <meta name="@custom.Key" content="@custom.Value" />
+}
+
+@if (Sitecore.Context.Item != null)
+{
+    <link rel="canonical" href="@Html.Sitecore().CanonicalUrl()">
+}

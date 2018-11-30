@@ -1,0 +1,20 @@
+﻿---
+ID: "2d86ed7a-dace-45b1-9f2e-bf57e85a69be"
+Parent: "0de3471b-926a-47eb-8cab-a2ef9878e713"
+Template: "7a3a4317-e123-4e7f-a8c8-807dc22c281c"
+Path: /sitecore/system/Settings/Foundation/Theming/Header Styles/No Theme
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ea3ca5d-cb2c-419d-8e7f-6c7ecd5ab819"
+      Hint: CSS Class Name
+      Value: "no-theme"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180401T210613Z
+    - ID: "d5a78b01-ff70-455f-9a35-47a8207c3a7f"
+      Hint: Title
+      Value: No Theme

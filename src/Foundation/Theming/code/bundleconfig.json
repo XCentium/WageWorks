@@ -1,0 +1,56 @@
+[
+  {
+    "outputFileName": "assets/scripts/Wageworks.Foundation.Frameworks.js",
+    "inputFiles": [
+        "assets/scripts/vendor/jquery-3.0.0.min.js",
+        "assets/scripts/vendor/jquery-ui.min.js",
+        "assets/scripts/vendor/jquery.ui.touch-punch.min.js",
+        "assets/scripts/vendor/bootstrap.bundle.min.js",
+        "assets/scripts/vendor/jquery.colorbox-min.js",
+        "assets/scripts/vendor/slick.min.js",
+        "assets/scripts/vendor/jquery.nice-select.min.js",
+        "assets/scripts/vendor/jquery.bcSwipe.js",
+        "assets/scripts/vendor/jquery.Flipster.min.js",
+        "assets/scripts/vendor/lity.min.js",
+        "assets/scripts/vendor/js.cookie.js"
+    ],
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "assets/scripts/Wageworks.Foundation.Theming.js",
+    "inputFiles": [
+        "assets/scripts/features/navigation.js",
+        "assets/scripts/features/recaptcha.js",
+        "assets/scripts/features/youtube.js",
+        "assets/scripts/features/filters.js",
+        "assets/scripts/features/plugins.js",
+        "assets/scripts/features/slide-out-menu.js",
+        "assets/scripts/features/cookies.js",
+        "assets/scripts/forms/jquery.validate.min.js",
+        "assets/scripts/forms/jquery.validate.unobtrusive.min.js",
+        "assets/scripts/forms/jquery.unobtrusive-ajax.min.js",
+        "assets/scripts/forms/form.validate.js",
+        "assets/scripts/forms/form.tracking.js",
+        "assets/scripts/forms/form.custom.js",
+        "assets/scripts/features/nice-select.js",
+        "assets/scripts/features/bootstrap-tabs-to-select.js",
+        "assets/scripts/features/Wageworks.util.js"
+    ],
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "assets/styles/vendor.css",
+    "inputFiles": [
+        "assets/styles/bootstrap.min.css",
+        "assets/styles/vendor/jquery.Flipster.min.css",
+        "assets/styles/vendor/lity.min.css",
+        "assets/styles/vendor/magnify.css",
+        "assets/styles/vendor/jquery-ui.min.css",
+        "assets/styles/vendor/nice-select.css",
+        "assets/styles/colorbox.css",
+        "assets/styles/slick-theme.min.css",
+        "assets/styles/slick.css"
+        // "assets/styles/vendor/reloading.css"
+    ]
+  }
+]

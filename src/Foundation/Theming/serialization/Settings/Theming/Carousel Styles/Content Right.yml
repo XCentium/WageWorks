@@ -1,0 +1,20 @@
+﻿---
+ID: "e459142f-67c5-4e8f-8e75-240d359bc537"
+Parent: "81ba75dc-b39d-42ea-b6aa-e1d1ddbba35c"
+Template: "7a3a4317-e123-4e7f-a8c8-807dc22c281c"
+Path: /sitecore/system/Settings/Foundation/Theming/Carousel Styles/Content Right
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ea3ca5d-cb2c-419d-8e7f-6c7ecd5ab819"
+      Hint: CSS Class Name
+      Value: "content-right"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180401T210613Z
+    - ID: "d5a78b01-ff70-455f-9a35-47a8207c3a7f"
+      Hint: Title
+      Value: Content Right

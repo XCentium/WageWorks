@@ -1,0 +1,85 @@
+﻿@using System.Linq
+
+@model Wageworks.Feature.Teasers.Models.CarouselViewModel
+
+@if (Model != null && Model.PromoItems != null && Model.PromoItems.Any())
+{
+
+        <div id="carousel-@Model.UniqueId" class="carousel carousel-fade" data-ride="carousel">
+            @if (Model.PromoItems.Count > 1)
+            {
+                <ol class="carousel-indicators">
+                    @for (var i = 0; i < Model.PromoItems.Count; i++)
+                    {
+                        <li data-target="#carousel-@Model.UniqueId" data-slide-to="@i" class="@(i == 0 ? "active" : "")"></li>
+                    }
+
+                </ol>
+            }
+
+            <div class="carousel-inner">
+                @for (var i = 0; i < Model.PromoItems.Count; i++)
+                {
+                    var slide = Model.PromoItems[i];
+
+                    <div class="carousel-item @(i == 0 ? "active" : "") @slide.CssClass">
+                        @if (slide.HasBackgroundVideo)
+                        {
+                        <div class="video-wrapper">
+                            <video aria-label="" @(i == 0 ? "autoplay" : "") loop="" playsinline="" autobuffer="" poster="@slide.BackgroundImage" style="background: #000;">
+                                <source type="video/mp4" src="@slide.BackgroundVideo">
+                            </video>
+                        </div>
+                            
+                        }
+                        else
+                        {
+                            <div class="carousel-image" style="background-image: url(@slide.BackgroundImage);"></div>
+                            @*<img class="d-block w-100" src="@slide.BackgroundImage" alt="@slide.Title" />*@
+                        }
+                        <div class="carousel-caption d-flex">
+                            <h2>@Html.Raw(slide.Title)</h2> 
+                            <div class="carousel-caption__copy">@Html.Raw(slide.Body)</div>
+                            <div class="carousel-caption__ctas">
+                                @foreach (var cta in slide.Links)
+                                {
+                                    <a href="@cta.Url" target="@cta.Target" class="@(cta.RenderAsLink ? "" : "btn") @cta.CssClass">@Html.Raw(cta.Name) <i class="icon icon-cta--white"></i></a>
+                                }
+                            </div>
+                            
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+
+
+    <script type="text/javascript">
+        var callback = function () {
+            var playingVideo;
+            $(".carousel video").prop("volume", 0);
+
+            $('.carousel').on('slid.bs.carousel', function (e) {
+                if (playingVideo)
+                    playingVideo.pause();
+
+                var video = $(e.relatedTarget).find("video");
+                if (video.length) {
+                    playingVideo = video.get(0);
+                    video.get(0).play();
+                }
+            });
+        };
+
+        if (
+            document.readyState === "complete" ||
+            (document.readyState !== "loading" && !document.documentElement.doScroll)
+        ) {
+            callback();
+        } else {
+            document.addEventListener("DOMContentLoaded", callback);
+        }
+
+    </script>
+}

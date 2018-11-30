@@ -1,0 +1,57 @@
+﻿@model Wageworks.Feature.Teasers.Models.PromoSectionViewModel
+@using System.Linq
+
+@if (Model != null && Model.PromoItems != null && Model.PromoItems.Any())
+{
+
+
+    <section class="promo-slider container  @Model.CssClass">
+        <div class="promo-slider__intro">
+            <h2 class="promo-slider__intro--title">@Model.Title</h2>
+            <div class="promo-slider__intro--copy">
+                @Html.Raw(Model.Description)
+            </div>
+        </div>
+        <div class="slider-nav">
+            @foreach (var promoItem in Model.PromoItems)
+            {
+                <div class="slider-for__item item-nav slider-nav__thumb">
+                    <img src="@promoItem.ForegroundImage" />
+                    <h3>@Html.Raw(promoItem.Title)</h3>
+                </div>
+            }
+
+        </div>
+        <div class="slider-for">
+            @foreach (var promoItem in Model.PromoItems)
+            {
+                <div class="slider-for__item">
+                    <section class="promo container image-left">
+                        @*<div class="promo__background" style="background-image: url('@promoItem.BackgroundImage');"></div>*@
+                        <img src="@promoItem.BackgroundImage" />
+                        <div class="promo__content-wrapper container">
+                            <div class="promo__content">
+                                <h2>
+                                   @promoItem.Headline
+                                </h2>
+                                <div class="promo__copy">
+                                    @Html.Raw(promoItem.Body)
+                                </div>
+                                <div class="promo__ctas">
+                                    @foreach (var cta in promoItem.Links)
+                                    {
+                                        <a href="@cta.Url" target="@cta.Target" class="@(cta.RenderAsLink ? "" : "btn") @cta.CssClass">
+                                            @cta.Text
+                                        </a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            }
+            
+        </div>
+    </section>
+    
+}

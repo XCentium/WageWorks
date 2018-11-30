@@ -1,0 +1,65 @@
+﻿@model Wageworks.Feature.Teasers.Models.PromoSectionViewModel
+@using System.Linq
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@using Wageworks.Foundation.Theming.Extensions
+
+@if (Model != null && Model.PromoItems != null && Model.PromoItems.Any())
+{
+    <section class="social-feed container">
+        <div class="social-feed__items">
+            <section class="social-tile social-hash">
+                <div class="social-tile__content-wrapper">
+                    <div class="social-tile__content">
+                        <h2>@Model.Title</h2>
+                        <div class="social-tile__copy">@Html.Raw(Model.Description)</div>
+                        @Html.Sitecore().Placeholder("social-description-bottom")
+                    </div>
+                </div>
+            </section>
+            @foreach (var item in Model.PromoItems)
+            {
+                var link = item.Links.FirstOrDefault();
+
+
+                <section class="social-tile social-tile--@item.Badge">
+                    @if (link == null)
+                    {
+                        if (!string.IsNullOrEmpty(item.BackgroundImage))
+                        {
+                            <div class="social-tile__image" style="background-image: url(@item.BackgroundImage)"></div>
+                        }
+                        <div class="social-tile__content-wrapper">
+                            @if (!string.IsNullOrEmpty(item.ForegroundImage))
+                            {
+
+                            }
+
+                            <div class="social-tile__content">
+                                <h2>@item.Title</h2>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <a href="@link.Url" class="@link.CssClass" target="@link.Target">
+                            @if (!string.IsNullOrEmpty(item.BackgroundImage))
+                            {
+                                <div class="social-tile__image" style="background-image: url(@item.BackgroundImage)"></div>
+                            }
+                            <div class="social-tile__content-wrapper">
+                                @if (!string.IsNullOrEmpty(item.ForegroundImage))
+                                {
+
+                                }
+
+                                <div class="social-tile__content">
+                                    <h2>@item.Title</h2>
+                                </div>
+                            </div>
+                        </a>
+                    }
+                </section>
+            }
+        </div>
+    </section>
+}
