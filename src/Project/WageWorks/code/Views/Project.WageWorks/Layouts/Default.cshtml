@@ -1,0 +1,56 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.ExperienceForms.Mvc.Html
+@using Wageworks.Foundation.Assets.Models
+@using Wageworks.Foundation.Assets.Services
+@inherits WebViewPage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    @if (!Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        @Html.Sitecore().Placeholder("head")
+    }
+    
+    <!-- Latest compiled and minified JavaScript -->
+    @Html.RenderFormStyles()
+    @RenderAssetsService.Current.RenderStyles()
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
+    @Html.Sitecore().VisitorIdentification()
+
+
+
+</head>
+<body class=" @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
+    @Html.Sitecore().Placeholder("zone-scripts-top")
+    <header>
+        @Html.Sitecore().Placeholder("zone-subheader")
+        @Html.Sitecore().Placeholder("zone-header")
+    </header>
+
+    <main class="container-fluid" role="main">
+        @Html.Sitecore().Placeholder("page-layout")
+    </main>
+
+    <footer>
+        @Html.Sitecore().Placeholder("zone-footer")
+    </footer>
+
+    <!-- JS -->
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
+    @*@Html.RenderFormScripts()*@
+
+
+    @Html.Sitecore().Placeholder("zone-scripts")
+</body>
+</html>

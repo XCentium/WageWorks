@@ -1,0 +1,35 @@
+﻿[
+    {
+        "outputFile": "Assets/Styles/css/wageworks-styles.css",
+        "inputFile": "Assets/Styles/scss/wageworks-styles.scss",
+        "minify": {
+            "enabled": true
+        },
+        "sourceMap": true,
+        "options": {
+            "sourceMapRoot": "/"
+        }
+    },
+    {
+        "outputFile": "Assets/Styles/css/wageworks-application.css",
+        "inputFile": "Assets/Styles/scss/application.scss",
+        "minify": {
+            "enabled": true
+        },
+        "sourceMap": true,
+        "options": {
+            "sourceMapRoot": "/"
+        }
+    },
+    {
+        "outputFile": "Assets/Styles/css/wageworks-application-ie.css",
+        "inputFile": "Assets/Styles/scss/application-ie.scss",
+        "minify": {
+            "enabled": true
+        },
+        "sourceMap": true,
+        "options": {
+            "sourceMapRoot": "/"
+        }
+    }
+]
