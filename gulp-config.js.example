@@ -1,0 +1,19 @@
+module.exports = function () {
+  var instanceRoot = "F:\\projects\\wwwroot\\Sitecore";
+  var config = {
+    websiteRoot: instanceRoot + "\\",
+    sitecoreLibraries: instanceRoot + "\\bin",
+    licensePath: instanceRoot + "\\App_Data\\license.xml",
+    packageXmlBasePath: ".\\src\\Project\\Common\\code\\App_Data\\packages\\VistaBrands.xml",
+    packagePath: instanceRoot + "\\App_Data\\packages",
+    solutionName: "VistaOutdoors",
+    buildConfiguration: "Debug",
+    buildToolsVersion: 15.0,
+    buildMaxCpuCount: 0,
+    buildVerbosity: "normal",
+    buildPlatform: "Any CPU",
+    publishPlatform: "AnyCpu",
+    runCleanBuilds: false
+  };
+  return config;
+}
