@@ -247,7 +247,7 @@ publishsettings.targets
 Vista.Website/App_Config/Include/zzz/zzz.VistaOutdoor.Dev.Settings.config
 !/lib/Sitecore/*.dll
 !/lib/Sitecore/*.xml
-/src/Project/Common/code/App_Config/Include/Project/zzz/zzz.Vista.Dev.Settings.config
+/src/Project/WageWorks/code/App_Config/Include/Project/zzz/zzz.WageWorks.Dev.Settings.config
 
 
 # =========================
@@ -257,32 +257,8 @@ Vista.Website/App_Config/Include/zzz/zzz.VistaOutdoor.Dev.Settings.config
 /src/Foundation/Theming/code/Assets/styles/vendor.min.css
 /src/Foundation/Theming/code/Assets/scripts/Vista.Foundation.Frameworks.js
 /src/Foundation/Theming/code/Assets/scripts/Vista.Foundation.Frameworks.min.js
-/src/Project/SavageArms/code/Assets/Styles/css/sa-styles.css
-/src/Project/SavageArms/code/Assets/Styles/css/sa-styles.min.css
-/src/Project/SpeerAmmo/code/Assets/Styles/css/speer-styles.css
-/src/Project/SpeerAmmo/code/Assets/Styles/css/speer-styles.min.css
-/src/Project/FederalPremium/code/Assets/Styles/css/fp-styles.css
-/src/Project/FederalPremium/code/Assets/Styles/css/fp-styles.min.css
-/src/Project/FederalPremium/code/Assets/Scripts/Vista.FederalPremium.js
-/src/Project/FederalPremium/code/Assets/Scripts/Vista.FederalPremium.min.js
-/src/Project/FederalPremium/code/Assets/Scripts/Vista.FederalPremium.min.js.map
-/src/Project/SavageArms/code/Assets/Scripts/Vista.SavageArms.js
-/src/Project/SavageArms/code/Assets/Scripts/Vista.SavageArms.min.js
-/src/Project/SavageArms/code/Assets/Scripts/Vista.SavageArms.min.js.map
-/src/Foundation/Theming/code/Assets/scripts/Vista.Foundation.Theming.js
-/src/Foundation/Theming/code/Assets/scripts/Vista.Foundation.Theming.min.js
-/src/Foundation/Theming/code/Assets/scripts/Vista.Foundation.Theming.min.js.map
-src/Feature/Forms/code/App_Config/Include/Feature/Feature.Forms.config.live
-src/Foundation/Theming/code/Assets/scripts/Vista.Foundation.Frameworks.min.js.map
+/src/Project/WageWorks/code/Assets/Styles/css/wageworks-styles.css
+/src/Project/WageWorks/code/Assets/Styles/css/wageworks-styles.min.css
+/src/Foundation/Theming/code/Assets/scripts/WageWorks.Foundation.Frameworks.min.js.map
 /src/Feature/Products/serialization/Templates.Commerce
-src/Project/SpeerAmmo/code/Assets/Styles/css/speer-styles.min.css
-src/Project/SpeerAmmo/code/Assets/Styles/css/speer-styles.css
 /lib/Sitecore.Remove
-/src/Feature/Ecommerce_backup_8_10_18.zip
-/src/Feature/Ecommerce_backup_8_9_18.zip
-/src/Foundation/Commerce/serialization/Templates.Commerce
-src/Project/SpeerAmmoReloading/code/Assets/Styles/css/speer-reloading-styles.css
-src/Project/SpeerAmmoReloading/code/Assets/Styles/css/application-ie.css
-src/Project/SpeerAmmo/code/Assets/Scripts/Vista.SpeerAmmo.min.js.map
-src/Project/SpeerAmmo/code/Assets/Scripts/Vista.SpeerAmmo.min.js
-src/Project/SpeerAmmo/code/Assets/Scripts/Vista.SpeerAmmo.js
