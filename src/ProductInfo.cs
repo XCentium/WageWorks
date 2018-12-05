@@ -6,7 +6,7 @@
 [assembly: AssemblyConfiguration("Release")]
 #endif
 [assembly: AssemblyCompany("XCentium")]
-[assembly: AssemblyProduct("Wageworks Helix")]
+[assembly: AssemblyProduct("WageWorks Helix")]
 [assembly: AssemblyCopyright("Copyright © XCentium 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
