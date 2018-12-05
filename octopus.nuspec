@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>XCentium</authors>
+    <owners>WageWorks</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Octopus Deployment package for WageWorks helix Solution</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags></tags>
+  </metadata>
+  
+  <files>
+    <file src="Deploy\**\*.*" />
+  </files>
+</package>
