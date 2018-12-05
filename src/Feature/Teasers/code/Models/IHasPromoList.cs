@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Wageworks.Feature.Teasers.Models
+namespace Vista.Feature.Teasers.Models
 {
     public interface IHasPromoList
     {

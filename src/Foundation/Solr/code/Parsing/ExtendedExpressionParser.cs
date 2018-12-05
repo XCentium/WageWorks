@@ -7,63 +7,63 @@ using Wageworks.Foundation.Solr.SpatialSearch.Nodes;
 
 namespace Wageworks.Foundation.Solr.SpatialSearch.Parsing
 {
-    //public class ExtendedExpressionParser : ExpressionParser
-    //{
-    //    //public ExtendedExpressionParser(Type elementType, Type itemType, FieldNameTranslator fieldNameTranslator) : base(elementType, itemType, fieldNameTranslator)
-    //    //{
-    //    //}
+    public class ExtendedExpressionParser : ExpressionParser
+    {
+        public ExtendedExpressionParser(Type elementType, Type itemType, FieldNameTranslator fieldNameTranslator) : base(elementType, itemType, fieldNameTranslator)
+        {
+        }
 
-    //    //protected override QueryNode VisitMethodCall(MethodCallExpression methodCall)
-    //    //{
-    //    //    if (methodCall.Method.DeclaringType == typeof (SearchExtensions))
-    //    //    {
-    //    //        return this.VisitQueryableExtensionMethod(methodCall);
-    //    //    }
-    //    //    return base.VisitMethodCall(methodCall);
-    //    //}
+        protected override QueryNode VisitMethodCall(MethodCallExpression methodCall)
+        {
+            if (methodCall.Method.DeclaringType == typeof (SearchExtensions))
+            {
+                return this.VisitQueryableExtensionMethod(methodCall);
+            }
+            return base.VisitMethodCall(methodCall);
+        }
 
-    //    //protected override QueryNode VisitQueryableExtensionMethod(MethodCallExpression methodCall)
-    //    //{
-    //    //    switch (methodCall.Method.Name)
-    //    //    {
-    //    //        case "WithinRadius":
-    //    //            var queryNode = this.VisitWithinRadiusMethod(methodCall);
-    //    //            return queryNode;
-    //    //    }
-    //    //    return base.VisitQueryableExtensionMethod(methodCall);
-    //    //}
+        protected override QueryNode VisitQueryableExtensionMethod(MethodCallExpression methodCall)
+        {
+            switch (methodCall.Method.Name)
+            {
+                case "WithinRadius":
+                    var queryNode = this.VisitWithinRadiusMethod(methodCall);
+                    return queryNode;
+            }
+            return base.VisitQueryableExtensionMethod(methodCall);
+        }
 
-    //    //protected virtual QueryNode VisitWithinRadiusMethod(MethodCallExpression methodCall)
-    //    //{
-    //    //    QueryNode sourceNode = this.Visit(GetArgument(methodCall.Arguments, 0));
-    //    //    var latExpression = (ConstantExpression)GetArgument(methodCall.Arguments, 2);
-    //    //    var lonExpression = (ConstantExpression)GetArgument(methodCall.Arguments, 3);
-    //    //    var distanceExpression = (ConstantExpression)GetArgument(methodCall.Arguments, 4);
+        protected virtual QueryNode VisitWithinRadiusMethod(MethodCallExpression methodCall)
+        {
+            QueryNode sourceNode = this.Visit(GetArgument(methodCall.Arguments, 0));
+            var latExpression = (ConstantExpression)GetArgument(methodCall.Arguments, 2);
+            var lonExpression = (ConstantExpression)GetArgument(methodCall.Arguments, 3);
+            var distanceExpression = (ConstantExpression)GetArgument(methodCall.Arguments, 4);
 
-    //    //    var lat = (double)latExpression.Value;
-    //    //    var lon = (double)lonExpression.Value;
-    //    //    var radius = (double)distanceExpression.Value;
-    //    //    var lambdaExpression = Convert<LambdaExpression>(StripQuotes(GetArgument(methodCall.Arguments, 1)));
-    //    //    if (lambdaExpression.Body.NodeType == ExpressionType.MemberAccess)
-    //    //    {
-    //    //        QueryNode queryNode = Visit(lambdaExpression.Body);
-    //    //        var fieldNode = queryNode as FieldNode;
+            var lat = (double)latExpression.Value;
+            var lon = (double)lonExpression.Value;
+            var radius = (double)distanceExpression.Value;
+            var lambdaExpression = Convert<LambdaExpression>(StripQuotes(GetArgument(methodCall.Arguments, 1)));
+            if (lambdaExpression.Body.NodeType == ExpressionType.MemberAccess)
+            {
+                QueryNode queryNode = Visit(lambdaExpression.Body);
+                var fieldNode = queryNode as FieldNode;
                 
-    //    //        if (fieldNode != null)
-    //    //            return new Nodes.WithinRadiusNode(sourceNode, fieldNode.FieldKey, lat, lon, radius);
+                if (fieldNode != null)
+                    return new Nodes.WithinRadiusNode(sourceNode, fieldNode.FieldKey, lat, lon, radius);
                 
-    //    //        throw new NotSupportedException(string.Format("Faceting can only be done on '{0}'. Expression used '{1}'", typeof(FieldNode).FullName, methodCall.Arguments[1].Type.FullName));
-    //    //    }
-    //    //    else
-    //    //    {
-    //    //        var fieldNode = Visit(lambdaExpression.Body) as FieldNode;
-    //    //        if (fieldNode == null)
-    //    //            throw new NotSupportedException(string.Format("Ordering can only be done on '{0}'. Expression used '{1}'", typeof(FieldNode).FullName, methodCall.Arguments[1].Type.FullName));
+                throw new NotSupportedException(string.Format("Faceting can only be done on '{0}'. Expression used '{1}'", typeof(FieldNode).FullName, methodCall.Arguments[1].Type.FullName));
+            }
+            else
+            {
+                var fieldNode = Visit(lambdaExpression.Body) as FieldNode;
+                if (fieldNode == null)
+                    throw new NotSupportedException(string.Format("Ordering can only be done on '{0}'. Expression used '{1}'", typeof(FieldNode).FullName, methodCall.Arguments[1].Type.FullName));
 
-    //    //        return new Nodes.WithinRadiusNode(sourceNode, fieldNode.FieldKey, lat, lon, radius);
-    //    //    }
-    //    //}
+                return new Nodes.WithinRadiusNode(sourceNode, fieldNode.FieldKey, lat, lon, radius);
+            }
+        }
 
        
-    //}
+    }
 }

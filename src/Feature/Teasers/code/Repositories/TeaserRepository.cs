@@ -4,13 +4,13 @@ using Sitecore.Mvc.Presentation;
 using System;
 using System.Linq;
 using System.Web;
-using Wageworks.Feature.Teasers.Models;
-using Wageworks.Feature.Teasers.Models.Glass;
-using Wageworks.Foundation.DependencyInjection;
-using Wageworks.Foundation.ORM.Context;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using Vista.Feature.Teasers.Models;
+using Vista.Feature.Teasers.Models.Glass;
+using Vista.Foundation.DependencyInjection;
+using Vista.Foundation.ORM.Context;
+using Vista.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Feature.Teasers.Repositories
+namespace Vista.Feature.Teasers.Repositories
 {
     [Service(typeof(ITeaserRepository), Lifetime = Lifetime.Transient)]
     public class TeaserRepository : ITeaserRepository
@@ -258,7 +258,7 @@ namespace Wageworks.Feature.Teasers.Repositories
 
         private Item GetContextItem()
         {
-            return Wageworks.Foundation.Commerce.Extensions.CommerceExtensions.GetContextItem(GetRequest());
+            return Vista.Foundation.Commerce.Extensions.CommerceExtensions.GetContextItem(GetRequest());
         }
     }
 }

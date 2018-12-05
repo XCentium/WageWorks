@@ -1,11 +1,11 @@
 ﻿using Sitecore;
 
-namespace Wageworks.Feature.Teasers.Models
+namespace Vista.Feature.Teasers.Models
 {
   using System;
   using Sitecore.Data.Fields;
   using Sitecore.Data.Items;
-  using Wageworks.Foundation.SitecoreExtensions.Extensions;
+  using Vista.Foundation.SitecoreExtensions.Extensions;
 
     public class DynamicTeaserItem
   {

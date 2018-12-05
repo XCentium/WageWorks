@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Feature.PageContent
+﻿namespace Vista.Feature.PageContent
 {
     using Sitecore.Data;
 

@@ -1,8 +1,8 @@
-﻿namespace Wageworks.Feature.Teasers.Extensions
+﻿namespace Vista.Feature.Teasers.Extensions
 {
   using System.Linq;
   using Sitecore.Data.Fields;
-  using Wageworks.Feature.Teasers.Models;
+  using Vista.Feature.Teasers.Models;
 
   public static class DynamicTeaserModelExtensions
   {

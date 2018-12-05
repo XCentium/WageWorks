@@ -1,17 +1,17 @@
 ﻿using Sitecore;
 using Sitecore.Mvc.Controllers;
-using Wageworks.Feature.Teasers.Repositories;
-using Wageworks.Foundation.ORM.Context;
+using Vista.Feature.Teasers.Repositories;
+using Vista.Foundation.ORM.Context;
 
-namespace Wageworks.Feature.Teasers.Controller
+namespace Vista.Feature.Teasers.Controller
 {
     using Sitecore.Mvc.Presentation;
     using System.Web.Mvc;
-    using Wageworks.Feature.Teasers.Models;
-    using Wageworks.Foundation.Alerts;
-    using Wageworks.Foundation.Alerts.Extensions;
-    using Wageworks.Foundation.Alerts.Models;
-    using Wageworks.Foundation.SitecoreExtensions.Extensions;
+    using Vista.Feature.Teasers.Models;
+    using Vista.Foundation.Alerts;
+    using Vista.Foundation.Alerts.Extensions;
+    using Vista.Foundation.Alerts.Models;
+    using Vista.Foundation.SitecoreExtensions.Extensions;
 
     public class TeasersController : SitecoreController
     {

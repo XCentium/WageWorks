@@ -1,8 +1,8 @@
-﻿@using Wageworks.Feature.Teasers.Extensions
-@using Wageworks.Foundation.Dictionary.Extensions
-@using Wageworks.Foundation.SitecoreExtensions.Extensions
-@using Wageworks.Foundation.Theming.Extensions
-@model Wageworks.Feature.Teasers.Models.DynamicTeaserModel
+﻿@using Vista.Feature.Teasers.Extensions
+@using Vista.Foundation.Dictionary.Extensions
+@using Vista.Foundation.SitecoreExtensions.Extensions
+@using Vista.Foundation.Theming.Extensions
+@model Vista.Feature.Teasers.Models.DynamicTeaserModel
 
 @{
   var carouselId = "carousel" + Guid.NewGuid().ToString("N");
@@ -14,13 +14,13 @@
   public string GetJambatronParams()
   {
     var fixedHeight = Html.Sitecore().CurrentRendering.IsFixedHeight();
-    var parameters = $"{Wageworks.Foundation.Theming.Constants.IsFixedHeightLayoutParameters.FixedHeight}={fixedHeight}";
+    var parameters = $"{Vista.Foundation.Theming.Constants.IsFixedHeightLayoutParameters.FixedHeight}={fixedHeight}";
     if (fixedHeight)
     {
       var maxheight = Model.GetMaxImageHeight();
       if (maxheight > 0)
       {
-        parameters += $"&{Wageworks.Foundation.Theming.Constants.IsFixedHeightLayoutParameters.Height}={maxheight}";
+        parameters += $"&{Vista.Foundation.Theming.Constants.IsFixedHeightLayoutParameters.Height}={maxheight}";
       }
     }
 

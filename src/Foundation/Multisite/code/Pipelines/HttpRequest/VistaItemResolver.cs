@@ -5,8 +5,6 @@ using System.Web;
 using Sitecore.ContentSearch;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines.HttpRequest;
-using Wageworks.Foundation.Commerce.Extensions;
-using Wageworks.Foundation.Commerce.Models;
 using Wageworks.Foundation.SitecoreExtensions.Extensions;
 using Wageworks.Foundation.SitecoreExtensions.Pipelines.HttpRequest;
 

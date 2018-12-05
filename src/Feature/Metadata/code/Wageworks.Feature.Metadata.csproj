@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Wageworks.Feature.Metadata</RootNamespace>
-    <AssemblyName>Wageworks.Feature.Metadata</AssemblyName>
+    <RootNamespace>Vista.Feature.Metadata</RootNamespace>
+    <AssemblyName>Vista.Feature.Metadata</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -60,6 +60,12 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Kernel.NoReferences.9.0.180604\lib\NET462\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Mvc, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\packages\Sitecore.Mvc.NoReferences.9.0.180604\lib\NET462\Sitecore.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Reflection, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -139,15 +145,19 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\Alerts\code\Wageworks.Foundation.Alerts.csproj">
       <Project>{5CF5FA06-AB27-4DF5-A471-ED57EF3E4AE9}</Project>
-      <Name>Wageworks.Foundation.Alerts</Name>
+      <Name>Vista.Foundation.Alerts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\Commerce\code\Vista.Foundation.Commerce.csproj">
+      <Project>{53b3d7b0-369c-449e-b4b1-b38ec03ee8e3}</Project>
+      <Name>Vista.Foundation.Commerce</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\DependencyInjection\code\Wageworks.Foundation.DependencyInjection.csproj">
       <Project>{366148B7-2392-4F42-80D6-786B7A3682AE}</Project>
-      <Name>Wageworks.Foundation.DependencyInjection</Name>
+      <Name>Vista.Foundation.DependencyInjection</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\SitecoreExtensions\code\Wageworks.Foundation.SitecoreExtensions.csproj">
       <Project>{B535703F-8D07-4F23-A533-2974BB4CC7B1}</Project>
-      <Name>Wageworks.Foundation.SitecoreExtensions</Name>
+      <Name>Vista.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

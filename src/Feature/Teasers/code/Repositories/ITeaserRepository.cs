@@ -1,6 +1,6 @@
-﻿using Wageworks.Feature.Teasers.Models;
+﻿using Vista.Feature.Teasers.Models;
 
-namespace Wageworks.Feature.Teasers.Repositories
+namespace Vista.Feature.Teasers.Repositories
 {
     public interface ITeaserRepository
     {
