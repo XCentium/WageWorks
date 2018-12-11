@@ -1,0 +1,37 @@
+﻿---
+ID: "300ecf17-7acd-4530-aaaf-570d58e15b18"
+Parent: "a1e3be9c-aeaf-47c3-9929-f5e7bca46283"
+Template: "e5ee0784-976d-42cf-b4c1-473329b4e131"
+Path: /sitecore/content/Wageworks/Home/Partners/Open Enrollment Kit/Campaign Guide
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "109f2fbb-8b97-454f-86e4-af22b9dcec51"
+      Hint: Name
+      Value: Campaign Guide
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Campaign Guide Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Green Update" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{84D38C17-DE79-4F0C-9451-6A49F107C1F1}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181012T160621Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Campaign Guide
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: "{EFCAE1A5-B985-435C-A338-A4A13B2E5B56}"
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Campaign

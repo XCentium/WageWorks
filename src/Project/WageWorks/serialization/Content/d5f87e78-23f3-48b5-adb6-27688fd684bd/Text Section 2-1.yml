@@ -1,0 +1,24 @@
+﻿---
+ID: "c0843805-ad27-4b2c-bbff-c026311bfdc1"
+Parent: "d5f87e78-23f3-48b5-adb6-27688fd684bd"
+Template: "74b1ba63-578f-4066-bcde-e439e2517d53"
+Path: "/sitecore/content/Wageworks/Home/Partners/How Tos and Resources/HowTo/Employers How To 1/Text Section 2-1"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08921b11-6e11-4325-98b8-75e5176190f7"
+      Hint: Text
+      Value: Pellentesque sed nibh nisl. Duis dignissim, ipsum tristique rutrum mollis, est dolor posuere ex, id hendrerit lorem justo at risus. Curabitur auctor tristique turpis at malesuada. Nullam ut ante nec metus semper fringilla. Sed ultrices odio sed euismod vestibulum. In ultrices lobortis viverra.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181011T182838Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e67812c9-8c61-4372-a8a4-d589b38ae9f3"
+      Hint: Title
+      Value: Donec sagittis scelerisque nisi id placerat.

@@ -1,0 +1,36 @@
+﻿---
+ID: "a5d786e4-28dd-4425-aaa1-c5d1c263e0e3"
+Parent: "a1e3be9c-aeaf-47c3-9929-f5e7bca46283"
+Template: "f91bde69-d07f-45b0-8224-09111dfcc214"
+Path: /sitecore/content/Wageworks/Home/Partners/Open Enrollment Kit/Article Open Enrollment
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Article from Open Enrolment Kit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Meeting@3x" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{5C9FEF47-6E07-4357-AD76-3FB813F7438E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181012T160803Z
+    - ID: "3e514122-9ff3-476d-bd6e-bcb2d30946e4"
+      Hint: Name
+      Value: Article from Open Enrolment Kit
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Article from Open Enrolment Kit
+    - ID: "6c3cb8e7-081b-47b4-847e-768276a65cd2"
+      Hint: Date
+      Value: 20181002T000000
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Article
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Open Enrolment Kit

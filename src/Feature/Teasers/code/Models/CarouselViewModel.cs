@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Vista.Feature.Teasers.Models
+namespace Wageworks.Feature.Teasers.Models
 {
     public class CarouselViewModel : IHasPromoList
     {

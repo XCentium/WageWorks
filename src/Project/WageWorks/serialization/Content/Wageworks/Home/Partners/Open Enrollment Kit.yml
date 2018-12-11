@@ -1,0 +1,187 @@
+﻿---
+ID: "a1e3be9c-aeaf-47c3-9929-f5e7bca46283"
+Parent: "c7d59d98-683d-4498-add4-96a78625ea00"
+Template: "7d5992e3-af44-4fb0-b556-dd905facbc2e"
+Path: /sitecore/content/Wageworks/Home/Partners/Open Enrollment Kit
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: core3/16x16/open_document.png
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{E5EE0784-976D-42CF-B4C1-473329B4E131}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{141778C8-887E-4163-A69F-44D745FE4FED}"
+              p:before="*"
+              s:ds="{1DE18108-087D-48C6-AE2C-5731F1CDC887}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling=%7B985016F4-2084-4C0F-86A3-D2D21380EC2F%7D"
+              s:ph="/main/contentSection-{B1014912-49FB-49F4-9CCD-CC3B2DC3AD9E}-0" />
+            <r
+              uid="{3B54C6DA-AF10-4AD6-83B1-20873CE80E35}"
+              p:after="r[@uid='{141778C8-887E-4163-A69F-44D745FE4FED}']"
+              s:ds="{7C0602C3-679A-4D36-8B0A-DA242DFBED2D}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling=%7BEA039704-EAD8-4155-879A-4CCFBCE1B8B5%7D"
+              s:ph="/main/contentSection-{B1014912-49FB-49F4-9CCD-CC3B2DC3AD9E}-0" />
+            <r
+              uid="{DC388C17-AC44-4312-A0DA-D5B87D0ABA0F}"
+              p:after="r[@uid='{3B54C6DA-AF10-4AD6-83B1-20873CE80E35}']"
+              s:ds="{36F60793-0EB3-40E6-AA6D-B9EB31FD4C5F}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling=%7B985016F4-2084-4C0F-86A3-D2D21380EC2F%7D"
+              s:ph="/main/contentSection-{B1014912-49FB-49F4-9CCD-CC3B2DC3AD9E}-0" />
+            <r
+              uid="{CD286E04-9B28-4677-91AB-B1D1C9323B48}"
+              p:after="r[@uid='{DC388C17-AC44-4312-A0DA-D5B87D0ABA0F}']"
+              s:ds="{6E9F9E11-0C34-402D-8639-A6855DDE4D00}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling=%7B985016F4-2084-4C0F-86A3-D2D21380EC2F%7D"
+              s:ph="/main/contentSection-{B1014912-49FB-49F4-9CCD-CC3B2DC3AD9E}-0" />
+            <r
+              uid="{8C0FB5DA-8454-4A2D-8015-F8AE8B877B06}"
+              p:after="r[@uid='{CD286E04-9B28-4677-91AB-B1D1C9323B48}']"
+              s:ds="{60EFC097-41C6-41D1-A834-98C68DE26ABB}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling=%7BEA039704-EAD8-4155-879A-4CCFBCE1B8B5%7D"
+              s:ph="/main/contentSection-{B1014912-49FB-49F4-9CCD-CC3B2DC3AD9E}-0" />
+            <r
+              uid="{C6B27E2D-DF95-4416-A531-8F1C394BB115}"
+              p:after="r[@uid='{8C0FB5DA-8454-4A2D-8015-F8AE8B877B06}']"
+              s:ds="{59A33217-CFCF-4672-A12A-A049BD599CE8}"
+              s:id="{501C1B7F-A3D9-4E8F-8330-E0465A4B9028}"
+              s:ph="/main/contentSection-{B1014912-49FB-49F4-9CCD-CC3B2DC3AD9E}-0" />
+            <r
+              uid="{627972A5-B28F-4008-B5C8-EF80E26C1F10}"
+              p:after="r[@uid='{C6B27E2D-DF95-4416-A531-8F1C394BB115}']"
+              s:ds="{1DE18108-087D-48C6-AE2C-5731F1CDC887}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling={EA039704-EAD8-4155-879A-4CCFBCE1B8B5}&amp;__Semantics"
+              s:ph="/main/contentSection_b1014912-49fb-49f4-9ccd-cc3b2dc3ad9e" />
+            <r
+              uid="{30D2836B-1FEF-4312-91BE-F9770F000598}"
+              p:after="r[@uid='{627972A5-B28F-4008-B5C8-EF80E26C1F10}']"
+              s:ds="{7C0602C3-679A-4D36-8B0A-DA242DFBED2D}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling={EA039704-EAD8-4155-879A-4CCFBCE1B8B5}&amp;__Semantics"
+              s:ph="/main/contentSection_b1014912-49fb-49f4-9ccd-cc3b2dc3ad9e" />
+            <r
+              uid="{E0584DDB-6E3E-407D-982F-0B85D3F1B60F}"
+              p:after="r[@uid='{30D2836B-1FEF-4312-91BE-F9770F000598}']"
+              s:ds="{36F60793-0EB3-40E6-AA6D-B9EB31FD4C5F}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling={EA039704-EAD8-4155-879A-4CCFBCE1B8B5}&amp;__Semantics"
+              s:ph="/main/contentSection_b1014912-49fb-49f4-9ccd-cc3b2dc3ad9e" />
+            <r
+              uid="{FEF3F87F-A4E5-46F7-9764-A14DCE06CC4C}"
+              p:after="r[@uid='{E0584DDB-6E3E-407D-982F-0B85D3F1B60F}']"
+              s:ds="{6E9F9E11-0C34-402D-8639-A6855DDE4D00}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling={EA039704-EAD8-4155-879A-4CCFBCE1B8B5}&amp;__Semantics"
+              s:ph="/main/contentSection_b1014912-49fb-49f4-9ccd-cc3b2dc3ad9e" />
+            <r
+              uid="{E2193C20-F1F1-40E1-B462-CB4E04F4E9FD}"
+              p:after="r[@uid='{FEF3F87F-A4E5-46F7-9764-A14DCE06CC4C}']"
+              s:ds="{60EFC097-41C6-41D1-A834-98C68DE26ABB}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling={EA039704-EAD8-4155-879A-4CCFBCE1B8B5}&amp;__Semantics"
+              s:ph="/main/contentSection_b1014912-49fb-49f4-9ccd-cc3b2dc3ad9e" />
+            <r
+              uid="{679C2586-7FDA-43D8-99BA-260C0BCE30CF}"
+              p:after="r[@uid='{E2193C20-F1F1-40E1-B462-CB4E04F4E9FD}']"
+              s:ds="{59A33217-CFCF-4672-A12A-A049BD599CE8}"
+              s:id="{501C1B7F-A3D9-4E8F-8330-E0465A4B9028}"
+              s:ph="/main/contentSection_b1014912-49fb-49f4-9ccd-cc3b2dc3ad9e" />
+            <r
+              uid="{9D5D1F4E-3F22-4944-A0F0-93A45511CFC0}"
+              p:after="r[@uid='{679C2586-7FDA-43D8-99BA-260C0BCE30CF}']"
+              s:ds="{1DE18108-087D-48C6-AE2C-5731F1CDC887}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:ph="/main/contentSection" />
+            <r
+              uid="{09BF4BC1-9357-4687-B458-B15B5E622182}"
+              p:after="r[@uid='{9D5D1F4E-3F22-4944-A0F0-93A45511CFC0}']"
+              s:ds="{7C0602C3-679A-4D36-8B0A-DA242DFBED2D}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:ph="/main/contentSection" />
+            <r
+              uid="{95B54F00-B6CF-425E-BAF1-01EFD47FB8D2}"
+              p:after="r[@uid='{09BF4BC1-9357-4687-B458-B15B5E622182}']"
+              s:ds="{36F60793-0EB3-40E6-AA6D-B9EB31FD4C5F}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:ph="/main/contentSection" />
+            <r
+              uid="{EC6A5717-4F68-41B1-A174-8032FA9F5A25}"
+              p:after="r[@uid='{95B54F00-B6CF-425E-BAF1-01EFD47FB8D2}']"
+              s:ds="{6E9F9E11-0C34-402D-8639-A6855DDE4D00}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:ph="/main/contentSection" />
+            <r
+              uid="{3A6F022D-7CED-4D23-8485-68819811B57E}"
+              p:after="r[@uid='{EC6A5717-4F68-41B1-A174-8032FA9F5A25}']"
+              s:ds="{60EFC097-41C6-41D1-A834-98C68DE26ABB}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:ph="/main/contentSection" />
+            <r
+              uid="{286FD13F-582B-458B-94E3-C32553B128B8}"
+              p:after="r[@uid='{3A6F022D-7CED-4D23-8485-68819811B57E}']"
+              s:ds="{59A33217-CFCF-4672-A12A-A049BD599CE8}"
+              s:id="{501C1B7F-A3D9-4E8F-8330-E0465A4B9028}"
+              s:ph="/main/contentSection" />
+            <r
+              uid="{B1014912-49FB-49F4-9CCD-CC3B2DC3AD9E}"
+              p:after="r[@uid='{286FD13F-582B-458B-94E3-C32553B128B8}']"
+              s:ds="{82842A39-E039-43D7-A074-75911142B213}"
+              s:id="{8297ACE7-D005-4084-9AF0-9EF06E0DBA1D}"
+              s:par="Layout&amp;Space Styling={B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Section Color&amp;Hashtag Text"
+              s:ph="main" />
+            <r
+              uid="{9594DC1C-C094-4A25-99CF-225DBF8C10CD}"
+              p:after="*[1=2]"
+              s:ds="{C323F171-652A-4953-9E51-00DF1D733A04}"
+              s:id="{58B981FD-99D2-4787-88D9-1192F226869B}"
+              s:par="Layout={9AD2201C-C8A1-45CA-B3C3-F2A12263DCD1}&amp;Space Styling={80035ECC-AB00-4811-92B3-47B5FFE7EB6A}|{B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Buttons Alignment={079DEEE2-366E-48E0-957B-F0E9C8F64387}&amp;Section Color&amp;Hashtag Text"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "0954ca5d-4161-41ff-810e-24b310fb5112"
+      Hint: Name
+      Value: Open Enrollment Kit
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="ww_home_hero@3x" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{855678E3-37BD-4234-80E9-FCC9AFD17B68}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180919T131454Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Open Enrollment Kit
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Learn about
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Open Enrollment

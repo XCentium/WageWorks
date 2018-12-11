@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vista.Feature.PageContent</RootNamespace>
-    <AssemblyName>Vista.Feature.PageContent</AssemblyName>
+    <RootNamespace>Wageworks.Feature.PageContent</RootNamespace>
+    <AssemblyName>Wageworks.Feature.PageContent</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -176,23 +176,19 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\Foundation\Alerts\code\Wageworks.Foundation.Alerts.csproj">
       <Project>{5CF5FA06-AB27-4DF5-A471-ED57EF3E4AE9}</Project>
-      <Name>Vista.Foundation.Alerts</Name>
+      <Name>Wageworks.Foundation.Alerts</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\Dictionary\code\Wageworks.Foundation.Dictionary.csproj">
       <Project>{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}</Project>
-      <Name>Vista.Foundation.Dictionary</Name>
+      <Name>Wageworks.Foundation.Dictionary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\Foundation\Indexing\code\Vista.Foundation.Indexing.csproj">
-      <Project>{80213F24-577F-4F0B-A3B8-62485EA4D2F3}</Project>
-      <Name>Vista.Foundation.Indexing</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Foundation\ORM\code\Vista.Foundation.ORM.csproj">
+    <ProjectReference Include="..\..\..\Foundation\ORM\code\Wageworks.Foundation.ORM.csproj">
       <Project>{6e5d48a0-459a-4bc0-b6fa-313b93314cb0}</Project>
-      <Name>Vista.Foundation.ORM</Name>
+      <Name>Wageworks.Foundation.ORM</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\SitecoreExtensions\code\Wageworks.Foundation.SitecoreExtensions.csproj">
       <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
-      <Name>Vista.Foundation.SitecoreExtensions</Name>
+      <Name>Wageworks.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

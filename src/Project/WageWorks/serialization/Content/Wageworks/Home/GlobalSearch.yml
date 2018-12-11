@@ -1,0 +1,61 @@
+﻿---
+ID: "e9480220-23ca-4377-9315-a62d64777542"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "3393a96b-c24a-4f94-8068-2eb934351c74"
+Path: /sitecore/content/Wageworks/Home/GlobalSearch
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{C8940204-78FB-4118-9D68-D863AFA8690D}"
+              p:before="*"
+              s:ds="{269A37BB-4786-41C2-9A6D-DF7F8C1A9135}"
+              s:id="{46B4750D-A792-45CD-8C2D-DB3AB07C9D3D}"
+              s:ph="main" />
+            <r
+              uid="{19A8C689-558C-42EA-8547-8B03FEF934B1}"
+              p:after="r[@uid='{C8940204-78FB-4118-9D68-D863AFA8690D}']"
+              s:ds="{1ECF065A-5C15-43C2-9E6D-16C3CF9D7EB2}"
+              s:id="{09F88102-42C5-4B1A-B71E-30CC8B412A26}"
+              s:ph="main" />
+            <r
+              uid="{3C4F683D-DD0F-4A83-A609-C9D63700582A}"
+              p:after="*[1=2]"
+              s:ds="{0D76947A-591E-436E-8237-2F433DF14507}"
+              s:id="{58B981FD-99D2-4787-88D9-1192F226869B}"
+              s:par="Layout&amp;Space Styling=%7B80035ECC-AB00-4811-92B3-47B5FFE7EB6A%7D%7C%7BB04FB10C-0D85-4A5D-85FC-963B337D4FC5%7D&amp;Buttons Alignment&amp;Section Color&amp;Hashtag Text"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181003T235458Z
+    - ID: "35ba50f5-4583-4dc9-8543-e46376095268"
+      Hint: Name
+      Value: Search Results
+    - ID: "3a2b7ced-2bc1-4a1a-9d58-9c84e05081c9"
+      Hint: Title
+      Value: Search Results
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Search Results

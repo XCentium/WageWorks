@@ -1,0 +1,17 @@
+﻿---
+ID: "431abaae-5faf-4e91-8760-0b8739dd0011"
+Parent: "282c56b8-b1d8-4faf-be43-72e2a3180c2d"
+Template: "fd0bcce8-9bf2-4c10-b74d-05578dcd0762"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources/Article/Article Image/Headline Line
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181002T140332Z
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Pellentesque sed nibh nisl. Duis dignissim, ipsum tristique rutrum mollis, est dolor posuere ex, id hendrerit lorem justo at risus.

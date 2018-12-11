@@ -1,0 +1,62 @@
+﻿---
+ID: "78c5f8fb-f9bd-4d73-b9ef-13985b93d7e6"
+Parent: "c7d59d98-683d-4498-add4-96a78625ea00"
+Template: "3393a96b-c24a-4f94-8068-2eb934351c74"
+Path: /sitecore/content/Wageworks/Home/Partners/How Tos and Resources
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: 
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "How-To's and Resources"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D99FA38C-D07D-4E70-B74C-33C5A4C597E1}"
+              p:before="*"
+              s:ds="{F5E49B8F-C99E-4580-B8E8-85EB75FEA9FE}"
+              s:id="{E3E9484C-922C-40F1-88CD-EA29C0AA83ED}"
+              s:par="Space Styling={B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Section Color&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{482CE0D6-1FA1-4517-9FF6-9FF2F854B168}"
+              p:after="*[1=2]"
+              s:ds="{621D3BD5-C265-44FC-8086-36D3BC6EBE1F}"
+              s:id="{09F88102-42C5-4B1A-B71E-30CC8B412A26}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180919T131444Z
+    - ID: "35ba50f5-4583-4dc9-8543-e46376095268"
+      Hint: Name
+      Value: "How-To's and Resources"
+    - ID: "3a2b7ced-2bc1-4a1a-9d58-9c84e05081c9"
+      Hint: Title
+      Value: "How-To's and Resources"
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: "How-To's and Resources"

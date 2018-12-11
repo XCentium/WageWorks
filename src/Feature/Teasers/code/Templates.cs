@@ -1,4 +1,4 @@
-﻿namespace Vista.Feature.Teasers
+﻿namespace Wageworks.Feature.Teasers
 {
     using Sitecore.Data;
 

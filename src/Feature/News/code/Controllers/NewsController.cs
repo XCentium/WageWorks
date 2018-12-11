@@ -137,32 +137,6 @@
             return View(model);
         }
 
-        public ActionResult RelatedNewsAlert()
-        {
-            var root = RenderingContext.Current.Rendering.Item;
-            if (root == null) return View("AlertMessageBar");
-
-            var product = GetContextItem();
-            if (product == null) return View("AlertMessageBar");
-
-            var warnings = Foundation.Commerce.Extensions.CommerceExtensions.GetProductWarnings(root, product);
-            if (warnings == null || !warnings.Any()) return View("AlertMessageBar");
-
-            var warning = warnings.First();
-            if (warnings.Count == 1) return View("AlertMessageBar", warning);
-
-            foreach (var w in warnings.Skip(1))
-            {
-                var currentEndDate = (DateField)warning.Fields[Templates.NewsArticle.Fields.Date];
-                var otherEndDate = (DateField)w.Fields[Templates.NewsArticle.Fields.Date];
-
-                if (otherEndDate.DateTime > currentEndDate.DateTime)
-                    warning = w;
-
-            }
-
-            return View("AlertMessageBar", warning);
-        }
 
         private HttpRequest GetRequest()
         {
@@ -171,7 +145,8 @@
 
         private Item GetContextItem()
         {
-            return Wageworks.Foundation.Commerce.Extensions.CommerceExtensions.GetContextItem(GetRequest());
+            // return Wageworks.Foundation.Commerce.Extensions.CommerceExtensions.GetContextItem(GetRequest());
+            return null;
         }
     }
 }

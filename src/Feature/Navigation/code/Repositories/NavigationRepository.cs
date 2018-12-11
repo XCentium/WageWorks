@@ -1,6 +1,5 @@
 ﻿using Sitecore.Links;
 using System.Web;
-using Wageworks.Foundation.Commerce.Extensions;
 
 namespace Wageworks.Feature.Navigation.Repositories
 {
@@ -138,7 +137,7 @@ namespace Wageworks.Feature.Navigation.Repositories
                 Item = item,
                 Url = GetItemUrl(item),
                 Target = item.IsDerived(Templates.Link.ID) ? item.LinkFieldTarget(Templates.Link.Fields.Link) : "",
-                TargetItem = item.IsDerived(Templates.Link.ID) ? item.LinkFieldTargetItem(Templates.Link.Fields.Link): null,
+                TargetItem = item.IsDerived(Templates.Link.ID) ? item.LinkFieldTargetItem(Templates.Link.Fields.Link) : null,
                 Anchor = item.IsDerived(Templates.Link.ID) ? item.LinkFieldAnchor(Templates.Link.Fields.Link) : "",
                 CssClass = item.IsDerived(Templates.Link.ID) ? item.LinkFieldClass(Templates.Link.Fields.Link) : "",
                 IsActive = this.IsItemActive(targetItem ?? item),
@@ -146,7 +145,7 @@ namespace Wageworks.Feature.Navigation.Repositories
                 ShowChildren = !item.IsDerived(Templates.Navigable.ID) || item.Fields[Templates.Navigable.Fields.ShowChildren].IsChecked(),
                 Description = item.IsDerived(Templates.LinkDescription.ID) ? item[Templates.LinkDescription.Fields.Description] : string.Empty,
                 ImageUrl = item.IsDerived(Templates.LinkMenuItem.ID) ? item.ImageUrl(Templates.LinkMenuItem.Fields.Icon) : string.Empty,
-                IsWildcard = GetIsWildcard(item),
+                //IsWildcard = GetIsWildcard(item),
                 NavigationTitle = GetNavigationTitle(item),
                 ShowInBreadcrumb = GetShowInBreadCrumb(item)
             };
@@ -159,42 +158,14 @@ namespace Wageworks.Feature.Navigation.Repositories
 
         private string GetItemUrl(Item item)
         {
-            if (item.Name != "*" || !item.IsProductDetailsPage())
-                return item.IsDerived(Templates.Link.ID) ? item.LinkFieldUrl(Templates.Link.Fields.Link) : item.Url();
-
-            var contextItem =
-                CommerceExtensions.GetContextItem(HttpContext.Current.Request);
-            if (contextItem != null && (contextItem.IsProduct() || contextItem.IsProductVariant()))
-            {
-                return LinkManager.GetItemUrl(contextItem);
-            }
 
             return item.Url();
         }
 
-        private bool GetIsWildcard(Item item)
-        {
-            if (item.Name != "*") return false;
-
-            if (!item.IsProductDetailsPage()) return true;
-
-            var contextItem =
-                CommerceExtensions.GetContextItem(HttpContext.Current.Request);
-            return contextItem == null || (!contextItem.IsProduct() && !contextItem.IsProductVariant());
-        }
+       
 
         private string GetNavigationTitle(Item item)
         {
-            if (item.Name != "*" || !item.IsProductDetailsPage()) return item[Templates.Navigable.Fields.NavigationTitle];
-
-            var contextItem =
-                CommerceExtensions.GetContextItem(HttpContext.Current.Request);
-
-            if (contextItem != null && (contextItem.IsProduct() || contextItem.IsProductVariant()))
-            {
-                return CommerceExtensions.GetProductTitle(contextItem);
-            }
-
             return item[Templates.Navigable.Fields.NavigationTitle];
 
         }

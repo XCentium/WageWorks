@@ -1,0 +1,139 @@
+﻿<#@ assembly name="System.Core" #>
+<#@ assembly name="$(SolutionDir)packages\Sitecore.Kernel.NoReferences.9.0.180604\lib\NET462\Sitecore.Kernel.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Rainbow.Core.2.0.0\lib\net452\Rainbow.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Rainbow.Storage.Yaml.2.0.0\lib\net452\Rainbow.Storage.Yaml.dll" #>
+<#@ import namespace="Sitecore.CodeGenerator.Domain" #>
+<#@ import namespace="System.Linq" #>
+<#+
+public class GlassMappedClassTemplate : CSharpTemplate
+{
+	public TemplateItem Template { get; set; }
+
+	public Func<string,string,FieldOptions> GetFieldOptionsFunction { get; set; }
+
+      public string Namespace { get; set; }
+      public string[] Paths { get; set; }
+
+	private string Extends { get; set; }
+	private string Usings { get; set; }
+    private List<string> UsingsList {get; set;}
+
+	public override string TransformText()
+	{
+		this.Extends = string.Empty;
+		this.Usings = string.Empty;
+		this.UsingsList = new List<string>();
+		if(this.Template.BaseTemplates.Any())
+		{
+			this.Extends = string.Concat(" : ", string.Join(", ", this.Template.BaseTemplates.Select(b => string.Concat("I", Identifier(b.SyncItem.Name.Replace("_",""))))));
+
+            foreach(var baseTemplate in this.Template.BaseTemplates)
+            {
+             
+          string filePath = baseTemplate.SyncItem.ItemPath;
+             foreach(var path in Paths)
+              {                 
+                    filePath = filePath.Replace(path,"");                  
+              }
+
+             var filePathSplit = filePath.Split('/');
+            var cleanCount = filePathSplit.Count();
+            var totalPathSplit = baseTemplate.SyncItem.ItemPath.Split('/');
+            var folderName = totalPathSplit.Reverse().Take(cleanCount).Reverse().FirstOrDefault().Replace(" ","");
+
+              
+
+            filePath = filePath.Replace(" ","").Replace("/","\\");
+            filePath = filePath.Substring(0,filePath.LastIndexOf("\\"));
+
+            
+            var usingNamespace =  folderName + filePath.Replace("\\",".");
+                var usingLine = "using " + usingNamespace.TrimStart('.') +";";
+             this.UsingsList.Add(usingLine);
+
+            }
+
+           
+
+           
+		}
+		else
+		{
+			this.Extends = string.Empty; //" : IModelBase";
+		}
+
+        foreach(var section in this.Template.Sections)
+		    {
+                foreach(var field in section.Fields)
+			    {
+				    var fieldOptions = GetFieldOptionsFunction(field.FieldTypeName, field.SyncItem.ID);
+                    if(!string.IsNullOrWhiteSpace(fieldOptions.FieldNamespace))
+				    {
+                        var usingLine = "using " + fieldOptions.FieldNamespace.TrimStart('.') +";";
+                        this.UsingsList.Add(usingLine); 
+                    }
+                }
+            }
+
+            foreach (string usingLine in UsingsList.Distinct().ToList())
+            {
+                Usings += usingLine + Environment.NewLine;
+            }
+
+		base.TransformText();
+
+#>
+namespace <#= Namespace #>
+{
+	using System;
+    using System.Collections.Generic;
+	using System.Collections.Specialized;
+    using global::Glass.Mapper.Sc.Configuration;
+    using global::Glass.Mapper.Sc.Configuration.Attributes;
+	using global::Glass.Mapper.Sc.Fields;
+    <#=Usings#>
+
+	/// <summary>
+	/// Represents a mapped type for item <#= Template.SyncItem.ID #> in Sitecore.
+	/// Path: <#= Template.SyncItem.ItemPath #>
+	/// </summary>
+	[SitecoreType(TemplateId = "<#= Template.SyncItem.ID #>")]
+	public partial interface I<#=Identifier(Template.SyncItem.Name.Replace("_",""))#><#=Extends#>
+	{
+<#+
+		foreach(var section in Template.Sections)
+		{
+#>
+		#region <#=section.SyncItem.Name#>
+
+<#+
+			foreach(var field in section.Fields)
+			{
+				var fieldOptions = GetFieldOptionsFunction(field.FieldTypeName, field.SyncItem.ID);
+				if(! string.IsNullOrWhiteSpace(field.FieldTitle))
+				{
+#>
+		/// <summary>
+		/// <#=field.FieldTitle#>
+		/// </summary>
+<#+
+				}
+#>
+	    [SitecoreField(FieldId = "<#=field.SyncItem.ID#>"<#=fieldOptions.AttributeExtras ?? string.Empty #>)]
+		<#=fieldOptions.GlassFieldTypeName#> <#=Identifier(field.SyncItem.Name)#> { get; set; }
+
+<#+
+			}
+#>
+		#endregion
+
+<#+
+		}
+#>
+	}
+}
+<#+
+        return this.GenerationEnvironment.ToString();
+	}
+}
+#>

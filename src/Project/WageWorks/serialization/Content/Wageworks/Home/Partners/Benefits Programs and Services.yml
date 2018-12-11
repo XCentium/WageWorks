@@ -1,0 +1,79 @@
+﻿---
+ID: "073baea0-0680-493d-8bec-5736317bff5b"
+Parent: "c7d59d98-683d-4498-add4-96a78625ea00"
+Template: "7d5992e3-af44-4fb0-b556-dd905facbc2e"
+Path: /sitecore/content/Wageworks/Home/Partners/Benefits Programs and Services
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: peoplev2/16x16/service_bell.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{13DB3C88-E634-439E-878E-A0440E9584C3}"
+              p:before="*"
+              s:ds=""
+              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
+              s:par="Space Styling&amp;Title=Healthcare &amp; Dependent Care&amp;Items={7A6ADAA7-DC5E-4DE4-8267-3890D7754BB5}|{4805FFAE-2196-42C9-BE61-2097C3449FD1}|{FEAC6F7A-A0A9-4A87-BE15-21DE3DEB13FD}|{E7A73E82-8A6A-4CB7-9EC7-839775ED5AAE}|{02812969-D35F-4669-99C0-18FB39497F69}&amp;Section Color&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{07A12314-CBE9-4F75-909C-EECAF28B3FFF}"
+              p:after="r[@uid='{13DB3C88-E634-439E-878E-A0440E9584C3}']"
+              s:ds=""
+              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
+              s:par="Space Styling={80035ECC-AB00-4811-92B3-47B5FFE7EB6A}&amp;Title=Commuter&amp;Items={7A6ADAA7-DC5E-4DE4-8267-3890D7754BB5}|{4805FFAE-2196-42C9-BE61-2097C3449FD1}&amp;Section Color&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{EC0DD820-DED4-47FF-8BCF-3B48290188B9}"
+              p:after="r[@uid='{07A12314-CBE9-4F75-909C-EECAF28B3FFF}']"
+              s:ds=""
+              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
+              s:par="Space Styling={80035ECC-AB00-4811-92B3-47B5FFE7EB6A}&amp;Title=Lifestyle&amp;Items={E0D9E796-73A7-4F1F-A4F3-F8C835A75DA8}|{EE4F7E2D-4595-4333-9812-F6A1ED08F94B}&amp;Section Color&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{E08F4B57-3C70-47B9-92BB-67C4C409D387}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
+              s:par="Space Styling={80035ECC-AB00-4811-92B3-47B5FFE7EB6A}|{B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Title=Services&amp;Items={288F2FB1-675D-4F61-A910-D202BED7D971}|{14BB9116-DD68-446C-ADE4-D10A967EA671}|{D42FA346-F653-4F2C-A0AE-476D53C747F5}&amp;Section Color&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "0954ca5d-4161-41ff-810e-24b310fb5112"
+      Hint: Name
+      Value: Benefits Programs and Services
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="ww_home_hero@3x" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{A04A1581-1F99-49DB-9F38-2C6CAAB2B6A1}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180919T131401Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Benefits Programs Services
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Benefits 
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Programs and Services

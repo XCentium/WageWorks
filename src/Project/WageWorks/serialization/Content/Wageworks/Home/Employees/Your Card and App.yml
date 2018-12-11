@@ -1,0 +1,53 @@
+﻿---
+ID: "b0b8e9cc-017e-41f0-abd5-4cc4342a5e8c"
+Parent: "05117a87-21ec-44e7-ba6f-e4ba24b5fd75"
+Template: "7d5992e3-af44-4fb0-b556-dd905facbc2e"
+Path: /sitecore/content/Wageworks/Home/Employees/Your Card and App
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: network/16x16/id_card_edit.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{0C7216DE-54F3-4C66-8F23-A732B262650A}"
+              s:ds="{B42199D1-F5FF-4EE4-97E1-8A386EA9B8C7}"
+              s:id="{1A7E2B9C-6E62-45F3-A243-65E8B845D613}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "0954ca5d-4161-41ff-810e-24b310fb5112"
+      Hint: Name
+      Value: Your Card and App
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.&nbsp;Suspendisse potenti. Nam feugiat diam non orci placerat ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;Suspendisse potenti. Nam feugiat diam non orci placerat ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="woman headset hero@2x" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{2C83FF1D-2E2E-4C14-8DF4-6178D49E206B}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180909T012558Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Your Card and App
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Your Card and App

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <configuration xmlns:patch="http://www.sitecore.net/xmlconfig/" xmlns:role="http://www.sitecore.net/xmlconfig/role/">
     <sitecore>
-        <sc.variable name="sourceFolder" value="F:\Projects\VistaOutdoor\Serialization\src" />
+        <sc.variable name="sourceFolder" value="F:\Projects\WageworksOutdoor\Serialization\src" />
         <sc.variable name="rootHostName" value="local" />
         <sc.variable name="domainExtension" value="com" />
 

@@ -1,0 +1,44 @@
+﻿---
+ID: "f79dc74f-264d-4580-9a84-1a45ec6eafce"
+Parent: "3f6e87d1-3745-4985-adf5-6c2390986e1d"
+Template: "3828b1cf-c64f-4f25-a6c6-e8f5a6544e82"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources/HowTo/Payments
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Payments Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Teal Cloud" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{447F72CD-6A34-4ADD-95FF-09E2B3E232F7}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T085234Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Payments
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: How to
+    - ID: "a120910f-3d8f-4fe8-8a61-35ad33e61764"
+      Hint: Name
+      Value: Payments
+    - ID: "a14f1b0c-4384-49ec-8790-28a440f3670c"
+      Hint: __Semantics
+      Type: Multilist with Search
+      Value: "{C46E1450-F983-4BF3-B112-A3C690AEEE86}"
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: "{487DCB63-3B35-48C4-A74F-97E341C060CB}"
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Payments
+    - ID: "ca5f07cf-0668-4d89-b67f-c4c61f22c16c"
+      Hint: Tags
+      Type: Multilist
+      Value: 

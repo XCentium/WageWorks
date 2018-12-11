@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Vista.Feature.Teasers.Models.Glass;
+using Wageworks.Feature.Teasers.Models.Glass;
 
-namespace Vista.Feature.Teasers.Models
+namespace Wageworks.Feature.Teasers.Models
 {
     #region Product Promo
     public class ProductPromoViewModel

@@ -1,0 +1,59 @@
+﻿---
+ID: "955f97a0-d48e-4539-98ec-f0a0ac7b206e"
+Parent: "98cf6743-79c0-4e31-b5e5-3335d00c65e6"
+Template: "e5ee0784-976d-42cf-b4c1-473329b4e131"
+Path: /sitecore/content/Wageworks/Home/Employees/Learn About Your Benefits/Commuter Parking Account
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{18006760-C0A5-41E3-B5BC-D1E7EEEBC264}"
+              s:ds="{BED2A002-FD34-41D9-AE6B-0D8118B129C3}"
+              s:id="{1A7E2B9C-6E62-45F3-A243-65E8B845D613}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "109f2fbb-8b97-454f-86e4-af22b9dcec51"
+      Hint: Name
+      Value: Commuter Parking Account
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Yellow Money Hand" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{34CFB3A2-2BCF-4D18-9E49-DAFBF41D18AC}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180906T213707Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Commuter Parking Account
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Guide to
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: "{6BA7A80D-26F8-4D9F-88E4-FA5F27A76F3C}"
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Commuter Parking Account
+    - ID: "ca5f07cf-0668-4d89-b67f-c4c61f22c16c"
+      Hint: Tags
+      Type: Multilist
+      Value: 

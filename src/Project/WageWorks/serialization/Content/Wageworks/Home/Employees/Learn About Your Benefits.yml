@@ -1,0 +1,76 @@
+﻿---
+ID: "98cf6743-79c0-4e31-b5e5-3335d00c65e6"
+Parent: "05117a87-21ec-44e7-ba6f-e4ba24b5fd75"
+Template: "7d5992e3-af44-4fb0-b556-dd905facbc2e"
+Path: /sitecore/content/Wageworks/Home/Employees/Learn About Your Benefits
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: apps/16x16/learn.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D1B38896-81F4-4A7C-89BC-96972B7FE693}"
+              p:before="*"
+              s:ds=""
+              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
+              s:par="Hashtag Text&amp;Items={BA26768F-64A4-4460-A5DB-DCCA69D04DB1}|{D77937A0-3976-4B9D-ADD9-51D63AA22667}|{D28E03F1-C436-4181-90F2-AF3A9E65FA71}|{CF6805C6-7CB8-43FB-98A0-2AC52EF244A0}|{ECBB78CB-2FFC-4610-8CD7-D68914258554}&amp;Title=Healthcare &amp; Dependent Care"
+              s:ph="main" />
+            <r
+              uid="{7FEA6283-0132-477D-949C-060368929ADC}"
+              p:after="r[@uid='{D1B38896-81F4-4A7C-89BC-96972B7FE693}']"
+              s:ds=""
+              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
+              s:par="Title=Commuter&amp;Items={955F97A0-D48E-4539-98EC-F0A0AC7B206E}&amp;Hashtag Text"
+              s:ph="main" />
+            <r
+              uid="{150E3821-6B89-463D-9DEB-24C007D6A437}"
+              p:after="r[@uid='{7FEA6283-0132-477D-949C-060368929ADC}']"
+              s:ds=""
+              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
+              s:par="Title=Lifestyle&amp;Items={7160510C-43B0-4105-A03F-A11516784984}|{09A7ABFC-B6B8-45F6-9C76-50FB523EE678}&amp;Hashtag Text"
+              s:ph="main" />
+            <r
+              uid="{5986215C-8639-4089-8F9E-1446F2462F9A}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
+              s:par="Space Styling={B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Title=Services&amp;Items={76ED4640-C525-445E-90AE-3A2AE8F67AF3}|{FA79353E-E315-4AC8-AF11-6FB86CA24354}|{6CFDED47-2A9A-462D-B645-6E63DD39DB18}&amp;Section Color&amp;Hashtag Text"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "0954ca5d-4161-41ff-810e-24b310fb5112"
+      Hint: Name
+      Value: Learn About Your Benefits
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: "Consumer-Directed Benefits, or CDBs, are designed to give you a tax break and help you save money on expenses that you currently paying for out of pocket. These programs enchance the benefits package offered by your employer."
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="ww_home_hero@3x" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{A04A1581-1F99-49DB-9F38-2C6CAAB2B6A1}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180908T222915Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Learn About Your Benefits
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Learn About
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Your Benefits

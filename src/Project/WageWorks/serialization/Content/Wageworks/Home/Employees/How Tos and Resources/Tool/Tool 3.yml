@@ -1,0 +1,36 @@
+﻿---
+ID: "448b57ef-c123-4cdd-8152-900de304ab97"
+Parent: "2ed08488-3329-4df0-b908-fb17a318f08e"
+Template: "85f2a4f0-a270-40fb-bd5c-a2ef99530f63"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources/Tool/Tool 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Tool 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Red Gear Document" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{4F6502A5-2EEB-47C1-A0CA-C722C682637A}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181003T180606Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Tool 3
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Tool 3 Lorem ipsum dolor sit amet
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: "{93E77A91-C6D2-4D19-A92B-FC2261DF3911}"
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Tool 3
+    - ID: "cd580789-6edb-4fd8-a16d-e2b41c594fb5"
+      Hint: Name
+      Value: Tool 3

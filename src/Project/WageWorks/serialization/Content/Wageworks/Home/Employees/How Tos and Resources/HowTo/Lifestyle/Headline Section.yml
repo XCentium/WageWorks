@@ -1,0 +1,20 @@
+﻿---
+ID: "b7f5502e-39d1-4f65-b859-1a56c428d12f"
+Parent: "8b0b2013-0c83-4899-8420-335c652afead"
+Template: "5e804f76-6de4-4e35-9ddc-56031771b125"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources/HowTo/Lifestyle/Headline Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Headline Section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181023T141546Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Headline Section Lorem ipsum dolor sit amet

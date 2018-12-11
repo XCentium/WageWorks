@@ -1,0 +1,37 @@
+﻿---
+ID: "94152026-f943-42fd-b755-96e392f20680"
+Parent: "073baea0-0680-493d-8bec-5736317bff5b"
+Template: "e5ee0784-976d-42cf-b4c1-473329b4e131"
+Path: /sitecore/content/Wageworks/Home/Partners/Benefits Programs and Services/Direct Billing
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "109f2fbb-8b97-454f-86e4-af22b9dcec51"
+      Hint: Name
+      Value: Direct Billing
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Direct Billing Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Teal Cloud" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{447F72CD-6A34-4ADD-95FF-09E2B3E232F7}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181003T223043Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Direct Billing
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: "{487DCB63-3B35-48C4-A74F-97E341C060CB}"
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Direct Billing

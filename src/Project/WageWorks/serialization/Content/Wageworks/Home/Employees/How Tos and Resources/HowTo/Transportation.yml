@@ -1,0 +1,44 @@
+﻿---
+ID: "c9a4e0d9-bace-4d26-a01f-50deb905120d"
+Parent: "3f6e87d1-3745-4985-adf5-6c2390986e1d"
+Template: "3828b1cf-c64f-4f25-a6c6-e8f5a6544e82"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources/HowTo/Transportation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Transportation Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Yellow Bar Graph" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{1BBE4F5A-87AD-4F85-93A1-48E2D2CADC36}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180923T085234Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Transportation
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: How to
+    - ID: "a120910f-3d8f-4fe8-8a61-35ad33e61764"
+      Hint: Name
+      Value: Transportation
+    - ID: "a14f1b0c-4384-49ec-8790-28a440f3670c"
+      Hint: __Semantics
+      Type: Multilist with Search
+      Value: 
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: "{6BA7A80D-26F8-4D9F-88E4-FA5F27A76F3C}"
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Transportation
+    - ID: "ca5f07cf-0668-4d89-b67f-c4c61f22c16c"
+      Hint: Tags
+      Type: Multilist
+      Value: 

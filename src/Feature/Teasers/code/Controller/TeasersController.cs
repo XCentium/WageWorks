@@ -1,17 +1,17 @@
 ﻿using Sitecore;
 using Sitecore.Mvc.Controllers;
-using Vista.Feature.Teasers.Repositories;
-using Vista.Foundation.ORM.Context;
+using Wageworks.Feature.Teasers.Repositories;
+using Wageworks.Foundation.ORM.Context;
 
-namespace Vista.Feature.Teasers.Controller
+namespace Wageworks.Feature.Teasers.Controller
 {
     using Sitecore.Mvc.Presentation;
     using System.Web.Mvc;
-    using Vista.Feature.Teasers.Models;
-    using Vista.Foundation.Alerts;
-    using Vista.Foundation.Alerts.Extensions;
-    using Vista.Foundation.Alerts.Models;
-    using Vista.Foundation.SitecoreExtensions.Extensions;
+    using Wageworks.Feature.Teasers.Models;
+    using Wageworks.Foundation.Alerts;
+    using Wageworks.Foundation.Alerts.Extensions;
+    using Wageworks.Foundation.Alerts.Models;
+    using Wageworks.Foundation.SitecoreExtensions.Extensions;
 
     public class TeasersController : SitecoreController
     {
@@ -44,50 +44,50 @@ namespace Vista.Feature.Teasers.Controller
 
         public ActionResult JumbotronCarousel() => this.GetDynamicContent("JumbotronCarousel");
 
-        public ActionResult Carousel()
-        {
-            var carousel = _teaserRepository.GetCarousel();
-            return View(carousel);
-        }
+        //public ActionResult Carousel()
+        //{
+        //    var carousel = _teaserRepository.GetCarousel();
+        //    return View(carousel);
+        //}
 
-        public ActionResult Promo()
-        {
-            var carousel = _teaserRepository.GetPromo();
-            return View(carousel);
-        }
-        public ActionResult ProductPromoSection() {
-            var productPromo = _teaserRepository.GetProductPromo();
-            return View(productPromo);
-        }
-        public ActionResult PromoSection()
-        {
-            var promoSection = _teaserRepository.GetPromoSection();
-            return View(promoSection);
-        }
+        //public ActionResult Promo()
+        //{
+        //    var carousel = _teaserRepository.GetPromo();
+        //    return View(carousel);
+        //}
+        //public ActionResult ProductPromoSection() {
+        //    var productPromo = _teaserRepository.GetProductPromo();
+        //    return View(productPromo);
+        //}
+        //public ActionResult PromoSection()
+        //{
+        //    var promoSection = _teaserRepository.GetPromoSection();
+        //    return View(promoSection);
+        //}
 
-        public ActionResult PromoGrid()
-        {
-            var promoSection = _teaserRepository.GetPromoSection();
-            return View(promoSection);
-        }
+        //public ActionResult PromoGrid()
+        //{
+        //    var promoSection = _teaserRepository.GetPromoSection();
+        //    return View(promoSection);
+        //}
 
-        public ActionResult PromoSectionSlider()
-        {
-            var promoSection = _teaserRepository.GetPromoSection();
-            return View(promoSection);
-        }
+        //public ActionResult PromoSectionSlider()
+        //{
+        //    var promoSection = _teaserRepository.GetPromoSection();
+        //    return View(promoSection);
+        //}
 
-        public ActionResult PromoSwitcher()
-        {
-            var promoSection = _teaserRepository.GetPromoSection();
-            return View(promoSection);
-        }
+        //public ActionResult PromoSwitcher()
+        //{
+        //    var promoSection = _teaserRepository.GetPromoSection();
+        //    return View(promoSection);
+        //}
 
-        public ActionResult SocialPromoSection()
-        {
-            var promoSection = _teaserRepository.GetPromoSection();
-            return View(promoSection);
-        }
+        //public ActionResult SocialPromoSection()
+        //{
+        //    var promoSection = _teaserRepository.GetPromoSection();
+        //    return View(promoSection);
+        //}
 
     }
 }

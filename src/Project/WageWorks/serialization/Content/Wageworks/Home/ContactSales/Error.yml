@@ -1,0 +1,34 @@
+﻿---
+ID: "07b0f301-c1e1-4e34-99d8-de0ed522bafe"
+Parent: "ae98b314-f0bc-481d-844a-f7ea309b2192"
+Template: "9ed3d2b9-6706-4019-81d1-44b638b92a5d"
+Path: /sitecore/content/Wageworks/Home/ContactSales/Error
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "157ef4fe-7a33-44a7-a13c-e8ba53b373b9"
+      Hint: Title
+      Value: Sorry.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181024T163833Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Sorry
+    - ID: "7200747f-42c0-45ef-bf3e-e7fb8ad3a3f6"
+      Hint: Name
+      Value: Sorry
+    - ID: "9fe748ac-60a3-4262-be10-2e02951e098b"
+      Hint: Description
+      Value: There is error while sending email to contact sales.

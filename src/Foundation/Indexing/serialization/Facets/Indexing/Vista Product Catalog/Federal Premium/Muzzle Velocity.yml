@@ -1,0 +1,21 @@
+﻿---
+ID: "5dd88b93-ec56-4495-9d9c-79000f6f39f8"
+Parent: "b93840a3-33ce-4f64-b306-7ff77e693b2f"
+Template: "5c125b6d-c481-4c24-b5b9-9a23fe396bf0"
+Path: /sitecore/system/Settings/Buckets/Facets/Foundation/Indexing/Vista Product Catalog/Federal Premium/Muzzle Velocity
+DB: master
+SharedFields:
+- ID: "0e23bb51-c071-41b5-9d83-ac410b89b85a"
+  Hint: Parameters
+  Value: skuvelocity
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180228T023706Z
+    - ID: "31ca077f-ef38-4980-8a24-05408031b2bc"
+      Hint: Name
+      Value: Muzzle Velocity

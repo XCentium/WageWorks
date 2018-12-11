@@ -1,6 +1,4 @@
-﻿using Wageworks.Foundation.Commerce;
-using Wageworks.Foundation.Commerce.Extensions;
-
+﻿
 namespace Wageworks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata
 {
     using Sitecore.Data.Fields;
@@ -49,22 +47,9 @@ namespace Wageworks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata
         private void SetDescription(Item item, IMetadata metadata)
         {
             string description;
-            if (item.IsProduct() || item.IsProductVariant())
-            {
-                description = item[Wageworks.Foundation.Commerce.Templates.Product.Fields.ProductGroupOverview];
-            }
-            else
-            {
-                var test = Wageworks.Foundation.Commerce.Extensions.CommerceExtensions.GetContextItem(System.Web.HttpContext.Current.Request);
-                if (test != null && (test.IsProduct() || test.IsProductVariant()))
-                {
-                    description = test[Wageworks.Foundation.Commerce.Templates.Product.Fields.ProductGroupOverview];
-                }
-                else
-                {
+            
                     description = item[Templates.PageMetadata.Fields.Description];
-                }
-            }
+            
 
             if (string.IsNullOrWhiteSpace(description))
                 return;
@@ -76,23 +61,8 @@ namespace Wageworks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata
 
             var title = string.Empty;
 
-            var test = Wageworks.Foundation.Commerce.Extensions.CommerceExtensions.GetContextItem(System.Web.HttpContext.Current.Request);
-            if (test != null && (test.IsProduct() || test.IsProductVariant()))
-            {
-                title = CommerceExtensions.GetProductTitle(test);
-                if (test.IsProduct())
-                {
-                    title += " - " + CommerceExtensions.GetProductFieldValue(test, Constants.JsonFields.ProductFields.ProductGroupId);
-                }
-                else if (test.IsProductVariant())
-                {
-                    title += " - " + CommerceExtensions.GetSkuFieldValue(test, Constants.JsonFields.SkuFields.SkuNumber);
-                }
-            }
-            else
-            {
+            
                 title = item[Templates.PageMetadata.Fields.BrowserTitle];
-            }
 
             if (string.IsNullOrWhiteSpace(title))
                 return;

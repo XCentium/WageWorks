@@ -1,11 +1,11 @@
 ﻿using Sitecore;
-using Vista.Foundation.SitecoreExtensions.Extensions;
+using Wageworks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Vista.Feature.Identity.Repositories
+namespace Wageworks.Feature.Identity.Repositories
 {
   using System;
   using Sitecore.Data.Items;
-  using Vista.Foundation.SitecoreExtensions.Extensions;
+  using Wageworks.Foundation.SitecoreExtensions.Extensions;
 
   public static class IdentityRepository
   {

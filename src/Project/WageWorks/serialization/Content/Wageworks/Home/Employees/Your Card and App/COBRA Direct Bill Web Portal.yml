@@ -1,0 +1,37 @@
+﻿---
+ID: "6cfded47-2a9a-462d-b645-6e63dd39db18"
+Parent: "b0b8e9cc-017e-41f0-abd5-4cc4342a5e8c"
+Template: "e5ee0784-976d-42cf-b4c1-473329b4e131"
+Path: /sitecore/content/Wageworks/Home/Employees/Your Card and App/COBRA Direct Bill Web Portal
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 37
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "109f2fbb-8b97-454f-86e4-af22b9dcec51"
+      Hint: Name
+      Value: COBRA Direct Bill Web Portal
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: COBRA Direct Bill Web Portal Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Yellow Online Document" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{E9A3EA93-0D75-48D3-B780-B77E14FFB8C2}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180930T220857Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: COBRA Direct Bill Web Portal
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: "{6BA7A80D-26F8-4D9F-88E4-FA5F27A76F3C}"
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: COBRA Direct Bill Web Portal

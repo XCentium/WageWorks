@@ -1,0 +1,59 @@
+﻿---
+ID: "d77937a0-3976-4b9d-add9-51d63aa22667"
+Parent: "98cf6743-79c0-4e31-b5e5-3335d00c65e6"
+Template: "e5ee0784-976d-42cf-b4c1-473329b4e131"
+Path: /sitecore/content/Wageworks/Home/Employees/Learn About Your Benefits/Health Savings Account
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 250
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{5E8F4FEB-12B8-441A-A484-4C0F69577C36}"
+              s:ds="{E57393CA-CD65-4DDF-ABF2-96CD2F4AFACE}"
+              s:id="{1A7E2B9C-6E62-45F3-A243-65E8B845D613}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "109f2fbb-8b97-454f-86e4-af22b9dcec51"
+      Hint: Name
+      Value: Health Savings Account (HSA)
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Blue Online Document" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{5E03008A-AAD5-4C35-832C-F4A1549B5BC3}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180906T213707Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Health Savings Account (HSA)
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: A guide to
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: "{24AB14E9-BA7E-4AA7-A283-D4DA96CAAF16}"
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Health Savings Accounts (HSA)
+    - ID: "ca5f07cf-0668-4d89-b67f-c4c61f22c16c"
+      Hint: Tags
+      Type: Multilist
+      Value: "{C46E1450-F983-4BF3-B112-A3C690AEEE86}"

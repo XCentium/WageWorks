@@ -1,0 +1,55 @@
+﻿---
+ID: "7160510c-43b0-4105-a03f-a11516784984"
+Parent: "98cf6743-79c0-4e31-b5e5-3335d00c65e6"
+Template: "e5ee0784-976d-42cf-b4c1-473329b4e131"
+Path: /sitecore/content/Wageworks/Home/Employees/Learn About Your Benefits/Tuition Reimbursement Program
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{27C012F7-A910-46A2-A1BA-BA6CB3C912D6}"
+              s:ds="{8A79A788-7891-4851-A0AD-843ABCF44BAA}"
+              s:id="{1A7E2B9C-6E62-45F3-A243-65E8B845D613}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "109f2fbb-8b97-454f-86e4-af22b9dcec51"
+      Hint: Name
+      Value: Tuition Reimbursement Program
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Tuition Reimbursement Program Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Red Hands" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{6C1EC040-CE86-4533-B9C5-0C4347EB4BA4}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180930T215406Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Tuition Reimbursement Program
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Guide to
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: "{93E77A91-C6D2-4D19-A92B-FC2261DF3911}"
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Tuition Reimbursement Program

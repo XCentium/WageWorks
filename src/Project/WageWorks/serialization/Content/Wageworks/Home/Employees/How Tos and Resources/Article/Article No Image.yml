@@ -1,0 +1,125 @@
+﻿---
+ID: "86962f03-d53a-4ee1-8445-bb54060a8015"
+Parent: "4c952ca7-e243-4050-a9a4-1e82935b133d"
+Template: "f91bde69-d07f-45b0-8224-09111dfcc214"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources/Article/Article No Image
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{6A031DC2-F3A3-4246-A6F7-5E404BA66682}"
+              p:before="*"
+              s:ds="{2A7A93A1-4723-4D14-BD34-CBF028A3050A}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:ph="mainRail" />
+            <r
+              uid="{04C65B5E-6308-41A6-BFD0-9A59FE0429F8}"
+              p:after="r[@uid='{6A031DC2-F3A3-4246-A6F7-5E404BA66682}']"
+              s:ds="{A8194C00-A8EB-44CB-9FFE-DA44BEA06979}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling={EA039704-EAD8-4155-879A-4CCFBCE1B8B5}"
+              s:ph="mainRail" />
+            <r
+              uid="{AA4D5117-C823-44FB-8B68-48C0454428CE}"
+              p:after="r[@uid='{04C65B5E-6308-41A6-BFD0-9A59FE0429F8}']"
+              s:ds="{87EFBBAF-103B-4D91-BA51-72CCA4A5D9CF}"
+              s:id="{879D4846-C02E-483C-8A95-4D38495037AF}"
+              s:ph="mainRail" />
+            <r
+              uid="{7048EE38-965F-4DC1-B59B-7E25CE224317}"
+              p:after="r[@uid='{AA4D5117-C823-44FB-8B68-48C0454428CE}']"
+              s:ds="{99BFE735-7480-4D28-8E9B-0F2D848E2B9F}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:par="Title Size&amp;Space Styling={857522BE-0F4C-4D1A-AC1F-1A8DE30FA72D}&amp;__Semantics"
+              s:ph="mainRail" />
+            <r
+              uid="{E8B8243B-BB03-4DBB-BBBA-AD7EF2179621}"
+              p:after="r[@uid='{7048EE38-965F-4DC1-B59B-7E25CE224317}']"
+              s:ds="{0D76947A-591E-436E-8237-2F433DF14507}"
+              s:id="{DF56A3E2-894E-491B-9B5C-9055C9BAD3EF}"
+              s:par="Link Theme={F68591FF-4152-44CF-8457-7537F1418AAB}"
+              s:ph="rail" />
+            <r
+              uid="{554E2CAD-F42A-4A14-94B2-5D9DDCC6F738}"
+              p:after="r[@uid='{E8B8243B-BB03-4DBB-BBBA-AD7EF2179621}']"
+              s:ds="{0D76947A-591E-436E-8237-2F433DF14507}"
+              s:id="{DF56A3E2-894E-491B-9B5C-9055C9BAD3EF}"
+              s:par="Link Theme={F68591FF-4152-44CF-8457-7537F1418AAB}"
+              s:ph="/main/rail" />
+            <r
+              uid="{3906FF0E-2F78-4822-AD00-D190D43F3229}"
+              p:after="r[@uid='{554E2CAD-F42A-4A14-94B2-5D9DDCC6F738}']"
+              s:ds=""
+              s:id="{1A7E2B9C-6E62-45F3-A243-65E8B845D613}"
+              s:par="Layout={4AC140F4-0DA4-4E06-8831-5B55157F69E4}"
+              s:ph="/main/mainRail" />
+            <r
+              uid="{D638362B-B8E4-47EE-BA16-4306452B5451}"
+              p:after="r[@uid='{3906FF0E-2F78-4822-AD00-D190D43F3229}']"
+              s:ds="{2A7A93A1-4723-4D14-BD34-CBF028A3050A}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:ph="/main/mainRail" />
+            <r
+              uid="{90110822-4B9A-43CC-A065-8092D453F054}"
+              p:after="r[@uid='{D638362B-B8E4-47EE-BA16-4306452B5451}']"
+              s:ds="{87EFBBAF-103B-4D91-BA51-72CCA4A5D9CF}"
+              s:id="{879D4846-C02E-483C-8A95-4D38495037AF}"
+              s:ph="/main/mainRail" />
+            <r
+              uid="{8BE26C37-A72F-4626-AFC7-7BF1D2889A6D}"
+              p:after="r[@uid='{90110822-4B9A-43CC-A065-8092D453F054}']"
+              s:ds="{A8194C00-A8EB-44CB-9FFE-DA44BEA06979}"
+              s:id="{F8096F58-A558-43DB-9868-15C55373ED30}"
+              s:ph="/main/mainRail" />
+            <r
+              uid="{1D9EF21C-6666-4D8F-9A68-94B7DFD29BE2}"
+              p:after="*[1=2]"
+              s:ds="{0D76947A-591E-436E-8237-2F433DF14507}"
+              s:id="{58B981FD-99D2-4787-88D9-1192F226869B}"
+              s:par="Layout={1D03FE27-D664-43BB-BC68-1EA55CA442AB}&amp;Space Styling={80035ECC-AB00-4811-92B3-47B5FFE7EB6A}|{B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Buttons Alignment&amp;Section Color&amp;Hashtag Text"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181002T111723Z
+    - ID: "3e514122-9ff3-476d-bd6e-bcb2d30946e4"
+      Hint: Name
+      Value: Article No Image DESIGN
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Article No Image DESIGN
+    - ID: "6c3cb8e7-081b-47b4-847e-768276a65cd2"
+      Hint: Date
+      Value: 20181001T220000Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Article
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: 
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Article No Image DESIGN
+    - ID: "ca5f07cf-0668-4d89-b67f-c4c61f22c16c"
+      Hint: Tags
+      Type: Multilist
+      Value: 

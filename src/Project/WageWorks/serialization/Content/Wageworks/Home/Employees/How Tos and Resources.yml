@@ -1,0 +1,70 @@
+﻿---
+ID: "ea2cea7e-cfb7-45c1-a613-56da14ce072b"
+Parent: "05117a87-21ec-44e7-ba6f-e4ba24b5fd75"
+Template: "3393a96b-c24a-4f94-8068-2eb934351c74"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: 
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "How-To's and Resources"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{A807C9B2-81E9-4226-BA85-1478DFF61636}"
+              p:before="*"
+              s:ds="{98BD01C5-748B-4442-87E9-EA1374D77EC5}"
+              s:id="{E3E9484C-922C-40F1-88CD-EA29C0AA83ED}"
+              s:par="Space Styling={B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Section Color&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{831D9967-B78F-49B8-9198-45C44B0F216B}"
+              p:after="r[@uid='{A807C9B2-81E9-4226-BA85-1478DFF61636}']"
+              s:ds="{95919AB9-9BC9-418E-AB14-1C26A8C61570}"
+              s:id="{09F88102-42C5-4B1A-B71E-30CC8B412A26}"
+              s:par="Space Styling&amp;Section Color&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{654DC14E-1F90-4CF7-8129-673A4DA0449D}"
+              p:after="*[1=2]"
+              s:ds="{0D76947A-591E-436E-8237-2F433DF14507}"
+              s:id="{58B981FD-99D2-4787-88D9-1192F226869B}"
+              s:par="Layout&amp;Space Styling={80035ECC-AB00-4811-92B3-47B5FFE7EB6A}|{B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Section Color&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180909T010128Z
+    - ID: "35ba50f5-4583-4dc9-8543-e46376095268"
+      Hint: Name
+      Value: "How-To's and Resources"
+    - ID: "3a2b7ced-2bc1-4a1a-9d58-9c84e05081c9"
+      Hint: Title
+      Value: "How-To's and Resources"
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: "How-To's and Resources"

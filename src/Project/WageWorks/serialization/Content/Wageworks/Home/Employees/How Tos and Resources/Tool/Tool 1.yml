@@ -1,0 +1,44 @@
+﻿---
+ID: "f1e3df88-7049-44a1-a14c-bf1c26e29963"
+Parent: "2ed08488-3329-4df0-b908-fb17a318f08e"
+Template: "85f2a4f0-a270-40fb-bd5c-a2ef99530f63"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources/Tool/Tool 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Tool 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Blue Hands" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{F90DE916-3224-45A2-AC9C-1620C7664897}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181003T180544Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Tool 1
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Tool 1 Lorem ipsum dolor sit amet
+    - ID: "a14f1b0c-4384-49ec-8790-28a440f3670c"
+      Hint: __Semantics
+      Type: Multilist with Search
+      Value: "{C46E1450-F983-4BF3-B112-A3C690AEEE86}"
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: "{24AB14E9-BA7E-4AA7-A283-D4DA96CAAF16}"
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Tool 1
+    - ID: "ca5f07cf-0668-4d89-b67f-c4c61f22c16c"
+      Hint: Tags
+      Type: Multilist
+      Value: "{C46E1450-F983-4BF3-B112-A3C690AEEE86}"
+    - ID: "cd580789-6edb-4fd8-a16d-e2b41c594fb5"
+      Hint: Name
+      Value: Tool 1

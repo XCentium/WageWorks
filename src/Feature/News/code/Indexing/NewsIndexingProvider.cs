@@ -18,14 +18,14 @@ namespace Wageworks.Feature.News.Indexing
     {
         public Expression<Func<SearchResultItem, bool>> GetQueryPredicate(IQuery query)
         {
-            var fieldNames = new[] {Templates.NewsArticle.Fields.Title_FieldName, Templates.NewsArticle.Fields.Summary_FieldName, Templates.NewsArticle.Fields.Body_FieldName};
+            var fieldNames = new[] { Templates.NewsArticle.Fields.Title_FieldName, Templates.NewsArticle.Fields.Summary_FieldName, Templates.NewsArticle.Fields.Body_FieldName };
             return GetFreeTextPredicateService.GetFreeTextPredicate(fieldNames, query);
         }
 
         public string ProviderName => "news";
         public string ContentType => DictionaryPhraseRepository.Current.Get("/News/Search/Content Type", "News");
 
-        public IEnumerable<ID> SupportedTemplates => new[] {Templates.NewsArticle.ID};
+        public IEnumerable<ID> SupportedTemplates => new[] { Templates.NewsArticle.ID };
         public IEnumerable<ID> SupportedTemplatesWithQuery(IQuery query)
         {
             return new ID[0];

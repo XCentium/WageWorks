@@ -1,0 +1,23 @@
+﻿---
+ID: "56d477bc-474a-4dca-83ab-d5bbb552e5ff"
+Parent: "9cb70967-b977-41d4-b2e9-e53ff5f3e88b"
+Template: "8ff78ff2-3c0b-4dfe-bd32-e9b49acf42e3"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources/HowTo/Healthcare and Dependent Care/Section 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181001T124217Z
+    - ID: "3b4340a7-ae60-4991-bfb5-7aa604d407e2"
+      Hint: Number
+      Value: 2
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: In blandit aliquam

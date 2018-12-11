@@ -1,0 +1,24 @@
+﻿---
+ID: "99bfe735-7480-4d28-8e9b-0f2d848e2b9f"
+Parent: "86962f03-d53a-4ee1-8445-bb54060a8015"
+Template: "74b1ba63-578f-4066-bcde-e439e2517d53"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources/Article/Article No Image/Text Section 3
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08921b11-6e11-4325-98b8-75e5176190f7"
+      Hint: Text
+      Value: Cras eu magna quis est varius malesuada ac quis ante. Etiam at finibus arcu. Nam pretium at tellus eu semper. Curabitur in vestibulum diam, id porta mauris. Vestibulum tincidunt, mi at sollicitudin pretium, diam nulla bibendum massa, dignissim efficitur massa erat id elit. Suspendisse finibus urna lacus, nec molestie arcu lacinia id. Vestibulum leo nibh, ullamcorper a dictum et, commodo eget purus. Phasellus molestie ullamcorper dolor id lacinia. Phasellus condimentum ultrices blandit. Donec sagittis scelerisque nisi id placerat.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181002T182055Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e67812c9-8c61-4372-a8a4-d589b38ae9f3"
+      Hint: Title
+      Value: 

@@ -1,0 +1,18 @@
+﻿---
+ID: "b3d05b11-2e48-4615-922e-fb526d430787"
+Parent: "282c56b8-b1d8-4faf-be43-72e2a3180c2d"
+Template: "d1ac039f-6b50-4519-a0e7-20a939dc1f3d"
+Path: /sitecore/content/Wageworks/Home/Employees/How Tos and Resources/Article/Article Image/Image
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediaid="{76CCA412-62DC-4E74-AAB3-A7F91642FBF4}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181002T135724Z
