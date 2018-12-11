@@ -1,0 +1,19 @@
+﻿---
+ID: "905c1049-2915-4029-b5ae-3d24d6fccc7f"
+Parent: "fc16e05e-d5d3-411b-89b6-391d9639f816"
+Template: "fc16e05e-d5d3-411b-89b6-391d9639f816"
+Path: /sitecore/templates/Project/Common/Content Types/Teasers/Related Product Promo/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{910AAAD7-C8C4-4D26-A2E1-F8DE522F36A9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180223T052712Z

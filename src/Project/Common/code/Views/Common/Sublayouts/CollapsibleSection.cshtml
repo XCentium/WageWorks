@@ -1,0 +1,36 @@
+﻿@using System.Web.UI.WebControls
+@using Sitecore
+@using Sitecore.Data.Items
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@using Wageworks.Foundation.Theming.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var title = Model.Rendering.GetCollapsibleTitle();
+    var titleId = Model.Rendering.UniqueId;
+    var titleHref = title.Replace(" ", "-").ToLowerInvariant();
+    var collapsed = Model.Rendering.IsSectionCollapsedByDefault();
+    var isExpanded = collapsed ? "false" : "true";
+    var shouldShow = collapsed ? "" : "show";
+}
+<section class="section container collapsible @Model.Rendering.GetBackgroundClass()">
+    
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="@titleId"> 
+            <div class="panel-title">
+                <h2>
+                    <a role="button" class="accordion-toggle @(isExpanded = collapsed ? "collapsed" : "")" data-toggle="collapse" data-parent="#accordion" href="#@titleHref" aria-expanded="@isExpanded">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        @title
+                    </a>
+                </h2>
+            </div>
+        </div>
+        <div id="@titleHref" class="panel-collapse collapse @shouldShow" role="tabpanel" aria-labelledby="@titleId" style="">
+            <div class="panel-body">
+                @Html.Sitecore().DynamicPlaceholder("section", Model.Rendering.GetUseStaticPlaceholderNames())
+            </div>
+        </div>
+    </div>
+
+</section>

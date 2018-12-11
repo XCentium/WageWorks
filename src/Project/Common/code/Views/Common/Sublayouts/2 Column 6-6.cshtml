@@ -1,0 +1,9 @@
+﻿@using Sitecore
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@using Wageworks.Foundation.Theming.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="@Model.Rendering.GetContainerClass()">
+    <div class="row">
+        @Html.Sitecore().DynamicPlaceholder("colwide", "col-md-6", count: 2)
+    </div>
+</div>

@@ -1,0 +1,24 @@
+﻿---
+ID: "f8b765ec-3456-449e-b4ad-72bd9fd75aad"
+Parent: "3e93aece-33e2-499f-b763-c67179fdc8ab"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Common/Content Types/Teasers/Slide/Content/Slide Style
+DB: master
+SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: /sitecore/system/Settings/Foundation/Theming/Carousel Styles
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Droplink
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180618T195306Z

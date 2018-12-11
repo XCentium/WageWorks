@@ -1,0 +1,48 @@
+﻿@using Sitecore
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div class="top-nav">
+    
+    <div class="top-nav__wrapper container">
+        <div class="top-nav__social">
+            <ul class="d-flex">
+                @Html.Sitecore().Placeholder("navbar-top-social")
+            </ul>
+        </div>
+        <div class="top-nav__links">
+            @Html.Sitecore().Placeholder("navbar-top")
+        </div>
+    </div>
+</div>
+
+<nav class="navigation-container navbar navbar-expand-lg navbar-light container-fluid">
+    <div class="container">
+        <div class="navbar__main">
+            <!-- needs to be refactored into a place holder so that it only shows on speer site-->
+            <div class="navbar__mobile-top-links">
+                <div class="navbar-search-toggler__wrap"><button class="navbar-search-toggler" type="button" aria-expanded="false" aria-label="Toggle search"></button></div>
+                <div class="partial-mobile">
+
+                </div>
+
+            </div>
+            <!-- needs to be refactored into a place holder so that it only shows on speer site  END-->
+            <button class="navbar-toggler" type="button" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav__close-btn">&#10006;&#xFE0E;</div>
+            @Html.Sitecore().Placeholder("navbar-right")
+
+        </div>
+
+        @Html.Sitecore().Placeholder("navbar-left")
+
+        <div class="navbar-center">
+            @Html.Sitecore().Placeholder("navbar-center")
+        </div>
+
+        <div class="navbar-sticky">
+            @Html.Sitecore().Placeholder("navbar-sticky")
+        </div>
+
+    </div>
+</nav>

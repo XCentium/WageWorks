@@ -1,0 +1,8 @@
+﻿@using Sitecore
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@using Wageworks.Foundation.Theming.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+<section class="column d-flex @Model.Rendering.GetContainerClass() @Model.Rendering.GetBackgroundClass()">
+    @Html.Sitecore().DynamicPlaceholder("colwide", "column__item", count: 2)
+</section>

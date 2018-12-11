@@ -1,0 +1,49 @@
+﻿---
+ID: "2c83f3e2-6c0a-4ada-a5e3-1548606bb0f7"
+Parent: "78fc406f-fb34-42da-8f10-b955fe9f5a4e"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Common/Parameters/ParametersTemplate_HasContainerWithDynamicPlaceholderCollapsible
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/form_blue.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {8CA06D6A-B353-44E8-BC31-B528C7306971}
+    {3CA3A190-897A-4EC9-8EB5-9DE2C3636569}
+    {8373E4E5-C79C-4123-9284-BABD9601C565}
+    {8A3B4024-B1D6-4CF4-A063-D4CC73A8632A}
+    {8C8400A9-4706-4638-A595-E56CB2FADDA3}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{F4892B41-2F77-4876-A634-C4681BA53795}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20150921T023331Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+- Language: "ja-JP"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: パラメーターテンプレート 動的プレイスホルダー
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170323T054849Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin

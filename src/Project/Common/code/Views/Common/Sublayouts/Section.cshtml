@@ -1,0 +1,20 @@
+﻿@using System.Web.UI.WebControls
+@using Sitecore
+@using Sitecore.Data.Items
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@using Wageworks.Foundation.Theming.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+@{
+    var dismissableClass = Model.Rendering.IsSectionDismissable() ? "dismissable" : "";
+}
+<section class="section section-full @Model.Rendering.GetBackgroundClass() @dismissableClass">
+    @if (Model.Rendering.IsSectionDismissable())
+    {
+        <div data-dismissable-period="@Model.Rendering.GetDismissableCookiePeriod()" data-dismissable-cookie="@Model.Rendering.GetDismissableCookieName()" 
+             class="dismiss-close" onclick="">x</div>
+    }
+
+    @Html.Sitecore().DynamicPlaceholder("section", Model.Rendering.GetUseStaticPlaceholderNames())
+
+</section>

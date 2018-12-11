@@ -1,0 +1,21 @@
+﻿---
+ID: "fdee13c9-b4e8-4447-bb86-e4ee02825f01"
+Parent: "3af31cfc-f2b9-4f7a-a575-670c9d43990e"
+Template: "5c125b6d-c481-4c24-b5b9-9a23fe396bf0"
+Path: /sitecore/system/Settings/Buckets/Facets/Project/Common/Available On Site
+DB: master
+SharedFields:
+- ID: "0e23bb51-c071-41b5-9d83-ac410b89b85a"
+  Hint: Parameters
+  Value: computed_availableonsite_b
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180425T221829Z
+    - ID: "31ca077f-ef38-4980-8a24-05408031b2bc"
+      Hint: Name
+      Value: Available On Site

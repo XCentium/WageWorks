@@ -1,0 +1,18 @@
+﻿---
+ID: "fe93d410-7bb4-473a-836d-b61d59a5e570"
+Parent: "adbb08d4-53aa-403b-bce7-8c9a21ac0d80"
+Template: "adbb08d4-53aa-403b-bce7-8c9a21ac0d80"
+Path: /sitecore/templates/Project/Common/Content Types/Search/Filter Configuration/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180326T051215Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

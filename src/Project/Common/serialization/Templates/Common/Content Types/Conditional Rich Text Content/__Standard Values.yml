@@ -1,0 +1,18 @@
+﻿---
+ID: "34f3c675-5176-47e6-993e-8ed2033ca780"
+Parent: "9034347c-52bc-4e2c-87aa-7500021761c5"
+Template: "9034347c-52bc-4e2c-87aa-7500021761c5"
+Path: /sitecore/templates/Project/Common/Content Types/Conditional Rich Text Content/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180919T223221Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

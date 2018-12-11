@@ -1,0 +1,20 @@
+﻿@using Sitecore
+@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@model Sitecore.Mvc.Presentation.RenderingModel
+
+
+<div class="footer footer-container container-fluid" style="background-image: url('/Assets/Images/footer.png');">
+    <div class="footer__wrapper container">
+        @Html.Sitecore().Placeholder("footer-logo")
+        
+        <section class="footer__main-navigation d-flex">
+            @Html.Sitecore().Placeholder("footer-top")
+        </section>
+
+        <section class="footer__bottom d-flex">
+            <div class="footer__bottom-navigation d-flex">
+                @Html.Sitecore().Placeholder("footer-bottom")
+            </div>
+        </section>
+    </div>
+</div>
