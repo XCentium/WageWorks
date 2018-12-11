@@ -1,0 +1,21 @@
+﻿---
+ID: "f8b446e2-911a-4151-8ab9-f429e19e7048"
+Parent: "046c9cb4-f6ee-4147-965b-eb7edcbe07f3"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/Project/Common/Content Types/Promotion Link Menu Item/Navigation/Promo Content
+DB: master
+SharedFields:
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Rich Text
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180423T222455Z

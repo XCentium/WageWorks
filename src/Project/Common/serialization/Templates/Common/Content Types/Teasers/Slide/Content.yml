@@ -1,0 +1,18 @@
+﻿---
+ID: "3e93aece-33e2-499f-b763-c67179fdc8ab"
+Parent: "2e1e4065-1d20-46c2-bb35-b9b3aa90d82f"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Common/Content Types/Teasers/Slide/Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180618T195306Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

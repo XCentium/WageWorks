@@ -1,0 +1,21 @@
+﻿---
+ID: "e67b8b47-d4d9-48f7-88d9-45d1a1227279"
+Parent: "be5ab132-6921-4c63-a4ee-ba0d23378f38"
+Template: "be5ab132-6921-4c63-a4ee-ba0d23378f38"
+Path: /sitecore/templates/Project/Common/Content Types/Search/Sort Configuration/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180301T060110Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "df8fc97e-e241-4853-96f6-8e241ce3ee73"
+      Hint: Sort Title
+      Value: $name
