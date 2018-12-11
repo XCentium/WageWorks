@@ -1,0 +1,14 @@
+﻿---
+ID: "27dad81c-7068-4ba7-a8c1-1d7b25a1784d"
+Parent: "e9ca1595-e22b-4f22-928b-f91d18e6e4b9"
+Template: "421f6bfd-660a-43f6-bf3f-3f58e0e69d49"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Article Compliance
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T140000Z

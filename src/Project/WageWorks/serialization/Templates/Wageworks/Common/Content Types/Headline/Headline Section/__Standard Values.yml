@@ -1,0 +1,14 @@
+﻿---
+ID: "ec72681d-b0a6-4bbc-b80c-ffe5b3eb475f"
+Parent: "5e804f76-6de4-4e35-9ddc-56031771b125"
+Template: "5e804f76-6de4-4e35-9ddc-56031771b125"
+Path: /sitecore/templates/Project/Wageworks/Common/Content Types/Headline/Headline Section/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180906T173458Z

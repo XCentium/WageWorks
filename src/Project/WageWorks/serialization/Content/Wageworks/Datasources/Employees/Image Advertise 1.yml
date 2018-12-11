@@ -1,0 +1,22 @@
+﻿---
+ID: "e93fdbc8-b22f-4847-8118-d4d2456e4390"
+Parent: "df98120d-b239-4e42-95ef-089194112233"
+Template: "d1ac039f-6b50-4519-a0e7-20a939dc1f3d"
+Path: /sitecore/content/Wageworks/Datasources/Employees/Image Advertise 1
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediaid="{A76E3EAD-6E60-4F1C-8236-EDA726E80017}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180906T222122Z

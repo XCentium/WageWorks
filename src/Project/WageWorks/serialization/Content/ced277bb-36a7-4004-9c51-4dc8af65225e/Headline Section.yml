@@ -1,0 +1,20 @@
+﻿---
+ID: "1e40fa3b-a29d-4bfe-b5bb-666156ba2a5d"
+Parent: "ced277bb-36a7-4004-9c51-4dc8af65225e"
+Template: "5e804f76-6de4-4e35-9ddc-56031771b125"
+Path: /sitecore/content/Wageworks/Datasources/Employees/Learn About your benefits/HSA Compatible Flexible Spending/Headline Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Headline Section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181023T133511Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Headline Section Lorem ipsum dolor sit amet

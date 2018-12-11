@@ -1,0 +1,24 @@
+﻿---
+ID: "4e7a361f-1dd6-4dc1-9d34-643f0dc68869"
+Parent: "df98120d-b239-4e42-95ef-089194112233"
+Template: "5e804f76-6de4-4e35-9ddc-56031771b125"
+Path: /sitecore/content/Wageworks/Datasources/Employees/Section How Tos
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Section How Tos Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180930T212441Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: "How-To's"

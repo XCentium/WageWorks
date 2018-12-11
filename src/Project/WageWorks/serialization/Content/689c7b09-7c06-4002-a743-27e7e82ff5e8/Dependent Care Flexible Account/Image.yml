@@ -1,0 +1,18 @@
+﻿---
+ID: "cea45efc-043a-44d2-a260-77ec6d78b0da"
+Parent: "f263294e-54c5-48e6-aace-3b8f7343402b"
+Template: "d1ac039f-6b50-4519-a0e7-20a939dc1f3d"
+Path: /sitecore/content/Wageworks/Datasources/Employees/Learn About your benefits/Dependent Care Flexible Account/Image
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediaid="{DC391C0F-1AB6-41B0-8437-95D7CB0E4E15}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180911T175106Z

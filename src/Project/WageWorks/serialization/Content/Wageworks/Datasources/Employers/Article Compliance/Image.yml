@@ -1,0 +1,18 @@
+﻿---
+ID: "51d5c158-0e40-41af-acc9-829b49e81c86"
+Parent: "27dad81c-7068-4ba7-a8c1-1d7b25a1784d"
+Template: "d1ac039f-6b50-4519-a0e7-20a939dc1f3d"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Article Compliance/Image
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediaid="{76CCA412-62DC-4E74-AAB3-A7F91642FBF4}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181002T135724Z

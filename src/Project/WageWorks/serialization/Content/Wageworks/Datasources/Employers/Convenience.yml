@@ -1,0 +1,28 @@
+﻿---
+ID: "2cd24470-0778-468c-aa4d-b3f229d18d6e"
+Parent: "e9ca1595-e22b-4f22-928b-f91d18e6e4b9"
+Template: "54c56e50-efca-4d5a-934f-a5a973e20e1b"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Convenience
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: "Our on-demand delivery model eliminates the need for our employer clients to install and maintain hardware and software in order to support CDB programs and enables us to rapidly implement product enhancements across our entire user base."
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Automation_Continuous-Icon" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{11F4A1DC-65E7-4B47-B3DB-FC82D58123BF}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180930T153202Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Convenience

@@ -1,0 +1,82 @@
+﻿---
+ID: "53f63b57-fb6d-40a1-82fc-a62d29d7a0bd"
+Parent: "689c7b09-7c06-4002-a743-27e7e82ff5e8"
+Template: "421f6bfd-660a-43f6-bf3f-3f58e0e69d49"
+Path: /sitecore/content/Wageworks/Datasources/Employees/Learn About your benefits/Health Flexible Spending Account
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{93D0D6E0-42E5-4EFA-8284-9F934F3888BA}"
+              p:before="*"
+              s:ds="{FC06601C-74E8-4D16-8A80-1360C5F3748D}"
+              s:id="{E2B52BF1-C955-459A-8D5A-67664F24EC99}"
+              s:par="Space Styling={B04FB10C-0D85-4A5D-85FC-963B337D4FC5}|{80035ECC-AB00-4811-92B3-47B5FFE7EB6A}&amp;Section Color&amp;Hashtag Text=Overview&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{38BF3E63-BF36-40E9-BDC4-D0FCD6CF5F42}"
+              p:after="r[@uid='{93D0D6E0-42E5-4EFA-8284-9F934F3888BA}']"
+              s:ds="{B95A4D9E-E066-446B-B10F-63F234429168}"
+              s:id="{F2DB579C-2D52-437C-9A33-BB3A5C21C912}"
+              s:par="Layout&amp;Space Styling&amp;Section Color={1104BA26-7FF8-4955-879D-92E99CCBC694}&amp;Story Color&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{293D4822-7C8B-438E-B1F3-F62A7B404FE1}"
+              p:after="r[@uid='{38BF3E63-BF36-40E9-BDC4-D0FCD6CF5F42}']"
+              s:ds=""
+              s:id="{8D62A9F3-D4CD-480F-BDF6-C698BB910F39}"
+              s:par="Space Styling={B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Title&amp;Items={BA26768F-64A4-4460-A5DB-DCCA69D04DB1}|{9CB70967-B977-41D4-B2E9-E53FF5F3E88B}|{282C56B8-B1D8-4FAF-BE43-72E2A3180C2D}&amp;Section Color={1104BA26-7FF8-4955-879D-92E99CCBC694}&amp;Open Item Text=Learn More&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{21A526BC-AF9A-4018-AFE5-5AA3FA3DD12D}"
+              p:after="r[@uid='{293D4822-7C8B-438E-B1F3-F62A7B404FE1}']"
+              s:ds="{6F4C4B58-798B-4FFD-B613-3C44FCF3EA78}"
+              s:id="{F2DB579C-2D52-437C-9A33-BB3A5C21C912}"
+              s:par="Layout={3F59FCEC-5574-4AC5-ADD5-B5F5F9DADCC5}&amp;Space Styling&amp;Section Color={1104BA26-7FF8-4955-879D-92E99CCBC694}&amp;Story Color&amp;Hashtag Text=How You Use It&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{30DEB26C-D847-4955-9E2F-D077DA0845B9}"
+              p:after="r[@uid='{21A526BC-AF9A-4018-AFE5-5AA3FA3DD12D}']"
+              s:ds=""
+              s:id="{8D62A9F3-D4CD-480F-BDF6-C698BB910F39}"
+              s:par="Space Styling={B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Title&amp;Items={ECBB78CB-2FFC-4610-8CD7-D68914258554}|{C9A4E0D9-BACE-4D26-A01F-50DEB905120D}&amp;Section Color={1104BA26-7FF8-4955-879D-92E99CCBC694}&amp;Open Item Text=Learn More&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{721BF020-C1E8-4E7B-A4F0-36A389949B9F}"
+              p:after="r[@uid='{30DEB26C-D847-4955-9E2F-D077DA0845B9}']"
+              s:ds=""
+              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
+              s:par="Space Styling={B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Title=Additional Resources&amp;Items={282C56B8-B1D8-4FAF-BE43-72E2A3180C2D}|{9CB70967-B977-41D4-B2E9-E53FF5F3E88B}|{8B0B2013-0C83-4899-8420-335C652AFEAD}&amp;Section Color={1104BA26-7FF8-4955-879D-92E99CCBC694}&amp;Hashtag Text=Additional Resources&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{90D064F5-74EC-42F2-9835-77BE8761CED0}"
+              p:after="r[@uid='{721BF020-C1E8-4E7B-A4F0-36A389949B9F}']"
+              s:ds="{0D76947A-591E-436E-8237-2F433DF14507}"
+              s:id="{58B981FD-99D2-4787-88D9-1192F226869B}"
+              s:par="Layout&amp;Space Styling={80035ECC-AB00-4811-92B3-47B5FFE7EB6A}|{B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Section Color={BD43901D-3B19-4367-9C6C-35B0A5F609A2}&amp;Hashtag Text&amp;__Semantics"
+              s:ph="main" />
+            <r
+              uid="{4D8226FD-8F59-4165-8793-4041E3F380C0}"
+              p:after="*[1=2]"
+              s:id="{12920C23-2599-4402-9BEF-6B765642D7D3}"
+              s:ph="topRight" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180906T213707Z

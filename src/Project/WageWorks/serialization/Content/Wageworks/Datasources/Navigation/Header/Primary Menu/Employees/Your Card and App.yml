@@ -1,0 +1,17 @@
+﻿---
+ID: "29d99904-247d-482a-85f8-93c1f6930c79"
+Parent: "a5fe7014-dd90-4850-9197-eb558d86e01e"
+Template: "c1f8231f-5e73-4c4f-8f23-b7264e0c4b88"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Header/Primary Menu/Employees/Your Card and App
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180924T105650Z
+    - ID: "96c1525e-1ee6-40a6-af7e-f92ef38a778f"
+      Hint: Link
+      Value: "{642FA698-DF1A-449C-8277-AE16FB2C1A7C}"

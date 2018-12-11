@@ -1,0 +1,20 @@
+﻿---
+ID: "007f1b98-2429-4f80-8216-e42d144e875f"
+Parent: "02f7f31b-c5eb-4fcb-b7d6-3bc210b9da41"
+Template: "5e804f76-6de4-4e35-9ddc-56031771b125"
+Path: /sitecore/content/Wageworks/Datasources/Employees/Learn About your benefits/Healthcare and Dependent Care Benefits/Headline Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Headline Section Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181023T133409Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Headline Section Lorem ipsum dolor sit amet

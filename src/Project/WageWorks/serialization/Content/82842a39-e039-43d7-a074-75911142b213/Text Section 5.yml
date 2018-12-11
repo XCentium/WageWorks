@@ -1,0 +1,24 @@
+﻿---
+ID: "60efc097-41c6-41d1-a834-98c68de26abb"
+Parent: "82842a39-e039-43d7-a074-75911142b213"
+Template: "74b1ba63-578f-4066-bcde-e439e2517d53"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Open Enrollment Kit/Headline Section With Content/Text Section 5
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08921b11-6e11-4325-98b8-75e5176190f7"
+      Hint: Text
+      Value: To make sure your employees have the support they need, we have developed the Employee Support Center to provide online access to frequently asked questions, forms and more. If your employee is unable to find the answer they need online, they can use Twitter or Facebook to get answers to their questions around the clock. If they would rather speak to someone, we have an outstanding team of customer service representatives that can help your employees get the answers they need.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181010T150728Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e67812c9-8c61-4372-a8a4-d589b38ae9f3"
+      Hint: Title
+      Value: 

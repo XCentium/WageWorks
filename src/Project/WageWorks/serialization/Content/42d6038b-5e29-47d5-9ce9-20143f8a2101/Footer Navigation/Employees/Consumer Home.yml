@@ -1,0 +1,17 @@
+﻿---
+ID: "f6cb515c-a2ee-49f4-be7c-db23e65004d0"
+Parent: "4431e915-be1c-4b9d-bf23-45542eedd040"
+Template: "017b53f2-6842-43cf-be86-af54e32fae31"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Footer Navigation/Employees/Consumer Home
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Consumer Home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T193311Z

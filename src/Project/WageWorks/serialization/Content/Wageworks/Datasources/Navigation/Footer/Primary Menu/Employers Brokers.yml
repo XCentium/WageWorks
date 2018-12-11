@@ -1,0 +1,23 @@
+﻿---
+ID: "aa39e5ed-1fc3-46e9-a484-700101ab3764"
+Parent: "4b50f771-4444-4e5d-b509-8b46d941a6a3"
+Template: "8471e21d-1e0e-4c3a-a4ba-e4bf8b48605f"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Footer/Primary Menu/Employers Brokers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180905T230709Z
+    - ID: "3dc8bc58-76f2-41b4-87e3-de267bb1bc00"
+      Hint: Title
+      Value: Employers & Brokers
+    - ID: "8d25e393-7b8a-4d02-86c2-1390c6fb3227"
+      Hint: Links
+      Type: Multilist
+      Value: |
+        {D74BC5E6-0EB9-4E76-821B-7D78E914AAA2}
+        {BC06F9A6-E131-43ED-899B-7256776B9C37}

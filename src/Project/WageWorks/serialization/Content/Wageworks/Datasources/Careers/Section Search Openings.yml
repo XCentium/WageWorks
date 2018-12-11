@@ -1,0 +1,27 @@
+﻿---
+ID: "b0c34591-6897-49eb-b9eb-647893fd9f88"
+Parent: "033ccf82-837f-4910-a2d1-1626c65a39af"
+Template: "5e804f76-6de4-4e35-9ddc-56031771b125"
+Path: /sitecore/content/Wageworks/Datasources/Careers/Section Search Openings
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: "We lower the cost of living for millions of American families. We help everyday people manage everyday expenses - like healthcare, child and elder care, and commuting - through benefits like Flexible Spending Accounts and Health Savings Accounts provided through their employers."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181013T131053Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Search Openings
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: When you work at WageWorks, you help people live happier, healthier, and more productive lives.

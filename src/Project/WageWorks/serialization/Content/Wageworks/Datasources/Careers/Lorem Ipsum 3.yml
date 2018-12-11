@@ -1,0 +1,28 @@
+﻿---
+ID: "9151df0b-28e5-46fb-bf73-9902e0de2863"
+Parent: "033ccf82-837f-4910-a2d1-1626c65a39af"
+Template: "54c56e50-efca-4d5a-934f-a5a973e20e1b"
+Path: /sitecore/content/Wageworks/Datasources/Careers/Lorem Ipsum 3
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Lorem Ipsum 3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediaid="{E1D4D9AD-DFA4-46FD-BAF6-640515938DD5}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181001T041705Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Lorem Ipsum 3 Lorem ipsum dolor sit amet

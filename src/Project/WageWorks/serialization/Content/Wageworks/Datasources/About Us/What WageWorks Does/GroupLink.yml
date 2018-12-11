@@ -1,0 +1,24 @@
+﻿---
+ID: "f5ac8884-2668-4b6d-adcf-0fb99cdfca01"
+Parent: "938d627c-f930-4dbb-9e94-15edda117a46"
+Template: "8471e21d-1e0e-4c3a-a4ba-e4bf8b48605f"
+Path: /sitecore/content/Wageworks/Datasources/About Us/What WageWorks Does/GroupLink
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181005T023210Z
+    - ID: "3dc8bc58-76f2-41b4-87e3-de267bb1bc00"
+      Hint: Title
+      Value: See also
+    - ID: "8d25e393-7b8a-4d02-86c2-1390c6fb3227"
+      Hint: Links
+      Type: Multilist
+      Value: |
+        {FC5286D2-C8D2-4ECD-A07B-E968427BFA6C}
+        {5B043A76-47A7-492D-9C3E-067CABC6064A}
+        {A89CBBB0-C5AA-49DD-B1A6-C719FD9D776A}

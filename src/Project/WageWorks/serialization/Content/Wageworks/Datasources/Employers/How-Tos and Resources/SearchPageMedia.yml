@@ -1,0 +1,18 @@
+﻿---
+ID: "05cc58a3-bb9a-4973-8f76-a722944fe8e2"
+Parent: "c3342be3-1b29-4bc9-9c21-d57782335a78"
+Template: "421f6bfd-660a-43f6-bf3f-3f58e0e69d49"
+Path: "/sitecore/content/Wageworks/Datasources/Employers/How-Tos and Resources/SearchPageMedia"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T134557Z

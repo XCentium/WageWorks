@@ -1,0 +1,24 @@
+﻿---
+ID: "7c0602c3-679a-4d36-8b0a-da242dfbed2d"
+Parent: "82842a39-e039-43d7-a074-75911142b213"
+Template: "74b1ba63-578f-4066-bcde-e439e2517d53"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Open Enrollment Kit/Headline Section With Content/Text Section 2
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08921b11-6e11-4325-98b8-75e5176190f7"
+      Hint: Text
+      Value: "The Employee section of our website provides benefit information, frequently asked questions and other support resources, such as videos and tutorials, to help your employees learn about their Consumer-Directed Benefits. Encouraging them to explore this online resource and share it with family members will help them take advantage of the savings and convenience of their WageWorks accounts."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181010T145517Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e67812c9-8c61-4372-a8a4-d589b38ae9f3"
+      Hint: Title
+      Value: 

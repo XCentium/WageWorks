@@ -1,0 +1,31 @@
+﻿---
+ID: "df69c53f-1f2a-4bd8-bb0b-cf176e8c0363"
+Parent: "169ccf09-5cd9-48e4-bdb0-da9e15988e10"
+Template: "0b071799-580d-4afd-9e81-10840e1919ae"
+Path: /sitecore/content/Wageworks/Datasources/ContactSales/Combo Box Help
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05c2a8cb-a0a5-4fa4-beab-a1cfecdd4aa1"
+      Hint: Placeholder Text
+      Value: Select Item
+    - ID: "06217e8c-1a58-4559-b640-1f160bc2e4c1"
+      Hint: Name
+      Value: help
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181006T020411Z
+    - ID: "921a1ae7-f9e8-4f14-a167-2123eab28f86"
+      Hint: Label
+      Value: "How can we help you?"
+    - ID: "980e131a-ed62-4837-887a-43da4f9fa483"
+      Hint: Items
+      Value: |
+        Choice 1
+        Choice 2
+        Choice 3
+        Choice 4
+        

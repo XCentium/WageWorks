@@ -1,0 +1,14 @@
+﻿---
+ID: "ab733961-f504-43e8-ba25-1001b6140c67"
+Parent: "e9ca1595-e22b-4f22-928b-f91d18e6e4b9"
+Template: "421f6bfd-660a-43f6-bf3f-3f58e0e69d49"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Open Enrollment Kit
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181115T135533Z

@@ -1,0 +1,17 @@
+﻿---
+ID: "66f3a86e-ecfe-4717-9c40-860fc650d212"
+Parent: "fe85e2f1-16af-4ed1-b770-25ac6608370c"
+Template: "017b53f2-6842-43cf-be86-af54e32fae31"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Footer Navigation/About Wageworks/About Us
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: About Us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T193232Z

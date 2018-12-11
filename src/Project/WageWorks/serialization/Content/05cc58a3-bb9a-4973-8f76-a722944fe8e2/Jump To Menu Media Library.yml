@@ -1,0 +1,31 @@
+﻿---
+ID: "8afe3936-7067-493d-9c46-141a8639c125"
+Parent: "05cc58a3-bb9a-4973-8f76-a722944fe8e2"
+Template: "d2732246-207c-462c-841d-28e965271ca3"
+Path: "/sitecore/content/Wageworks/Datasources/Employers/How-Tos and Resources/SearchPageMedia/Jump To Menu Media Library"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Jump to menu
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17d5e64c-ab0d-440b-be71-9a0b37ba5af4"
+      Hint: Text2
+      Value: WageWorks
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181006T064618Z
+    - ID: "ac269fde-0e74-46a3-9f4f-ad38292b701b"
+      Hint: Search Form
+      Value: "{CE5BBAA1-891D-4B10-8FC3-C129D0C36351}"
+    - ID: "b90c8b30-1d14-42b7-8e79-5b92db24d549"
+      Hint: Text
+      Value: I’m looking for materials to explain the benefits of a
+    - ID: "e2d3a817-1308-4563-a6ff-d86c052fede0"
+      Hint: SearchCriteria
+      Type: Multilist
+      Value: "{168EE9AD-32D4-4089-A77E-0F32058FDABC}"

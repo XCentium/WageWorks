@@ -1,0 +1,25 @@
+﻿---
+ID: "d97e2168-1b71-4b30-afad-1c4134505ff3"
+Parent: "166dcd48-345e-4276-aba3-aa470c6e522a"
+Template: "166dcd48-345e-4276-aba3-aa470c6e522a"
+Path: /sitecore/templates/Project/Wageworks/Common/Content Types/Link Menu/__Standard Values
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: |
+    {017B53F2-6842-43CF-BE86-AF54E32FAE31}
+    {166DCD48-345E-4276-ABA3-AA470C6E522A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T184119Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

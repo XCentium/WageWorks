@@ -1,0 +1,26 @@
+﻿---
+ID: "621d3bd5-c265-44fc-8086-36d3bc6ebe1f"
+Parent: "c3342be3-1b29-4bc9-9c21-d57782335a78"
+Template: "53899cf7-eb1e-442b-8f26-931a30319204"
+Path: "/sitecore/content/Wageworks/Datasources/Employers/How-Tos and Resources/Employers Search"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T140806Z
+    - ID: "5ebc57cd-7d89-43cf-adb6-996447db716a"
+      Hint: SearchCriteria
+      Type: Multilist
+      Value: |
+        {F91BDE69-D07F-45B0-8224-09111DFCC214}
+        {E5EE0784-976D-42CF-B4C1-473329B4E131}
+        {3828B1CF-C64F-4F25-A6C6-E8F5A6544E82}
+        {85F2A4F0-A270-40FB-BD5C-A2EF99530F63}

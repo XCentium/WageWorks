@@ -1,0 +1,34 @@
+﻿---
+ID: "8c0b1a5e-741f-4fdc-a53f-dc9366ab58a6"
+Parent: "df98120d-b239-4e42-95ef-089194112233"
+Template: "d2732246-207c-462c-841d-28e965271ca3"
+Path: /sitecore/content/Wageworks/Datasources/Employees/Jump To Menu Media
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17d5e64c-ab0d-440b-be71-9a0b37ba5af4"
+      Hint: Text2
+      Value: help me
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181008T134641Z
+    - ID: "9a371874-7af0-41b7-b8ef-1d5a0dab0d15"
+      Hint: Heading
+      Value: Media Library
+    - ID: "ac269fde-0e74-46a3-9f4f-ad38292b701b"
+      Hint: Search Form
+      Value: "{CE5BBAA1-891D-4B10-8FC3-C129D0C36351}"
+    - ID: "b90c8b30-1d14-42b7-8e79-5b92db24d549"
+      Hint: Text
+      Value: I’m looking for media that will
+    - ID: "e2d3a817-1308-4563-a6ff-d86c052fede0"
+      Hint: SearchCriteria
+      Type: Multilist
+      Value: "{168EE9AD-32D4-4089-A77E-0F32058FDABC}"

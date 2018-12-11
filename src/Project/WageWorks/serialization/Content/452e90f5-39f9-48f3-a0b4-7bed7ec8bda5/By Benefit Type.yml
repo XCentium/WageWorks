@@ -1,0 +1,14 @@
+﻿---
+ID: "c6fa5d91-85b3-4ec9-a97b-139e76434cdb"
+Parent: "452e90f5-39f9-48f3-a0b4-7bed7ec8bda5"
+Template: "166dcd48-345e-4276-aba3-aa470c6e522a"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Main Navigation/Employees/How Tos and Resources/By Benefit Type
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T192021Z

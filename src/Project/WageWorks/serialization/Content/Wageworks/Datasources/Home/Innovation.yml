@@ -1,0 +1,28 @@
+﻿---
+ID: "840c749c-2525-4930-8593-3236c9c6022a"
+Parent: "69e6815a-620d-491e-81bf-8a8e248e6fc6"
+Template: "54c56e50-efca-4d5a-934f-a5a973e20e1b"
+Path: /sitecore/content/Wageworks/Datasources/Home/Innovation
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: "WageWorks delivers our Consumer-Directed Benefits through a highly scalable Benefits-as-a-Service, or BaaS, delivery model that employer clients and their employee participants may access through a standard web browser on any internet enabled device."
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Automation_Cloud-Icon" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{08578CBE-BE65-464A-A040-3A91965815C5}" ></image>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180930T153202Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Innovation

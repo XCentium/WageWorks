@@ -1,0 +1,30 @@
+﻿---
+ID: "f5e49b8f-c99e-4580-b8e8-85eb75fea9fe"
+Parent: "c3342be3-1b29-4bc9-9c21-d57782335a78"
+Template: "d2732246-207c-462c-841d-28e965271ca3"
+Path: "/sitecore/content/Wageworks/Datasources/Employers/How-Tos and Resources/Jump To Menu"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17d5e64c-ab0d-440b-be71-9a0b37ba5af4"
+      Hint: Text2
+      Value: help me
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181012T195724Z
+    - ID: "9a371874-7af0-41b7-b8ef-1d5a0dab0d15"
+      Hint: Heading
+      Value: 
+    - ID: "ac269fde-0e74-46a3-9f4f-ad38292b701b"
+      Hint: Search Form
+      Value: "{621D3BD5-C265-44FC-8086-36D3BC6EBE1F}"
+    - ID: "b90c8b30-1d14-42b7-8e79-5b92db24d549"
+      Hint: Text
+      Value: I’m looking for information that will
+    - ID: "e2d3a817-1308-4563-a6ff-d86c052fede0"
+      Hint: SearchCriteria
+      Type: Multilist
+      Value: "{A213B75F-0B36-47B8-82B7-DE6F55816479}"

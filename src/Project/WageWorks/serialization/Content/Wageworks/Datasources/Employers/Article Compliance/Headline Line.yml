@@ -1,0 +1,17 @@
+﻿---
+ID: "d427c154-3d3b-484e-ae3c-7a4a12907f5d"
+Parent: "27dad81c-7068-4ba7-a8c1-1d7b25a1784d"
+Template: "fd0bcce8-9bf2-4c10-b74d-05578dcd0762"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Article Compliance/Headline Line
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181002T140332Z
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Pellentesque sed nibh nisl. Duis dignissim, ipsum tristique rutrum mollis, est dolor posuere ex, id hendrerit lorem justo at risus.

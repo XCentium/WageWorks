@@ -1,0 +1,33 @@
+﻿---
+ID: "359ae932-281a-4cc9-b5fb-7152ed4301eb"
+Parent: "689c7b09-7c06-4002-a743-27e7e82ff5e8"
+Template: "421f6bfd-660a-43f6-bf3f-3f58e0e69d49"
+Path: /sitecore/content/Wageworks/Datasources/Employees/Learn About your benefits/Tuition Reimbursement Program
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{27C012F7-A910-46A2-A1BA-BA6CB3C912D6}"
+              s:ds="{8A79A788-7891-4851-A0AD-843ABCF44BAA}"
+              s:id="{1A7E2B9C-6E62-45F3-A243-65E8B845D613}"
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180930T215406Z

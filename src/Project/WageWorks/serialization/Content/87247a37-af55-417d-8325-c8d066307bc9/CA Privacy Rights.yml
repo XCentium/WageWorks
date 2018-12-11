@@ -1,0 +1,17 @@
+﻿---
+ID: "8074b56e-d4cb-475c-b5bf-0dcebba0ed43"
+Parent: "87247a37-af55-417d-8325-c8d066307bc9"
+Template: "4a4064fd-4bca-4505-b631-35b8ed5e6279"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Footer/Secondary Menu/Footer Links/CA Privacy Rights
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181120T202108Z
+    - ID: "a0c2f556-db76-4ba3-9385-094f9dbaccb0"
+      Hint: Navigation Text
+      Value: CA Privacy Rights

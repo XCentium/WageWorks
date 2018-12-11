@@ -1,0 +1,21 @@
+﻿---
+ID: "a349ea1a-dfc0-4fcd-af66-74b1727cd093"
+Parent: "87247a37-af55-417d-8325-c8d066307bc9"
+Template: "4a4064fd-4bca-4505-b631-35b8ed5e6279"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Footer/Secondary Menu/Footer Links/Privacy Rights
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181120T202041Z
+    - ID: "a0c2f556-db76-4ba3-9385-094f9dbaccb0"
+      Hint: Navigation Text
+      Value: Privacy Rights

@@ -1,0 +1,27 @@
+﻿---
+ID: "5722c77b-b6c7-44eb-b375-75766863672b"
+Parent: "033ccf82-837f-4910-a2d1-1626c65a39af"
+Template: "5e804f76-6de4-4e35-9ddc-56031771b125"
+Path: /sitecore/content/Wageworks/Datasources/Careers/Section What We Offer
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Values describe how we work together to achieve our success. It is our employees that drive results through living our Company Values. Every employee at WageWorks is expected to uphold and demonstrate the six Company Values listed below as an additional component of the job description and as a standard of individual performance.&nbsp;
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181001T034059Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: What We Offer
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: WageWorks Believes That Our success is Achieved By Its People

@@ -1,0 +1,20 @@
+﻿---
+ID: "269a37bb-4786-41c2-9a6d-df7f8c1a9135"
+Parent: "62052c05-5374-49c1-853b-96a2093a2e11"
+Template: "b9fa7952-765e-45e0-ada5-c6f7ff1def52"
+Path: /sitecore/content/Wageworks/Datasources/Global Search/Input
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T102736Z
+    - ID: "40e17dbc-7b27-4c92-a455-34e9b060e62c"
+      Hint: Search Form
+      Value: "{1ECF065A-5C15-43C2-9E6D-16C3CF9D7EB2}"
+    - ID: "90d16375-2533-443e-8ce9-35a25f3c70c3"
+      Hint: Placeholder Text
+      Value: Search Resources

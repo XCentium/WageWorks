@@ -1,0 +1,24 @@
+﻿---
+ID: "fe9c721b-9ffd-4c47-a111-c7033093c8a7"
+Parent: "938d627c-f930-4dbb-9e94-15edda117a46"
+Template: "74b1ba63-578f-4066-bcde-e439e2517d53"
+Path: /sitecore/content/Wageworks/Datasources/About Us/What WageWorks Does/Text Section 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08921b11-6e11-4325-98b8-75e5176190f7"
+      Hint: Text
+      Value: "We deliver our CDB programs through a highly scalable Software-as-a-Service, or SaaS, delivery model that employer clients and their employee participants may access through a standard web browser on any internet enabled device, including computers, smart phones, and other mobile devices, such as tablet computers. Our on-demand delivery model eliminates the need for our employer clients to install and maintain hardware and software in order to support CDB programs and enables us to rapidly implement product enhancements across our entire user base."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T230917Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e67812c9-8c61-4372-a8a4-d589b38ae9f3"
+      Hint: Title
+      Value: 

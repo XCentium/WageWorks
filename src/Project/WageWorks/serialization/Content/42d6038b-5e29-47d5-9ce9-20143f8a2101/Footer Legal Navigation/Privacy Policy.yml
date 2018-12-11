@@ -1,0 +1,17 @@
+﻿---
+ID: "dbe7f464-9c09-47e2-94cd-810f53394e00"
+Parent: "1f0d7748-b56b-4262-b863-a3287ea57799"
+Template: "017b53f2-6842-43cf-be86-af54e32fae31"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Footer Legal Navigation/Privacy Policy
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Privacy Policy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T193359Z

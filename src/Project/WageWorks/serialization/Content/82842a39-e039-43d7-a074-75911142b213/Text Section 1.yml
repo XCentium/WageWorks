@@ -1,0 +1,24 @@
+﻿---
+ID: "1de18108-087d-48c6-ae2c-5731f1cdc887"
+Parent: "82842a39-e039-43d7-a074-75911142b213"
+Template: "74b1ba63-578f-4066-bcde-e439e2517d53"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Open Enrollment Kit/Headline Section With Content/Text Section 1
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08921b11-6e11-4325-98b8-75e5176190f7"
+      Hint: Text
+      Value: Help your employees know where to find the information they need to get the most out of their WageWorks® accounts.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181010T144544Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "e67812c9-8c61-4372-a8a4-d589b38ae9f3"
+      Hint: Title
+      Value: Engage Your Employees

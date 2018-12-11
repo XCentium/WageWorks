@@ -1,0 +1,23 @@
+﻿---
+ID: "59a33217-cfcf-4672-a12a-a049bd599ce8"
+Parent: "82842a39-e039-43d7-a074-75911142b213"
+Template: "8471e21d-1e0e-4c3a-a4ba-e4bf8b48605f"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Open Enrollment Kit/Headline Section With Content/GroupLink
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181010T150818Z
+    - ID: "3dc8bc58-76f2-41b4-87e3-de267bb1bc00"
+      Hint: Title
+      Value: See Also
+    - ID: "8d25e393-7b8a-4d02-86c2-1390c6fb3227"
+      Hint: Links
+      Type: Multilist
+      Value: |
+        {A89CBBB0-C5AA-49DD-B1A6-C719FD9D776A}
+        {D774D282-DEAA-43B9-A844-BF8BAE9FEC13}

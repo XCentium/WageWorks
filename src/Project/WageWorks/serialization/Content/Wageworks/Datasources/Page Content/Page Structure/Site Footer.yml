@@ -1,0 +1,14 @@
+﻿---
+ID: "31c153a2-6075-4b95-b850-ac30dc40dc35"
+Parent: "99fb0b3b-7a59-4963-9142-fd9d5cb8b899"
+Template: "173bcb10-1a41-47d3-a317-8c20ac4ed756"
+Path: /sitecore/content/Wageworks/Datasources/Page Content/Page Structure/Site Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T174726Z

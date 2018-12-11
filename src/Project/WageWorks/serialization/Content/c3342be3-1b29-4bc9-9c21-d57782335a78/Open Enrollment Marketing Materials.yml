@@ -1,0 +1,37 @@
+﻿---
+ID: "0754dc9d-3e78-4a27-bced-1116b08b5481"
+Parent: "c3342be3-1b29-4bc9-9c21-d57782335a78"
+Template: "f91bde69-d07f-45b0-8224-09111dfcc214"
+Path: "/sitecore/content/Wageworks/Datasources/Employers/How-Tos and Resources/Open Enrollment Marketing Materials"
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="Meeting@3x" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{5C9FEF47-6E07-4357-AD76-3FB813F7438E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180919T131941Z
+    - ID: "3e514122-9ff3-476d-bd6e-bcb2d30946e4"
+      Hint: Name
+      Value: Open Enrollment Marketing Materials
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Open Enrollment Marketing Materials
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Article about
+    - ID: "b8dc2a21-9e87-4154-bad6-eb16f7e83835"
+      Hint: Card Color
+      Value: 
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Open Enrollment Marketing Materials

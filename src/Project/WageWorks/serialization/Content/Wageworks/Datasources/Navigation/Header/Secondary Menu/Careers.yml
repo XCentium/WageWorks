@@ -1,0 +1,17 @@
+﻿---
+ID: "e7f32497-e1c6-49b5-b7ab-fe05c325e549"
+Parent: "0201fc5b-e34b-4829-9b82-6f5724d7a891"
+Template: "c1f8231f-5e73-4c4f-8f23-b7264e0c4b88"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Header/Secondary Menu/Careers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180924T105412Z
+    - ID: "96c1525e-1ee6-40a6-af7e-f92ef38a778f"
+      Hint: Link
+      Value: "{FC5286D2-C8D2-4ECD-A07B-E968427BFA6C}"

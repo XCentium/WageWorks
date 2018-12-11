@@ -1,0 +1,24 @@
+﻿---
+ID: "0edabedd-ba43-41e1-97c8-8c9259259957"
+Parent: "56e04c05-3861-4380-9622-ed4d64defc89"
+Template: "75ed18ca-cb5a-4b3e-a36a-38a79165a457"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Header/Primary Menu/Employers/Benefits Programs Services/Guides by Benefit Type
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180907T004551Z
+    - ID: "3dc8bc58-76f2-41b4-87e3-de267bb1bc00"
+      Hint: Title
+      Value: By Benefit Type
+    - ID: "aac9c51b-c94c-45bc-a3c1-ed4fba117d7e"
+      Hint: Items
+      Type: Multilist
+      Value: |
+        {EE4F7E2D-4595-4333-9812-F6A1ED08F94B}
+        {9419FEEA-1483-48F1-8005-805116829FF5}
+        {B447BD1E-2F70-4BD4-9C13-3FEB9EC4E972}

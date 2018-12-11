@@ -1,0 +1,25 @@
+﻿---
+ID: "f003714b-edf4-4e0e-a2aa-448ef817e22c"
+Parent: "4b50f771-4444-4e5d-b509-8b46d941a6a3"
+Template: "8471e21d-1e0e-4c3a-a4ba-e4bf8b48605f"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Footer/Primary Menu/About WageWorks
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180905T204820Z
+    - ID: "3dc8bc58-76f2-41b4-87e3-de267bb1bc00"
+      Hint: Title
+      Value: About WageWorks
+    - ID: "8d25e393-7b8a-4d02-86c2-1390c6fb3227"
+      Hint: Links
+      Type: Multilist
+      Value: |
+        {D8DA4B3F-6967-4425-85AE-9DF579C621EB}
+        {FC5286D2-C8D2-4ECD-A07B-E968427BFA6C}
+        {D774D282-DEAA-43B9-A844-BF8BAE9FEC13}
+        {DAF86506-EFE0-4739-AB5C-91A43576C487}

@@ -1,0 +1,17 @@
+﻿---
+ID: "b3dbf4f9-9dcb-4bba-9afe-fead807256e5"
+Parent: "4baa3c5d-aa34-476f-a42d-5594f1ef1b96"
+Template: "5d614cca-f79f-496d-bbb7-b8b69b47c6f6"
+Path: /sitecore/content/Wageworks/Datasources/Teasers/Teaser
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T171348Z
+    - ID: "4a59d072-5b41-4a79-a157-2b2ccac10f2b"
+      Hint: TeaserTitle
+      Value: Teaser

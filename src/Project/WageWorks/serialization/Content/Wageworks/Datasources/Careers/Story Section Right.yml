@@ -1,0 +1,30 @@
+﻿---
+ID: "08b624fc-e27a-4e3b-a463-d7432977e52c"
+Parent: "033ccf82-837f-4910-a2d1-1626c65a39af"
+Template: "ff1272cc-9bea-4970-b181-6d29dc547e80"
+Path: /sitecore/content/Wageworks/Datasources/Careers/Story Section Right
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet accumsan mauris, et suscipit est pretium sit amet. Quisque a elementum tellus. Morbi porttitor ex vel neque semper, sit amet fringilla mauris porttitor. Ut ullamcorper, dui bibendum condimentum laoreet, diam arcu condimentum velit, a vestibulum lorem neque commodo magna. Phasellus sagittis nec lectus a molestie. Praesent mollis tincidunt euismod. Maecenas et lacinia ante, eget faucibus nunc. Integer lacinia pharetra venenatis. Praesent cursus libero eu luctus finibus. Ut augue augue, faucibus at massa ac, lobortis commodo enim. Aliquam erat volutpat. Morbi commodo suscipit malesuada. Sed justo elit, iaculis at elit sit amet, pellentesque euismod sapien. Aenean ultrices blandit odio, a lacinia ligula semper sit amet. Cras vehicula porta elit, vitae aliquet erat dapibus id. Aenean scelerisque tellus in nisl pharetra tincidunt.
+        
+        Suspendisse potenti. Sed elementum sed odio in mollis. Maecenas ac posuere nisi. Suspendisse consequat mi est, facilisis facilisis tortor vulputate in. Pellentesque ornare justo non placerat congue. Proin metus nibh, facilisis a ante quis, luctus eleifend massa. Ut justo lorem, molestie eu lobortis sit amet, efficitur vel urna. Nam tincidunt erat accumsan metus tincidunt suscipit. Donec nunc elit, consectetur eu velit a, congue sagittis ipsum. Ut vel eros volutpat, finibus nisi a, rhoncus elit. Mauris justo dolor, volutpat vitae felis non, aliquet vehicula sapien. Proin mollis nec risus at consectetur.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediaid="{2CF7168E-DFC8-44CF-B1B0-4AB444E4A15E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181010T182514Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: 
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Inside WageWorks

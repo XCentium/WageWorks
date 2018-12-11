@@ -1,0 +1,56 @@
+﻿---
+ID: "f263294e-54c5-48e6-aace-3b8f7343402b"
+Parent: "689c7b09-7c06-4002-a743-27e7e82ff5e8"
+Template: "421f6bfd-660a-43f6-bf3f-3f58e0e69d49"
+Path: /sitecore/content/Wageworks/Datasources/Employees/Learn About your benefits/Dependent Care Flexible Account
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{680962B6-B56D-4634-B85A-9A7D01D0500C}"
+              p:before="*"
+              s:ds="{98659B8F-DE01-4A34-AD2E-77C1051EF2DB}"
+              s:id="{1A7E2B9C-6E62-45F3-A243-65E8B845D613}"
+              s:par=""
+              s:ph="main" />
+            <r
+              uid="{55C80493-B6E6-480C-ACCF-5BC6C21D0AC5}"
+              p:after="r[@uid='{680962B6-B56D-4634-B85A-9A7D01D0500C}']"
+              s:ds="{98659B8F-DE01-4A34-AD2E-77C1051EF2DB}"
+              s:id="{E08BFACF-46A6-4BD5-87B6-A21105D809FA}"
+              s:par=""
+              s:ph="main" />
+            <r
+              uid="{97691775-8C16-4637-BD11-0D93632A53C3}"
+              p:after="r[@uid='{55C80493-B6E6-480C-ACCF-5BC6C21D0AC5}']"
+              s:ds=""
+              s:id="{ACE57CFE-361A-4823-81F3-9BF365AED27F}"
+              s:par="Guides={D28E03F1-C436-4181-90F2-AF3A9E65FA71}|{CF6805C6-7CB8-43FB-98A0-2AC52EF244A0}&amp;SeeAllText=See+All+Guides&amp;OpenGuideText=Learn+More&amp;OpenGuideTheme={F68591FF-4152-44CF-8457-7537F1418AAB}&amp;SeeAllLink={A89CBBB0-C5AA-49DD-B1A6-C719FD9D776A}"
+              s:ph="main" />
+            <r
+              uid="{AA4B6C60-8E2C-44E0-96CD-0EA110D5FFEB}"
+              p:after="*[1=2]"
+              s:ds="{5406FD2D-6481-4DEA-96A8-98B9E36E0037}"
+              s:id="{E08BFACF-46A6-4BD5-87B6-A21105D809FA}"
+              s:par=""
+              s:ph="main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180906T213707Z

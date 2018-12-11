@@ -1,0 +1,40 @@
+﻿---
+ID: "7aa46ae4-dc97-46f9-a7fa-ee08e0b6e716"
+Parent: "c3342be3-1b29-4bc9-9c21-d57782335a78"
+Template: "7d5992e3-af44-4fb0-b556-dd905facbc2e"
+Path: "/sitecore/content/Wageworks/Datasources/Employers/How-Tos and Resources/Guides and Resources for Brokers"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: businessv2/16x16/stockbroker3.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0954ca5d-4161-41ff-810e-24b310fb5112"
+      Hint: Name
+      Value: Guides and Resources for Brokers
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: Guides and Resources for Brokers Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac cursus massa. Morbi lacinia magna quis gravida tincidunt. Etiam maximus malesuada nibh. Suspendisse potenti. Nam feugiat diam non orci placerat ornare.
+    - ID: "1ad659bd-b2a9-48c6-ae8c-6a00ff6c20e0"
+      Hint: Image
+      Value: |
+        <image mediapath="" alt="ww_home_hero@3x" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{855678E3-37BD-4234-80E9-FCC9AFD17B68}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181001T013439Z
+    - ID: "53e533ef-24de-4648-958b-55c29fb6b82d"
+      Hint: MetaTitle
+      Value: Guides and Resources for Brokers
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Guides and Resources for Brokers Lorem
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: Headline Lorem

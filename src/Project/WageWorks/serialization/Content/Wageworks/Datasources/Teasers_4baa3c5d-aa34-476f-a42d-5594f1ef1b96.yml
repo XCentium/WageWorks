@@ -1,0 +1,14 @@
+﻿---
+ID: "4baa3c5d-aa34-476f-a42d-5594f1ef1b96"
+Parent: "034cde1e-8ef7-4592-a7b3-253f07ce8c68"
+Template: "5c061b78-0b55-4b00-89fd-45c7d7861abc"
+Path: /sitecore/content/Wageworks/Datasources/Teasers
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T171202Z

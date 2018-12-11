@@ -1,0 +1,31 @@
+﻿---
+ID: "ce5bbaa1-891d-4b10-8fc3-c129d0c36351"
+Parent: "05cc58a3-bb9a-4973-8f76-a722944fe8e2"
+Template: "53899cf7-eb1e-442b-8f26-931a30319204"
+Path: "/sitecore/content/Wageworks/Datasources/Employers/How-Tos and Resources/SearchPageMedia/Search Media Library"
+DB: master
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Search Media Library
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181006T064729Z
+    - ID: "5ebc57cd-7d89-43cf-adb6-996447db716a"
+      Hint: SearchCriteria
+      Type: Multilist
+      Value: |
+        {16692733-9A61-45E6-B0D4-4C0C06F8DD3C}
+        {777F0C76-D712-46EA-9F40-371ACDA18A1C}
+        {7BB0411F-50CD-4C21-AD8F-1FCDE7C3AFFE}
+        {F1828A2C-7E5D-4BBD-98CA-320474871548}
+        {E5030D6C-AD6A-44B5-8268-D8C16CEFADF9}
+        {E76ADBDF-87D1-4FCB-BA71-274F7DBF5670}
+        {B60424A5-CE06-4C2E-9F49-A6D732F55D4B}
+        {0603F166-35B8-469F-8123-E8D87BEDC171}
+        {4F4A3A3B-239F-4988-98E1-DA3779749CBC}

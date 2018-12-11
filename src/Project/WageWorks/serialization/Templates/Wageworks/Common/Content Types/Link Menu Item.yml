@@ -1,0 +1,31 @@
+﻿---
+ID: "017b53f2-6842-43cf-be86-af54e32fae31"
+Parent: "d018674f-4aa8-41c1-9657-1a77e20a75c2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Wageworks/Common/Content Types/Link Menu Item
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/link.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {A1CBA309-D22B-46D5-80F8-2972C185363F}
+    {18BAF6B0-E0D6-4CCE-9184-A4849343E7E4}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{7A2A606B-20A8-4F28-A47D-48F31C4EBB10}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T184942Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

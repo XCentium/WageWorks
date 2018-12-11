@@ -1,0 +1,26 @@
+﻿---
+ID: "82842a39-e039-43d7-a074-75911142b213"
+Parent: "ab733961-f504-43e8-ba25-1001b6140c67"
+Template: "5e804f76-6de4-4e35-9ddc-56031771b125"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Open Enrollment Kit/Headline Section With Content
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: |
+        Providing the information your employees need to effectively use their benefits increases their satisfaction and often enhances their commitment to your company. It is a win-win.
+        
+        To help you educate your employees, we take key steps to ensure both you and your employees have the information you need to be successful. We also continue to develop supporting tools to guide you through this effort.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181004T143224Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Educating & Engaging 
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: "Supporting your employees is a 365 days-a-year effort."

@@ -1,0 +1,27 @@
+﻿---
+ID: "8d83f227-b4e1-488e-aa53-5e6088f1118f"
+Parent: "e9ca1595-e22b-4f22-928b-f91d18e6e4b9"
+Template: "5e804f76-6de4-4e35-9ddc-56031771b125"
+Path: /sitecore/content/Wageworks/Datasources/Employers/Section Service Advantages
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 700
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1a0c7e34-bb85-4bad-aa98-39ec4182abbe"
+      Hint: Description
+      Value: "We simplify the administration of pre-tax benefits and provide employer clients state-of-the-art technology, industry expertise and leadership, and unparalleled client service. We make it easy to develop, implement, and maintain benefits plans that meet the needs of your clients and their employees."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180925T040108Z
+    - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
+      Hint: Title
+      Value: Service Advantages
+    - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
+      Hint: Headline
+      Value: "WageWorks simplifies the complex world of Consumer-Directed Benefits"
