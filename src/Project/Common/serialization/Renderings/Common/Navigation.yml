@@ -2,7 +2,7 @@
 ID: "e26a158b-fa1e-4e9b-8622-e4458243ff46"
 Parent: "4935d7de-c715-46e5-862e-44adf1bc61e8"
 Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
-Path: /sitecore/layout/Renderings/Project/Common/Main Navigation
+Path: /sitecore/layout/Renderings/Project/Common/Navigation
 DB: master
 SharedFields:
 - ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
@@ -21,7 +21,7 @@ SharedFields:
     <image mediaid="{D6266495-E8BB-4396-9004-2970FC1B7D3D}" />
 - ID: "ef7c5528-7307-4e19-863b-da19eed6a9ed"
   Hint: Open Properties after Add
-  Value: "-"
+  Value: 
 Languages:
 - Language: en
   Versions:

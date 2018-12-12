@@ -1,0 +1,16 @@
+﻿@using WageWorks.Feature.Navigation
+@using WageWorks.Foundation.SitecoreExtensions.Extensions
+@using WageWorks.Feature.Navigation.Extensions
+
+@model WageWorks.Feature.Navigation.Models.NavigationItems
+
+
+@foreach (var topMenu in Model.NavItems)
+{
+<li>
+    <a href="@topMenu.Url">
+        @Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle, topMenu.Item)
+    </a>
+
+</li>
+}

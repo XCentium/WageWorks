@@ -142,6 +142,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\Feature\Feature.Navigation.Serialization.config" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Glass\Generate.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Generate1.gen.txt</LastGenOutput>
@@ -155,6 +159,9 @@
 </LastOutputs>
     </Content>
     <Content Include="App_Config\Include\Feature\Feature.Navigation.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="Glass\Generate1.gen.txt">
       <DependentUpon>Generate.tt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -162,17 +169,27 @@
     </None>
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Standalone.pubxml" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Views\Navigation\_SecondaryMenuItems.cshtml" />
     <Content Include="Views\Navigation\LinkMenu.cshtml" />
     <Content Include="Views\Navigation\NavigationLinks.cshtml" />
     <Content Include="Views\Navigation\NavList.cshtml" />
     <Content Include="Views\Navigation\ListingLinks.cshtml" />
-    <Content Include="Views\Navigation\Simple.cshtml" />
+    <Content Include="Views\Navigation\MainNav.cshtml" />
     <Content Include="Views\Navigation\MegaMenu.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Navigation\TopMenu.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Views\Web.config" />
     <Content Include="Views\Navigation\PrimaryMenu.cshtml" />
     <Content Include="Views\Navigation\SecondaryMenu.cshtml" />
     <Content Include="Views\Navigation\Breadcrumb.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -11,11 +11,10 @@
   {
     return;
   }
+
   //TODO: Resolve context site from item (implement in Foundation.Multisite)
   var homeUrl = Sitecore.Context.Site?.GetStartItem()?.Url() ?? "/";
   var hasTagline = identity.FieldHasValue(Templates.Identity.Fields.LogoTagLine);
 }
 
-<a class="navbar-brand logo" href="@homeUrl">
-    @Html.Sitecore().ImageField(Templates.Identity.Fields.Logo, identity, mh: 80)
-</a>
+<a class="mr-30" href="@homeUrl">@Html.Sitecore().ImageField(Templates.Identity.Fields.Logo, identity, mh: 80)</a>

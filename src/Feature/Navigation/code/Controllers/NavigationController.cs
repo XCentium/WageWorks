@@ -68,23 +68,23 @@ namespace WageWorks.Feature.Navigation.Controllers
 
         public ActionResult ListingLinks()
         {
-            var items = GetSimpleMenu();
+            var items = GetMainMenu();
             return this.View(items);
         }
 
         public ActionResult NavList()
         {
-            var items = GetSimpleMenu();
+            var items = GetMainMenu();
             return this.View("NavList", items);
         }
 
-        public ActionResult Simple()
+        public ActionResult MainNav()
         {
-            var items = GetSimpleMenu();
-            return this.View("Simple", items);
+            var items = GetMainMenu();
+            return this.View("MainNav", items);
         }
 
-        private NavigationItems GetSimpleMenu()
+        private NavigationItems GetMainMenu()
         {
             if (string.IsNullOrEmpty(RenderingContext.Current.Rendering.DataSource))
             {

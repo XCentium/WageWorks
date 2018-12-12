@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
 <!--[if !IE]><!-->
-<html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
+@*<html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
 <!--<![endif]-->
 <head>
     <meta charset="utf-8" />
@@ -21,7 +21,7 @@
     {
         @Html.Sitecore().Placeholder("head")
     }
-    
+
     <!-- Latest compiled and minified JavaScript -->
     @Html.RenderFormStyles()
     @RenderAssetsService.Current.RenderStyles()
@@ -48,9 +48,183 @@
 
     <!-- JS -->
     @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
+
+
+    @Html.Sitecore().Placeholder("zone-scripts")
+</body>
+</html>*@
+
+<html lang="@Sitecore.Context.Language.CultureInfo.TwoLetterISOLanguageName">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="@Url.Content("~/images/favicon.png")" rel="shortcut icon">
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'ujy0tew',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <title>@Html.Sitecore().Field("MetaTitle", new { DisableWebEdit = true })</title>
+    <!-- Bootstrap core CSS -->
+    @Html.Sitecore().Placeholder("header-styles")
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="@Url.Content("~/css/wageworks.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/Slick/slick.css")" rel="stylesheet">
+    @Html.Sitecore().VisitorIdentification()
+
+    <!-- Latest compiled and minified JavaScript -->
+    @Html.RenderFormStyles()
+    @RenderAssetsService.Current.RenderStyles()
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Head)
+    @Html.Sitecore().VisitorIdentification()
+</head>
+
+<body class=" @(Sitecore.Context.PageMode.IsNormal ? "" : (Sitecore.Context.PageMode.IsExperienceEditor ? "pagemode-edit" : "pagemode-preview"))">
+
+    @Html.Sitecore().Placeholder("zone-scripts-top")
+        @Html.Sitecore().Placeholder("zone-subheader")
+        @Html.Sitecore().Placeholder("zone-header")
+
+        @Html.Sitecore().Placeholder("page-layout")
+
+        @Html.Sitecore().Placeholder("zone-footer")
+
+    <!-- JS -->
+    @RenderAssetsService.Current.RenderScript(ScriptLocation.Body)
     @*@Html.RenderFormScripts()*@
 
 
     @Html.Sitecore().Placeholder("zone-scripts")
+
+
+    <!-- Navigation -->
+    @*@Html.Sitecore().ControllerRendering("Navigation", "Header", new { DataSource = DataSources.Header })
+        @Html.Sitecore().Placeholder("Header")
+
+        <!-- Page Content -->
+        @RenderBody()
+
+        <!-- Footer -->
+        @Html.Sitecore().ControllerRendering("Navigation", "Footer", new { DataSource = DataSources.Footer })
+        @Html.Sitecore().Placeholder("Footer")*@
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="@Url.Content("~/Scripts/jquery-3.3.1.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery-3.3.1.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap.bundle.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/main.js")"></script>
+    <script src="@Url.Content("~/Scripts/Slick/slick.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/slick.carousels.js")"></script>
+    <script src="@Url.Content("~/Scripts/guide.selector.js")"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            slickify();
+        });
+
+        $(window).on('resize', function () {
+            var width = $(window).width();
+            if (width < 1000) {
+                // reinit slick while window's width is less than maximum width (641px)
+                slickify();
+            }
+        });
+
+
+        function slickify() {
+            $('.card-guide-wrapper.grid-3').not('.slick-initialized').slick({
+                arrows: true,
+                dots: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: false,
+                nextArrow: '<button type="button" class="slick-next"><span></span></button>',
+                prevArrow: '<button type="button" class="slick-prev"><span></span></button>',
+                responsive: [
+                    {
+                        breakpoint: 900,
+                        settings: {
+                            slidesToShow: 2.3,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 550,
+                        settings: {
+                            slidesToShow: 1.3,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+            $('.card-guide-wrapper.grid-2').not('.slick-initialized').slick({
+                arrows: true,
+                dots: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: false,
+                nextArrow: '<button type="button" class="slick-next"><span></span></button>',
+                prevArrow: '<button type="button" class="slick-prev"><span></span></button>',
+                responsive: [
+                    {
+                        breakpoint: 550,
+                        settings: {
+                            slidesToShow: 1.3,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+
+            $('.benefit-guide-wrapper aside .benefit-links>ul').not('.slick-initialized').slick({
+                arrows: true,
+                dots: true,
+                infinite: false,
+                nextArrow: '<button type="button" class="slick-next"><span></span></button>',
+                prevArrow: '<button type="button" class="slick-prev"><span></span></button>',
+                responsive: [
+                    {
+                        breakpoint: 9999,
+                        settings: "unslick"
+                    },
+                    {
+                        breakpoint: 1000,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 850,
+                        settings: {
+                            slidesToShow: 3.4,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 550,
+                        settings: {
+                            slidesToShow: 2.4,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        }
+    </script>
+
+
+    @Html.Sitecore().Placeholder("body-scripts")
 </body>
 </html>
