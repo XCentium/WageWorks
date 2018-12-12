@@ -4,7 +4,7 @@ using Sitecore.Diagnostics;
 using System.Linq;
 using System.Xml;
 
-namespace Wageworks.Foundation.Indexing.Infrastructure.Fields
+namespace WageWorks.Foundation.Indexing.Infrastructure.Fields
 {
     /// <summary>
     /// Get min value from 

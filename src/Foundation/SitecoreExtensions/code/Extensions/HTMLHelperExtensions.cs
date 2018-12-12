@@ -16,11 +16,11 @@ using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
-using Wageworks.Foundation.SitecoreExtensions.Attributes;
-using Wageworks.Foundation.SitecoreExtensions.Controls;
-using Wageworks.Foundation.SitecoreExtensions.Models;
+using WageWorks.Foundation.SitecoreExtensions.Attributes;
+using WageWorks.Foundation.SitecoreExtensions.Controls;
+using WageWorks.Foundation.SitecoreExtensions.Models;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Extensions
+namespace WageWorks.Foundation.SitecoreExtensions.Extensions
 {
     public static class HtmlHelperExtensions
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web;
 
-namespace Wageworks.Feature.News.Extensions
+namespace WageWorks.Feature.News.Extensions
 {
     public static class HttpContextExtensions
     {

@@ -14,11 +14,11 @@ using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Mvc.Common;
 using Sitecore.Mvc.Extensions;
-using Wageworks.Foundation.Indexing.Models;
-using Wageworks.Foundation.Indexing.Repositories;
-using Wageworks.Foundation.Solr.SpatialSearch;
+using WageWorks.Foundation.Indexing.Models;
+using WageWorks.Foundation.Indexing.Repositories;
+using WageWorks.Foundation.Solr.SpatialSearch;
 
-namespace Wageworks.Foundation.Indexing.Services
+namespace WageWorks.Foundation.Indexing.Services
 {
     public class SearchService
     {
@@ -115,7 +115,7 @@ namespace Wageworks.Foundation.Indexing.Services
 
         public IQueryable<SearchResultItem> AddFilters(IQueryable<SearchResultItem> queryable, IQuery query)
         {
-            var isStaging = Wageworks.Foundation.SitecoreExtensions.Extensions.SiteExtensions.GetBoolSiteSetting("staging");
+            var isStaging = WageWorks.Foundation.SitecoreExtensions.Extensions.SiteExtensions.GetBoolSiteSetting("staging");
 
             foreach (var filter in query.InitialFilters)
             {
@@ -150,7 +150,7 @@ namespace Wageworks.Foundation.Indexing.Services
         {
             var predicate = PredicateBuilder.True<SearchResultItem>();
         
-           var isStaging = Wageworks.Foundation.SitecoreExtensions.Extensions.SiteExtensions.GetBoolSiteSetting("staging");
+           var isStaging = WageWorks.Foundation.SitecoreExtensions.Extensions.SiteExtensions.GetBoolSiteSetting("staging");
 
             foreach (var filter in query.InitialFilters)
             {

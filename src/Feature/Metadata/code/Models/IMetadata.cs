@@ -1,4 +1,4 @@
-namespace Wageworks.Feature.Metadata.Models
+namespace WageWorks.Feature.Metadata.Models
 {
     using System.Collections.Generic;
 

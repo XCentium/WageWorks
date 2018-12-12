@@ -13,7 +13,7 @@ using System.Web;
 using System.Web.Caching;
 using System.Xml.Linq;
 
-namespace Wageworks.Feature.PageContent.Infrastructure.Pipelines.GetXmlBasedLayoutDefinition
+namespace WageWorks.Feature.PageContent.Infrastructure.Pipelines.GetXmlBasedLayoutDefinition
 {
     public class GetFromLayoutField : GetXmlBasedLayoutDefinitionProcessor
     {

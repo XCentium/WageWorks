@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Feature.Metadata
+﻿namespace WageWorks.Feature.Metadata
 {
     using Sitecore.Data;
 

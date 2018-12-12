@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Foundation.Multisite
+﻿namespace WageWorks.Foundation.Multisite
 {
     public struct Constants
     {

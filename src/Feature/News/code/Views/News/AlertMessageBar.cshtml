@@ -1,11 +1,11 @@
 ﻿@using Sitecore
-@using Wageworks.Feature.News
-@using Wageworks.Foundation.Dictionary.Extensions
-@using Wageworks.Foundation.SitecoreExtensions.Extensions
+@using WageWorks.Feature.News
+@using WageWorks.Foundation.Dictionary.Extensions
+@using WageWorks.Foundation.SitecoreExtensions.Extensions
 @using Sitecore.Links
-@using Wageworks.Foundation.Alerts
-@using Wageworks.Foundation.Alerts.Extensions
-@using Wageworks.Feature.News.Extensions
+@using WageWorks.Foundation.Alerts
+@using WageWorks.Foundation.Alerts.Extensions
+@using WageWorks.Feature.News.Extensions
 
 @model Sitecore.Data.Items.Item
 
@@ -15,7 +15,7 @@
     return;
 }
 
-@if (System.Web.HttpContext.Current.GetCookie(string.Format(Wageworks.Feature.News.Constants.AlertIdFormatString, Model.ID.Guid)) != null)
+@if (System.Web.HttpContext.Current.GetCookie(string.Format(WageWorks.Feature.News.Constants.AlertIdFormatString, Model.ID.Guid)) != null)
 {
     return;
 }

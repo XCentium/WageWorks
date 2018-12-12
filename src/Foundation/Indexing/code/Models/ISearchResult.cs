@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Sitecore.ContentSearch.SearchTypes;
 using Sitecore.Data.Items;
 
-namespace Wageworks.Foundation.Indexing.Models
+namespace WageWorks.Foundation.Indexing.Models
 {
     public interface ISearchResult
     {

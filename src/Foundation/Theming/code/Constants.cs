@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Foundation.Theming
+﻿namespace WageWorks.Foundation.Theming
 {
     public struct Constants
     {

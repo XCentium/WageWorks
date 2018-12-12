@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Web;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Helpers
+namespace WageWorks.Foundation.SitecoreExtensions.Helpers
 {
     public static class Utilities
     {
@@ -20,11 +20,11 @@ namespace Wageworks.Foundation.SitecoreExtensions.Helpers
 
                 if (!String.IsNullOrEmpty(trueip) && !CheckIsIPV6(trueip))
                 {
-                    Logging.WageworksLogger.Log.Info("Use True IP");
+                    Logging.WageWorksLogger.Log.Info("Use True IP");
                     ip = trueip;
                 }
                 else {
-                    Logging.WageworksLogger.Log.Info("TrueIP is IPV6 use X-Forwarded-For");
+                    Logging.WageWorksLogger.Log.Info("TrueIP is IPV6 use X-Forwarded-For");
 
                     rawip = (context.Request.ServerVariables["HTTP_X_FORWARDED_FOR"] != null
                         && context.Request.ServerVariables["HTTP_X_FORWARDED_FOR"] != "")
@@ -35,9 +35,9 @@ namespace Wageworks.Foundation.SitecoreExtensions.Helpers
                     ip = rawip.Split(',').Last().Trim();
                 }
                 
-                Logging.WageworksLogger.Log.Info("CF-Psuedo-IPV4: " + context.Request.Headers["Cf-Pseudo-IPv4"]);
-                Logging.WageworksLogger.Log.Info("True-Client-IP: " + trueip);
-                Logging.WageworksLogger.Log.Info("GetUserIp Raw: " + rawip);
+                Logging.WageWorksLogger.Log.Info("CF-Psuedo-IPV4: " + context.Request.Headers["Cf-Pseudo-IPv4"]);
+                Logging.WageWorksLogger.Log.Info("True-Client-IP: " + trueip);
+                Logging.WageWorksLogger.Log.Info("GetUserIp Raw: " + rawip);
                 
                 if (string.Equals(ip, "::1"))
                     ip = "127.0.0.1";
@@ -51,17 +51,17 @@ namespace Wageworks.Foundation.SitecoreExtensions.Helpers
                             // we have IPv4
                             break;
                         case System.Net.Sockets.AddressFamily.InterNetworkV6:
-                            Logging.WageworksLogger.Log.Info("GetUserIp Have IPv6: " + ip);
+                            Logging.WageWorksLogger.Log.Info("GetUserIp Have IPv6: " + ip);
                             ip = "127.0.0.1";
                             break;
                     }
                 }
-                Logging.WageworksLogger.Log.Info("GetUserIp response: " + ip);
+                Logging.WageWorksLogger.Log.Info("GetUserIp response: " + ip);
                 return ip;
             }
             catch (Exception ex)
             {
-                Logging.WageworksLogger.Log.Error("GetUserIp: " + ex.ToString());
+                Logging.WageWorksLogger.Log.Error("GetUserIp: " + ex.ToString());
                 return string.Empty;
             }
         }

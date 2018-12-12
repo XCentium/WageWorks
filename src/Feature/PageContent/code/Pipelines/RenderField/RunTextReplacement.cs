@@ -5,9 +5,9 @@ using System.Web;
 using Sitecore.Abstractions;
 using Sitecore.Diagnostics;
 using Sitecore.Pipelines.RenderField;
-using Wageworks.Feature.PageContent.Pipelines.TextReplacement;
+using WageWorks.Feature.PageContent.Pipelines.TextReplacement;
 
-namespace Wageworks.Feature.PageContent.Pipelines.RenderField
+namespace WageWorks.Feature.PageContent.Pipelines.RenderField
 {
     public class RunTextReplacement
     {

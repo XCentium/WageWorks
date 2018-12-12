@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Sitecore.Pipelines;
-using Wageworks.Foundation.SitecoreExtensions.Models;
+using WageWorks.Foundation.SitecoreExtensions.Models;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Pipelines.Initialize
+namespace WageWorks.Foundation.SitecoreExtensions.Pipelines.Initialize
 {
     public class RegisterModelBinder
     {

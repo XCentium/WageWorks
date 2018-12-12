@@ -1,7 +1,7 @@
-namespace Wageworks.Feature.Navigation.Repositories
+namespace WageWorks.Feature.Navigation.Repositories
 {
     using Sitecore.Data.Items;
-    using Wageworks.Feature.Navigation.Models;
+    using WageWorks.Feature.Navigation.Models;
 
     public interface INavigationRepository
     {

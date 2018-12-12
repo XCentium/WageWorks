@@ -9,7 +9,7 @@ using Sitecore.XConnect;
 using Sitecore.XConnect.Client;
 using Sitecore.XConnect.Collection.Model;
 
-namespace Wageworks.Foundation.Analytics.GDPR
+namespace WageWorks.Foundation.Analytics.GDPR
 {
     public static class GdprHelpers
     {

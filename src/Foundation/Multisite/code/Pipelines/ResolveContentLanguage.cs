@@ -3,7 +3,7 @@ using Sitecore.Configuration;
 using Sitecore.Links;
 using Sitecore.Pipelines.HttpRequest;
 
-namespace Wageworks.Foundation.Multisite.Pipelines
+namespace WageWorks.Foundation.Multisite.Pipelines
 {
     /// <summary>
     ///     Overrides Sitecore.ExperienceEditor.Pipelines.HttpRequest.ResolveContentLanguage.

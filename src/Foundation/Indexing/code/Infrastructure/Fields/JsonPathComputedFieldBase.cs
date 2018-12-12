@@ -11,9 +11,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Xml;
-using Wageworks.Foundation.Indexing.Services;
+using WageWorks.Foundation.Indexing.Services;
 
-namespace Wageworks.Foundation.Indexing.Infrastructure.Fields
+namespace WageWorks.Foundation.Indexing.Infrastructure.Fields
 {
     public class JsonPathComputedFieldBase
     {

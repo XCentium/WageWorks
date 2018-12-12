@@ -3,10 +3,10 @@ using System.Linq;
 using System.Text;
 using System.Web;
 using Sitecore;
-using Wageworks.Foundation.Assets.Models;
-using Wageworks.Foundation.Assets.Repositories;
+using WageWorks.Foundation.Assets.Models;
+using WageWorks.Foundation.Assets.Repositories;
 
-namespace Wageworks.Foundation.Assets.Services
+namespace WageWorks.Foundation.Assets.Services
 {
     /// <summary>
     ///     A service which helps add the required JavaScript at the end of a page, and CSS at the top of a page.

@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
 
-namespace Wageworks.Foundation.Indexing.Infrastructure.Fields
+namespace WageWorks.Foundation.Indexing.Infrastructure.Fields
 {
     /// <summary>
     /// Set _latestversion value to true on items that match criteria cpecified in congfig 

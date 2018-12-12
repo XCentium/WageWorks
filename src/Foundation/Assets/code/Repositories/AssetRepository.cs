@@ -7,9 +7,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
-using Wageworks.Foundation.Assets.Models;
+using WageWorks.Foundation.Assets.Models;
 
-namespace Wageworks.Foundation.Assets.Repositories
+namespace WageWorks.Foundation.Assets.Repositories
 {
     /// <summary>A Repository for all assets required by renderings</summary>
     public class AssetRepository

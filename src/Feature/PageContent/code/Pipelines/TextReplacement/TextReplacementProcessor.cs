@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using Wageworks.Feature.PageContent.Models;
+using WageWorks.Feature.PageContent.Models;
 
-namespace Wageworks.Feature.PageContent.Pipelines.TextReplacement
+namespace WageWorks.Feature.PageContent.Pipelines.TextReplacement
 {
     public class TextReplacementProcessor
     {

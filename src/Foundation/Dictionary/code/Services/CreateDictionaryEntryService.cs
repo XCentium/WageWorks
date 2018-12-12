@@ -5,7 +5,7 @@ using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.SecurityModel;
 
-namespace Wageworks.Foundation.Dictionary.Services
+namespace WageWorks.Foundation.Dictionary.Services
 {
     internal static class CreateDictionaryEntryService
     {

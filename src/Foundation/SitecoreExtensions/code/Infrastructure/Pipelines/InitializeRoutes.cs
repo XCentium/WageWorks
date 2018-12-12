@@ -2,7 +2,7 @@
 using System.Web.Routing;
 using Sitecore.Pipelines;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Infrastructure.Pipelines
+namespace WageWorks.Foundation.SitecoreExtensions.Infrastructure.Pipelines
 {
     public class InitializeRoutes
     {

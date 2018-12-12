@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Sitecore.Data.Items;
 
-namespace Wageworks.Foundation.Multisite.Providers
+namespace WageWorks.Foundation.Multisite.Providers
 {
     public interface ISiteDefinitionsProvider
   {

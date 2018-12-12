@@ -1,4 +1,4 @@
-namespace Wageworks.Foundation.Assets.Models
+namespace WageWorks.Foundation.Assets.Models
 {
   public enum ScriptLocation
   {

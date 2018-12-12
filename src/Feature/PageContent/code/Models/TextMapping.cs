@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Wageworks.Feature.PageContent.Models
+namespace WageWorks.Feature.PageContent.Models
 {
     public class TextMapping
     {

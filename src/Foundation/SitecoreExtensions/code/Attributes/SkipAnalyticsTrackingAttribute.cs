@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using Sitecore.Analytics;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Attributes
+namespace WageWorks.Foundation.SitecoreExtensions.Attributes
 {
     public class SkipAnalyticsTrackingAttribute : ActionFilterAttribute
     {

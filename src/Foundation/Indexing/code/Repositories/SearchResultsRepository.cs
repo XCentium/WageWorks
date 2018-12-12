@@ -4,11 +4,11 @@ using System.Linq;
 using Sitecore.ContentSearch.Linq;
 using Sitecore.ContentSearch.SearchTypes;
 using Sitecore.Mvc.Common;
-using Wageworks.Foundation.DependencyInjection;
-using Wageworks.Foundation.Indexing.Models;
-using Wageworks.Foundation.Indexing.Services;
+using WageWorks.Foundation.DependencyInjection;
+using WageWorks.Foundation.Indexing.Models;
+using WageWorks.Foundation.Indexing.Services;
 
-namespace Wageworks.Foundation.Indexing.Repositories
+namespace WageWorks.Foundation.Indexing.Repositories
 {
     [Service]
     public class SearchResultsFactory

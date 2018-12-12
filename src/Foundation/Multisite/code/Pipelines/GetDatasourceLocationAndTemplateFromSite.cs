@@ -1,9 +1,9 @@
 ﻿using Sitecore.Diagnostics;
 using Sitecore.Pipelines.GetRenderingDatasource;
-using Wageworks.Foundation.DependencyInjection;
-using Wageworks.Foundation.Multisite.Providers;
+using WageWorks.Foundation.DependencyInjection;
+using WageWorks.Foundation.Multisite.Providers;
 
-namespace Wageworks.Foundation.Multisite.Pipelines
+namespace WageWorks.Foundation.Multisite.Pipelines
 {
     [Service]
     public class GetDatasourceLocationAndTemplateFromSite

@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Feature.News.Controllers
+﻿namespace WageWorks.Feature.News.Controllers
 {
     using Sitecore;
     using Sitecore.Data.Fields;
@@ -10,11 +10,11 @@
     using System.Text.RegularExpressions;
     using System.Web;
     using System.Web.Mvc;
-    using Wageworks.Feature.News.Caching;
-    using Wageworks.Feature.News.Models;
-    using Wageworks.Feature.News.Repositories;
-    using Wageworks.Foundation.ORM.Context;
-    using Wageworks.Foundation.SitecoreExtensions.Extensions;
+    using WageWorks.Feature.News.Caching;
+    using WageWorks.Feature.News.Models;
+    using WageWorks.Feature.News.Repositories;
+    using WageWorks.Foundation.ORM.Context;
+    using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
     public class NewsController : Controller
     {
@@ -145,7 +145,7 @@
 
         private Item GetContextItem()
         {
-            // return Wageworks.Foundation.Commerce.Extensions.CommerceExtensions.GetContextItem(GetRequest());
+            // return WageWorks.Foundation.Commerce.Extensions.CommerceExtensions.GetContextItem(GetRequest());
             return null;
         }
     }

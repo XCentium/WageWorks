@@ -2,7 +2,7 @@
 using System.IO;
 using System.Web.UI;
 
-namespace Wageworks.Foundation.Theming.Extensions.Controls
+namespace WageWorks.Foundation.Theming.Extensions.Controls
 {
     public class BackgroundRendering : IDisposable
   {

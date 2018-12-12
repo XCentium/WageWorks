@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Wageworks.Foundation.Multisite.Providers
+namespace WageWorks.Foundation.Multisite.Providers
 {
     public static class DatasourceConfigurationService
   {

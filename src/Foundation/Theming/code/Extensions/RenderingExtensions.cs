@@ -2,10 +2,10 @@
 using Sitecore;
 using Sitecore.Data;
 using Sitecore.Mvc.Presentation;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
-using Wageworks.Foundation.Theming.Extensions.Controls;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.Theming.Extensions.Controls;
 
-namespace Wageworks.Foundation.Theming.Extensions
+namespace WageWorks.Foundation.Theming.Extensions
 {
     public static class RenderingExtensions
     {

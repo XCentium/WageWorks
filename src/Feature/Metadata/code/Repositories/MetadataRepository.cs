@@ -1,14 +1,14 @@
-﻿namespace Wageworks.Feature.Metadata.Repositories
+﻿namespace WageWorks.Feature.Metadata.Repositories
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using Sitecore.Data.Fields;
     using Sitecore.Data.Items;
-    using Wageworks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata;
-    using Wageworks.Feature.Metadata.Models;
-    using Wageworks.Foundation.DependencyInjection;
-    using Wageworks.Foundation.SitecoreExtensions.Extensions;
+    using WageWorks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata;
+    using WageWorks.Feature.Metadata.Models;
+    using WageWorks.Foundation.DependencyInjection;
+    using WageWorks.Foundation.SitecoreExtensions.Extensions;
     using Sitecore.Pipelines;
     using Sitecore.Web.UI.WebControls;
 

@@ -4,9 +4,9 @@ using System.Linq.Expressions;
 using Sitecore.ContentSearch.Linq;
 using Sitecore.ContentSearch.Linq.Utilities;
 using Sitecore.ContentSearch.SearchTypes;
-using Wageworks.Foundation.Indexing.Models;
+using WageWorks.Foundation.Indexing.Models;
 
-namespace Wageworks.Foundation.Indexing.Services
+namespace WageWorks.Foundation.Indexing.Services
 {
     public static class GetFreeTextPredicateService
     {

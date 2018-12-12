@@ -3,9 +3,9 @@ using System.Linq;
 using Sitecore.Diagnostics;
 using Sitecore.Mvc.Presentation;
 using Sitecore.Reflection;
-using Wageworks.Foundation.DependencyInjection;
+using WageWorks.Foundation.DependencyInjection;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Repositories
+namespace WageWorks.Foundation.SitecoreExtensions.Repositories
 {
     [Service(typeof(IRenderingPropertiesRepository))]
     public class RenderingPropertiesRepository : IRenderingPropertiesRepository

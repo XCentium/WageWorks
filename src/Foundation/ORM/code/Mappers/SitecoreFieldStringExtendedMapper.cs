@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Wageworks.Foundation.ORM.Mappers
+namespace WageWorks.Foundation.ORM.Mappers
 {
     public class SitecoreFieldStringExtendedMapper : SitecoreFieldStringMapper
     {

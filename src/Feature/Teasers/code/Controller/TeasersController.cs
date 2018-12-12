@@ -1,17 +1,17 @@
 ﻿using Sitecore;
 using Sitecore.Mvc.Controllers;
-using Wageworks.Feature.Teasers.Repositories;
-using Wageworks.Foundation.ORM.Context;
+using WageWorks.Feature.Teasers.Repositories;
+using WageWorks.Foundation.ORM.Context;
 
-namespace Wageworks.Feature.Teasers.Controller
+namespace WageWorks.Feature.Teasers.Controller
 {
     using Sitecore.Mvc.Presentation;
     using System.Web.Mvc;
-    using Wageworks.Feature.Teasers.Models;
-    using Wageworks.Foundation.Alerts;
-    using Wageworks.Foundation.Alerts.Extensions;
-    using Wageworks.Foundation.Alerts.Models;
-    using Wageworks.Foundation.SitecoreExtensions.Extensions;
+    using WageWorks.Feature.Teasers.Models;
+    using WageWorks.Foundation.Alerts;
+    using WageWorks.Foundation.Alerts.Extensions;
+    using WageWorks.Foundation.Alerts.Models;
+    using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
     public class TeasersController : SitecoreController
     {
@@ -50,11 +50,11 @@ namespace Wageworks.Feature.Teasers.Controller
         //    return View(carousel);
         //}
 
-        //public ActionResult Promo()
-        //{
-        //    var carousel = _teaserRepository.GetPromo();
-        //    return View(carousel);
-        //}
+        public ActionResult Promo()
+        {
+            var carousel = _teaserRepository.GetPromo();
+            return View(carousel);
+        }
         //public ActionResult ProductPromoSection() {
         //    var productPromo = _teaserRepository.GetProductPromo();
         //    return View(productPromo);

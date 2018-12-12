@@ -2,9 +2,9 @@
 using System.IO;
 using System.Web.UI;
 using Sitecore.Web.UI.WebControls;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Controls
+namespace WageWorks.Foundation.SitecoreExtensions.Controls
 {
     /// <summary>
   ///   Edit frame class.

@@ -8,9 +8,9 @@ using Sitecore.Web.UI.Pages;
 using Sitecore.Web.UI.Sheer;
 using Sitecore.Web.UI.WebControls;
 using Sitecore.Web.UI.XmlControls;
-using Wageworks.Foundation.Multisite.Providers;
+using WageWorks.Foundation.Multisite.Providers;
 
-namespace Wageworks.Foundation.Multisite.Dialogs
+namespace WageWorks.Foundation.Multisite.Dialogs
 {
     public class DatasourceSettingsPage : DialogForm
   {

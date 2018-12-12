@@ -1,4 +1,4 @@
-namespace Wageworks.Foundation.Indexing.Models
+namespace WageWorks.Foundation.Indexing.Models
 {
     using Solr.SpatialSearch;
     using System.Collections.Generic;

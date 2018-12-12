@@ -4,7 +4,7 @@ using System.Web;
 using Sitecore.Configuration;
 using Sitecore.Pipelines.HttpRequest;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Pipelines.ErrorHandling
+namespace WageWorks.Foundation.SitecoreExtensions.Pipelines.ErrorHandling
 {
     public class Set404StatusCode : HttpRequestBase
     {

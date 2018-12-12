@@ -13,8 +13,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Wageworks.Foundation.Dictionary</RootNamespace>
-    <AssemblyName>Wageworks.Foundation.Dictionary</AssemblyName>
+    <RootNamespace>WageWorks.Foundation.Dictionary</RootNamespace>
+    <AssemblyName>WageWorks.Foundation.Dictionary</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
@@ -133,9 +133,9 @@
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SitecoreExtensions\code\Wageworks.Foundation.SitecoreExtensions.csproj">
+    <ProjectReference Include="..\..\SitecoreExtensions\code\WageWorks.Foundation.SitecoreExtensions.csproj">
       <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
-      <Name>Wageworks.Foundation.SitecoreExtensions</Name>
+      <Name>WageWorks.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

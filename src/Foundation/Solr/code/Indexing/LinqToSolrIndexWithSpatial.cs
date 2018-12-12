@@ -7,9 +7,9 @@ using Sitecore.ContentSearch.Linq.Common;
 using Sitecore.ContentSearch.Linq.Parsing;
 using Sitecore.ContentSearch.Linq.Solr;
 using Sitecore.ContentSearch.SolrProvider;
-using Wageworks.Foundation.Solr.SpatialSearch.Parsing;
+using WageWorks.Foundation.Solr.SpatialSearch.Parsing;
 
-namespace Wageworks.Foundation.Solr.SpatialSearch.Indexing
+namespace WageWorks.Foundation.Solr.SpatialSearch.Indexing
 {
     public class LinqToSolrIndexWithSpatial<TItem> : LinqToSolrIndex<TItem>
     {

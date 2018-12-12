@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Wageworks.Feature.PageContent
+namespace WageWorks.Feature.PageContent
 {
     public class Constants
     {

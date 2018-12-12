@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Feature.News.Models.Json
+﻿namespace WageWorks.Feature.News.Models.Json
 {
     public class ExternalNewsModel
     {

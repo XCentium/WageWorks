@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Wageworks.Foundation.Solr.SpatialSearch.sitecore.shell.applications.GeoLocation
+namespace WageWorks.Foundation.Solr.SpatialSearch.sitecore.shell.applications.GeoLocation
 {
     public partial class Map : System.Web.UI.Page
     {

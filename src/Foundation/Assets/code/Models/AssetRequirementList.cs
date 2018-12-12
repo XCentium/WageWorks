@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Sitecore.Caching;
 
-namespace Wageworks.Foundation.Assets.Models
+namespace WageWorks.Foundation.Assets.Models
 {
     internal class AssetRequirementList : ICacheable, IEnumerable<Asset>
   {

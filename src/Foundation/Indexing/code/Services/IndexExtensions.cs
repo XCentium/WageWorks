@@ -5,9 +5,9 @@ using System.Web;
 using Sitecore;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Foundation.Indexing.Services
+namespace WageWorks.Foundation.Indexing.Services
 {
     public static class IndexExtensions
     {

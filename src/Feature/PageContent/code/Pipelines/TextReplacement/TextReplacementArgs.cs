@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using Sitecore.Pipelines;
 
-namespace Wageworks.Feature.PageContent.Pipelines.TextReplacement
+namespace WageWorks.Feature.PageContent.Pipelines.TextReplacement
 {
     public class TextReplacementArgs : PipelineArgs
     {

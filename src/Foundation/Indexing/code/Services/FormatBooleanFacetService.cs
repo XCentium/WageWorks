@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
-using Wageworks.Foundation.DependencyInjection;
-using Wageworks.Foundation.Dictionary.Repositories;
-using Wageworks.Foundation.Indexing.Models;
+using WageWorks.Foundation.DependencyInjection;
+using WageWorks.Foundation.Dictionary.Repositories;
+using WageWorks.Foundation.Indexing.Models;
 
-namespace Wageworks.Foundation.Indexing.Services
+namespace WageWorks.Foundation.Indexing.Services
 {
     [Service]
     public class FormatBooleanFacetService

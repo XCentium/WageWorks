@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using Glass.Mapper.Sc.Configuration;
 
-namespace Wageworks.Feature.PageContent.Models
+namespace WageWorks.Feature.PageContent.Models
 {
     [SitecoreType(AutoMap = true)]
     public class Mobile 

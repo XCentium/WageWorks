@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Services
+namespace WageWorks.Foundation.SitecoreExtensions.Services
 {
     public interface ITrackerService
     {

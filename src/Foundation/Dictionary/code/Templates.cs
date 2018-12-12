@@ -1,6 +1,6 @@
 ﻿using Sitecore.Data;
 
-namespace Wageworks.Foundation.Dictionary
+namespace WageWorks.Foundation.Dictionary
 {
     public struct Templates
   {

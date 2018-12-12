@@ -1,10 +1,10 @@
 ﻿using Sitecore;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
-using Wageworks.Foundation.DependencyInjection;
-using Wageworks.Foundation.Multisite.Providers;
+using WageWorks.Foundation.DependencyInjection;
+using WageWorks.Foundation.Multisite.Providers;
 
-namespace Wageworks.Foundation.Multisite
+namespace WageWorks.Foundation.Multisite
 {
     [Service]
     public class SiteContext

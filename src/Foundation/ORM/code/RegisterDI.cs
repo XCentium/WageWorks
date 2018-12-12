@@ -3,9 +3,9 @@ using Glass.Mapper.Sc.Web;
 using Glass.Mapper.Sc.Web.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
-using Wageworks.Foundation.ORM.Context;
+using WageWorks.Foundation.ORM.Context;
 
-namespace Wageworks.Foundation.ORM
+namespace WageWorks.Foundation.ORM
 {
     public class RegisterDI : IServicesConfigurator
     {

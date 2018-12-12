@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Wageworks.Feature.News.Models.Json;
+using WageWorks.Feature.News.Models.Json;
 
-namespace Wageworks.Feature.News.Models
+namespace WageWorks.Feature.News.Models
 {
     public class ExternalNewsViewModel
     {

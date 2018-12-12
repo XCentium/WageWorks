@@ -8,7 +8,7 @@ using Newtonsoft.Json.Linq;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 
-namespace Wageworks.Foundation.Indexing.Infrastructure.Fields
+namespace WageWorks.Foundation.Indexing.Infrastructure.Fields
 {
     /// <summary>
     /// Get combined list of all values for Json paths, specified in jsonPath elements in computed field configuration

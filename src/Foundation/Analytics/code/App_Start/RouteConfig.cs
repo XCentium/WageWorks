@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Wageworks.Foundation.Analytics
+namespace WageWorks.Foundation.Analytics
 {
     public class RouteConfig
     {

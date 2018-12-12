@@ -1,6 +1,6 @@
 using System;
 
-namespace Wageworks.Foundation.Assets.Models
+namespace WageWorks.Foundation.Assets.Models
 {
     public class Asset
     {

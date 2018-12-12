@@ -1,7 +1,7 @@
 ﻿
 
-var Wageworks = Wageworks || {};
-Wageworks.Cookies = (function ($) {
+var WageWorks = WageWorks || {};
+WageWorks.Cookies = (function ($) {
 
     function checkCookies() {
         var dissmissSections = $(".dismissable .dismiss-close");
@@ -52,5 +52,5 @@ Wageworks.Cookies = (function ($) {
 })(jQuery);
 
 $(function () {
-    Wageworks.Cookies.init();
+    WageWorks.Cookies.init();
 });

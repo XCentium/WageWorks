@@ -2,7 +2,7 @@
 using Sitecore.ContentSearch.FieldReaders;
 using Sitecore.Data.Fields;
 
-namespace Wageworks.Foundation.Solr.SpatialSearch.FieldReaders
+namespace WageWorks.Foundation.Solr.SpatialSearch.FieldReaders
 {
     public class SpatialPointFieldReader : FieldReader
     {

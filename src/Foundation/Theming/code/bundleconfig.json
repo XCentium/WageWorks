@@ -1,6 +1,6 @@
 [
   {
-    "outputFileName": "assets/scripts/Wageworks.Foundation.Frameworks.js",
+    "outputFileName": "assets/scripts/WageWorks.Foundation.Frameworks.js",
     "inputFiles": [
         "assets/scripts/vendor/jquery-3.0.0.min.js",
         "assets/scripts/vendor/jquery-ui.min.js",
@@ -17,7 +17,7 @@
     "sourceMap": true
   },
   {
-    "outputFileName": "assets/scripts/Wageworks.Foundation.Theming.js",
+    "outputFileName": "assets/scripts/WageWorks.Foundation.Theming.js",
     "inputFiles": [
         "assets/scripts/features/navigation.js",
         "assets/scripts/features/recaptcha.js",
@@ -34,7 +34,7 @@
         "assets/scripts/forms/form.custom.js",
         "assets/scripts/features/nice-select.js",
         "assets/scripts/features/bootstrap-tabs-to-select.js",
-        "assets/scripts/features/Wageworks.util.js"
+        "assets/scripts/features/WageWorks.util.js"
     ],
     "sourceMap": true
   },

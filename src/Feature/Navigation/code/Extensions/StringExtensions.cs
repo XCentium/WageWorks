@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Feature.Navigation.Extensions
+﻿namespace WageWorks.Feature.Navigation.Extensions
 {
     public static class StringExtensions
     {

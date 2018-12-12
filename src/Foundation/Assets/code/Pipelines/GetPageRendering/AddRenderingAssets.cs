@@ -4,11 +4,11 @@ using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.Mvc.Pipelines.Response.GetPageRendering;
 using Sitecore.Mvc.Presentation;
-using Wageworks.Foundation.Assets.Models;
-using Wageworks.Foundation.Assets.Repositories;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.Assets.Models;
+using WageWorks.Foundation.Assets.Repositories;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Foundation.Assets.Pipelines.GetPageRendering
+namespace WageWorks.Foundation.Assets.Pipelines.GetPageRendering
 {
     public class AddRenderingAssets : GetPageRenderingProcessor
     {

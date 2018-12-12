@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Wageworks.Foundation.Alerts.Exceptions
+namespace WageWorks.Foundation.Alerts.Exceptions
 {
     [Serializable]
   public class InvalidDataSourceItemException : Exception

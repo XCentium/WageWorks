@@ -9,7 +9,7 @@ using Sitecore.Globalization;
 using Sitecore.Publishing;
 using Sitecore.Web;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Publishing
+namespace WageWorks.Foundation.SitecoreExtensions.Publishing
 {
     public class PublishJob : IJob
     {

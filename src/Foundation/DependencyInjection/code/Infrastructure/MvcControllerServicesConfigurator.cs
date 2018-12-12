@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 
-namespace Wageworks.Foundation.DependencyInjection.Infrastructure
+namespace WageWorks.Foundation.DependencyInjection.Infrastructure
 {
     public class MvcControllerServicesConfigurator : IServicesConfigurator
     {

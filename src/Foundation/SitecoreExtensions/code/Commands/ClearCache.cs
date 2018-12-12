@@ -2,9 +2,9 @@
 using Sitecore.Eventing;
 using Sitecore.Shell.Framework.Commands;
 using Sitecore.Web.UI.Sheer;
-using Wageworks.Foundation.SitecoreExtensions.Events.ClearCache;
+using WageWorks.Foundation.SitecoreExtensions.Events.ClearCache;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Commands
+namespace WageWorks.Foundation.SitecoreExtensions.Commands
 {
     public class ClearCache : Command
     {

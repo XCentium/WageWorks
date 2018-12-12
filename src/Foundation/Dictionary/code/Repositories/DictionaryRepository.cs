@@ -3,7 +3,7 @@ using System.Configuration;
 using Sitecore.Data.Items;
 using Sitecore.Sites;
 
-namespace Wageworks.Foundation.Dictionary.Repositories
+namespace WageWorks.Foundation.Dictionary.Repositories
 {
     public class DictionaryRepository : IDictionaryRepository
   {

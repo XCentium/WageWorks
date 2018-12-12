@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 using System.Web.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Wageworks.Foundation.DependencyInjection
+namespace WageWorks.Foundation.DependencyInjection
 {
     public static class ServiceCollectionExtensions
     {

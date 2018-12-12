@@ -12,9 +12,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Web;
-using Wageworks.Foundation.SitecoreExtensions.Services;
+using WageWorks.Foundation.SitecoreExtensions.Services;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Extensions
+namespace WageWorks.Foundation.SitecoreExtensions.Extensions
 {
     public static class ItemExtensions
     {

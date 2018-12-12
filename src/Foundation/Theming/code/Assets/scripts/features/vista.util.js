@@ -1,5 +1,5 @@
-﻿var Wageworks = Wageworks || {};
-Wageworks.Util = (function($) {
+﻿var WageWorks = WageWorks || {};
+WageWorks.Util = (function($) {
 
     function init() {
     }
@@ -28,5 +28,5 @@ Wageworks.Util = (function($) {
 })(jQuery);
 
 $(function () {
-    Wageworks.Util.init();
+    WageWorks.Util.init();
 });

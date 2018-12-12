@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Feature.Identity
+﻿namespace WageWorks.Feature.Identity
 {
     using Sitecore.Data;
 

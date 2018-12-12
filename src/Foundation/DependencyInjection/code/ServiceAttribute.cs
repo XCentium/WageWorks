@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Wageworks.Foundation.DependencyInjection
+namespace WageWorks.Foundation.DependencyInjection
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
     public class ServiceAttribute : Attribute

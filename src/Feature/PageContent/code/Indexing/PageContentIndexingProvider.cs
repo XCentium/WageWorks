@@ -1,7 +1,7 @@
 ﻿//using Sitecore.Diagnostics;
-//using Wageworks.Foundation.Indexing.Services;
+//using WageWorks.Foundation.Indexing.Services;
 
-//namespace Wageworks.Feature.PageContent.Indexing
+//namespace WageWorks.Feature.PageContent.Indexing
 //{
 //    using System;
 //    using System.Collections.Generic;
@@ -10,9 +10,9 @@
 //    using Sitecore.ContentSearch.SearchTypes;
 //    using Sitecore.Data;
 //    using Sitecore.Data.Fields;
-//    using Wageworks.Foundation.Dictionary.Repositories;
-//    using Wageworks.Foundation.Indexing.Infrastructure;
-//    using Wageworks.Foundation.Indexing.Models;
+//    using WageWorks.Foundation.Dictionary.Repositories;
+//    using WageWorks.Foundation.Indexing.Infrastructure;
+//    using WageWorks.Foundation.Indexing.Models;
 //    using Sitecore.Web.UI.WebControls;
 
 //    public class PageContentIndexingProvider : ProviderBase, ISearchResultFormatter, IQueryPredicateProvider

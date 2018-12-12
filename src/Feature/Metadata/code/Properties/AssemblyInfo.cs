@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Wageworks.Feature.Metadata")]
+[assembly: AssemblyTitle("WageWorks.Feature.Metadata")]
 [assembly: AssemblyDescription("")]
 //NOTE: Other assembly atributes are added by the ProductInfo.cs
 

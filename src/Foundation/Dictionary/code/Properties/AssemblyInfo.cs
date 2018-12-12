@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Wageworks.Foundation.Dictionary")]
+[assembly: AssemblyTitle("WageWorks.Foundation.Dictionary")]
 [assembly: AssemblyDescription("")]
 //NOTE: Other assembly atributes are added by the ProductInfo.cs
 
@@ -26,6 +26,6 @@ using System.Runtime.InteropServices;
 //[assembly: AssemblyFileVersion("1.0.0.0")]
 
 #if DEBUG
-[assembly: InternalsVisibleTo("Wageworks.Foundation.Dictionary.Tests")]
+[assembly: InternalsVisibleTo("WageWorks.Foundation.Dictionary.Tests")]
 
 #endif

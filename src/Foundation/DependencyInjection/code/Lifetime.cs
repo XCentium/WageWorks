@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Foundation.DependencyInjection
+﻿namespace WageWorks.Foundation.DependencyInjection
 {
     public enum Lifetime
     {

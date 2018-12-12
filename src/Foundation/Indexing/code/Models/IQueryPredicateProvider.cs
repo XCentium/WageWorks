@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using Sitecore.ContentSearch.SearchTypes;
 using Sitecore.Data;
 
-namespace Wageworks.Foundation.Indexing.Models
+namespace WageWorks.Foundation.Indexing.Models
 {
     public interface IQueryPredicateProvider
     {

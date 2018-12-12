@@ -1,7 +1,7 @@
 ﻿using System;
 using Sitecore.Events.Hooks;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Events.ClearCache
+namespace WageWorks.Foundation.SitecoreExtensions.Events.ClearCache
 {
     public class ClearCacheHook : IHook
     {

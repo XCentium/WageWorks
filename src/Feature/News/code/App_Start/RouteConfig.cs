@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Feature.News
+﻿namespace WageWorks.Feature.News
 {
     using System.Web.Mvc;
     using System.Web.Routing;

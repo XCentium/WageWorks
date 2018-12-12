@@ -2,10 +2,10 @@
 using Sitecore;
 using Sitecore.Diagnostics;
 using Sitecore.Mvc.Pipelines.MvcEvents.Exception;
-using Wageworks.Foundation.Alerts.Exceptions;
-using Wageworks.Foundation.Alerts.Models;
+using WageWorks.Foundation.Alerts.Exceptions;
+using WageWorks.Foundation.Alerts.Models;
 
-namespace Wageworks.Foundation.Alerts.Pipelines.MvcException
+namespace WageWorks.Foundation.Alerts.Pipelines.MvcException
 {
     public class InvalidDatasourceItemExceptionProcessor
   {

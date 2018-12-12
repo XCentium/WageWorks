@@ -12,7 +12,7 @@ using Sitecore.ContentSearch.Utilities;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 
-namespace Wageworks.Foundation.Indexing.Infrastructure.Fields
+namespace WageWorks.Foundation.Indexing.Infrastructure.Fields
 {
     public class AllTemplatesComputedField : IComputedIndexField
   {

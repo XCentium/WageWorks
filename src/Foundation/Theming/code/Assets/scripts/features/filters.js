@@ -1,5 +1,5 @@
-﻿var Wageworks = Wageworks || {};
-Wageworks.Filters = (function ($) {
+﻿var WageWorks = WageWorks || {};
+WageWorks.Filters = (function ($) {
 
     function init() {
         //$('.card').each(function () {
@@ -40,5 +40,5 @@ Wageworks.Filters = (function ($) {
 })(jQuery);
 
 $(function () {
-    Wageworks.Filters.init();
+    WageWorks.Filters.init();
 });

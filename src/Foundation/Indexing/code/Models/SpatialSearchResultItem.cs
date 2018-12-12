@@ -1,4 +1,4 @@
-﻿using Wageworks.Foundation.Solr.SpatialSearch;
+﻿using WageWorks.Foundation.Solr.SpatialSearch;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.SearchTypes;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Wageworks.Foundation.Indexing.Models
+namespace WageWorks.Foundation.Indexing.Models
 {
     public class SpatialSearchResultItem : SearchResultItem
     {

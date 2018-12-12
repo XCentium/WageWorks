@@ -1,7 +1,7 @@
-﻿using Wageworks.Foundation.Indexing.Models;
-using Wageworks.Foundation.Indexing.Services;
+﻿using WageWorks.Foundation.Indexing.Models;
+using WageWorks.Foundation.Indexing.Services;
 
-namespace Wageworks.Foundation.Indexing.Repositories
+namespace WageWorks.Foundation.Indexing.Repositories
 {
     public interface ISearchServiceRepository
     {

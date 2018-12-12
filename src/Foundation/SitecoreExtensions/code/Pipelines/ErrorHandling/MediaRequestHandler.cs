@@ -5,7 +5,7 @@ using Sitecore.Diagnostics;
 using Sitecore.Resources.Media;
 using Sitecore.SecurityModel;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Pipelines.ErrorHandling
+namespace WageWorks.Foundation.SitecoreExtensions.Pipelines.ErrorHandling
 {
     public class MediaRequestHandler : global::Sitecore.Resources.Media.MediaRequestHandler
     {

@@ -1,9 +1,9 @@
 ﻿using Sitecore.ContentSearch.Linq.Nodes;
 using Sitecore.ContentSearch.Linq.Solr;
-using Wageworks.Foundation.Solr.SpatialSearch.Nodes;
-using WithinRadiusNode = Wageworks.Foundation.Solr.SpatialSearch.Nodes.WithinRadiusNode;
+using WageWorks.Foundation.Solr.SpatialSearch.Nodes;
+using WithinRadiusNode = WageWorks.Foundation.Solr.SpatialSearch.Nodes.WithinRadiusNode;
 
-namespace Wageworks.Foundation.Solr.SpatialSearch.Indexing
+namespace WageWorks.Foundation.Solr.SpatialSearch.Indexing
 {
     public class SpatialSolrQueryOptimizer : SolrQueryOptimizer
     {

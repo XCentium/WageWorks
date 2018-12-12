@@ -1,8 +1,8 @@
-﻿namespace Wageworks.Feature.Metadata.Controllers
+﻿namespace WageWorks.Feature.Metadata.Controllers
 {
     using System.Web.Mvc;
-    using Wageworks.Feature.Metadata.Repositories;
-    using Wageworks.Foundation.DependencyInjection;
+    using WageWorks.Feature.Metadata.Repositories;
+    using WageWorks.Foundation.DependencyInjection;
     using Sitecore.Mvc.Controllers;
     using Sitecore.Mvc.Presentation;
 

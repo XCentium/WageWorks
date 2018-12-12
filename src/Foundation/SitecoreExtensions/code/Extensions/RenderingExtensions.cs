@@ -2,7 +2,7 @@
 using Sitecore;
 using Sitecore.Mvc.Presentation;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Extensions
+namespace WageWorks.Foundation.SitecoreExtensions.Extensions
 {
     public static class RenderingExtensions
   {

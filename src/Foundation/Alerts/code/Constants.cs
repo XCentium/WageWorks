@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Foundation.Alerts
+﻿namespace WageWorks.Foundation.Alerts
 {
   public class Constants
   {

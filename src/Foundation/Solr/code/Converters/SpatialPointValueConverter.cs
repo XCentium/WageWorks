@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Globalization;
 
-namespace Wageworks.Foundation.Solr.SpatialSearch.Converters
+namespace WageWorks.Foundation.Solr.SpatialSearch.Converters
 {
     public class SpatialPointValueConverter : TypeConverter
     {

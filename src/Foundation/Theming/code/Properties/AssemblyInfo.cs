@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Wageworks.Feature.Design")]
+[assembly: AssemblyTitle("WageWorks.Feature.Design")]
 [assembly: AssemblyDescription("A module part of the Sitecore Helix Example Solution")]
 //NOTE: Other assembly atributes are added by the ProductInfo.cs
 

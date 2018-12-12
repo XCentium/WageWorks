@@ -12,7 +12,7 @@ using Sitecore.Pipelines;
 using System.Net.Http;
 using System.ServiceModel.Channels;
 
-namespace Wageworks.Foundation.Analytics.Pipelines
+namespace WageWorks.Foundation.Analytics.Pipelines
 {
     /// <summary>
     /// Custom processor to conditionally disable analytics tracking for all countries except those listed in setting name="Analytics.TrackingCookieDisabler.AllowedCountries"

@@ -2,7 +2,7 @@
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.SearchTypes;
 
-namespace Wageworks.Foundation.Indexing.Models
+namespace WageWorks.Foundation.Indexing.Models
 {
     public class IndexedItem : SearchResultItem
     {

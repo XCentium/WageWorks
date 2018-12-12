@@ -1,9 +1,9 @@
 using System;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Foundation.Indexing.Models
+namespace WageWorks.Foundation.Indexing.Models
 {
     public class SearchResult : ISearchResult
     {

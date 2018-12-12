@@ -1,9 +1,9 @@
 ﻿using System;
 using Sitecore;
 using Sitecore.Data.Items;
-using Wageworks.Foundation.DependencyInjection;
+using WageWorks.Foundation.DependencyInjection;
 
-namespace Wageworks.Foundation.Multisite.Providers
+namespace WageWorks.Foundation.Multisite.Providers
 {
     [Service(typeof(IDatasourceProvider))]
     public class DatasourceProvider : IDatasourceProvider

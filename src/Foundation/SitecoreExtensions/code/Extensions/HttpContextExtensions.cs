@@ -3,7 +3,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Helpers;
 
-namespace Wageworks.Foundation.SitecoreExtensions
+namespace WageWorks.Foundation.SitecoreExtensions
 {
     public static class HttpContextExtensions
     {

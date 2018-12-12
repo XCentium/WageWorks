@@ -4,13 +4,13 @@ using Sitecore.Mvc.Presentation;
 using System;
 using System.Linq;
 using System.Web;
-using Wageworks.Feature.Teasers.Models;
-using Wageworks.Feature.Teasers.Models.Glass;
-using Wageworks.Foundation.DependencyInjection;
-using Wageworks.Foundation.ORM.Context;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Feature.Teasers.Models;
+using WageWorks.Feature.Teasers.Models.Glass;
+using WageWorks.Foundation.DependencyInjection;
+using WageWorks.Foundation.ORM.Context;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Feature.Teasers.Repositories
+namespace WageWorks.Feature.Teasers.Repositories
 {
     [Service(typeof(ITeaserRepository), Lifetime = Lifetime.Transient)]
     public class TeaserRepository : ITeaserRepository
@@ -24,7 +24,58 @@ namespace Wageworks.Feature.Teasers.Repositories
 
         #region Promos
 
+        public PromoViewModel GetPromo()
+        {
+            var vm = new PromoViewModel();
 
+            var promoItem = RenderingContext.Current.Rendering.Item;
+            var promoItemModel = _context.Cast<IPromotion>(promoItem);
+
+            var css = RenderingContext.Current.Rendering.Parameters.GetCssClassFromParameters();
+            vm.CssClass = css;
+
+
+            var promoItemViewModel = new PromotionModel(promoItemModel);
+            if (promoItemModel.Theme != Guid.Empty)
+            {
+                var theme = Sitecore.Context.Database.GetItem(new ID(promoItemModel.Theme));
+                if (theme != null)
+                {
+                    promoItemViewModel.CssClass = theme[Foundation.SitecoreExtensions.Constants.PromoLayoutParameters.CssFieldName];
+                }
+            }
+
+            foreach (Item ctaLink in promoItem.GetChildren())
+            {
+                try
+                {
+                    var cta = _context.Cast<ICallToAction>(ctaLink);
+                    var ctaModel = new CallToActionLinkModel(cta);
+                    ctaModel.Id = ctaLink.ID.Guid.ToString("D");
+
+                    if (ctaLink.TemplateID == Templates.VideoPopupCTA.ID)
+                    {
+                        ctaModel.IsVideoPopup = true;
+                        if (!string.IsNullOrEmpty(ctaLink[Templates.VideoPopupCTA.Fields.Thumbnail]))
+                        {
+                            ctaModel.BackgroundImage = ctaLink.ImageUrl(Templates.VideoPopupCTA.Fields.Thumbnail);
+                        }
+                        ctaModel.Text = ctaLink[Templates.VideoPopupCTA.Fields.Description];
+                        ctaModel.Title = ctaLink[Templates.VideoPopupCTA.Fields.Title];
+                    }
+
+                    promoItemViewModel.Links.Add(ctaModel);
+                }
+                catch (Exception ex)
+                {
+                    var msg = ex;
+                    // error skip
+                }
+            }
+
+            vm.PromoItem = promoItemViewModel;
+            return vm;
+        }
 
 
 
@@ -35,7 +86,7 @@ namespace Wageworks.Feature.Teasers.Repositories
 
         #endregion
 
-       
+
 
         private HttpRequest GetRequest()
         {
@@ -44,7 +95,7 @@ namespace Wageworks.Feature.Teasers.Repositories
 
         //private Item GetContextItem()
         //{
-        //    //return Wageworks.Foundation.Commerce.Extensions.CommerceExtensions.GetContextItem(GetRequest());
+        //    //return WageWorks.Foundation.Commerce.Extensions.CommerceExtensions.GetContextItem(GetRequest());
         //    return null;
         //}
     }

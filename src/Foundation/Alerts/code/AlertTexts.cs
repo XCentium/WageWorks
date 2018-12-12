@@ -1,7 +1,7 @@
 ﻿using Sitecore.Data;
-using Wageworks.Foundation.Dictionary.Repositories;
+using WageWorks.Foundation.Dictionary.Repositories;
 
-namespace Wageworks.Foundation.Alerts
+namespace WageWorks.Foundation.Alerts
 {
   public class AlertTexts
   {

@@ -1,6 +1,6 @@
 ﻿using Sitecore.Data.Items;
 
-namespace Wageworks.Foundation.Dictionary.Repositories
+namespace WageWorks.Foundation.Dictionary.Repositories
 {
   public interface IDictionaryPhraseRepository
   {

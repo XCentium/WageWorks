@@ -1,11 +1,11 @@
 using Sitecore.Caching;
 using Sitecore.Data;
 
-namespace Wageworks.Foundation.Assets.Models
+namespace WageWorks.Foundation.Assets.Models
 {
     internal class AssetRequirementCache : CustomCache
   {
-    public AssetRequirementCache(long maxSize) : base("Wageworks.Foundation.AssetRequirements", maxSize)
+    public AssetRequirementCache(long maxSize) : base("WageWorks.Foundation.AssetRequirements", maxSize)
     {
     }
 

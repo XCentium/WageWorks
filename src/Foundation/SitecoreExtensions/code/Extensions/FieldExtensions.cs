@@ -3,7 +3,7 @@ using Sitecore;
 using Sitecore.Data.Fields;
 using Sitecore.Resources.Media;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Extensions
+namespace WageWorks.Foundation.SitecoreExtensions.Extensions
 {
     public static class FieldExtensions
     {

@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Foundation.SitecoreExtensions
+﻿namespace WageWorks.Foundation.SitecoreExtensions
 {
   public struct Constants
   {

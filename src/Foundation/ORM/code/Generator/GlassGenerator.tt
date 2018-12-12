@@ -76,7 +76,7 @@ public class GlassGenerator : Generator
             filePath = filePath.Substring(0,filePath.LastIndexOf("\\"));
 
             
-             this.GlassTemplate.Namespace = "Wageworks." + layerName + "." + folderName + ".Models.Glass" + (string.IsNullOrEmpty(filePath) ? "" : "." + filePath.Replace("\\","."));             
+             this.GlassTemplate.Namespace = "WageWorks." + layerName + "." + folderName + ".Models.Glass" + (string.IsNullOrEmpty(filePath) ? "" : "." + filePath.Replace("\\","."));             
              this.GlassTemplate.Paths = Paths;
 
             this.GlassTemplate.RenderToFile(@"..\..\code\Models\\Glass\\"+filePath+"\\"+fileName);

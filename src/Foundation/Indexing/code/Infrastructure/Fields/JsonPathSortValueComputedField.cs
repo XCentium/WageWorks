@@ -14,7 +14,7 @@ using System.Xml;
 using Sitecore.Data;
 using Sitecore.Diagnostics;
 
-namespace Wageworks.Foundation.Indexing.Infrastructure.Fields
+namespace WageWorks.Foundation.Indexing.Infrastructure.Fields
 {
     /// <summary>
     /// Read Json field from indexed item and retrieve value(s) using given JsonPath

@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Foundation.Indexing
+﻿namespace WageWorks.Foundation.Indexing
 {
     public struct Constants
     {

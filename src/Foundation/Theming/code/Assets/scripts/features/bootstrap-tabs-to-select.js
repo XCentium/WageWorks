@@ -31,8 +31,8 @@
         }
     })();
 
-    window.Wageworks = window.Wageworks || {};
-    window.Wageworks.BSTabsToSelect = BSTabsToSelect;
+    window.WageWorks = window.WageWorks || {};
+    window.WageWorks.BSTabsToSelect = BSTabsToSelect;
 })($, window);
 
 

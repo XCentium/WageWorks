@@ -9,9 +9,9 @@ using Sitecore.ContentSearch.Security;
 using Sitecore.ContentSearch.SolrProvider;
 using Sitecore.ContentSearch.Utilities;
 using Sitecore.Diagnostics;
-using Wageworks.Foundation.Solr.SpatialSearch.Indexing;
+using WageWorks.Foundation.Solr.SpatialSearch.Indexing;
 
-namespace Wageworks.Foundation.Solr.SpatialSearch.Provider
+namespace WageWorks.Foundation.Solr.SpatialSearch.Provider
 {
     public class SolrSearchWithSpatialContext : SolrSearchContext, IProviderSearchContext
     {

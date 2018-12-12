@@ -3,10 +3,10 @@ using Glass.Mapper.Configuration;
 using Glass.Mapper.IoC;
 using Glass.Mapper.Maps;
 using Glass.Mapper.Sc.IoC;
-using Wageworks.Foundation.ORM.Mappers;
+using WageWorks.Foundation.ORM.Mappers;
 using IDependencyResolver = Glass.Mapper.Sc.IoC.IDependencyResolver;
 
-namespace Wageworks.Foundation.ORM.App_Start
+namespace WageWorks.Foundation.ORM.App_Start
 {
     public static class GlassMapperScCustom
     {

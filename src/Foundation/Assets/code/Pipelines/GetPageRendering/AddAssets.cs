@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Xml;
 using Sitecore.Mvc.Pipelines.Response.GetPageRendering;
-using Wageworks.Foundation.Assets.Models;
-using Wageworks.Foundation.Assets.Repositories;
+using WageWorks.Foundation.Assets.Models;
+using WageWorks.Foundation.Assets.Repositories;
 
-namespace Wageworks.Foundation.Assets.Pipelines.GetPageRendering
+namespace WageWorks.Foundation.Assets.Pipelines.GetPageRendering
 {
     public class AddAssets : GetPageRenderingProcessor
     {

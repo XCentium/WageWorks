@@ -3,9 +3,9 @@ using Sitecore;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Pipelines.Response.GetPageRendering;
 using Sitecore.Mvc.Presentation;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Foundation.Assets.Pipelines.GetPageRendering
+namespace WageWorks.Foundation.Assets.Pipelines.GetPageRendering
 {
     public class AddThemeAssets : AddRenderingAssets
     {

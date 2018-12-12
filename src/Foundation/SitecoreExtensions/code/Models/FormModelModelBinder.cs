@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using Sitecore.Data;
 using Sitecore.Diagnostics;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Models
+namespace WageWorks.Foundation.SitecoreExtensions.Models
 {
     public class FormModelModelBinder : DefaultModelBinder
     {

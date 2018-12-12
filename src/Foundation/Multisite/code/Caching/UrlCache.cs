@@ -5,11 +5,11 @@ using System.Web;
 using Sitecore.Caching;
 using Sitecore.Data;
 
-namespace Wageworks.Foundation.Multisite.Caching
+namespace WageWorks.Foundation.Multisite.Caching
 {
     public class UrlCache : CustomCache
     {
-        public UrlCache(long maxSize) : base("Wageworks.Foundation.UrlCache", maxSize)
+        public UrlCache(long maxSize) : base("WageWorks.Foundation.UrlCache", maxSize)
         {
         }
         public string Get(string cacheKey)

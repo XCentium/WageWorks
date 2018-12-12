@@ -1,5 +1,5 @@
-var Wageworks = Wageworks || {};
-Wageworks.Navigation = (function ($) {
+var WageWorks = WageWorks || {};
+WageWorks.Navigation = (function ($) {
 
     function stickyNav() {
         var stickyNav = $('.navbar-sticky');
@@ -59,7 +59,7 @@ Wageworks.Navigation = (function ($) {
 })(jQuery);
 
 $(function () {
-    Wageworks.Navigation.init();
+    WageWorks.Navigation.init();
 });
 function recaptchaCallback() {
     var responseInput = $('.recapcha-response');
@@ -198,8 +198,8 @@ function recaptchaDataExpiredCallback() {
 
 })(window, $);
 
-var Wageworks = Wageworks || {};
-Wageworks.Filters = (function ($) {
+var WageWorks = WageWorks || {};
+WageWorks.Filters = (function ($) {
 
     function init() {
         //$('.card').each(function () {
@@ -240,7 +240,7 @@ Wageworks.Filters = (function ($) {
 })(jQuery);
 
 $(function () {
-    Wageworks.Filters.init();
+    WageWorks.Filters.init();
 });
 $.fn.extend(
     {
@@ -356,8 +356,8 @@ $.fn.extend(
 })($);
 
 
-var Wageworks = Wageworks || {};
-Wageworks.Cookies = (function ($) {
+var WageWorks = WageWorks || {};
+WageWorks.Cookies = (function ($) {
 
     function checkCookies() {
         var dissmissSections = $(".dismissable .dismiss-close");
@@ -408,7 +408,7 @@ Wageworks.Cookies = (function ($) {
 })(jQuery);
 
 $(function () {
-    Wageworks.Cookies.init();
+    WageWorks.Cookies.init();
 });
 /*! jQuery Validation Plugin - v1.16.0 - 12/2/2016
  * http://jqueryvalidation.org/
@@ -726,9 +726,9 @@ $(function () {
     var consentLabels = $('form label.accept-terms');
     consentLabels.each(function (index,elem) {
         var consentLabel = $(elem);
-        var html = consentLabel.text().replace("Privacy Policy", "<a target='_blank' href='http://www.Wageworksoutdoor.com/privacy-policy/'>Privacy Policy</a>")
-            .replace('Terms & Conditions', "<a target='_blank' href='http://www.Wageworksoutdoor.com/terms-conditions/'>Terms & Conditions</a>")
-            .replace('Terms and Conditions', "<a target='_blank' href='http://www.Wageworksoutdoor.com/terms-conditions/'>Terms and Conditions</a>");
+        var html = consentLabel.text().replace("Privacy Policy", "<a target='_blank' href='http://www.WageWorksoutdoor.com/privacy-policy/'>Privacy Policy</a>")
+            .replace('Terms & Conditions', "<a target='_blank' href='http://www.WageWorksoutdoor.com/terms-conditions/'>Terms & Conditions</a>")
+            .replace('Terms and Conditions', "<a target='_blank' href='http://www.WageWorksoutdoor.com/terms-conditions/'>Terms and Conditions</a>");
         var temp = consentLabel.children();
         consentLabel.empty();
         consentLabel.append(temp)
@@ -817,6 +817,6 @@ $(function () {
         }
     })();
 
-    window.Wageworks = window.Wageworks || {};
-    window.Wageworks.BSTabsToSelect = BSTabsToSelect;
+    window.WageWorks = window.WageWorks || {};
+    window.WageWorks.BSTabsToSelect = BSTabsToSelect;
 })($, window);

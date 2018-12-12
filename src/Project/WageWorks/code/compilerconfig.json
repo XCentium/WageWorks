@@ -1,7 +1,7 @@
 ﻿[
     {
-        "outputFile": "Assets/Styles/css/wageworks-styles.css",
-        "inputFile": "Assets/Styles/scss/wageworks-styles.scss",
+        "outputFile": "Assets/Styles/css/WageWorks-styles.css",
+        "inputFile": "Assets/Styles/scss/WageWorks-styles.scss",
         "minify": {
             "enabled": true
         },
@@ -11,7 +11,7 @@
         }
     },
     {
-        "outputFile": "Assets/Styles/css/wageworks-application.css",
+        "outputFile": "Assets/Styles/css/WageWorks-application.css",
         "inputFile": "Assets/Styles/scss/application.scss",
         "minify": {
             "enabled": true
@@ -22,7 +22,7 @@
         }
     },
     {
-        "outputFile": "Assets/Styles/css/wageworks-application-ie.css",
+        "outputFile": "Assets/Styles/css/WageWorks-application-ie.css",
         "inputFile": "Assets/Styles/scss/application-ie.scss",
         "minify": {
             "enabled": true

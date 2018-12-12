@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Wageworks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata
+namespace WageWorks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata
 {
     using Sitecore.Data.Items;
-    using Wageworks.Feature.Metadata.Models;
+    using WageWorks.Feature.Metadata.Models;
 
     public class GetPageMetadataArgs : Sitecore.Pipelines.PipelineArgs
     {

@@ -4,9 +4,9 @@ using Sitecore;
 using Sitecore.Data;
 using Sitecore.Diagnostics;
 using Sitecore.Mvc;
-using Wageworks.Foundation.Alerts.Models;
+using WageWorks.Foundation.Alerts.Models;
 
-namespace Wageworks.Foundation.Alerts.Extensions
+namespace WageWorks.Foundation.Alerts.Extensions
 {
     public static class AlertHtmlHelpers
   {

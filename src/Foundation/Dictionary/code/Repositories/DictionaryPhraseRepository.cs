@@ -3,9 +3,9 @@ using System.Web;
 using Sitecore;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
-using Wageworks.Foundation.Dictionary.Services;
+using WageWorks.Foundation.Dictionary.Services;
 
-namespace Wageworks.Foundation.Dictionary.Repositories
+namespace WageWorks.Foundation.Dictionary.Repositories
 {
     public class DictionaryPhraseRepository : IDictionaryPhraseRepository
   {

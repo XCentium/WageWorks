@@ -5,11 +5,11 @@ using System.Web;
 using Sitecore.Caching;
 using Sitecore.Data;
 
-namespace Wageworks.Foundation.Multisite.Caching
+namespace WageWorks.Foundation.Multisite.Caching
 {
     public class AssetCache : CustomCache
     {
-        public AssetCache(long maxSize) : base("Wageworks.Foundation.AssetCache", maxSize)
+        public AssetCache(long maxSize) : base("WageWorks.Foundation.AssetCache", maxSize)
         {
         }
         public string Get(string cacheKey)

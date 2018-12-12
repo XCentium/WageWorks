@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
-using Wageworks.Foundation.Alerts.Models;
+using WageWorks.Foundation.Alerts.Models;
 
-namespace Wageworks.Foundation.Alerts.Extensions
+namespace WageWorks.Foundation.Alerts.Extensions
 {
     public static class AlertControllerExtensions
   {

@@ -10,8 +10,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Wageworks.Foundation.SitecoreExtensions</RootNamespace>
-    <AssemblyName>Wageworks.Foundation.SitecoreExtensions</AssemblyName>
+    <RootNamespace>WageWorks.Foundation.SitecoreExtensions</RootNamespace>
+    <AssemblyName>WageWorks.Foundation.SitecoreExtensions</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -220,9 +220,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DependencyInjection\code\Wageworks.Foundation.DependencyInjection.csproj">
+    <ProjectReference Include="..\..\DependencyInjection\code\WageWorks.Foundation.DependencyInjection.csproj">
       <Project>{366148b7-2392-4f42-80d6-786b7a3682ae}</Project>
-      <Name>Wageworks.Foundation.DependencyInjection</Name>
+      <Name>WageWorks.Foundation.DependencyInjection</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

@@ -2,9 +2,9 @@
 using System.Configuration.Provider;
 using Sitecore.ContentSearch.SearchTypes;
 using Sitecore.Data;
-using Wageworks.Foundation.Indexing.Models;
+using WageWorks.Foundation.Indexing.Models;
 
-namespace Wageworks.Foundation.Indexing.Infrastructure.Providers
+namespace WageWorks.Foundation.Indexing.Infrastructure.Providers
 {
     public class FallbackSearchResultFormatter : ProviderBase, ISearchResultFormatter
     {

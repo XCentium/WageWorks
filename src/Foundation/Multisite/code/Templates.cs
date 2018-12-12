@@ -1,6 +1,6 @@
 ﻿using Sitecore.Data;
 
-namespace Wageworks.Foundation.Multisite
+namespace WageWorks.Foundation.Multisite
 {
     public class Templates
     {

@@ -3,7 +3,7 @@ using System;
 using System.Configuration;
 using System.Net.Mail;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Helpers
+namespace WageWorks.Foundation.SitecoreExtensions.Helpers
 {
     public class SendGridEmailHelper
     {

@@ -7,10 +7,10 @@ using Sitecore.Abstractions;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Web;
-using Wageworks.Foundation.DependencyInjection;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.DependencyInjection;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Foundation.Multisite.Providers
+namespace WageWorks.Foundation.Multisite.Providers
 {
     [Service(typeof(ISiteDefinitionsProvider))]
     public class SiteDefinitionsProvider : ISiteDefinitionsProvider

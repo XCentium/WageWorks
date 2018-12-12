@@ -10,8 +10,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Wageworks.Foundation.Indexing</RootNamespace>
-    <AssemblyName>Wageworks.Foundation.Indexing</AssemblyName>
+    <RootNamespace>WageWorks.Foundation.Indexing</RootNamespace>
+    <AssemblyName>WageWorks.Foundation.Indexing</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -216,21 +216,21 @@
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DependencyInjection\code\Wageworks.Foundation.DependencyInjection.csproj">
+    <ProjectReference Include="..\..\DependencyInjection\code\WageWorks.Foundation.DependencyInjection.csproj">
       <Project>{366148b7-2392-4f42-80d6-786b7a3682ae}</Project>
-      <Name>Wageworks.Foundation.DependencyInjection</Name>
+      <Name>WageWorks.Foundation.DependencyInjection</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Dictionary\code\Wageworks.Foundation.Dictionary.csproj">
+    <ProjectReference Include="..\..\Dictionary\code\WageWorks.Foundation.Dictionary.csproj">
       <Project>{0d6ba4d8-c469-4ae9-9ebb-93bdf7d7e78f}</Project>
-      <Name>Wageworks.Foundation.Dictionary</Name>
+      <Name>WageWorks.Foundation.Dictionary</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SitecoreExtensions\code\Wageworks.Foundation.SitecoreExtensions.csproj">
+    <ProjectReference Include="..\..\SitecoreExtensions\code\WageWorks.Foundation.SitecoreExtensions.csproj">
       <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
-      <Name>Wageworks.Foundation.SitecoreExtensions</Name>
+      <Name>WageWorks.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Solr\code\Wageworks.Foundation.Solr.SpatialSearch.csproj">
+    <ProjectReference Include="..\..\Solr\code\WageWorks.Foundation.Solr.SpatialSearch.csproj">
       <Project>{7fe4e99d-8ffc-485b-aeda-ff47d1141cd9}</Project>
-      <Name>Wageworks.Foundation.Solr.SpatialSearch</Name>
+      <Name>WageWorks.Foundation.Solr.SpatialSearch</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

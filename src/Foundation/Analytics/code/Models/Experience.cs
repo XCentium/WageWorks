@@ -1,4 +1,4 @@
-namespace Wageworks.Foundation.Analytics.Models
+namespace WageWorks.Foundation.Analytics.Models
 {
     public class Experience
     {

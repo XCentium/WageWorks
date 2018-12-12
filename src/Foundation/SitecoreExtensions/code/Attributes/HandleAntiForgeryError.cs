@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using Sitecore.Configuration;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Attributes
+namespace WageWorks.Foundation.SitecoreExtensions.Attributes
 {
     public class HandleAntiForgeryError : ActionFilterAttribute, IExceptionFilter
     {

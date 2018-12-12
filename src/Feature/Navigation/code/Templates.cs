@@ -1,4 +1,4 @@
-﻿namespace Wageworks.Feature.Navigation
+﻿namespace WageWorks.Feature.Navigation
 {
     using Sitecore.Data;
 

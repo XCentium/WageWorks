@@ -10,12 +10,12 @@ using Sitecore.ContentSearch.ComputedFields;
 using Sitecore.ContentSearch.Linq.Common;
 using Sitecore.ContentSearch.Pipelines.GetFacets;
 using Sitecore.ContentSearch.Pipelines.ProcessFacets;
-using Wageworks.Foundation.Indexing.Infrastructure.Providers;
-using Wageworks.Foundation.Indexing.Repositories;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.Indexing.Infrastructure.Providers;
+using WageWorks.Foundation.Indexing.Repositories;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 using Sitecore.Diagnostics;
 
-namespace Wageworks.Foundation.Indexing.Infrastructure.Fields
+namespace WageWorks.Foundation.Indexing.Infrastructure.Fields
 {
     public class SearchResultFormatterComputedField : IVirtualFieldProcessor, IComputedIndexField
     {
@@ -34,7 +34,7 @@ namespace Wageworks.Foundation.Indexing.Infrastructure.Fields
                 if (item.IsDerived(Templates.Product.ID) || item.IsDerived(Templates.ProductVariant.ID))
                 {
                     //TODO: clean this up.
-                    return "Wageworks.Feature.Products.Indexing.ProductIndexingProvider";
+                    return "WageWorks.Feature.Products.Indexing.ProductIndexingProvider";
                 }
 
                 var formatter = IndexingProviderRepository.SearchResultFormatters.FirstOrDefault(provider => provider.SupportedTemplates.Any(item.IsDerived));

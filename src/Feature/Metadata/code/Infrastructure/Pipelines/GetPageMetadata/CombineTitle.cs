@@ -1,6 +1,6 @@
-﻿namespace Wageworks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata
+﻿namespace WageWorks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata
 {
-    using Wageworks.Foundation.DependencyInjection;
+    using WageWorks.Foundation.DependencyInjection;
 
     [Service]
     public class CombineTitle

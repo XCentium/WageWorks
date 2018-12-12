@@ -1,6 +1,6 @@
 ﻿using Sitecore.Data;
 
-namespace Wageworks.Foundation.Indexing
+namespace WageWorks.Foundation.Indexing
 {
     internal struct Templates
     {

@@ -8,9 +8,9 @@ using System.Configuration.Provider;
 using System.Linq;
 using Sitecore.Configuration;
 using Sitecore.Configuration.Providers;
-using Wageworks.Foundation.Indexing.Models;
+using WageWorks.Foundation.Indexing.Models;
 
-namespace Wageworks.Foundation.Indexing.Repositories
+namespace WageWorks.Foundation.Indexing.Repositories
 {
     public static class IndexingProviderRepository
     {

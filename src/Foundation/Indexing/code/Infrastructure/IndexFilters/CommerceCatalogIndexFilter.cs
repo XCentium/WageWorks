@@ -4,7 +4,7 @@ using Sitecore.Data.Items;
 using System;
 using System.Linq;
 
-namespace Wageworks.Foundation.Indexing.Infrastructure.IndexFilters
+namespace WageWorks.Foundation.Indexing.Infrastructure.IndexFilters
 {
     /// <summary>
     /// Filter out all items where workflow state does not match AllowedWorkflowStateIDs from web index

@@ -1,7 +1,7 @@
 ﻿using Sitecore.Data.Items;
 using Sitecore.Sites;
 
-namespace Wageworks.Foundation.Dictionary.Models
+namespace WageWorks.Foundation.Dictionary.Models
 {
     public class Dictionary
   {

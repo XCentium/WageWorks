@@ -2,7 +2,7 @@
 using Glass.Mapper.Sc;
 using Sitecore.Mvc.Presentation;
 
-namespace Wageworks.Foundation.ORM.Context
+namespace WageWorks.Foundation.ORM.Context
 {
     public class ControllerSitecoreContext : SitecoreContext, IControllerSitecoreContext
     {

@@ -5,7 +5,7 @@
 <#
 	GlassGenerator generator = new GlassGenerator(
 			"master",
-			new [] { "/sitecore/templates/Project/Wageworks Common", "/sitecore/templates/Project/Federal Premium", "/sitecore/templates/Project/Savage Arms" },
+			new [] { "/sitecore/templates/Project/WageWorks Common", "/sitecore/templates/Project/Federal Premium", "/sitecore/templates/Project/Savage Arms" },
 			(fieldId, fieldOptions) =>
 				{
 					// Add custom options, like setting the return type of a field property explicitly
@@ -13,7 +13,7 @@
                     if("{E72C152B-9488-48C9-A1E3-728F8C3786E2}".Equals(fieldId))
 					{
 						fieldOptions.GlassFieldTypeName = "IEnumerable<ICssVariant>";
-                        fieldOptions.FieldNamespace = "WageworksCommon.Modules.Theming";
+                        fieldOptions.FieldNamespace = "WageWorksCommon.Modules.Theming";
 					}
 
 

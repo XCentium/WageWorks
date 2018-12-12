@@ -3,10 +3,10 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Sitecore.Abstractions;
 using Sitecore.DependencyInjection;
 using Sitecore.Resources.Media;
-using Wageworks.Foundation.Multisite.Placeholders;
-using Wageworks.Foundation.Multisite.Providers;
+using WageWorks.Foundation.Multisite.Placeholders;
+using WageWorks.Foundation.Multisite.Providers;
 
-namespace Wageworks.Foundation.Multisite
+namespace WageWorks.Foundation.Multisite
 {
     public class ServicesConfigurator : IServicesConfigurator
     {
@@ -18,7 +18,7 @@ namespace Wageworks.Foundation.Multisite
             serviceCollection.Replace(linkManagerService);
 
             //serviceCollection.AddSingleton<BaseMediaManager>(s =>
-            //    new WageworksMediaProvider(
+            //    new WageWorksMediaProvider(
             //        new DefaultMediaManager(
             //            s.GetService<BaseFactory>(),
             //            s.GetService<MediaProvider>()

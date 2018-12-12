@@ -1,4 +1,4 @@
-namespace Wageworks.Foundation.Theming.Extensions
+namespace WageWorks.Foundation.Theming.Extensions
 {
   public class CarouselOptions
   {

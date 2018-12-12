@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Wageworks.Foundation.Alerts.Models
+namespace WageWorks.Foundation.Alerts.Models
 {
     [Serializable]
     public class InfoMessage

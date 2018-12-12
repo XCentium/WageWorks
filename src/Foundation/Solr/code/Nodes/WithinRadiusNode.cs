@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Sitecore.ContentSearch.Linq.Nodes;
 
-namespace Wageworks.Foundation.Solr.SpatialSearch.Nodes
+namespace WageWorks.Foundation.Solr.SpatialSearch.Nodes
 {
     public class WithinRadiusNode : QueryNode
     {

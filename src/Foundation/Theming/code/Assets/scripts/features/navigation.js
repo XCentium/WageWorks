@@ -1,5 +1,5 @@
-﻿var Wageworks = Wageworks || {};
-Wageworks.Navigation = (function ($) {
+﻿var WageWorks = WageWorks || {};
+WageWorks.Navigation = (function ($) {
 
     function stickyNav() {
         var stickyNav = $('.navbar-sticky');
@@ -59,5 +59,5 @@ Wageworks.Navigation = (function ($) {
 })(jQuery);
 
 $(function () {
-    Wageworks.Navigation.init();
+    WageWorks.Navigation.init();
 });

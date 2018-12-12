@@ -10,7 +10,7 @@ using Sitecore.Pipelines;
 using Sitecore.Pipelines.RenderField;
 using Sitecore.Web.UI.WebControls;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Services
+namespace WageWorks.Foundation.SitecoreExtensions.Services
 {
     public class FieldRendererService
     {

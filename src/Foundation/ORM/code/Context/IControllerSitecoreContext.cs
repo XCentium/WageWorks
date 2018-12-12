@@ -1,6 +1,6 @@
 ﻿using Glass.Mapper.Sc;
 
-namespace Wageworks.Foundation.ORM.Context
+namespace WageWorks.Foundation.ORM.Context
 {
     public interface IControllerSitecoreContext : ISitecoreContext
     {

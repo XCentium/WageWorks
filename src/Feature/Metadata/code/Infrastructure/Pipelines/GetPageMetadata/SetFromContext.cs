@@ -1,10 +1,10 @@
 ﻿using Sitecore;
 
-namespace Wageworks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata
+namespace WageWorks.Feature.Metadata.Infrastructure.Pipelines.GetPageMetadata
 {
     using Sitecore.Data.Items;
-    using Wageworks.Foundation.DependencyInjection;
-    using Wageworks.Foundation.SitecoreExtensions.Extensions;
+    using WageWorks.Foundation.DependencyInjection;
+    using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
     [Service]
     public class SetFromContext

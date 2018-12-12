@@ -1,6 +1,6 @@
 ﻿using Sitecore.Data.Items;
 
-namespace Wageworks.Foundation.Multisite.Providers
+namespace WageWorks.Foundation.Multisite.Providers
 {
     public interface ISiteSettingsProvider
   {

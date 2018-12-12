@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Wageworks.Foundation.Multisite")]
+[assembly: AssemblyTitle("WageWorks.Foundation.Multisite")]
 [assembly: AssemblyDescription("")]
 //NOTE: Other assembly atributes are added by the ProductInfo.cs
 

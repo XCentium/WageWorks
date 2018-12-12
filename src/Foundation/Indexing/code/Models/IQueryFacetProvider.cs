@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Wageworks.Foundation.Indexing.Models
+namespace WageWorks.Foundation.Indexing.Models
 {
     public interface IQueryFacetProvider
     {

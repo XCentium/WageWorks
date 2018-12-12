@@ -1,7 +1,7 @@
 ﻿using Glass.Mapper.Sc.Fields;
 using System.Collections.Generic;
 
-namespace Wageworks.Feature.News.Models
+namespace WageWorks.Feature.News.Models
 {
     public class NewsPromoSectionViewModel
     {

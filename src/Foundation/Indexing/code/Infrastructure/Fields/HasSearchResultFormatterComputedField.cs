@@ -7,10 +7,10 @@
 using System.Linq;
 using Sitecore.ContentSearch;
 using Sitecore.ContentSearch.ComputedFields;
-using Wageworks.Foundation.Indexing.Repositories;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.Indexing.Repositories;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Foundation.Indexing.Infrastructure.Fields
+namespace WageWorks.Foundation.Indexing.Infrastructure.Fields
 {
     public class HasSearchResultFormatterComputedField : IComputedIndexField
     {

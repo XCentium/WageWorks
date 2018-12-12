@@ -3,7 +3,7 @@ using Sitecore.Sites;
 using Sitecore.Web;
 using Sitecore.Web.UI.Sheer;
 
-namespace Wageworks.Foundation.Multisite.Commands
+namespace WageWorks.Foundation.Multisite.Commands
 {
     /// <summary>
   /// Overrides default Shell.Applications.WebEdit.Commands.OpenExperienceEditor

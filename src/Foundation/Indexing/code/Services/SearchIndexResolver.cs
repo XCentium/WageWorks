@@ -1,7 +1,7 @@
 ﻿using Sitecore.ContentSearch;
-using Wageworks.Foundation.DependencyInjection;
+using WageWorks.Foundation.DependencyInjection;
 
-namespace Wageworks.Foundation.Indexing.Services
+namespace WageWorks.Foundation.Indexing.Services
 {
     [Service]
     public class SearchIndexResolver

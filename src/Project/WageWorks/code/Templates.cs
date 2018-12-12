@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using Sitecore.Data;
 
-namespace Wageworks.Project.Wageworks
+namespace WageWorks.Project.WageWorks
 {
   public struct Templates
   {

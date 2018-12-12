@@ -3,7 +3,7 @@ using Sitecore.Configuration;
 using Sitecore.Data;
 using Sitecore.Data.Items;
 
-namespace Wageworks.Foundation.Multisite.Placeholders
+namespace WageWorks.Foundation.Multisite.Placeholders
 {
     internal class SiteSpecificPlaceholderCache : PlaceholderCache
     {

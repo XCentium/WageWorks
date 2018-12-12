@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Wageworks.Feature.News.Models;
+using WageWorks.Feature.News.Models;
 
-namespace Wageworks.Feature.News.Repositories
+namespace WageWorks.Feature.News.Repositories
 {
     public interface INewsModelRepository
     {

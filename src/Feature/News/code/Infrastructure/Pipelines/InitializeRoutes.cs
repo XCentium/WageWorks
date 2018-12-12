@@ -1,10 +1,10 @@
 ﻿using Sitecore;
 
-namespace Wageworks.Feature.News.Infrastructure.Pipelines
+namespace WageWorks.Feature.News.Infrastructure.Pipelines
 {
     using Sitecore.Pipelines;
     using System.Web.Routing;
-    using Wageworks.Foundation.DependencyInjection;
+    using WageWorks.Foundation.DependencyInjection;
 
     [Service]
     public class InitializeRoutes

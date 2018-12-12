@@ -1,9 +1,10 @@
-﻿using Wageworks.Feature.Teasers.Models;
+﻿using WageWorks.Feature.Teasers.Models;
 
-namespace Wageworks.Feature.Teasers.Repositories
+namespace WageWorks.Feature.Teasers.Repositories
 {
     public interface ITeaserRepository
     {
-        
+        PromoViewModel GetPromo();
+
     }
 }

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 
 
-namespace Wageworks.Foundation.SitecoreExtensions.Models
+namespace WageWorks.Foundation.SitecoreExtensions.Models
 {
     public class FormModelBinderProvider: Dictionary<Type, IModelBinder>, IModelBinderProvider
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using Glass.Mapper.Sc.Configuration.Attributes;
 
-namespace Wageworks.Foundation.Indexing.Models.Glass
+namespace WageWorks.Foundation.Indexing.Models.Glass
 {
     [SitecoreType(TemplateId = "{5C125B6D-C481-4C24-B5B9-9A23FE396BF0}")]
     public partial interface IFacet

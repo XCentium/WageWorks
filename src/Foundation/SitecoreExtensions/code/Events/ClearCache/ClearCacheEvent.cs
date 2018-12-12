@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Events.ClearCache
+namespace WageWorks.Foundation.SitecoreExtensions.Events.ClearCache
 {
     [DataContract]
     public class ClearCacheEvent

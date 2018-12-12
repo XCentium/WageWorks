@@ -1,6 +1,6 @@
 ﻿using Sitecore.Data;
 
-namespace Wageworks.Foundation.Alerts
+namespace WageWorks.Foundation.Alerts
 {
     public struct TemplateConstants
     {

@@ -10,7 +10,7 @@ using Sitecore.Links;
 using Sitecore.Sites;
 using Sitecore.Web;
 
-namespace Wageworks.Foundation.Multisite.Placeholders
+namespace WageWorks.Foundation.Multisite.Placeholders
 {
     public class SiteSpecificPlaceholderCacheManager : DefaultPlaceholderCacheManager
     {

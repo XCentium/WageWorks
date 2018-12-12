@@ -8,9 +8,9 @@ using Sitecore.Marketing.Definitions.Outcomes.Model;
 using Sitecore.Marketing.Definitions.PageEvents;
 using System;
 using System.Globalization;
-using Wageworks.Foundation.DependencyInjection;
+using WageWorks.Foundation.DependencyInjection;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Services
+namespace WageWorks.Foundation.SitecoreExtensions.Services
 {
     [Service(typeof(ITrackerService), Lifetime = Lifetime.Transient)]
     public class TrackerService : ITrackerService

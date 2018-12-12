@@ -1,9 +1,9 @@
 ﻿using System.Web;
 using Sitecore.Mvc.Helpers;
-using Wageworks.Foundation.Dictionary.Repositories;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.Dictionary.Repositories;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Foundation.Dictionary.Extensions
+namespace WageWorks.Foundation.Dictionary.Extensions
 {
     public static class SitecoreExtensions
   {

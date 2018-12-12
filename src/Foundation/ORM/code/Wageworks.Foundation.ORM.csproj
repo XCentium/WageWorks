@@ -12,8 +12,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Wageworks.Foundation.ORM</RootNamespace>
-    <AssemblyName>Wageworks.Foundation.ORM</AssemblyName>
+    <RootNamespace>WageWorks.Foundation.ORM</RootNamespace>
+    <AssemblyName>WageWorks.Foundation.ORM</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -164,13 +164,13 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\DependencyInjection\code\Wageworks.Foundation.DependencyInjection.csproj">
+    <ProjectReference Include="..\..\DependencyInjection\code\WageWorks.Foundation.DependencyInjection.csproj">
       <Project>{366148b7-2392-4f42-80d6-786b7a3682ae}</Project>
-      <Name>Wageworks.Foundation.DependencyInjection</Name>
+      <Name>WageWorks.Foundation.DependencyInjection</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\SitecoreExtensions\code\Wageworks.Foundation.SitecoreExtensions.csproj">
+    <ProjectReference Include="..\..\SitecoreExtensions\code\WageWorks.Foundation.SitecoreExtensions.csproj">
       <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
-      <Name>Wageworks.Foundation.SitecoreExtensions</Name>
+      <Name>WageWorks.Foundation.SitecoreExtensions</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -5,11 +5,11 @@ using Sitecore.Sites;
 using System;
 using System.Linq;
 using System.Web.Mvc;
-using Wageworks.Feature.PageContent.Models;
-using Wageworks.Foundation.ORM.Context;
+using WageWorks.Feature.PageContent.Models;
+using WageWorks.Foundation.ORM.Context;
 using Convert = System.Convert;
 
-namespace Wageworks.Feature.PageContent.Controllers
+namespace WageWorks.Feature.PageContent.Controllers
 {
     public class PageContentController : SitecoreController
     {
@@ -21,7 +21,7 @@ namespace Wageworks.Feature.PageContent.Controllers
         }
 
         [HttpGet]
-        [Route("api/Wageworks/contentservices/getgenericpages")]
+        [Route("api/WageWorks/contentservices/getgenericpages")]
         public JsonResult GetGenericPages()
         {
             Item mobileItem = null;
@@ -54,7 +54,7 @@ namespace Wageworks.Feature.PageContent.Controllers
         }
 
         [HttpGet]
-        [Route("api/Wageworks/contentservices/getappzip")]
+        [Route("api/WageWorks/contentservices/getappzip")]
         public JsonResult GetDownloadableZip(string dateTime = null)
         {
 

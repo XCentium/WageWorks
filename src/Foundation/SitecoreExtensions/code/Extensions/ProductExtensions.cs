@@ -2,7 +2,7 @@
 using System.Linq;
 using Sitecore.Data.Items;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Extensions
+namespace WageWorks.Foundation.SitecoreExtensions.Extensions
 {
     public class ProductExtensions
     {

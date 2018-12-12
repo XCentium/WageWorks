@@ -3,10 +3,10 @@ using System.Linq;
 using Sitecore.Configuration;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
-using Wageworks.Foundation.DependencyInjection;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.DependencyInjection;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Foundation.Multisite.Providers
+namespace WageWorks.Foundation.Multisite.Providers
 {
     [Service(typeof(ISiteSettingsProvider))]
     public class SiteSettingsProvider : ISiteSettingsProvider

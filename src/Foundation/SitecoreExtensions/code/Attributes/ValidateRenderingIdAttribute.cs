@@ -4,7 +4,7 @@ using System.Reflection;
 using System.Web.Mvc;
 using Sitecore.Mvc.Presentation;
 
-namespace Wageworks.Foundation.SitecoreExtensions.Attributes
+namespace WageWorks.Foundation.SitecoreExtensions.Attributes
 {
     public class ValidateRenderingIdAttribute : ActionMethodSelectorAttribute
   {

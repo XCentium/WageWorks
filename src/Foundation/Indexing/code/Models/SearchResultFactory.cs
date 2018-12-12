@@ -1,10 +1,10 @@
 using System.Linq;
 using Sitecore.ContentSearch.SearchTypes;
 using Sitecore.Data.Items;
-using Wageworks.Foundation.Indexing.Repositories;
-using Wageworks.Foundation.SitecoreExtensions.Extensions;
+using WageWorks.Foundation.Indexing.Repositories;
+using WageWorks.Foundation.SitecoreExtensions.Extensions;
 
-namespace Wageworks.Foundation.Indexing.Models
+namespace WageWorks.Foundation.Indexing.Models
 {
     public class SearchResultFactory
     {

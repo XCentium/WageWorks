@@ -5,11 +5,11 @@ using System.Web;
 using Sitecore.Caching;
 using Sitecore.Data;
 
-namespace Wageworks.Foundation.Indexing.Cache
+namespace WageWorks.Foundation.Indexing.Cache
 {
     public class IndexingCache : CustomCache
     {
-        public IndexingCache(long maxSize) : base("Wageworks.Foundation.Indexing", maxSize)
+        public IndexingCache(long maxSize) : base("WageWorks.Foundation.Indexing", maxSize)
         {
         }
 
