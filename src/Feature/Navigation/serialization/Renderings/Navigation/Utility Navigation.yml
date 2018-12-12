@@ -1,0 +1,21 @@
+﻿---
+ID: "5007c19f-c42c-46a1-891b-0fb178a59e0b"
+Parent: "9ce7afd3-6b9f-4955-9b00-164b9c91ecd2"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
+Path: /sitecore/layout/Renderings/Feature/Navigation/Utility Navigation
+DB: master
+SharedFields:
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: UtilityNav
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Vista.Feature.Navigation.Controllers.NavigationController, Vista.Feature.Navigation
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181212T214446Z

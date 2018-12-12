@@ -1,0 +1,27 @@
+﻿@using WageWorks.Feature.Navigation
+@using WageWorks.Foundation.SitecoreExtensions.Extensions
+@using WageWorks.Feature.Navigation.Extensions
+@using Sitecore.Diagnostics
+@model WageWorks.Feature.Navigation.Models.NavigationItems
+
+@try
+{ 
+@if (Model.NavItems.Count() > 0)
+{
+    <ul class="mt-10">
+        @foreach (var child in Model.NavItems)
+        {
+            <li>
+                <a href="@(child.Url)@(string.IsNullOrEmpty(child.Anchor) ? "" : "#" + child.Anchor)" target="@child.Target" title="@child.Item[Templates.Navigable.Fields.NavigationTitle]">
+                    @Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle, child.Item)
+                </a>
+            </li>
+        }
+    </ul>
+}
+}
+catch (Exception ex)
+{
+    Log.Error("Error in view UtilityNav.cshtml: ", ex.Message + ex.StackTrace);
+
+}

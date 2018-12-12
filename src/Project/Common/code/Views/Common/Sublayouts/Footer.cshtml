@@ -1,20 +1,42 @@
 ﻿@using Sitecore
 @using WageWorks.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Diagnostics
 @model Sitecore.Mvc.Presentation.RenderingModel
 
-
-<div class="footer footer-container container-fluid" style="background-image: url('/Assets/Images/footer.png');">
-    <div class="footer__wrapper container">
-        @Html.Sitecore().Placeholder("footer-logo")
+@try
+{ 
+<footer>
+    <div class="content-wrapper social-wrapper clear">
+        <div class="social-logo left">
+            <a href="/">
+                @Html.Sitecore().Placeholder("footer-logo")
+            </a>
+        </div>
         
-        <section class="footer__main-navigation d-flex">
-            @Html.Sitecore().Placeholder("footer-top")
-        </section>
+        @Html.Sitecore().Placeholder("footer-social")
 
-        <section class="footer__bottom d-flex">
-            <div class="footer__bottom-navigation d-flex">
-                @Html.Sitecore().Placeholder("footer-bottom")
-            </div>
-        </section>
     </div>
-</div>
+    <div class="content-wrapper sitemap-wrapper clear">
+        <div class="left mr-120">
+            @foreach (var link in Model.ButtonLinks) @*login button*@
+            {
+                @Html.Partial("~/Views/WageWorks/Renderings/Navigation/Link.cshtml", link)
+            }
+        </div>
+        @Html.Sitecore().Placeholder("footer-top")
+        
+    </div>
+    <div class="content-wrapper copyright-wrapper">
+       @* utilitynav *@
+        @Html.Sitecore().Placeholder("footer-bottom")
+
+        @* copyright will have footer bottom as well *@
+    </div>
+    <div class="goto-top"><a href="#"></a></div>
+</footer>
+}
+catch(Exception ex)
+{
+    Log.Error("Error in view Footer.cshtml: " , ex.Message + ex.StackTrace);
+
+}

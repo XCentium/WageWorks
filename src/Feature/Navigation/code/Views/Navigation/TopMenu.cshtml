@@ -5,12 +5,12 @@
 @model WageWorks.Feature.Navigation.Models.NavigationItems
 
 
-@foreach (var topMenu in Model.NavItems)
+@foreach (var socialMenu in Model.NavItems)
 {
-<li>
-    <a href="@topMenu.Url">
-        @Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle, topMenu.Item)
-    </a>
+    <li>
+        <a href="@socialMenu.Url">
+            @Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle, socialMenu.Item)
+        </a>
 
-</li>
+    </li>
 }

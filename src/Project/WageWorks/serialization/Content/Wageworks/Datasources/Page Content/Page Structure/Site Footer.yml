@@ -4,6 +4,37 @@ Parent: "99fb0b3b-7a59-4963-9142-fd9d5cb8b899"
 Template: "173bcb10-1a41-47d3-a317-8c20ac4ed756"
 Path: /sitecore/content/Wageworks/Datasources/Page Content/Page Structure/Site Footer
 DB: master
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{FBC19BC5-4C80-4E7A-83B4-93140DD6D8C9}">
+        <r
+          id="{A47C8288-7D4C-45FF-B75F-4AEDBF58A02D}"
+          ph="footer-logo"
+          uid="{2DB8BBFD-AC72-4AB2-A49F-B3FABF002DA6}" />
+        <r
+          ds="{C459B063-46A5-41C0-A5F5-D2BF1905CFAE}"
+          id="{BC1CD36B-2545-4687-BDEA-E0F587830825}"
+          par=""
+          ph="footer-social"
+          uid="{4FBC9113-7C4E-4689-BDE7-F553BF93F376}" />
+        <r
+          ds="{1F0D7748-B56B-4262-B863-A3287EA57799}"
+          id="{5007C19F-C42C-46A1-891B-0FB178A59E0B}"
+          par=""
+          ph="footer-bottom"
+          uid="{6239FE86-C00C-4E64-B558-8607A5D955BC}" />
+        <r
+          id="{7DAE9F23-890F-4E06-99A7-CCEDB74D3D8E}"
+          ph="footer-bottom"
+          uid="{3CC1EEFC-E7EC-4FED-830A-E81548A2AC46}" />
+      </d>
+    </r>
 Languages:
 - Language: en
   Versions:

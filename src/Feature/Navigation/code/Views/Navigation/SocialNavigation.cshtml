@@ -1,0 +1,22 @@
+﻿@using WageWorks.Feature.Navigation
+@using WageWorks.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Diagnostics
+@model WageWorks.Feature.Navigation.Models.NavigationItems
+@try
+{
+    <div class="social-links right mt-10">
+        @foreach (var child in Model.NavItems)
+        {
+            <a href="@(child.Url)@(string.IsNullOrEmpty(child.Anchor) ? "" : "#" + child.Anchor)" target="@child.Target" title="@child.Item[Templates.Navigable.Fields.NavigationTitle]">
+                @if (!string.IsNullOrEmpty(child.CssClass))
+                {<span class="@child.CssClass"></span>}
+            </a>
+
+        }
+    </div>
+}
+catch (Exception ex)
+{
+    Log.Error("Error in view Social Navigation.cshtml: ", ex.Message + ex.StackTrace);
+
+}
