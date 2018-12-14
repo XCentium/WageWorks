@@ -73,20 +73,23 @@ SharedFields:
   Hint: __Renderings
   Type: layout
   Value: |
-    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:xsd="http://www.w3.org/2001/XMLSchema">
       <d
         id="{46D2F427-4CE5-4E1F-BA10-EF3636F43534}"
-        l="{14030E9F-CE92-49C6-AD87-7D49B50E42EA}">
+        p:before="*"
+        s:l="{14030E9F-CE92-49C6-AD87-7D49B50E42EA}">
         <r
-          ds=""
-          id="{493B3A83-0FA7-4484-8FC9-4680991CF743}"
-          par=""
-          ph="content"
-          uid="{A08C9132-DBD1-474F-A2CA-6CA26A4AA650}" />
+          uid="{A08C9132-DBD1-474F-A2CA-6CA26A4AA650}"
+          s:ds=""
+          s:id="{493B3A83-0FA7-4484-8FC9-4680991CF743}"
+          s:par=""
+          s:ph="content" />
       </d>
       <d
         id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
-        l="{A63971E9-3E9B-4FFC-AD37-AA82D6867C8D}" />
+        s:l="{FBC19BC5-4C80-4E7A-83B4-93140DD6D8C9}" />
     </r>
 Languages:
 - Language: da

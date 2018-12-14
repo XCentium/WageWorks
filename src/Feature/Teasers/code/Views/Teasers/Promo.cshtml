@@ -1,5 +1,5 @@
 ﻿@model WageWorks.Feature.Teasers.Models.PromoViewModel
-
+@using Sitecore.Diagnostics
 @using WageWorks.Foundation.SitecoreExtensions.Extensions
 
 @if (Model != null && Model.PromoItem != null)
@@ -21,51 +21,7 @@
                 }
             </div>
         }
-        @if (Model.PromoItem.HasBackgroundVideo)
-        {
-            <div class="video-wrapper">
-                <video aria-label="" autoplay loop="" playsinline="" autobuffer="" poster="@Model.PromoItem.BackgroundImage" style="background: #000;">
-                    <source type="video/mp4" src="@Model.PromoItem.BackgroundVideo">
-                </video>
-            </div>
 
-            <script type="text/javascript">
-                var callback = function () {
-                    $(".promo video").prop("volume", 0);
-
-                };
-
-                if (
-                    document.readyState === "complete" ||
-                    (document.readyState !== "loading" && !document.documentElement.doScroll)
-                ) {
-                    callback();
-                } else {
-                    document.addEventListener("DOMContentLoaded", callback);
-                }
-
-            </script>
-        }
-        else
-        {
-            if (Model.PromoItem.HasForgegroundVideo)
-            {
-                <div class="promo__background">
-                    <section class="yt__player">
-                        <div class="yt__video" data-yt-id="@Model.PromoItem.ForegroundVideo.ToYoutubeId()"></div>
-                        <div class="yt__screenshot">
-                            <div class="promo__background" style="background-image: url(@Model.PromoItem.BackgroundImage);"></div>
-                        </div>
-                        <a class="yt__play" href=""></a>
-                    </section>
-                </div>
-            }
-            else
-            {
-                var bg = string.IsNullOrWhiteSpace(Model.PromoItem.BackgroundImage) ? "" : "background-image: url('" + Model.PromoItem.BackgroundImage + "')";
-                <div class="promo__background" style="@bg"></div>
-            }
-        }
 
         <div class="promo__content-wrapper container @(Model.PromoItem.Links.Any() ? "" : "no-ctas")">
             <div class="promo__content">
@@ -99,10 +55,57 @@
             </div>
         </div>
 
-        @foreach (var cta in Model.PromoItem.Links)
-        {
-            @Html.Partial("_VideoCTA", cta)
-        }
     </section>
 }
 
+@try
+{
+    <header class="with-tag-hero flex-vam">
+        <div class="content-wrapper">
+            <div class="tag-wrapper">
+                @Html.Sitecore().ControllerRendering("Navigation", "BreadCrumbs")
+                <h1>
+                    @Model.PromoItem.TitleBaseColor
+                    <span class="accent">
+                        @Model.PromoItem.TitleAccentColor
+                    </span>
+                    @Model.PromoItem.TitleBase
+                </h1>
+                <p class="large mt-30">@Html.Raw(Model.PromoItem.Description)</p>
+            </div>
+
+            @if (Model.PromoItem.Links.Count() > 0)
+            {
+                <div class="mt-60">
+                    @foreach (var link in Model.PromoItem.Links)
+                    {
+
+                        @Html.Partial("_CallToAction", link)
+
+                    }
+                </div>
+            }
+
+            @{
+                var bg = string.IsNullOrWhiteSpace(Model.PromoItem.BackgroundImage) ? "" : "background-image: url('" + Model.PromoItem.BackgroundImage + "')";
+                <div class="hero-wrapper" style=@bg></div>
+            }
+
+
+            @*@if (isExperienceEditor)
+        {
+            <div class="hero-wrapper">
+                @Html.Sitecore().Field(Fields.Image, new { @w = imageSize.Width, @h = imageSize.Height })
+            </div>
+        }
+        else if (imageUrl != null)
+        {
+            <div class="hero-wrapper" style="background-image:url(@imageUrl)"></div>
+        }*@
+        </div>
+    </header>
+}
+catch (Exception ex)
+{
+    Log.Error("Error in view Promo.cshtml: ", ex.Message + ex.StackTrace);
+}

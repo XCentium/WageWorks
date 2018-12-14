@@ -1,18 +1,19 @@
 ﻿@model WageWorks.Feature.Teasers.Models.CallToActionLinkModel
 @using WageWorks.Foundation.SitecoreExtensions.Extensions
+@using Sitecore.Diagnostics
 
-@if (Model.IsVideoPopup)
+@try
 {
-    <a href="@Model.Url" target="@Model.Target" class="@(Model.RenderAsLink ? "" : "btn") @Model.CssClass" data-toggle="modal" data-target="#modal-@Model.Id">
-        @Model.Name
-        <i class="icon icon-cta"></i>
+
+<div class="link-underline ib mr-20">
+
+    <a href="@Model.Url" target="@Model.Target" class="@Model.CssClass">
+        @Html.Raw(Model.Name)
     </a>
+    </div>
 }
-else
+catch(Exception ex)
 {
-<a href="@Model.Url" target="@Model.Target" class="@(Model.RenderAsLink ? "" : "btn") @Model.CssClass">
-    @Html.Raw(Model.Name)
-    <i class="icon icon-cta"></i>
-</a>
+    Log.Error("Error in view _CallToAction.cshtml: ", ex.Message + ex.StackTrace);
 }
 

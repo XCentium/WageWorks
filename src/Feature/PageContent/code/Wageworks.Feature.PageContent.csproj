@@ -182,6 +182,10 @@
       <Project>{0D6BA4D8-C469-4AE9-9EBB-93BDF7D7E78F}</Project>
       <Name>WageWorks.Foundation.Dictionary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Foundation\Indexing\code\WageWorks.Foundation.Indexing.csproj">
+      <Project>{80213f24-577f-4f0b-a3b8-62485ea4d2f3}</Project>
+      <Name>WageWorks.Foundation.Indexing</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\ORM\code\WageWorks.Foundation.ORM.csproj">
       <Project>{6e5d48a0-459a-4bc0-b6fa-313b93314cb0}</Project>
       <Name>WageWorks.Foundation.ORM</Name>

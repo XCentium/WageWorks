@@ -71,11 +71,17 @@ namespace WageWorks.Feature.Teasers.Controller
         //    return View(promoSection);
         //}
 
-        //public ActionResult PromoSectionSlider()
-        //{
-        //    var promoSection = _teaserRepository.GetPromoSection();
-        //    return View(promoSection);
-        //}
+        public ActionResult PromoSectionSlider()
+        {
+            var promoSection = _teaserRepository.GetPromoSection();
+            return View(promoSection);
+        }
+
+        public ActionResult GuideSelector()
+        {
+            var promoSection = _teaserRepository.GetPromoSection();
+            return this.View("PromoSectionSlider", promoSection);
+        }
 
         //public ActionResult PromoSwitcher()
         //{

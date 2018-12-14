@@ -1,5 +1,5 @@
 ﻿---
-ID: "37a3a91d-db7e-4c59-9736-23b9cc673c10"
+ID: "59afc92e-fffe-4ae8-b67a-31448f690137"
 Parent: "e9796da7-661f-48f2-bf66-f1180bcb4029"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Feature/Teasers/_Promotion/Content/Section Title
@@ -10,7 +10,7 @@ SharedFields:
   Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 500
+  Value: 475
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180407T003719Z
+      Value: 20181213T184910Z

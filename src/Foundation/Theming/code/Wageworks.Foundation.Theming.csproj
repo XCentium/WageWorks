@@ -89,14 +89,8 @@
     <Content Include="Assets\scripts\vendor\jquery.ui.touch-punch.min.js" />
     <Content Include="Assets\scripts\vendor\js.cookie.js" />
     <Content Include="Assets\scripts\vendor\slick.min.js" />
-    <Content Include="Assets\scripts\Vista.Foundation.Frameworks.js" />
-    <Content Include="Assets\scripts\Vista.Foundation.Frameworks.min.js">
-      <DependentUpon>Vista.Foundation.Frameworks.js</DependentUpon>
-    </Content>
-    <Content Include="Assets\scripts\Vista.Foundation.Theming.js" />
-    <Content Include="Assets\scripts\Vista.Foundation.Theming.min.js">
-      <DependentUpon>Vista.Foundation.Theming.js</DependentUpon>
-    </Content>
+    <Content Include="Assets\scripts\Wageworks.Foundation.Frameworks.js" />
+    <Content Include="Assets\scripts\Wageworks.Foundation.Theming.js" />
     <Content Include="Assets\styles\bootstrap.min.css" />
     <Content Include="Assets\styles\colorbox.css" />
     <Content Include="Assets\styles\default.css" />
@@ -110,12 +104,6 @@
     <Content Include="Assets\styles\slick-theme.min.css" />
     <Content Include="Assets\styles\slick.css" />
     <Content Include="Assets\styles\vendor.css" />
-    <Content Include="Assets\scripts\Vista.Foundation.Frameworks.min.js.map">
-      <DependentUpon>Vista.Foundation.Frameworks.min.js</DependentUpon>
-    </Content>
-    <Content Include="Assets\scripts\Vista.Foundation.Theming.min.js.map">
-      <DependentUpon>Vista.Foundation.Theming.min.js</DependentUpon>
-    </Content>
     <Content Include="Assets\fonts\slick.eot" />
     <Content Include="Assets\fonts\slick.ttf" />
     <Content Include="Assets\fonts\slick.woff" />

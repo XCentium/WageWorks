@@ -1,16 +1,19 @@
 ﻿---
-ID: "eeada406-e3c3-4dc6-bfdf-3df1c3d1b665"
-Parent: "e9796da7-661f-48f2-bf66-f1180bcb4029"
+ID: "72ce3885-d19b-4c1c-8aa1-6235ca4afa97"
+Parent: "526e47d1-9dc3-4af5-8ea5-4ae7cb738ef0"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Teasers/_Promotion/Content/Badge
+Path: /sitecore/templates/Foundation/Theming/ParametersTemplate_GuideSelector/Content/OpenGuideTheme
 DB: master
 SharedFields:
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: 
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: "Single-Line Text"
+  Value: Droplink
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 200
+  Value: 500
 Languages:
 - Language: en
   Versions:
@@ -18,4 +21,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180220T220445Z
+      Value: 20180921T120607Z

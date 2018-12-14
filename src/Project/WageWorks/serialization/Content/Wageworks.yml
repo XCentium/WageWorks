@@ -1,7 +1,7 @@
 ﻿---
 ID: "3764ab05-b2c8-48b7-9df3-11bb4c1df533"
 Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
-Template: "015c5782-89c4-4870-b5c0-9a2874b2341b"
+Template: "3b7721cd-1431-410c-8c3a-cc5618b47f7c"
 Path: /sitecore/content/Wageworks
 DB: master
 SharedFields:
@@ -13,6 +13,20 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "02115632-fe1e-4b3d-9ad4-a4ddf1f782f0"
+      Hint: Copyright
+      Value: © 2018 WageWorks, Inc.
+    - ID: "235ae392-97ac-4822-be38-837da3e7724e"
+      Hint: SiteBrowserTitle
+      Value: WageWorks
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20181113T212852Z
+    - ID: "8f42d4ee-0ef5-447d-bffe-ab897d49f60a"
+      Hint: Alternate Logo
+      Value: |
+        <image mediaid="{E1FCCFB7-7A97-42B9-88E3-BB18A53DFE7B}" />
+    - ID: "e748d808-64c1-4dec-9718-f35cf9689e4b"
+      Hint: Logo
+      Value: |
+        <image mediaid="{D1270857-1F44-47FE-83AB-F3707713DAB0}" />

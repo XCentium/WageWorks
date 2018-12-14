@@ -1,0 +1,30 @@
+﻿---
+ID: "2bc21ff8-aa23-49d2-af44-7449567494dd"
+Parent: "683678c2-9dd6-404a-8d45-ecb3ba93b297"
+Template: "683678c2-9dd6-404a-8d45-ecb3ba93b297"
+Path: /sitecore/templates/Foundation/Theming/ParametersTemplate_GuideSelector/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1d84d2c3-caf5-4c02-bf51-c6990f6523a5"
+      Hint: SeeAllText
+      Value: See All Guides
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180831T112715Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        extranet\Anonymous
+    - ID: "8445fd16-ac57-4626-ba51-2e7b01681b8a"
+      Hint: OpenGuideTheme
+      Value: "{F68591FF-4152-44CF-8457-7537F1418AAB}"
+    - ID: "b5275313-50ab-4527-b75c-3884773cad64"
+      Hint: OpenGuideText
+      Value: Learn More
+    - ID: "c19fe5bf-d347-497f-b538-79bcbfd326c2"
+      Hint: SeeAllLink
+      Value: "{A89CBBB0-C5AA-49DD-B1A6-C719FD9D776A}"

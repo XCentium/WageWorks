@@ -1,0 +1,17 @@
+﻿---
+ID: "6ac48c54-4bbf-4b94-bcba-4e3edc8338b3"
+Parent: "be1940ec-ee80-4233-95f6-ec8489e34e6a"
+Template: "910aaad7-c8c4-4d26-a2e1-f8de522f36a9"
+Path: /sitecore/content/Wageworks/Datasources/Teasers/Banners/Employee Banner/How to Use it
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181213T180117Z
+    - ID: "4e0f59f5-6ee0-40a2-8d79-5e44622a713e"
+      Hint: Name
+      Value: How You Use it

@@ -35,29 +35,21 @@ namespace WageWorks.Feature.Teasers.Models
 
         public PromotionModel(IPromotion item)
         {
-            this.Body = item.Body;
-            this.Title = item.Title;
-            this.Badge = item.Badge;
-            this.Headline = item.Headline;
+            this.TitleAccentColor = item.TitleAccentColor;
+            this.TitleBase = item.TitleBase;
+            this.TitleBaseColor = item.TitleBaseColor;
+            this.Description = item.Description;
             this.SectionTitle = item.SectionTitle;
-
             this.BackgroundImage = item.BackgroundImage?.Src;
-            this.BackgroundVideo = item.BackgroundVideo?.Src;
-            this.ForegroundImage = item.ForegroundImage?.Src;
-            this.ForegroundVideo = item.ForegroundVideo?.Url;
+            
         }
 
-        public string Title { get; set; }
-        public string Badge { get; set; }
-        public string Body { get; set; }
-        public string Headline { get; set; }
-        public string SectionTitle { get; set; }
-        public string ForegroundImage { get; set; }
+        public string TitleAccentColor { get; set; }
+        public string TitleBase { get; set; }
+        public string TitleBaseColor { get; set; }
+        public string Description { get; set; }
         public string BackgroundImage { get; set; }
-        public string BackgroundVideo { get; set; }
-        public string ForegroundVideo { get; set; }
-        public bool HasBackgroundVideo { get { return !string.IsNullOrEmpty(BackgroundVideo); } }
-        public bool HasForgegroundVideo { get { return !string.IsNullOrEmpty(ForegroundVideo); } }
+        public string SectionTitle { get; set; }
         public string CssClass { get; set; }
         public List<CallToActionLinkModel> Links { get; set; } = new List<CallToActionLinkModel>();
     }

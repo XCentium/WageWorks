@@ -1,0 +1,23 @@
+﻿---
+ID: "b55e4eee-9c93-4307-88d6-97633ed3f516"
+Parent: "e63d7757-3129-43bc-94e7-9a0ee65f9642"
+Template: "be4a9e2c-2d9a-4c5a-905c-23ccbac9872c"
+Path: /sitecore/content/Wageworks/Datasources/Teasers/Tabbed component/Employee Tabs/Commuter Benefits
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e23b8d1-e4cb-4f4a-b14c-2d95bb6412e3"
+      Hint: Description
+      Value: "A WageWorks® Commuter program is a pre-tax benefit that can save you up to a third of what you pay for parking and public transit—that includes train, subway, bus, ferry and eligible vanpool—as part of your daily commute to work."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181213T185625Z
+    - ID: "59afc92e-fffe-4ae8-b67a-31448f690137"
+      Hint: Section Title
+      Value: Commuter Benefits Transit & Parking
+    - ID: "a5ab15e6-dea2-4c14-9b2a-12241a58445f"
+      Hint: Title Base Color
+      Value: Commuter Benefits

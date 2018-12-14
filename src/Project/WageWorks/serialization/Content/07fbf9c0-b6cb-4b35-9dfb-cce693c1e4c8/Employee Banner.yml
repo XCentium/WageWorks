@@ -1,0 +1,30 @@
+﻿---
+ID: "be1940ec-ee80-4233-95f6-ec8489e34e6a"
+Parent: "07fbf9c0-b6cb-4b35-9dfb-cce693c1e4c8"
+Template: "be4a9e2c-2d9a-4c5a-905c-23ccbac9872c"
+Path: /sitecore/content/Wageworks/Datasources/Teasers/Banners/Employee Banner
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e23b8d1-e4cb-4f4a-b14c-2d95bb6412e3"
+      Hint: Description
+      Value: "Employee benefits like HSAs, FSAs and commuter programs, give you a simple way to save—and pay—for expenses like every day healthcare costs, dependent care and the cost of your commute. And because you’ll be using pre-tax dollars, you’ll get a tax break, too."
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181213T180047Z
+    - ID: "37a3a91d-db7e-4c59-9736-23b9cc673c10"
+      Hint: Title Base
+      Value: later
+    - ID: "a5ab15e6-dea2-4c14-9b2a-12241a58445f"
+      Hint: Title Base Color
+      Value: Here’s how you save money while
+    - ID: "a8e58453-0b0c-445b-9d2f-25b4d2e9f0fd"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{1796DCD8-86DB-4F5E-946E-40BE9B2A2A54}" />
+    - ID: "dccadb4d-cb5a-40e2-9a98-00f538a61e8b"
+      Hint: Title Accent Color
+      Value: saving money

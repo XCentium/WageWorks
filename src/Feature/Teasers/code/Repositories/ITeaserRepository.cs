@@ -5,6 +5,7 @@ namespace WageWorks.Feature.Teasers.Repositories
     public interface ITeaserRepository
     {
         PromoViewModel GetPromo();
+        PromoSectionViewModel GetPromoSection();
 
     }
 }

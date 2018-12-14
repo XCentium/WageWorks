@@ -1,16 +1,16 @@
 ﻿---
-ID: "a95ebc57-12c9-45b7-9df9-e0cd49c71e4d"
-Parent: "c45b3744-68e5-4c1d-9d93-208a0f042436"
+ID: "0e23b8d1-e4cb-4f4a-b14c-2d95bb6412e3"
+Parent: "e9796da7-661f-48f2-bf66-f1180bcb4029"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/Teasers/_Promotion/Media/Foreground Video
+Path: /sitecore/templates/Feature/Teasers/_Promotion/Content/Description
 DB: master
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: General Link
+  Value: Rich Text
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 500
+  Value: 462
 Languages:
 - Language: en
   Versions:
@@ -18,4 +18,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20180314T210627Z
+      Value: 20180220T220445Z
