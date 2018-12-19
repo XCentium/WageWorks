@@ -1,0 +1,25 @@
+﻿---
+ID: "fe3bb2f5-ff3d-47b3-9813-470373ef1b55"
+Parent: "1f0d7748-b56b-4262-b863-a3287ea57799"
+Template: "017b53f2-6842-43cf-be86-af54e32fae31"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Footer Legal Navigation/CA Privacy Rights
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: CA Privacy Rights
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181219T025547Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{05117A87-21EC-44E7-BA6F-E4BA24B5FD75}" />

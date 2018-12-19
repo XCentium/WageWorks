@@ -1,0 +1,28 @@
+﻿---
+ID: "f34bdd5b-ca9e-4476-b97d-d6b89088af66"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "5fdd14a9-a72c-48a7-810d-8dfcc6308ec3"
+Path: /sitecore/content/Wageworks/Home/Employers
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/16x16/home.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Employers
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181218T164457Z

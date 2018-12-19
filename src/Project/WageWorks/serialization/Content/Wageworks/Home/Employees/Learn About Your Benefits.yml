@@ -1,13 +1,22 @@
 ﻿---
 ID: "98cf6743-79c0-4e31-b5e5-3335d00c65e6"
 Parent: "05117a87-21ec-44e7-ba6f-e4ba24b5fd75"
-Template: "7d5992e3-af44-4fb0-b556-dd905facbc2e"
+Template: "881803d9-ab70-4a70-ad5b-694427fe0e02"
 Path: /sitecore/content/Wageworks/Home/Employees/Learn About Your Benefits
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon
   Value: apps/16x16/learn.png
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Type: layout
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{FBC19BC5-4C80-4E7A-83B4-93140DD6D8C9}" />
+    </r>
 Languages:
 - Language: en
   Versions:
@@ -23,33 +32,11 @@ Languages:
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{D1B38896-81F4-4A7C-89BC-96972B7FE693}"
-              p:before="*"
-              s:ds=""
-              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
-              s:par="Hashtag Text&amp;Items={BA26768F-64A4-4460-A5DB-DCCA69D04DB1}|{D77937A0-3976-4B9D-ADD9-51D63AA22667}|{D28E03F1-C436-4181-90F2-AF3A9E65FA71}|{CF6805C6-7CB8-43FB-98A0-2AC52EF244A0}|{ECBB78CB-2FFC-4610-8CD7-D68914258554}&amp;Title=Healthcare &amp; Dependent Care"
-              s:ph="main" />
-            <r
-              uid="{7FEA6283-0132-477D-949C-060368929ADC}"
-              p:after="r[@uid='{D1B38896-81F4-4A7C-89BC-96972B7FE693}']"
-              s:ds=""
-              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
-              s:par="Title=Commuter&amp;Items={955F97A0-D48E-4539-98EC-F0A0AC7B206E}&amp;Hashtag Text"
-              s:ph="main" />
-            <r
-              uid="{150E3821-6B89-463D-9DEB-24C007D6A437}"
-              p:after="r[@uid='{7FEA6283-0132-477D-949C-060368929ADC}']"
-              s:ds=""
-              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
-              s:par="Title=Lifestyle&amp;Items={7160510C-43B0-4105-A03F-A11516784984}|{09A7ABFC-B6B8-45F6-9C76-50FB523EE678}&amp;Hashtag Text"
-              s:ph="main" />
-            <r
-              uid="{5986215C-8639-4089-8F9E-1446F2462F9A}"
-              p:after="*[1=2]"
-              s:ds=""
-              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
-              s:par="Space Styling={B04FB10C-0D85-4A5D-85FC-963B337D4FC5}&amp;Title=Services&amp;Items={76ED4640-C525-445E-90AE-3A2AE8F67AF3}|{FA79353E-E315-4AC8-AF11-6FB86CA24354}|{6CFDED47-2A9A-462D-B645-6E63DD39DB18}&amp;Section Color&amp;Hashtag Text"
-              s:ph="main" />
+              uid="{4023EE4E-8C56-4D54-8EC6-A50EF0D54A19}"
+              s:ds="{BE1940EC-EE80-4233-95F6-EC8489E34E6A}"
+              s:id="{F0BAB58E-D35D-4450-BAE7-283B1FBEB619}"
+              s:par="CSS Variants"
+              s:ph="page-layout" />
           </d>
         </r>
     - ID: "0954ca5d-4161-41ff-810e-24b310fb5112"
@@ -71,6 +58,9 @@ Languages:
     - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
       Hint: Title
       Value: Learn About
+    - ID: "9492e0bb-9df9-46e7-8188-ec795c4ade44"
+      Hint: Image
+      Value: 
     - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
       Hint: Headline
       Value: Your Benefits

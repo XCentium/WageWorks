@@ -12,6 +12,10 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20181213T180117Z
+    - ID: "27c1025d-def9-4108-9fc4-94dee8716513"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{98CF6743-79C0-4E31-B5E5-3335D00C65E6}" />
     - ID: "4e0f59f5-6ee0-40a2-8d79-5e44622a713e"
       Hint: Name
       Value: How You Use it

@@ -1,0 +1,25 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Data
+@using WageWorks.Foundation.Theming.Extensions
+@model WageWorks.Feature.Teasers.Models.PromoViewModel
+
+<section class="@RenderingContext.Current.Rendering.GetSpaceStyling() @RenderingContext.Current.Rendering.GetLayout()">
+    <div class="content-wrapper">
+        <div class="story-bg @RenderingContext.Current.Rendering.GetSectionColor()"></div>
+        @if (Sitecore.Context.PageMode.IsExperienceEditor)
+        {
+            <div class="story-img">@Model.PromoItem.BackgroundImage</div>
+        }
+        else
+        {
+            var bg = string.IsNullOrWhiteSpace(Model.PromoItem.BackgroundImage) ? "" : "background-image: url('" + Model.PromoItem.BackgroundImage + "')";
+            <div class="story-img" style="@bg"></div>
+        }
+        <div class="story-content">
+            <h6>@Model.PromoItem.TitleBaseColor</h6>
+            <h3 class="accent mt-30 mb-30"><strong>@Model.PromoItem.SectionTitle</strong></h3>
+            <p>@Model.PromoItem.Description</p>
+        </div>
+    </div>
+</section>

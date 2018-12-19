@@ -28,10 +28,50 @@ namespace WageWorks.Foundation.Theming.Extensions
             return item?[Templates.Style.Fields.Class] ?? "";
         }
 
+        public static string GetLayout([NotNull] this Rendering rendering)
+        {
+            var id = MainUtil.GetID(rendering.Parameters[Constants.ComponentParameters.Layouts] ?? "", null);
+            if (ID.IsNullOrEmpty(id))
+                return "";
+            var item = rendering.RenderingItem.Database.GetItem(id);
+            return item?[Templates.Style.Fields.Class] ?? "";
+        }
+
+        //Amir
+        public static string GetSpaceStyling([NotNull] this Rendering rendering)
+        {
+            var id = MainUtil.GetID(rendering.Parameters[Constants.ComponentParameters.SpaceStyling] ?? "", null);
+            if (ID.IsNullOrEmpty(id))
+                return "";
+            var item = rendering.RenderingItem.Database.GetItem(id);
+            return item?[Templates.Style.Fields.SectionColorStyle] ?? "";
+        }
+
+        public static string GetSectionColor([NotNull] this Rendering rendering)
+        {
+            var id = MainUtil.GetID(rendering.Parameters[Constants.ComponentParameters.SectionColor] ?? "", null);
+            if (ID.IsNullOrEmpty(id))
+                return "";
+            var item = rendering.RenderingItem.Database.GetItem(id);
+            return item?[Templates.Style.Fields.SectionColorStyle] ?? "";
+        }
+
+
         public static string GetCollapsibleTitle([NotNull] this Rendering rendering)
         {
             return rendering.Parameters[Constants.IsCollapsibleLayoutParameters.CollapsibleSectionTitle];
         }
+
+        public static string SeeAllTitle([NotNull] this Rendering rendering)
+        {
+            return rendering.Parameters[Constants.GuideSelector.SeelAllText];
+        }
+
+        public static string SeeAllLink([NotNull] this Rendering rendering)
+        {
+            return Sitecore.Links.LinkManager.GetItemUrl(rendering.RenderingItem.Database.GetItem(rendering.Parameters[Constants.GuideSelector.SeeAllLink]));
+        }
+
 
         public static bool IsSectionCollapsible([NotNull] this Rendering rendering)
         {
@@ -84,6 +124,8 @@ namespace WageWorks.Foundation.Theming.Extensions
         public static BackgroundRendering RenderBackground([NotNull] this Rendering rendering, HtmlHelper helper)
         {
             return new BackgroundRendering(helper.ViewContext.Writer, rendering.GetBackgroundClass());
-        }
+        }        
+
+
     }
 }

@@ -1,9 +1,11 @@
 ﻿@model WageWorks.Feature.Teasers.Models.PromoSectionViewModel
 @using System.Linq
+@using Sitecore.Mvc.Presentation
+@using WageWorks.Foundation.Theming.Extensions
 
 @if (Model != null && Model.PromoItems != null && Model.PromoItems.Any())
 {
-    <section>
+    <section class="@RenderingContext.Current.Rendering.GetSpaceStyling()">
         <div class="content-wrapper benefit-guide-wrapper">
             <aside class="on-the-left">
                 <div class="link-arrow-left benefit-links">
@@ -26,9 +28,9 @@
                     </ul>
                 </div>
 
-                @*<div class="mt-60 link-arrow">
-                        <a href="@Model.SeeAllUrl">@Model.SeeAllText</a>
-                    </div>*@
+                <div class="mt-60 link-arrow">
+                    <a href="@RenderingContext.Current.Rendering.SeeAllLink()">@RenderingContext.Current.Rendering.SeeAllTitle()</a>
+                    </div>
             </aside>
 
             @if (Sitecore.Context.PageMode.IsExperienceEditor && Model.PromoItems.Count() == 0)
@@ -48,18 +50,18 @@
                         <h3 class="mt-20 mb-20"><strong>@guideInfo.SectionTitle</strong></h3>
                         <p class="mb-30 small">@guideInfo.Description</p>
                         @*@if (guideInfo.Tags.Count() > 0)
-                        {
-                            <ul>
-                                @foreach (var link in guideInfo.Tags)
-                                {
-                                    link.IsBoldText = true;
-                                    <li>
-                                        <div class="link-underline ib">@Html.Partial("~/Views/WageWorks/Renderings/Navigation/Link.cshtml", link)</div>
-                                    </li>
+                            {
+                                <ul>
+                                    @foreach (var link in guideInfo.Tags)
+                                    {
+                                        link.IsBoldText = true;
+                                        <li>
+                                            <div class="link-underline ib">@Html.Partial("~/Views/WageWorks/Renderings/Navigation/Link.cshtml", link)</div>
+                                        </li>
 
-                                }
-                            </ul>
-                        }*@
+                                    }
+                                </ul>
+                            }*@
                     </div>
 
                     <div class="mt-20">

@@ -1,0 +1,24 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Data
+@using WageWorks.Foundation.Theming.Extensions
+@model WageWorks.Feature.Teasers.Models.PromoViewModel
+
+<section class="@RenderingContext.Current.Rendering.GetSpaceStyling()">
+    <div class="content-wrapper flex-sb">
+        @if (@RenderingContext.Current.Rendering.GetSpaceStyling().ToLower() !="vertical")
+        {
+            <aside class="on-the-left">
+                <h2>@Model.PromoItem.TitleBaseColor</h2>
+            </aside>
+        }
+        <div>
+            @if (@RenderingContext.Current.Rendering.GetSpaceStyling().ToLower() == "vertical")
+            {
+                <h2>@Model.PromoItem.TitleBaseColor</h2>
+            }
+            <h3 class="accent mb-30"><strong>@Model.PromoItem.SectionTitle</strong></h3>
+            <p>@Model.PromoItem.Description</p>
+        </div>
+    </div>
+</section>

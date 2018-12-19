@@ -1,0 +1,17 @@
+﻿---
+ID: "37e31ef6-bc40-441e-a4c2-5996ec97774d"
+Parent: "a009bea1-ac91-4586-8820-0b7ce5c59c68"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Wageworks/Page Types/Partners Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/businessmen.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20181218T164224:636807481446805953Z"

@@ -13,7 +13,15 @@
 
             </div>
 
-            @Html.Sitecore().Placeholder("navbar-right") @*//global search*@  
+            @Html.Sitecore().Placeholder("navbar-right") @*//global search*@
+            <div class="search-m">
+                <div class="search-resources-wrapper flex-vam">
+                    <form class="search-form-mobile" action="/" method="get">
+                        <input class="search-input-mobile" type="text" name="query" placeholder="Search WageWorks">
+                        <span class="search-button-mobile icon-search"></span>
+                    </form>
+                </div>
+            </div>
         </ul>
 
         <ul class="nav-right">

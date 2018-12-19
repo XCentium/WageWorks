@@ -83,6 +83,23 @@ namespace WageWorks.Feature.Teasers.Controller
             return this.View("PromoSectionSlider", promoSection);
         }
 
+        public ActionResult HeadlineSection()
+        {
+            var promoSection = _teaserRepository.GetPromo();
+            return this.View("HeadlineSection", promoSection);
+        }
+
+        public ActionResult StorySection()
+        {
+            var promoSection = _teaserRepository.GetPromo();
+            return this.View("StorySection", promoSection);
+        }
+
+        public ActionResult RoundSection()
+        {
+            var promoSection = _teaserRepository.GetPromo();
+            return this.View("RoundSection", promoSection);
+        }
         //public ActionResult PromoSwitcher()
         //{
         //    var promoSection = _teaserRepository.GetPromoSection();

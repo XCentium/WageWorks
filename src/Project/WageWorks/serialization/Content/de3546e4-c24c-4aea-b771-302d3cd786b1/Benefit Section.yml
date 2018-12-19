@@ -1,0 +1,23 @@
+﻿---
+ID: "281991c9-46ed-4ffc-b1d1-e843bfc2c1f0"
+Parent: "de3546e4-c24c-4aea-b771-302d3cd786b1"
+Template: "be4a9e2c-2d9a-4c5a-905c-23ccbac9872c"
+Path: /sitecore/content/Wageworks/Datasources/Teasers/Headline Section/Benefit Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e23b8d1-e4cb-4f4a-b14c-2d95bb6412e3"
+      Hint: Description
+      Value: You pay enough for healthcare, dependent care, commuter and more – you shouldn’t pay taxes on them too. That’s why WageWorks® make saving simple.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181214T222528Z
+    - ID: "59afc92e-fffe-4ae8-b67a-31448f690137"
+      Hint: Section Title
+      Value: The Benefits of our Benefits
+    - ID: "a5ab15e6-dea2-4c14-9b2a-12241a58445f"
+      Hint: Title Base Color
+      Value: Benefit Guides

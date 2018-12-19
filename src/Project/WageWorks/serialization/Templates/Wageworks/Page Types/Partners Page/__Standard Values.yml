@@ -1,0 +1,50 @@
+﻿---
+ID: "5da6d709-cce2-49f7-a8dc-10c06daa0056"
+Parent: "37e31ef6-bc40-441e-a4c2-5996ec97774d"
+Template: "37e31ef6-bc40-441e-a4c2-5996ec97774d"
+Path: /sitecore/templates/Project/Wageworks/Page Types/Partners Page/__Standard Values
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: business/32x32/businessmen.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r>
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+            l="{FBC19BC5-4C80-4E7A-83B4-93140DD6D8C9}">
+            <r
+              uid="{C5BE19BA-F6F8-461A-A4A2-2A5DAF8A15D3}"
+              ds="{BE1940EC-EE80-4233-95F6-EC8489E34E6A}"
+              id="{F0BAB58E-D35D-4450-BAE7-283B1FBEB619}"
+              par="CSS Variants"
+              ph="page-layout" />
+            <r
+              uid="{743965A5-1A37-4C72-B802-5932622FBAD7}"
+              ds="{E63D7757-3129-43BC-94E7-9A0EE65F9642}"
+              id="{787644AC-3A10-4716-8676-C6704136E2EB}"
+              par="Space Styling&amp;Guides&amp;Section Color&amp;SeeAllText=See%20All%20Guides&amp;SeeAllLink=%7BA89CBBB0-C5AA-49DD-B1A6-C719FD9D776A%7D&amp;OpenGuideTheme&amp;Hashtag Text&amp;OpenGuideText=Learn%2520More"
+              ph="page-layout" />
+            <r
+              uid="{BDF6109A-0C9C-460A-AE66-B3144B87F506}"
+              ds="{281991C9-46ED-4FFC-B1D1-E843BFC2C1F0}"
+              id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
+              par="Layout&amp;Space Styling&amp;Section Color&amp;Hashtag Text"
+              ph="page-layout" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181207T140816Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

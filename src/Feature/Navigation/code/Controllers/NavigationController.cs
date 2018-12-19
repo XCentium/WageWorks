@@ -77,6 +77,12 @@ namespace WageWorks.Feature.Navigation.Controllers
             return this.View("TopMenu",items);
         }
 
+        public ActionResult RightNav()
+        {
+            var items = GetMainMenu();
+            return this.View("RightNav", items);
+        }
+
         public ActionResult UtilityNav()
         {
             var items = GetMainMenu();

@@ -5,20 +5,25 @@
 @model WageWorks.Feature.Navigation.Models.NavigationItems
 
 @try
-{ 
-@if (Model.NavItems.Count() > 0)
 {
-    <ul class="mt-10">
-        @foreach (var child in Model.NavItems)
-        {
-            <li>
-                <a href="@(child.Url)@(string.IsNullOrEmpty(child.Anchor) ? "" : "#" + child.Anchor)" target="@child.Target" title="@child.Item[Templates.Navigable.Fields.NavigationTitle]">
-                    @Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle, child.Item)
-                </a>
-            </li>
-        }
-    </ul>
-}
+    @*<div class="left">
+        <nav>
+            <h6>test</h6>*@
+            if (Model.NavItems.Count() > 0)
+            {
+                <ul class="mt-10">
+                    @foreach (var child in Model.NavItems)
+                    {
+                        <li>
+                            <a href="@(child.Url)@(string.IsNullOrEmpty(child.Anchor) ? "" : "#" + child.Anchor)" target="@child.Target" title="@child.Item[Templates.Navigable.Fields.NavigationTitle]">
+                                @Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle, child.Item)
+                            </a>
+                        </li>
+                    }
+                </ul>
+            }
+        @*</nav>
+    </div>*@
 }
 catch (Exception ex)
 {

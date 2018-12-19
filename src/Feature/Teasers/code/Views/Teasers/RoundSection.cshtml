@@ -1,0 +1,21 @@
+﻿@model WageWorks.Feature.Teasers.Models.PromoViewModel
+@using Sitecore.Diagnostics
+@using Sitecore.Mvc.Presentation
+@using WageWorks.Foundation.Theming.Extensions
+
+
+<section class="@RenderingContext.Current.Rendering.GetSpaceStyling() @RenderingContext.Current.Rendering.GetLayout()">
+    <div class="text-wrapper round-bg-wrapper flex-vam">
+        <div>
+            <h2 class="mb-30">@Model.PromoItem.SectionTitle</h2>
+            @if (Sitecore.Context.PageMode.IsExperienceEditor)
+            {
+                <p class="large">@Model.PromoItem.Description</p>
+            }
+            else
+            {
+                <p class="large">@Model.PromoItem.Description</p>              
+            }
+        </div>
+    </div>
+</section>

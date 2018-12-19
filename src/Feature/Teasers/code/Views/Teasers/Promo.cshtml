@@ -2,68 +2,16 @@
 @using Sitecore.Diagnostics
 @using WageWorks.Foundation.SitecoreExtensions.Extensions
 
-@if (Model != null && Model.PromoItem != null)
-{
-    <section class="promo @Model.CssClass @Model.PromoItem.CssClass">
-        @* TODO - new fields so individual promos can have intros *@
-        @if (!string.IsNullOrWhiteSpace(Model.PromoItem.SectionTitle) || !string.IsNullOrWhiteSpace(Model.PromoItem.Headline))
-        {
-            <div class="promo__intro">
-                @if (!string.IsNullOrWhiteSpace(Model.PromoItem.SectionTitle))
-                {
-                    <h2 class="promo__intro--title">@Model.PromoItem.SectionTitle</h2>
-                }
-                @if (!string.IsNullOrWhiteSpace(Model.PromoItem.Headline))
-                {
-                    <div class="promo__intro--copy">
-                        @Html.Raw(Model.PromoItem.Headline)
-                    </div>
-                }
-            </div>
-        }
-
-
-        <div class="promo__content-wrapper container @(Model.PromoItem.Links.Any() ? "" : "no-ctas")">
-            <div class="promo__content">
-                @if (!string.IsNullOrEmpty(Model.PromoItem.Badge))
-                {
-                    <p class="promo__badge">@Model.PromoItem.Badge</p>
-                }
-
-                @if (!string.IsNullOrEmpty(Model.PromoItem.ForegroundImage))
-                {
-                    <img class="promo__content-img" src="@Model.PromoItem.ForegroundImage" alt="@Model.PromoItem.Title" />
-                }
-
-                <h2>
-                    @Html.Raw(Model.PromoItem.Title)
-                </h2>
-
-                <div class="promo__copy">
-                    @Html.Raw(Model.PromoItem.Body)
-                </div>
-
-                @if (Model.PromoItem.Links.Any())
-                {
-                    <div class="promo__ctas">
-                        @foreach (var cta in Model.PromoItem.Links)
-                        {
-                            @Html.Partial("_CallToAction", cta)
-                        }
-                    </div>
-                }
-            </div>
-        </div>
-
-    </section>
-}
-
+    
 @try
 {
+
     <header class="with-tag-hero flex-vam">
         <div class="content-wrapper">
             <div class="tag-wrapper">
-                @Html.Sitecore().ControllerRendering("Navigation", "BreadCrumbs")
+                @*@Html.Sitecore().ControllerRendering("Navigation", "BreadCrumb")*@
+                
+
                 <h1>
                     @Model.PromoItem.TitleBaseColor
                     <span class="accent">
@@ -86,10 +34,7 @@
                 </div>
             }
 
-            @{
-                var bg = string.IsNullOrWhiteSpace(Model.PromoItem.BackgroundImage) ? "" : "background-image: url('" + Model.PromoItem.BackgroundImage + "')";
-                <div class="hero-wrapper" style=@bg></div>
-            }
+                <div class="hero-wrapper" style="background-image: url('@Model.PromoItem.BackgroundImage');"></div>
 
 
             @*@if (isExperienceEditor)

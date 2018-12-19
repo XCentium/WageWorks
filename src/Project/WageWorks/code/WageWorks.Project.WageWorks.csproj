@@ -139,8 +139,6 @@
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <None Include="web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Project.WageWorks\Sublayouts\Footer.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="web.Debug.config">

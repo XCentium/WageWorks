@@ -1,0 +1,17 @@
+﻿---
+ID: "5fdd14a9-a72c-48a7-810d-8dfcc6308ec3"
+Parent: "a009bea1-ac91-4586-8820-0b7ce5c59c68"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Wageworks/Page Types/Employer Page
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/businessman2.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Value: "20181218T161822:636807467026448846Z"

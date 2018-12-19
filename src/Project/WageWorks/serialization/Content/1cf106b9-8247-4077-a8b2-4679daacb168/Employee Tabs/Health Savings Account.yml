@@ -25,3 +25,7 @@ Languages:
     - ID: "a5ab15e6-dea2-4c14-9b2a-12241a58445f"
       Hint: Title Base Color
       Value: Health Savings Account
+    - ID: "a8e58453-0b0c-445b-9d2f-25b4d2e9f0fd"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{5E03008A-AAD5-4C35-832C-F4A1549B5BC3}" />

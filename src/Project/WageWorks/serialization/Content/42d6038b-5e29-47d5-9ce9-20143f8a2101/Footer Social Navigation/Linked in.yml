@@ -1,0 +1,21 @@
+﻿---
+ID: "5f888bd6-304b-4516-88f6-5e8e091ba8e3"
+Parent: "c459b063-46a5-41c0-a5f5-d2bf1905cfae"
+Template: "017b53f2-6842-43cf-be86-af54e32fae31"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Footer Social Navigation/Linked in
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Linked in
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181219T024652Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link linktype="external" url="http://www.linkedin.com" anchor="" class="fab fa-linkedin-in" target="" />

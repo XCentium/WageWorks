@@ -1,7 +1,7 @@
 ﻿---
 ID: "6f4c4b58-798b-4ffd-b613-3c44fcf3ea78"
 Parent: "53f63b57-fb6d-40a1-82fc-a62d29d7a0bd"
-Template: "ff1272cc-9bea-4970-b181-6d29dc547e80"
+Template: "be4a9e2c-2d9a-4c5a-905c-23ccbac9872c"
 Path: /sitecore/content/Wageworks/Datasources/Employees/Learn About your benefits/Health Flexible Spending Account/Story Section Right
 DB: master
 Languages:
@@ -43,9 +43,19 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20181009T164758Z
+    - ID: "59afc92e-fffe-4ae8-b67a-31448f690137"
+      Hint: Section Title
+      Value: Donec sagittis scelerisque nisi id placerat.
     - ID: "818421e7-3892-4451-9098-c9e26d50ccef"
       Hint: Title
       Value: How you use it
+    - ID: "a5ab15e6-dea2-4c14-9b2a-12241a58445f"
+      Hint: Title Base Color
+      Value: HOW YOU USE IT
+    - ID: "a8e58453-0b0c-445b-9d2f-25b4d2e9f0fd"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{C58690DF-A446-4B4D-8257-851638F57680}" />
     - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
       Hint: Headline
       Value: Donec sagittis scelerisque nisi id placerat.

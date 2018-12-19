@@ -47,5 +47,22 @@
             public static string DismissablePeriod => "Dismissable Period";
             public static string CookieName => "Cookie Name";
         }
+
+        public struct GuideSelector
+        {
+            public static string SeelAllText => "SeeAllText";
+
+            public static string SeeAllLink => "SeeAllLink";
+        }
+
+
+        public struct ComponentParameters
+        {
+            public static string SpaceStyling => "Space Styling";
+
+            public static string SectionColor => "Section Color";
+
+            public static string Layouts => "Layout";
+        }
     }
 }
