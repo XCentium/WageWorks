@@ -54,10 +54,17 @@ Languages:
               s:ph="page-layout" />
             <r
               uid="{BDF6109A-0C9C-460A-AE66-B3144B87F506}"
-              p:after="*[1=2]"
+              p:after="r[@uid='{743965A5-1A37-4C72-B802-5932622FBAD7}']"
               s:ds="{281991C9-46ED-4FFC-B1D1-E843BFC2C1F0}"
               s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
               s:par="Layout&amp;Space Styling&amp;Section Color&amp;Hashtag Text"
+              s:ph="page-layout" />
+            <r
+              uid="{BD9D94A5-385F-4A1F-BB57-D0367D1FA6F6}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
+              s:par="Space Styling&amp;Title&amp;Items&amp;Section Color&amp;Hashtag Text"
               s:ph="page-layout" />
           </d>
         </r>

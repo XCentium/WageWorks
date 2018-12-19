@@ -163,6 +163,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Views\Teasers\StorySection.cshtml" />
     <Content Include="Views\Teasers\RoundSection.cshtml" />
+    <Content Include="Views\Teasers\ImageCards.cshtml" />
     <None Include="Views\Web.config" />
     <Content Include="App_Config\Include\Feature\Feature.Teasers.Serialization.config" />
     <Content Include="packages.config" />
@@ -195,7 +196,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Generate.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\BaseComponentModel.cs" />
     <Compile Include="Models\CarouselViewModel.cs" />
+    <Compile Include="Models\ContentInfoModel.cs" />
     <Compile Include="Models\DynamicTeaserItem.cs" />
     <Compile Include="Controller\TeasersController.cs" />
     <Compile Include="Models\DynamicTeaserModel.cs" />
@@ -210,8 +213,12 @@
     <Compile Include="Models\Glass\ITeasersParameters.gen.cs" />
     <Compile Include="Models\Glass\ITeaserVideoContent.gen.cs" />
     <Compile Include="Models\IHasPromoList.cs" />
+    <Compile Include="Models\ImageCardModel.cs" />
+    <Compile Include="Models\ImageCardsModel.cs" />
+    <Compile Include="Models\LinkModel.cs" />
     <Compile Include="Models\PromoSectionViewModel.cs" />
     <Compile Include="Models\PromoViewModel.cs" />
+    <Compile Include="Models\ThemeModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="..\..\..\ProductInfo.cs">
       <Link>Properties\ProductInfo.cs</Link>

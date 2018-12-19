@@ -13,11 +13,15 @@ using System.Globalization;
 using System.Linq;
 using System.Web;
 using WageWorks.Foundation.SitecoreExtensions.Services;
+using WebControls = Sitecore.Web.UI.WebControls;
+
 
 namespace WageWorks.Foundation.SitecoreExtensions.Extensions
 {
     public static class ItemExtensions
     {
+        private static readonly string disableEdit = "disable-web-editing=true";
+
         public static string Url(this Item item, UrlOptions options = null)
         {
             if (item == null)
@@ -42,7 +46,37 @@ namespace WageWorks.Foundation.SitecoreExtensions.Extensions
             var imageField = (ImageField)item.Fields[imageFieldId];
             return imageField?.MediaItem == null ? string.Empty : imageField.ImageUrl(options);
         }
+        public static string Render(this Item item, string fieldName, int? width, int? height)
+        {
+            var parameters = string.Empty;
+            if (width.HasValue)
+            {
+                parameters += "width=" + width.Value;
+            }
+            if (height.HasValue)
+            {
+                parameters += !string.IsNullOrEmpty(parameters) ? "&" : string.Empty;
+                parameters += "height=" + height.Value;
+            }
+            return WebControls.FieldRenderer.Render(item, fieldName, parameters);
+        }
+       
+        public static string GetURL(this MediaItem mediaItem, MediaUrlOptions options)
+        {
+            if (options == null)
+            {
+                return StringUtil.EnsurePrefix('/', MediaManager.GetMediaUrl(mediaItem));
+            }
 
+            var url = StringUtil.EnsurePrefix('/', MediaManager.GetMediaUrl(mediaItem, options));
+            var protectedUrl = HashingUtils.ProtectAssetUrl(url);
+
+            return protectedUrl;
+        }
+        public static MediaItem GetMediaItem(this ImageField imageField)
+        {
+            return imageField.MediaItem;
+        }
         public static string ImageUrl(this MediaItem mediaItem, int width, int height)
         {
             if (mediaItem == null)
@@ -77,13 +111,19 @@ namespace WageWorks.Foundation.SitecoreExtensions.Extensions
             var targetItem = item.TargetItem(mediaFieldId);
             return targetItem == null ? string.Empty : (MediaManager.GetMediaUrl(targetItem) ?? string.Empty);
         }
-
+        public static string Render(this Item item, string fieldName)
+        {
+            return WebControls.FieldRenderer.Render(item, fieldName);
+        }
 
         public static bool IsImage(this Item item)
         {
             return new MediaItem(item).MimeType.StartsWith("image/", StringComparison.InvariantCultureIgnoreCase);
         }
-
+        public static ImageField GetImageField(this Item item, string fieldName)
+        {
+            return item.Fields[fieldName];
+        }
         public static bool IsVideo(this Item item)
         {
             return new MediaItem(item).MimeType.StartsWith("video/", StringComparison.InvariantCultureIgnoreCase);
@@ -114,6 +154,11 @@ namespace WageWorks.Foundation.SitecoreExtensions.Extensions
 
             returnValue.AddRange(item.Axes.GetAncestors().Reverse().Where(i => i.IsDerived(templateID)));
             return returnValue;
+        }
+
+        public static string RenderDisableEdit(this Item item, string fieldName)
+        {
+            return WebControls.FieldRenderer.Render(item, fieldName, disableEdit);
         }
 
         public static List<Item> GetDescendantsAndSelf(this Item item, string templateId = "")

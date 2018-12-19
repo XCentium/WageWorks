@@ -7,13 +7,13 @@ namespace WageWorks.Feature.Teasers.Models
     public class ProductPromoViewModel
     {
         public string CssClass { get; set; }
-        public ProductPromotionModel Product { get; set; }
+        //public ProductPromotionModel Product { get; set; }
     }
 
-    public class ProductPromotionModel : PromotionModel
-    {
-        public double Price { get; set; }
-    }
+    //public class ProductPromotionModel : PromotionModel
+    //{
+    //    public double Price { get; set; }
+    //}
 
 
     #endregion
