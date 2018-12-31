@@ -2,7 +2,7 @@
 ID: "50573239-0041-4683-8324-f890fcd80b88"
 Parent: "9ce7afd3-6b9f-4955-9b00-164b9c91ecd2"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/Feature/Navigation/Main Navigation
+Path: /sitecore/layout/Renderings/Feature/Navigation/Mega Navigation
 DB: master
 SharedFields:
 - ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
@@ -14,7 +14,7 @@ SharedFields:
   Value: 
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: MainNav
+  Value: MegaMenu
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
   Value: WageWorks.Feature.Navigation.Controllers.NavigationController, WageWorks.Feature.Navigation

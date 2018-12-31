@@ -1,0 +1,17 @@
+﻿---
+ID: "c1bcc585-88e1-429f-beac-a26bd49d2dc0"
+Parent: "1633cb95-8f4c-4b0e-abbc-5f6b02e33251"
+Template: "390333c8-751b-4332-84a3-6360b969a19f"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Main Navigation/Employers/Learn about your benefits/Healthcare Benefits/Health Savings Account
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Health Savings Account
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T191223Z

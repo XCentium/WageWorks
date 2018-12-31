@@ -1,0 +1,17 @@
+﻿---
+ID: "9677c7a0-de1b-4ef6-822c-e28d110373cb"
+Parent: "26548654-0a2d-4966-b050-2a6b01d15e67"
+Template: "9f93fec6-fd95-47d9-ae56-cec1225c044f"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Main Navigation/Employers/How Tos and Resources
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: How tos
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T191947Z

@@ -1,0 +1,17 @@
+﻿---
+ID: "90cfe768-0e00-4f2a-8376-979fbd264747"
+Parent: "26548654-0a2d-4966-b050-2a6b01d15e67"
+Template: "9f93fec6-fd95-47d9-ae56-cec1225c044f"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Main Navigation/Employers/Learn about your benefits
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Learn about your benefits
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181211T191006Z

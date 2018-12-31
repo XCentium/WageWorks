@@ -20,10 +20,24 @@ SharedFields:
   Hint: __Renderings
   Type: layout
   Value: |
-    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1"
+      s:xsd="http://www.w3.org/2001/XMLSchema">
       <d
-        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
-        l="{FBC19BC5-4C80-4E7A-83B4-93140DD6D8C9}" />
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{C5BE19BA-F6F8-461A-A4A2-2A5DAF8A15D3}">
+          <p:d />
+        </r>
+        <r
+          uid="{743965A5-1A37-4C72-B802-5932622FBAD7}">
+          <p:d />
+        </r>
+        <r
+          uid="{BDF6109A-0C9C-460A-AE66-B3144B87F506}">
+          <p:d />
+        </r>
+      </d>
     </r>
 Languages:
 - Language: en
@@ -43,28 +57,42 @@ Languages:
               p:before="*"
               s:ds="{BE1940EC-EE80-4233-95F6-EC8489E34E6A}"
               s:id="{F0BAB58E-D35D-4450-BAE7-283B1FBEB619}"
-              s:par="CSS Variants"
-              s:ph="page-layout" />
-            <r
-              uid="{743965A5-1A37-4C72-B802-5932622FBAD7}"
-              p:after="r[@uid='{C5BE19BA-F6F8-461A-A4A2-2A5DAF8A15D3}']"
-              s:ds="{E63D7757-3129-43BC-94E7-9A0EE65F9642}"
-              s:id="{787644AC-3A10-4716-8676-C6704136E2EB}"
-              s:par="Space Styling&amp;Guides&amp;Section Color&amp;SeeAllText=See%20All%20Guides&amp;SeeAllLink=%7BA89CBBB0-C5AA-49DD-B1A6-C719FD9D776A%7D&amp;OpenGuideTheme&amp;Hashtag Text&amp;OpenGuideText=Learn%2520More"
+              s:par=""
               s:ph="page-layout" />
             <r
               uid="{BDF6109A-0C9C-460A-AE66-B3144B87F506}"
-              p:after="r[@uid='{743965A5-1A37-4C72-B802-5932622FBAD7}']"
+              p:after="r[@uid='{C5BE19BA-F6F8-461A-A4A2-2A5DAF8A15D3}']"
               s:ds="{281991C9-46ED-4FFC-B1D1-E843BFC2C1F0}"
               s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
-              s:par="Layout&amp;Space Styling&amp;Section Color&amp;Hashtag Text"
+              s:par="Layout=%7BDE7F9758-F0B0-47AF-946C-A8EB3C601F54%7D&amp;Space Styling=%7B80035ECC-AB00-4811-92B3-47B5FFE7EB6A%7D&amp;Section Color=%7B1104BA26-7FF8-4955-879D-92E99CCBC694%7D&amp;Hashtag Text"
               s:ph="page-layout" />
             <r
-              uid="{BD9D94A5-385F-4A1F-BB57-D0367D1FA6F6}"
-              p:after="*[1=2]"
+              uid="{743965A5-1A37-4C72-B802-5932622FBAD7}"
+              p:after="r[@uid='{BDF6109A-0C9C-460A-AE66-B3144B87F506}']"
+              s:ds="{E63D7757-3129-43BC-94E7-9A0EE65F9642}"
+              s:id="{787644AC-3A10-4716-8676-C6704136E2EB}"
+              s:par="Space Styling=%7B80035ECC-AB00-4811-92B3-47B5FFE7EB6A%7D&amp;Section Color=%7BBD43901D-3B19-4367-9C6C-35B0A5F609A2%7D&amp;See All Text=See%20All%20Guides&amp;See All Link=%7BA89CBBB0-C5AA-49DD-B1A6-C719FD9D776A%7D&amp;OpenGuideTheme=%7BF68591FF-4152-44CF-8457-7537F1418AAB%7D&amp;Hashtag Text"
+              s:ph="page-layout" />
+            <r
+              uid="{24A96563-C4F3-40E9-BA2B-8A844FD4C436}"
+              p:after="r[@uid='{743965A5-1A37-4C72-B802-5932622FBAD7}']"
+              s:ds="{EB201E81-E379-4B16-B868-5D58B07EEB6F}"
+              s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
+              s:par="Layout=%7B4AC140F4-0DA4-4E06-8831-5B55157F69E4%7D&amp;Space Styling&amp;Section Color&amp;Hashtag Text"
+              s:ph="page-layout" />
+            <r
+              uid="{52DAEDF2-D53D-4F12-B100-D41DE9235848}"
+              p:after="r[@uid='{24A96563-C4F3-40E9-BA2B-8A844FD4C436}']"
               s:ds=""
-              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
-              s:par="Space Styling&amp;Title&amp;Items&amp;Section Color&amp;Hashtag Text"
+              s:id="{DD931366-717A-4557-BD3A-327FA1EE432B}"
+              s:par="Items=%7b9CB70967-B977-41D4-B2E9-E53FF5F3E88B%7d%7c%7bC9A4E0D9-BACE-4D26-A01F-50DEB905120D%7d%7c%7b8B0B2013-0C83-4899-8420-335C652AFEAD%7d"
+              s:ph="page-layout" />
+            <r
+              uid="{61DF03A0-F2AE-42F8-B0AA-DF0E38B15A4E}"
+              p:after="*[1=2]"
+              s:ds="{536963FA-FE51-40AA-99DF-9F185E81E4C4}"
+              s:id="{A61D1314-B229-42AB-9A29-AAE4E5387D4F}"
+              s:par="Shadow&amp;Space Styling&amp;Section Color&amp;Hashtag Text"
               s:ph="page-layout" />
           </d>
         </r>

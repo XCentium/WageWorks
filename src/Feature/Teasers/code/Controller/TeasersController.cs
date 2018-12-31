@@ -12,6 +12,8 @@ namespace WageWorks.Feature.Teasers.Controller
     using WageWorks.Foundation.Alerts.Extensions;
     using WageWorks.Foundation.Alerts.Models;
     using WageWorks.Foundation.SitecoreExtensions.Extensions;
+    using WageWorks.Foundation.Theming;
+    using Constants = Foundation.Theming.Constants;
 
     public class TeasersController : SitecoreController
     {
@@ -27,7 +29,7 @@ namespace WageWorks.Feature.Teasers.Controller
         public ActionResult GetDynamicContent(string viewName)
         {
             var dataSourceItem = RenderingContext.Current.Rendering.Item;
-            if (!dataSourceItem?.IsDerived(Templates.DynamicTeaser.ID) ?? true)
+            if (!dataSourceItem?.IsDerived(WageWorks.Feature.Teasers.Templates.DynamicTeaser.ID) ?? true)
             {
                 return Context.PageMode.IsExperienceEditor ? this.InfoMessage(new InfoMessage(AlertTexts.InvalidDataSourceTemplateFriendlyMessage, InfoMessage.MessageType.Error)) : null;
             }
@@ -49,6 +51,29 @@ namespace WageWorks.Feature.Teasers.Controller
         //    var carousel = _teaserRepository.GetCarousel();
         //    return View(carousel);
         //}
+
+        public ActionResult ImageCards()
+        {
+            var title = ItemExtensions.GetParameter(Constants.Fields.Title);
+            var itemIds = ItemExtensions.GetParameters(Constants.Fields.Items);
+
+            var model = ImageCardsModel.CreateModel(title, itemIds);
+
+            return View("~/Views/Teasers/ImageCards.cshtml", model);
+        }
+
+        public ActionResult PlainCards()
+        {
+            var title = ItemExtensions.GetParameter(Constants.Fields.Title);
+            var itemIds = ItemExtensions.GetParameters(Constants.Fields.Items);
+            var openItemText = ItemExtensions.GetParameter(Constants.Fields.OpenItemText);
+
+            var model = PlainCardsModel.CreateModel(title, itemIds, openItemText);
+
+            return View("~/Views/Teasers/PlainCards.cshtml", model);
+        }
+
+
 
         public ActionResult Promo()
         {
@@ -81,6 +106,12 @@ namespace WageWorks.Feature.Teasers.Controller
         {
             var promoSection = _teaserRepository.GetPromoSection();
             return this.View("PromoSectionSlider", promoSection);
+        }
+
+        public ActionResult PromoImage()
+        {
+            var promoSection = _teaserRepository.GetPromoSection();
+            return this.View("PromoImage", promoSection);
         }
 
         public ActionResult HeadlineSection()

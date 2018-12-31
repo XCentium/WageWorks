@@ -148,15 +148,12 @@
 </LastOutputs>
       <LastGenOutput>Generate.cs</LastGenOutput>
     </Content>
-    <Content Include="Views\Teasers\Accordion.cshtml" />
-    <Content Include="Views\Teasers\Jumbotron.cshtml" />
     <Content Include="Views\Teasers\Tabs.cshtml" />
     <Content Include="Views\Teasers\TitleImageSummaryTeaser.cshtml" />
     <Content Include="Views\Teasers\TitleImageTeaser.cshtml" />
     <Content Include="Views\Teasers\TitleSummaryTeaser.cshtml" />
     <Content Include="Views\Teasers\ProductPromoSection.cshtml" />
     <Content Include="Views\Teasers\_CallToAction.cshtml" />
-    <Content Include="Views\Teasers\_VideoCTA.cshtml" />
     <Content Include="Views\Teasers\HeadlineSection.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -164,6 +161,8 @@
     <Content Include="Views\Teasers\StorySection.cshtml" />
     <Content Include="Views\Teasers\RoundSection.cshtml" />
     <Content Include="Views\Teasers\ImageCards.cshtml" />
+    <Content Include="Views\Teasers\PromoImage.cshtml" />
+    <Content Include="Views\Teasers\PlainCards.cshtml" />
     <None Include="Views\Web.config" />
     <Content Include="App_Config\Include\Feature\Feature.Teasers.Serialization.config" />
     <Content Include="packages.config" />
@@ -171,8 +170,6 @@
     <Content Include="Views\Teasers\Headline.cshtml" />
     <Content Include="Views\Teasers\JumbotronHeader.cshtml" />
     <Content Include="Views\Teasers\TeaserCarousel.cshtml" />
-    <Content Include="Views\Teasers\JumbotronCarousel.cshtml" />
-    <Content Include="Views\Teasers\Carousel.cshtml" />
     <Content Include="Views\Teasers\Promo.cshtml" />
     <Content Include="Views\Teasers\PromoSection.cshtml" />
     <Content Include="Views\Teasers\SocialPromoSection.cshtml" />
@@ -216,6 +213,8 @@
     <Compile Include="Models\ImageCardModel.cs" />
     <Compile Include="Models\ImageCardsModel.cs" />
     <Compile Include="Models\LinkModel.cs" />
+    <Compile Include="Models\PlainCardModel.cs" />
+    <Compile Include="Models\PlainCardsModel.cs" />
     <Compile Include="Models\PromoSectionViewModel.cs" />
     <Compile Include="Models\PromoViewModel.cs" />
     <Compile Include="Models\ThemeModel.cs" />
@@ -252,7 +251,9 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Shared\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

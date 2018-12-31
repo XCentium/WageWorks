@@ -34,7 +34,7 @@ namespace WageWorks.Foundation.Theming.Extensions
             if (ID.IsNullOrEmpty(id))
                 return "";
             var item = rendering.RenderingItem.Database.GetItem(id);
-            return item?[Templates.Style.Fields.Class] ?? "";
+            return item?[Templates.Style.Fields.SectionColorStyle] ?? "";
         }
 
         //Amir
@@ -55,6 +55,8 @@ namespace WageWorks.Foundation.Theming.Extensions
             var item = rendering.RenderingItem.Database.GetItem(id);
             return item?[Templates.Style.Fields.SectionColorStyle] ?? "";
         }
+
+        
 
 
         public static string GetCollapsibleTitle([NotNull] this Rendering rendering)

@@ -13,13 +13,13 @@
                 
 
                 <h1>
-                    @Model.PromoItem.TitleBaseColor
+                    @Html.Sitecore().Field("TitleBaseColor", Model.PromoItem)
                     <span class="accent">
-                        @Model.PromoItem.TitleAccentColor
+                        @Html.Sitecore().Field("TitleAccentColor", Model.PromoItem)
                     </span>
-                    @Model.PromoItem.TitleBase
+                    @Html.Sitecore().Field("TitleBase", Model.PromoItem)
                 </h1>
-                <p class="large mt-30">@Html.Raw(Model.PromoItem.Description)</p>
+                <p class="large mt-30">@Html.Sitecore().Field("Description", Model.PromoItem)</p>
             </div>
 
             @if (Model.PromoItem.Links.Count() > 0)
@@ -34,19 +34,19 @@
                 </div>
             }
 
-                <div class="hero-wrapper" style="background-image: url('@Model.PromoItem.BackgroundImage');"></div>
+                @*<div class="hero-wrapper" style="background-image: url('@Model.PromoItem.BackgroundImage');"></div>*@
 
 
-            @*@if (isExperienceEditor)
+            @if (Sitecore.Context.PageMode.IsExperienceEditor)
         {
             <div class="hero-wrapper">
-                @Html.Sitecore().Field(Fields.Image, new { @w = imageSize.Width, @h = imageSize.Height })
+                @Html.Sitecore().Field("BackgroundImage", Model.PromoItem)
             </div>
         }
-        else if (imageUrl != null)
+        else if (Model.PromoItem.BackgroundImage != null)
         {
-            <div class="hero-wrapper" style="background-image:url(@imageUrl)"></div>
-        }*@
+            <div class="hero-wrapper" style="background-image:url(@Model.PromoItem.BackgroundImage)"></div>
+        }
         </div>
     </header>
 }

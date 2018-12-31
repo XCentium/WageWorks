@@ -1,0 +1,49 @@
+﻿
+@model WageWorks.Feature.Teasers.Models.PlainCardsModel
+@using Sitecore.Diagnostics
+
+@try
+{
+    var columns = Model.Cards.Count() > 2 ? 3 : 2;
+
+
+    <section @Model.HtmlId class="@Model.SectionClasses">
+        @if (Sitecore.Context.PageMode.IsExperienceEditor && Model.Cards.Count() == 0)
+        {
+            <div class="card-grid">
+                <h2 class="text-center font-weight-bold">Please add Items in component properties</h2>
+            </div>
+        }
+        else
+        {
+            if (Model.Title != null)
+            {
+                <div class="content-wrapper mb-30">
+                    <h3>
+                        <strong>@Model.Title</strong>
+                    </h3>
+                </div>
+            }
+            <div class="card-guide-wrapper grid-@columns">
+                @foreach (var cardInfo in Model.Cards)
+                {
+                    <div class="card-guide">
+                        <div>
+                            <h6>@cardInfo.ContentType</h6>
+                            <h5 class="mt-20 mb-20">@cardInfo.Title</h5>
+                            <p class="small">@cardInfo.Description</p>
+                        </div>
+                        <div class="link-arrow mt-20">
+                            <a href="@cardInfo.Link.Url">@Model.OpenItemText</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+    </section>
+}
+
+catch (Exception ex)
+{
+    Log.Error("Error in view plaincards.cshtml: ", ex.Message + ex.StackTrace);
+}

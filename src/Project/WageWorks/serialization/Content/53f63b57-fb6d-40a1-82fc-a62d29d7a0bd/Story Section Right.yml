@@ -55,7 +55,7 @@ Languages:
     - ID: "a8e58453-0b0c-445b-9d2f-25b4d2e9f0fd"
       Hint: Background Image
       Value: |
-        <image mediaid="{C58690DF-A446-4B4D-8257-851638F57680}" />
+        <image mediaid="{1796DCD8-86DB-4F5E-946E-40BE9B2A2A54}" />
     - ID: "be7c961f-3656-4500-a1d3-a89fe1fcedd1"
       Hint: Headline
       Value: Donec sagittis scelerisque nisi id placerat.

@@ -1,0 +1,29 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Data.Fields
+@using Sitecore.Data.Items
+@using Sitecore.Resources.Media
+@using WageWorks.Feature.Teasers.Models
+@using WageWorks.Foundation.Theming
+@model WageWorks.Feature.Teasers.Models.PromoSectionViewModel
+
+
+@*@{
+    var id = string.Empty;
+    if (RenderingContext.CurrentOrNull != null)
+    {
+        var isHashTagged = !string.IsNullOrEmpty(Model.Rendering.Parameters[WageWorks.Foundation.Theming.Constants.Fields.HashtagText]);
+        id = isHashTagged ? "id=" + @Model.Rendering.UniqueId.ToString() : string.Empty;
+    }
+
+    var component = BaseComponentModel.CreateComponent(Sitecore.Context.Database, RenderingContext.Current.Rendering);
+    var shadow = BaseComponentModel.GetParameter(RenderingContext.Current.Rendering, WageWorks.Foundation.Theming.Constants.Fields.Shadow) == "1" ? "img-shadow" : string.Empty;
+}*@
+
+<section>
+    <div class="content-wrapper">
+        <div class="img-center">
+            <a><img src="@Model.BackgroundImage" /></a>
+        </div>
+    </div>
+</section>

@@ -1,55 +1,63 @@
 ﻿@model WageWorks.Feature.Teasers.Models.ImageCardsModel
+@using Sitecore.Diagnostics
 
-<section @Model.HtmlId class="@Model.SectionClasses">
-    @if (Sitecore.Context.PageMode.IsExperienceEditor && Model.Cards.Count() == 0)
-    {
-        <div class="card-grid">
-            <h2 class="text-center font-weight-bold">Please add Items in component properties</h2>
-        </div>
-    }
-    else
-    {
-        if (Model.Title != null)
+@try
+{
+    <section @Model.HtmlId class="@Model.SectionClasses">
+        @if (Sitecore.Context.PageMode.IsExperienceEditor && Model.Cards.Count() == 0)
         {
-            <div class="content-wrapper mb-30">
-                <h3><strong>@Model.Title</strong></h3>
+            <div class="card-grid">
+                <h2 class="text-center font-weight-bold">Please add Items in component properties</h2>
             </div>
         }
-        <div class="content-wrapper grid-3">
-            @foreach (var cardInfo in Model.Cards)
+        else
+        {
+            if (Model.Title != null)
             {
-                <div class="card-grid">
-                    @if (Sitecore.Context.PageMode.IsExperienceEditor)
-                    {
-                        <div class="card-image @cardInfo.ImageCss">
-                            @cardInfo.Image
-                        </div>
-                    }
-                    else
-                    {
-                        <div class="card-image @cardInfo.ImageCss" style="background-image:url('@cardInfo.ImageUrl')"></div>
-                    }
-
-                    <div class="card-content">
-                        <h6>@cardInfo.ContentType</h6>
+                <div class="content-wrapper mb-30">
+                    <h3><strong>@Model.Title</strong></h3>
+                </div>
+            }
+            <div class="content-wrapper grid-3">
+                @foreach (var cardInfo in Model.Cards)
+                {
+                    <div class="card-grid">
                         @if (Sitecore.Context.PageMode.IsExperienceEditor)
                         {
-                            <h4 class="mt-10 mb-10">@cardInfo.Title</h4>
-                            <h4 class="mt-10 mb-10">@cardInfo.Headline</h4>
+                            <div class="card-image @cardInfo.ImageCss">
+                                @cardInfo.Image
+                            </div>
                         }
                         else
                         {
-                            <h4 class="mt-10 mb-10"><a href="@cardInfo.Link.Url">@(cardInfo.Title + " " + cardInfo.Headline)</a></h4>
+                            <div class="card-image @cardInfo.ImageCss" style="background-image:url('@cardInfo.ImageUrl')"></div>
                         }
-                        <p class="small">@cardInfo.Description</p>
-                        @if (Sitecore.Context.PageMode.IsExperienceEditor)
-                        {
-                            <a href="@cardInfo.Link.Url">Go to Item</a>
-                        }
-                    </div>
-                </div>
-            }
-        </div>
 
-    }
-</section>
+                        <div class="card-content">
+                            <h6>@cardInfo.ContentType</h6>
+                            @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                            {
+                                <h4 class="mt-10 mb-10">@cardInfo.Title</h4>
+                                <h4 class="mt-10 mb-10">@cardInfo.Headline</h4>
+                            }
+                            else
+                            {
+                                <h4 class="mt-10 mb-10"><a href="@cardInfo.Link.Url">@(cardInfo.Title + " " + cardInfo.Headline)</a></h4>
+                            }
+                            <p class="small">@cardInfo.Description</p>
+                            @if (Sitecore.Context.PageMode.IsExperienceEditor)
+                            {
+                                <a href="@cardInfo.Link.Url">Go to Item</a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+
+        }
+    </section>
+}
+catch (Exception ex)
+{
+    Log.Error("Error in view imagecards.cshtml: ", ex.Message + ex.StackTrace);
+}

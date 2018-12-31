@@ -1,0 +1,23 @@
+﻿---
+ID: "eb201e81-e379-4b16-b868-5d58b07eeb6f"
+Parent: "de3546e4-c24c-4aea-b771-302d3cd786b1"
+Template: "be4a9e2c-2d9a-4c5a-905c-23ccbac9872c"
+Path: /sitecore/content/Wageworks/Datasources/Teasers/Headline Section/How to Section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e23b8d1-e4cb-4f4a-b14c-2d95bb6412e3"
+      Hint: Description
+      Value: "These helpful HOW-TOs will walk you step-by-step through everyday tasks to manage every aspect of your benefits program"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181214T222528Z
+    - ID: "59afc92e-fffe-4ae8-b67a-31448f690137"
+      Hint: Section Title
+      Value: "Step-by-step tips to manage your benefits"
+    - ID: "a5ab15e6-dea2-4c14-9b2a-12241a58445f"
+      Hint: Title Base Color
+      Value: "How-To Help"

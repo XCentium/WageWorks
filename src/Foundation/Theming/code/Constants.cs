@@ -50,9 +50,9 @@
 
         public struct GuideSelector
         {
-            public static string SeelAllText => "SeeAllText";
+            public static string SeelAllText => "See All Text";
 
-            public static string SeeAllLink => "SeeAllLink";
+            public static string SeeAllLink => "See All Link";
         }
 
         public struct Datasources
@@ -95,6 +95,11 @@
             public static string Description => "Description";
             public static string Headline => "Headline";
 
+            public static string Items => "Items";
+            public static string HashtagText  => "Hashtag Text";
+            public static string Shadow  => "Shadow";
+
+            public static string OpenItemText  => "Open Item Text";
 
         }
     }

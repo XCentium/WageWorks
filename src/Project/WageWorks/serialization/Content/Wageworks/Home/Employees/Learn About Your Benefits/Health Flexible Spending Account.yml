@@ -50,14 +50,21 @@ Languages:
               p:after="r[@uid='{2D14AAD8-D425-4030-9C21-0213FBA9FA03}']"
               s:ds="{6F4C4B58-798B-4FFD-B613-3C44FCF3EA78}"
               s:id="{4D988042-0362-40D2-AA3C-3BEE75C87042}"
-              s:par="Layout&amp;Space Styling&amp;Section Color&amp;Hashtag Text"
+              s:par="Layout&amp;Space Styling&amp;Section Color=%7B1104BA26-7FF8-4955-879D-92E99CCBC694%7D&amp;Hashtag Text"
               s:ph="page-layout" />
             <r
-              uid="{9A4D8C30-85F2-4022-8629-C4BF9A138231}"
+              uid="{B4DBAAFD-3BF2-410B-9B79-58E7D6DE059E}"
+              p:after="r[@uid='{702AEF92-34FE-4075-8E59-578592A5E10B}']"
+              s:ds=""
+              s:id="{DD931366-717A-4557-BD3A-327FA1EE432B}"
+              s:par="Space Styling&amp;Title&amp;Items=%7B14BB9116-DD68-446C-ADE4-D10A967EA671%7D%7C%7B6364526D-D905-496B-9605-D71E8D200570%7D%7C%7B8B0B2013-0C83-4899-8420-335C652AFEAD%7D&amp;Section Color&amp;Hashtag Text"
+              s:ph="page-layout" />
+            <r
+              uid="{58E5697D-9569-4239-8B26-F33E602CDC90}"
               p:after="*[1=2]"
               s:ds=""
-              s:id="{089F6469-81CD-4CCC-9B5A-520BD7F98C8A}"
-              s:par="Space Styling&amp;Title&amp;Items=%7BEE139C06-CA0B-4726-9312-8EBF4415FB23%7D%7C%7B7A6ADAA7-DC5E-4DE4-8267-3890D7754BB5%7D%7C%7BD8978252-09F9-43D5-99AE-A3B99417CD1E%7D&amp;Section Color&amp;Hashtag Text"
+              s:id="{3A7977B5-6410-44B5-A897-0C115780C463}"
+              s:par="Title&amp;Space Styling&amp;Items=%7B288F2FB1-675D-4F61-A910-D202BED7D971%7D%7C%7B94152026-F943-42FD-B755-96E392F20680%7D%7C%7B81CFF116-3FED-4583-8FC9-91EEA50227C9%7D&amp;Section Color&amp;Open Item Text=Learn%20More&amp;Hashtag Text"
               s:ph="page-layout" />
           </d>
         </r>

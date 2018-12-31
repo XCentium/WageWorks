@@ -6,14 +6,14 @@
 
 <section class="@RenderingContext.Current.Rendering.GetSpaceStyling()">
     <div class="content-wrapper flex-sb">
-        @if (@RenderingContext.Current.Rendering.GetSpaceStyling().ToLower() !="vertical")
+        @if (@RenderingContext.Current.Rendering.GetLayout().ToLower() !="vertical")
         {
             <aside class="on-the-left">
                 <h2>@Model.PromoItem.TitleBaseColor</h2>
             </aside>
         }
         <div>
-            @if (@RenderingContext.Current.Rendering.GetSpaceStyling().ToLower() == "vertical")
+            @if (@RenderingContext.Current.Rendering.GetLayout().ToLower() == "vertical")
             {
                 <h2>@Model.PromoItem.TitleBaseColor</h2>
             }

@@ -5,6 +5,7 @@ using Sitecore.Data.Items;
 using Sitecore.Data.Managers;
 using Sitecore.Diagnostics;
 using Sitecore.Links;
+using Sitecore.Mvc.Presentation;
 using Sitecore.Resources.Media;
 using Sitecore.Web;
 using System;
@@ -92,6 +93,26 @@ namespace WageWorks.Foundation.SitecoreExtensions.Extensions
             return hashedUrl;
         }
 
+        public static string[] GetParameters(string fieldName)
+        {
+            var stringParameters = RenderingContext.Current.Rendering.Parameters[fieldName];
+
+            if (stringParameters != null)
+                return stringParameters.Split('|');
+            else
+                return new string[0];
+        }
+
+        public static string GetParameter(string fieldName)
+        {
+            var parameters = GetParameters(fieldName);
+            if (parameters.Length > 0)
+            {
+                return parameters[0];
+            }
+
+            return string.Empty;
+        }
 
         public static Item TargetItem(this Item item, ID linkFieldId)
         {

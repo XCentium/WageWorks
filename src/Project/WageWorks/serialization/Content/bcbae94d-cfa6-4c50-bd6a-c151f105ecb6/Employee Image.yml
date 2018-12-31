@@ -1,0 +1,25 @@
+﻿---
+ID: "536963fa-fe51-40aa-99df-9f185e81e4c4"
+Parent: "bcbae94d-cfa6-4c50-bd6a-c151f105ecb6"
+Template: "78970d8a-bcee-4cb7-8a4d-ccc7058861da"
+Path: /sitecore/content/Wageworks/Datasources/Teasers/Images/Employee Image
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181226T203617Z
+    - ID: "8c69c046-e4d2-43cb-b9fc-b8d630b853b0"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{A76E3EAD-6E60-4F1C-8236-EDA726E80017}" />
+    - ID: "b2b3422b-8feb-4225-8465-d602463e91bf"
+      Hint: Name
+      Value: 
+    - ID: "c9480841-e01c-441d-81cf-1ef0aa3eb963"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{05117A87-21EC-44E7-BA6F-E4BA24B5FD75}" />

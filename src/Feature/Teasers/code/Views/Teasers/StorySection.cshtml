@@ -13,8 +13,8 @@
         }
         else
         {
-            var bg = string.IsNullOrWhiteSpace(Model.PromoItem.BackgroundImage) ? "" : "background-image: url('" + Model.PromoItem.BackgroundImage + "')";
-            <div class="story-img" style="@bg"></div>
+
+            <div class="story-img" style="background-image:url(@Model.PromoItem.BackgroundImage)"></div>
         }
         <div class="story-content">
             <h6>@Model.PromoItem.TitleBaseColor</h6>

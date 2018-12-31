@@ -1,7 +1,7 @@
 ﻿---
-ID: "9e9270ff-40e1-4c3b-9973-2acf2f68aa70"
+ID: "dd931366-717a-4557-bd3a-327fa1ee432b"
 Parent: "a781e01f-0c9e-4751-8c08-12a32ec063e3"
-Template: "99f8905d-4a87-4eb8-9f8b-a9bebfb3add6"
+Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
 Path: /sitecore/layout/Renderings/Feature/Teasers/Image Cards
 DB: master
 SharedFields:
@@ -24,4 +24,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20181219T154552Z
+      Value: 20181226T165923Z
