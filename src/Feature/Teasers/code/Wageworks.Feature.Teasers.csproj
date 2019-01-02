@@ -148,11 +148,6 @@
 </LastOutputs>
       <LastGenOutput>Generate.cs</LastGenOutput>
     </Content>
-    <Content Include="Views\Teasers\Tabs.cshtml" />
-    <Content Include="Views\Teasers\TitleImageSummaryTeaser.cshtml" />
-    <Content Include="Views\Teasers\TitleImageTeaser.cshtml" />
-    <Content Include="Views\Teasers\TitleSummaryTeaser.cshtml" />
-    <Content Include="Views\Teasers\ProductPromoSection.cshtml" />
     <Content Include="Views\Teasers\_CallToAction.cshtml" />
     <Content Include="Views\Teasers\HeadlineSection.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -168,14 +163,10 @@
     <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\Standalone.pubxml" />
     <Content Include="Views\Teasers\Headline.cshtml" />
-    <Content Include="Views\Teasers\JumbotronHeader.cshtml" />
     <Content Include="Views\Teasers\TeaserCarousel.cshtml" />
     <Content Include="Views\Teasers\Promo.cshtml" />
     <Content Include="Views\Teasers\PromoSection.cshtml" />
-    <Content Include="Views\Teasers\SocialPromoSection.cshtml" />
     <Content Include="Views\Teasers\PromoSectionSlider.cshtml" />
-    <Content Include="Views\Teasers\PromoGrid.cshtml" />
-    <Content Include="Views\Teasers\PromoSwitcher.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

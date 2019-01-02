@@ -8,6 +8,7 @@ namespace WageWorks.Feature.Teasers.Controller
     using Sitecore.Mvc.Presentation;
     using System.Web.Mvc;
     using WageWorks.Feature.Teasers.Models;
+    using WageWorks.Feature.Teasers.Models.Glass;
     using WageWorks.Foundation.Alerts;
     using WageWorks.Foundation.Alerts.Extensions;
     using WageWorks.Foundation.Alerts.Models;
@@ -77,18 +78,19 @@ namespace WageWorks.Feature.Teasers.Controller
 
         public ActionResult Promo()
         {
-            var carousel = _teaserRepository.GetPromo();
-            return View(carousel);
+            //var carousel = _teaserRepository.GetPromo();
+            var promo = _teaserRepository.GetPromoModel();
+            return View(promo);
         }
         //public ActionResult ProductPromoSection() {
         //    var productPromo = _teaserRepository.GetProductPromo();
         //    return View(productPromo);
         //}
-        //public ActionResult PromoSection()
-        //{
-        //    var promoSection = _teaserRepository.GetPromoSection();
-        //    return View(promoSection);
-        //}
+        public ActionResult PromoSection()
+        {
+            var promoSection = _teaserRepository.GetPromoSection();
+            return this.View("PromoSection",promoSection);
+        }
 
         //public ActionResult PromoGrid()
         //{

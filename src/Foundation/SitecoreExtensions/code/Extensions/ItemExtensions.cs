@@ -137,6 +137,12 @@ namespace WageWorks.Foundation.SitecoreExtensions.Extensions
             return WebControls.FieldRenderer.Render(item, fieldName);
         }
 
+        public static HtmlString ToHtmlString(this string value)
+        {
+            return new HtmlString(value);
+        }
+
+
         public static bool IsImage(this Item item)
         {
             return new MediaItem(item).MimeType.StartsWith("image/", StringComparison.InvariantCultureIgnoreCase);

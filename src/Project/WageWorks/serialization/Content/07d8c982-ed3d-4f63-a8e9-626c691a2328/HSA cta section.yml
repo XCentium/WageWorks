@@ -1,0 +1,28 @@
+﻿---
+ID: "5bb27d36-02d6-4831-bed2-147824c1e790"
+Parent: "07d8c982-ed3d-4f63-a8e9-626c691a2328"
+Template: "78970d8a-bcee-4cb7-8a4d-ccc7058861da"
+Path: /sitecore/content/Wageworks/Datasources/Teasers/Promo Section/HSA cta section
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181231T210139Z
+    - ID: "75994dfa-60a1-48b8-b705-27a12c96937e"
+      Hint: Description
+      Value: |
+        Already have a WageWorks plan? Get the most accurate information about your benefits by logging in to your account.
+        <br />
+        <br />
+        WageWorks&reg; makes it easy for you to get the help you need now. Browse our Frequently Asked Questions for answers to common questions. If you can&rsquo;t find what you&rsquo;re looking for, please call 1-877-924-3967 (Monday - Friday 8 a.m. to 8 p.m. ET).
+    - ID: "b2b3422b-8feb-4225-8465-d602463e91bf"
+      Hint: Name
+      Value: Access Your WageWorks Account
+    - ID: "c9480841-e01c-441d-81cf-1ef0aa3eb963"
+      Hint: Link
+      Value: |
+        <link text="Log in/Sign Up" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{C2C95061-799C-426B-9D9E-5DA3B005EDB3}" />

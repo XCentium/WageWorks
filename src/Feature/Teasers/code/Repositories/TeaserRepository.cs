@@ -24,6 +24,13 @@ namespace WageWorks.Feature.Teasers.Repositories
 
         #region Promos
 
+        public IPromotion GetPromoModel()
+        {
+            var promoItem = RenderingContext.Current.Rendering.Item;
+            var promoItemModel = _context.Cast<IPromotion>(promoItem);
+            return promoItemModel;
+        }
+
         public PromoViewModel GetPromo()
         {
             var vm = new PromoViewModel();

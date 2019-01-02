@@ -1,4 +1,5 @@
 ﻿using WageWorks.Feature.Teasers.Models;
+using WageWorks.Feature.Teasers.Models.Glass;
 
 namespace WageWorks.Feature.Teasers.Repositories
 {
@@ -6,6 +7,8 @@ namespace WageWorks.Feature.Teasers.Repositories
     {
         PromoViewModel GetPromo();
         PromoSectionViewModel GetPromoSection();
+
+        IPromotion GetPromoModel();
 
     }
 }

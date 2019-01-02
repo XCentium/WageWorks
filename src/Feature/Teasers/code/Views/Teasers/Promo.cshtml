@@ -1,7 +1,7 @@
-﻿@model WageWorks.Feature.Teasers.Models.PromoViewModel
+﻿@model WageWorks.Feature.Teasers.Models.Glass.IPromotion
 @using Sitecore.Diagnostics
 @using WageWorks.Foundation.SitecoreExtensions.Extensions
-
+@using Glass.Mapper.Sc.Web.Mvc
     
 @try
 {
@@ -10,19 +10,19 @@
         <div class="content-wrapper">
             <div class="tag-wrapper">
                 @*@Html.Sitecore().ControllerRendering("Navigation", "BreadCrumb")*@
-                
-
+                @Html.Glass().Editable(Model, x => x.TitleBaseColor)
                 <h1>
-                    @Html.Sitecore().Field("TitleBaseColor", Model.PromoItem)
+                    @Model.TitleBaseColor
+                    @*@Model.PromoItem.TitleBaseColor*@
                     <span class="accent">
-                        @Html.Sitecore().Field("TitleAccentColor", Model.PromoItem)
+                        @*@Model.PromoItem.TitleAccentColor*@
                     </span>
-                    @Html.Sitecore().Field("TitleBase", Model.PromoItem)
+                    @*@Model.PromoItem.TitleBase*@
                 </h1>
-                <p class="large mt-30">@Html.Sitecore().Field("Description", Model.PromoItem)</p>
+                <p class="large mt-30">@*@Html.Sitecore().Field("Description", Model.PromoItem)*@</p>
             </div>
 
-            @if (Model.PromoItem.Links.Count() > 0)
+            @*@if (Model.PromoItem.Links.Count() > 0)
             {
                 <div class="mt-60">
                     @foreach (var link in Model.PromoItem.Links)
@@ -32,12 +32,12 @@
 
                     }
                 </div>
-            }
+            }*@
 
                 @*<div class="hero-wrapper" style="background-image: url('@Model.PromoItem.BackgroundImage');"></div>*@
 
 
-            @if (Sitecore.Context.PageMode.IsExperienceEditor)
+            @*@if (Sitecore.Context.PageMode.IsExperienceEditor)
         {
             <div class="hero-wrapper">
                 @Html.Sitecore().Field("BackgroundImage", Model.PromoItem)
@@ -46,7 +46,7 @@
         else if (Model.PromoItem.BackgroundImage != null)
         {
             <div class="hero-wrapper" style="background-image:url(@Model.PromoItem.BackgroundImage)"></div>
-        }
+        }*@
         </div>
     </header>
 }

@@ -14,6 +14,8 @@
                 <li>
                     <a href="@(child.Url)@(string.IsNullOrEmpty(child.Anchor) ? "" : "#" + child.Anchor)" target="@child.Target" title="@child.Item[Templates.Navigable.Fields.NavigationTitle]">
                         @Html.Sitecore().Field(Templates.Navigable.Fields.NavigationTitle, child.Item)
+
+                        @child.CssClass
                     </a>
                 </li>
             }

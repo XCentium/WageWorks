@@ -1,0 +1,21 @@
+﻿---
+ID: "ee00c142-f3bb-41ca-b58b-81eda0ae6f04"
+Parent: "ca7a9bda-c53b-472f-a8ea-f45b7f1436e9"
+Template: "017b53f2-6842-43cf-be86-af54e32fae31"
+Path: /sitecore/content/Wageworks/Datasources/Navigation/Header Top Navigation/Search
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b483e91-d8c4-4d19-ba03-462074b55936"
+      Hint: NavigationTitle
+      Value: Search
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190102T172038Z
+    - ID: "fe71c30e-f07d-4052-8594-c3028cd76e1f"
+      Hint: Link
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{05117A87-21EC-44E7-BA6F-E4BA24B5FD75}" />

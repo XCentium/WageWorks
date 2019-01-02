@@ -1,16 +1,16 @@
 ﻿---
-ID: "4d988042-0362-40d2-aa3c-3bee75c87042"
+ID: "e35de029-62f3-4d4b-911e-b15c080e003b"
 Parent: "a781e01f-0c9e-4751-8c08-12a32ec063e3"
 Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
-Path: /sitecore/layout/Renderings/Feature/Teasers/Story Section
+Path: /sitecore/layout/Renderings/Feature/Teasers/Promo Section
 DB: master
 SharedFields:
 - ID: "13f89250-ad6b-4548-882e-118a12c18094"
   Hint: Parameters Template
-  Value: "{067745A6-5BBA-44C0-96AE-D283069FEAC2}"
+  Value: "{94088D63-CE6B-40BF-AB59-9BFF72E100EA}"
 - ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
   Hint: Controller Action
-  Value: StorySection
+  Value: PromoSection
 - ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
   Hint: Controller
   Value: WageWorks.Feature.Teasers.Controller.TeasersController, WageWorks.Feature.Teasers
@@ -21,4 +21,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20181217T150220Z
+      Value: 20181231T210910Z

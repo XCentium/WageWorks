@@ -2,7 +2,7 @@
 @using Sitecore.Diagnostics
 @using Sitecore.Mvc.Presentation
 @using WageWorks.Foundation.Theming.Extensions
-
+@using WageWorks.Foundation.SitecoreExtensions.Extensions
 
 <section class="@RenderingContext.Current.Rendering.GetSpaceStyling() @RenderingContext.Current.Rendering.GetLayout()">
     <div class="text-wrapper round-bg-wrapper flex-vam">
@@ -14,7 +14,7 @@
             }
             else
             {
-                <p class="large">@Model.PromoItem.Description</p>              
+                <p class="large">@Model.PromoItem.Description.ToHtmlString()</p>              
             }
         </div>
     </div>

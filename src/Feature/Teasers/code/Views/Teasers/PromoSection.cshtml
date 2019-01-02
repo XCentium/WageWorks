@@ -1,71 +1,37 @@
-﻿@model WageWorks.Feature.Teasers.Models.PromoSectionViewModel
-@using System.Linq
+﻿@using Sitecore.Data
+@using Sitecore.Mvc.Presentation
+@model WageWorks.Feature.Teasers.Models.PromoSectionViewModel
+@using WageWorks.Foundation.Theming.Extensions
+@using WageWorks.Foundation.SitecoreExtensions.Extensions
 
-@if (Model != null && Model.PromoItems != null && Model.PromoItems.Any())
-{
-
-    <section class="promo-container container @Model.CssClass">
-        <h2>@Model.Title</h2>
-
-        @if (!string.IsNullOrEmpty(Model.Description))
-        {
-            <div class="promo-container__copy">
-                @Html.Raw(Model.Description)
-            </div>
-        }
-
-        <div class="promo-container__wrapper d-flex">
-            @foreach (var promoItem in Model.PromoItems)
+<section class="@RenderingContext.Current.Rendering.GetSpaceStyling() @RenderingContext.Current.Rendering.GetSectionColor()">
+    <div class="content-wrapper flex-vam flex-cols">
+        <aside class="on-the-left white">
+            <h3 class="mb-30"><strong>@Model.Title</strong></h3>
+            @if (RenderingContext.Current.Rendering.GetLayout() == "Right")
             {
-            <section class="promo @(string.IsNullOrEmpty(promoItem.Body) ? "nocontent" : "")">
-                @if (!string.IsNullOrEmpty(promoItem.BackgroundImage))
-                {
-                    <div class="promo__background" style="background-image: url(@promoItem.BackgroundImage);"></div>
-                }
-                <div class="promo__content-wrapper">
-                    <div class="promo__content">
-                        @if (!string.IsNullOrEmpty(promoItem.Badge))
-                        {
-                            <p class="promo__badge">Badge</p>
-                        }
-
-                        <div class="promo__title-wrapper">
-                            @if (!string.IsNullOrEmpty(promoItem.ForegroundImage))
-                            {
-                                <img class="promo__content-img" src="@promoItem.ForegroundImage" alt="" />
-                            }
-                            <h2>
-                                @Html.Raw(promoItem.Title)
-                            </h2>
-                        </div>
-                        <div class="promo__copy">
-                            @Html.Raw(promoItem.Body)
-                        </div>
-
-                        @if (promoItem.Links.Any())
-                        {
-                            <div class="promo__ctas">
-                                @foreach (var cta in promoItem.Links)
-                                {
-                                    @Html.Partial("_CallToAction", cta)
-                                }
-                            </div>
-                        }
-                    </div>
-                </div>
-
-                @foreach (var cta in promoItem.Links)
-                {
-                    @Html.Partial("_VideoCTA", cta)
-                }
-            </section>
+                <p>@Model.Description</p>
             }
-        </div>
-
-        @if (!string.IsNullOrWhiteSpace(Model.MoreLink?.Url))
-        {
-            <a class="promo-container__cta d-flex btn @Model.MoreLink.CssClass" href="@Model.MoreLink.Url">@Model.MoreLink.Text <i class="icon icon-cta"></i></a>
-        }
-
-    </section>
-}
+            else
+            {
+                <div class="white buttons-wrapper ">
+                    <a class="button reverse" href="@Model.MoreLink.Url" target="@Model.MoreLink.Target"></a>
+                </div>
+            }
+        </aside>
+            @if (RenderingContext.Current.Rendering.GetLayout() == "Right")
+            {
+                <div class="white buttons-wrapper">
+                        <div class="ib mr-30">
+                            <a class="@Model.MoreLink.CssClass mr-30" href="@Model.MoreLink.Url" target="@Model.MoreLink.Target">@Model.MoreLink.Text</a>
+                        </div>
+                </div>
+            }
+            else
+            {
+                <div class="white">
+                    <p class="mb-30">@Model.Description.ToHtmlString()</p>
+                </div>
+            }
+    </div>
+</section>

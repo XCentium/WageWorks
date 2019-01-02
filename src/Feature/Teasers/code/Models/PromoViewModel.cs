@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Sitecore.Mvc.Presentation;
+using System.Collections.Generic;
 using WageWorks.Feature.Teasers.Models.Glass;
 
 namespace WageWorks.Feature.Teasers.Models
@@ -13,14 +14,14 @@ namespace WageWorks.Feature.Teasers.Models
 
     #region Standard Promo
 
-    public class PromoViewModel
+    public class PromoViewModel 
     {
         public string CssClass { get; set; }
         public string Layout { get; set; }
         public PromotionModel PromoItem { get; set; }
     }
 
-    public class PromotionModel
+    public class PromotionModel 
     {
         public PromotionModel()
         {

@@ -4,7 +4,7 @@
 @using WageWorks.Foundation.Theming.Extensions
 @model WageWorks.Feature.Teasers.Models.PromoViewModel
 
-<section class="@RenderingContext.Current.Rendering.GetSpaceStyling() @RenderingContext.Current.Rendering.GetLayout()">
+<section class="@RenderingContext.Current.Rendering.GetSpaceStyling() @(string.IsNullOrEmpty(RenderingContext.Current.Rendering.GetLayout())? "story-left" :RenderingContext.Current.Rendering.GetLayout())">
     <div class="content-wrapper">
         <div class="story-bg @RenderingContext.Current.Rendering.GetSectionColor()"></div>
         @if (Sitecore.Context.PageMode.IsExperienceEditor)
