@@ -150,6 +150,7 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Generate1.gen.txt</LastGenOutput>
       <LastOutputs>
+..\Models\Glass\IAnchor.gen.cs
 ..\Models\Glass\ILink.gen.cs
 ..\Models\Glass\ILinkDescription.gen.cs
 ..\Models\Glass\ILinkMenuItem.gen.cs
@@ -199,6 +200,7 @@
   <ItemGroup>
     <Compile Include="Controllers\NavigationController.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Models\Glass\IAnchor.gen.cs" />
     <Compile Include="Models\Glass\ILink.gen.cs" />
     <Compile Include="Models\Glass\ILinkDescription.gen.cs" />
     <Compile Include="Models\Glass\ILinkMenuItem.gen.cs" />

@@ -23,7 +23,7 @@ namespace WageWorks.Feature.Navigation.Models.Glass
 	{
 		#region Navigation
         [SitecoreId]
-        Guid Id { get; set; }
+        new Guid Id { get; set; }
 		/// <summary>
 		/// Divider Before
 		/// </summary>
