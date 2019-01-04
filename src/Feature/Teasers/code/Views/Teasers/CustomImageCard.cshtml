@@ -1,0 +1,16 @@
+﻿@model WageWorks.Feature.Teasers.Models.CustomImageCardModel
+
+<div class="card-grid no-style">
+    @if (Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        @Model.Image;
+    }
+    else if (Model.ImageUrl != null)
+    {
+        <div class="card-image" style="background-image:url('@Model.ImageUrl')"></div>
+    }
+    <div class="card-content">
+        <h4 class="mt-10 mb-10">@Model.SectionTitle</h4>
+        <p class="small">@Model.Description</p>
+    </div>
+</div>

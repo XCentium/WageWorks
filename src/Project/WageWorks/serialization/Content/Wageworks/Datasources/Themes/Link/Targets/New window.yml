@@ -1,0 +1,17 @@
+﻿---
+ID: "c60e9893-8836-42de-a4c4-4a41596f6058"
+Parent: "7fc0ff18-e590-46e9-a962-f47ce2a92eaf"
+Template: "c785c3f9-6600-4ebd-b435-e2b66f1d61d7"
+Path: /sitecore/content/Wageworks/Datasources/Themes/Link/Targets/New window
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0818a7ed-9b0a-4fe9-8c74-9e1dc8489660"
+      Hint: Target
+      Value: _blank
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180930T223350Z

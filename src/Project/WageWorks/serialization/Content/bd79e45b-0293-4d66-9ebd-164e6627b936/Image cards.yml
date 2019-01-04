@@ -1,0 +1,28 @@
+﻿---
+ID: "8716c7b6-39f4-4abf-ac38-b89cc17b4317"
+Parent: "bd79e45b-0293-4d66-9ebd-164e6627b936"
+Template: "be4a9e2c-2d9a-4c5a-905c-23ccbac9872c"
+Path: /sitecore/content/Wageworks/Datasources/Teasers/Custom Image Card/Image cards
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0e23b8d1-e4cb-4f4a-b14c-2d95bb6412e3"
+      Hint: Description
+      Value: |
+        Are you an employee working with an employer with a WageWorks benefit?  This is the place for you.  Just click the above to access all the information you need to understand and manage your WageWorks benefits. <br /><a href="/en/employees/" style="color:#f58220;">&raquo; Learn more</a>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190103T214535Z
+    - ID: "59afc92e-fffe-4ae8-b67a-31448f690137"
+      Hint: Section Title
+      Value: Participant
+    - ID: "a5ab15e6-dea2-4c14-9b2a-12241a58445f"
+      Hint: Title Base Color
+      Value: 
+    - ID: "a8e58453-0b0c-445b-9d2f-25b4d2e9f0fd"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{E1D4D9AD-DFA4-46FD-BAF6-640515938DD5}" />

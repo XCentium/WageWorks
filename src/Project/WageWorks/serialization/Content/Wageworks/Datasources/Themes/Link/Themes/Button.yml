@@ -1,0 +1,24 @@
+﻿---
+ID: "f68591ff-4152-44cf-8457-7537f1418aab"
+Parent: "cb1bf1a7-5578-4708-ab49-4440932a75ff"
+Template: "c1b71f6d-cc2c-4c12-90b9-ea5182561bda"
+Path: /sitecore/content/Wageworks/Datasources/Themes/Link/Themes/Button
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: office/16x16/painters_palette_brush.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180910T173142Z
+    - ID: "9331f871-a3c0-46d9-8a84-939e1c7bd305"
+      Hint: Class
+      Value: button

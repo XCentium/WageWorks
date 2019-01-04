@@ -7,15 +7,15 @@
 <section class="@RenderingContext.Current.Rendering.GetSpaceStyling() @RenderingContext.Current.Rendering.GetSectionColor()">
     <div class="content-wrapper flex-vam flex-cols">
         <aside class="on-the-left white">
-            <h3 class="mb-30"><strong>@Model.Title</strong></h3>
+            <h3 class="mb-30"><strong>@Model.Title.ToHtmlString()</strong></h3>
             @if (RenderingContext.Current.Rendering.GetLayout() == "Right")
             {
-                <p>@Model.Description</p>
+                <p>@Model.Description.ToHtmlString()</p>
             }
             else
             {
                 <div class="white buttons-wrapper ">
-                    <a class="button reverse" href="@Model.MoreLink.Url" target="@Model.MoreLink.Target"></a>
+                    <a class="button reverse" href="@Model.MoreLink.Url" target="@Model.MoreLink.Target">@Model.MoreLink.Text</a>
                 </div>
             }
         </aside>

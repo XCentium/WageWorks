@@ -87,10 +87,14 @@
         public struct Fields
         {
         public static string Image => "Image";
+            public static string BackgroundImage => "Background Image";
+
             public static string CardColor => "Card Color";
 
             public static string Name => "Name";
             public static string Title => "Title";
+            public static string SectionTitle => "Section Title";
+
 
             public static string Description => "Description";
             public static string Headline => "Headline";

@@ -158,7 +158,8 @@ namespace WageWorks.Feature.Navigation.Repositories
 
         private string GetItemUrl(Item item)
         {
-
+            if (item.Name != "*")
+                return item.IsDerived(Templates.Link.ID) ? item.LinkFieldUrl(Templates.Link.Fields.Link) : item.Url();
             return item.Url();
         }
 

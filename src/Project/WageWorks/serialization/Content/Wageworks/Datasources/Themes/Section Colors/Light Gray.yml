@@ -1,0 +1,21 @@
+﻿---
+ID: "1104ba26-7ff8-4955-879d-92e99ccbc694"
+Parent: "891cf1bc-1c2b-428a-9e97-403f0bd80f6a"
+Template: "c1b71f6d-cc2c-4c12-90b9-ea5182561bda"
+Path: /sitecore/content/Wageworks/Datasources/Themes/Section Colors/Light Gray
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: people/16x16/colors.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T203937Z
+    - ID: "9331f871-a3c0-46d9-8a84-939e1c7bd305"
+      Hint: Class
+      Value: "bg-bg"
