@@ -21,7 +21,8 @@ namespace WageWorks.Feature.Navigation.Models.Glass
 	public partial interface ILink
 	{
 		#region Navigation
-
+        [SitecoreId]
+        Guid Id { get; set; }
 		/// <summary>
 		/// リンク
 		/// </summary>

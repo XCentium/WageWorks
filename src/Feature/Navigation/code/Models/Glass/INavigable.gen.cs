@@ -21,7 +21,8 @@ namespace WageWorks.Feature.Navigation.Models.Glass
 	public partial interface INavigable
 	{
 		#region Navigation
-
+        [SitecoreId]
+        Guid Id { get; set; }
 		/// <summary>
 		/// Short title - Title shown in menus and areas where space is limited
 		/// </summary>
@@ -33,6 +34,12 @@ namespace WageWorks.Feature.Navigation.Models.Glass
 		/// </summary>
 	    [SitecoreField(FieldId = "{68016087-AA00-45D6-922A-678475C50D4A}")]
 		bool ShowChildren { get; set; }
+
+		/// <summary>
+		/// Show in breadcrumb
+		/// </summary>
+	    [SitecoreField(FieldId = "{92EA9A0E-88A0-497A-A41D-F2A6FF393C14}")]
+		bool ShowInBreadcrumb { get; set; }
 
 		/// <summary>
 		/// Show in navigation menus

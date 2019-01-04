@@ -22,7 +22,8 @@ namespace WageWorks.Feature.Navigation.Models.Glass
 	public partial interface ILinkMenuItem : ILink, ILinkDescription
 	{
 		#region Navigation
-
+        [SitecoreId]
+        new Guid Id { get; set; }
 		/// <summary>
 		/// Divider Before
 		/// </summary>

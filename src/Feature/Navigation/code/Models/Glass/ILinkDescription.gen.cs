@@ -21,7 +21,8 @@ namespace WageWorks.Feature.Navigation.Models.Glass
 	public partial interface ILinkDescription
 	{
 		#region Navigation
-
+        [SitecoreId]
+        Guid Id { get; set; }
 		/// <summary>
 		/// Description - Shown in extended link components
 		/// </summary>

@@ -105,7 +105,19 @@ namespace <#= Namespace #>
 		{
 #>
 		#region <#=section.SyncItem.Name#>
-
+        [SitecoreId]
+<#+
+		if(Extends == string.Empty)
+		{
+#>
+        Guid Id { get; set; }
+<#+
+		} else {
+#>
+        new Guid Id { get; set; }
+<#+
+		}
+#>
 <#+
 			foreach(var field in section.Fields)
 			{
