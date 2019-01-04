@@ -1,0 +1,29 @@
+﻿---
+ID: "3f59fcec-5574-4ac5-add5-b5f5f9dadcc5"
+Parent: "ecb4425a-ae14-4d19-a4a9-970cd30796e7"
+Template: "c1b71f6d-cc2c-4c12-90b9-ea5182561bda"
+Path: /sitecore/content/Wageworks/Datasources/Themes/Layouts/Story Section/Story Right
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: softwarev2/16x16/palette_text.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T151236Z
+    - ID: "9331f871-a3c0-46d9-8a84-939e1c7bd305"
+      Hint: Class
+      Value: "story-right"
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181009T151236Z
+    - ID: "9331f871-a3c0-46d9-8a84-939e1c7bd305"
+      Hint: Class
+      Value: "story-right"

@@ -1,0 +1,24 @@
+﻿---
+ID: "1d03fe27-d664-43bb-bc68-1ea55ca442ab"
+Parent: "284fcde5-abd3-40fc-a6bb-7bca088bd048"
+Template: "c1b71f6d-cc2c-4c12-90b9-ea5182561bda"
+Path: /sitecore/content/Wageworks/Datasources/Themes/Layouts/CTA/Buttons Left
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: SoftwareV2/16x16/layout_west.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181002T130919Z
+    - ID: "9331f871-a3c0-46d9-8a84-939e1c7bd305"
+      Hint: Class
+      Value: left

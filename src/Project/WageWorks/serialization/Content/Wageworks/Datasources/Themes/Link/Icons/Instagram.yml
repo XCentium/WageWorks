@@ -1,0 +1,24 @@
+﻿---
+ID: "6f5fe560-3269-4301-8f98-7451300a2a9b"
+Parent: "2fa23bfe-8a4c-4975-8e9e-fec16425cb77"
+Template: "c1b71f6d-cc2c-4c12-90b9-ea5182561bda"
+Path: /sitecore/content/Wageworks/Datasources/Themes/Link/Icons/Instagram
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/16x16/emoticon_smile.png
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180906T024358Z
+    - ID: "9331f871-a3c0-46d9-8a84-939e1c7bd305"
+      Hint: Class
+      Value: "fab fa-instagram"

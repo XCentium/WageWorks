@@ -158,6 +158,7 @@
     <Content Include="Views\Teasers\ImageCards.cshtml" />
     <Content Include="Views\Teasers\PromoImage.cshtml" />
     <Content Include="Views\Teasers\PlainCards.cshtml" />
+    <Content Include="Views\Teasers\CustomImageCard.cshtml" />
     <None Include="Views\Web.config" />
     <Content Include="App_Config\Include\Feature\Feature.Teasers.Serialization.config" />
     <Content Include="packages.config" />
@@ -187,6 +188,7 @@
     <Compile Include="Models\BaseComponentModel.cs" />
     <Compile Include="Models\CarouselViewModel.cs" />
     <Compile Include="Models\ContentInfoModel.cs" />
+    <Compile Include="Models\CustomImageCardModel.cs" />
     <Compile Include="Models\DynamicTeaserItem.cs" />
     <Compile Include="Controller\TeasersController.cs" />
     <Compile Include="Models\DynamicTeaserModel.cs" />

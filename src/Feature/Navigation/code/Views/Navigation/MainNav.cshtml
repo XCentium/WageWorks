@@ -4,15 +4,16 @@
 
 @model WageWorks.Feature.Navigation.Models.NavigationItems
 
-@if (Model?.NavItems == null || !Model.NavItems.Any())
+@*@if (Model?.NavItems == null || !Model.NavItems.Any())
 {
     return;
-}
+}*@
 
 @foreach (var menuItem in Model.NavItems)
 {
-    var menuSubItems = menuItem.Children;
-    var activeClass = menuItem.TargetItem?.ID == Sitecore.Context.Item?.ID ? "active" : "";
+    var menuSubItems = menuItem.Children;                    
+    var activeClass = "";
+          //menuItem.TargetItem?.ID == Sitecore.Context.Item?.ID ? "active" : "";
 
     <li class="@activeClass">
         <a href="@menuItem.NavigationTitle">@menuItem.NavigationTitle</a>
@@ -27,7 +28,7 @@
                             <li class="sub-menu-link">
                                 <a href="#">@menuSubItem.NavigationTitle</a>
                                 <div class="sub-level sub-section-menu" style="display:none;">
-                                    @foreach (var linkGroup in menuSubItem.Children.NavItems)
+                                    @*@foreach (var linkGroup in menuSubItem.Children.NavItems)
                                     {
                                         <nav>
                                             <h6>@linkGroup.NavigationTitle</h6>
@@ -43,7 +44,7 @@
                                         <div class="content-wrapper flex-end link-arrow">
                                             <a href="@menuSubItem.Url">See All @menuSubItem.NavigationTitle</a>    
                                         </div>
-                                    </div>
+                                    </div>*@
                                 </div>
                             </li>
 

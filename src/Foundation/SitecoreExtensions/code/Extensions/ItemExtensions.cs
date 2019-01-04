@@ -61,7 +61,7 @@ namespace WageWorks.Foundation.SitecoreExtensions.Extensions
             }
             return WebControls.FieldRenderer.Render(item, fieldName, parameters);
         }
-       
+
         public static string GetURL(this MediaItem mediaItem, MediaUrlOptions options)
         {
             if (options == null)

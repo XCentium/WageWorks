@@ -10,15 +10,18 @@
         {
             <aside class="on-the-left">
                 <h2>@Model.PromoItem.TitleBaseColor</h2>
+
             </aside>
         }
-        <div>
-            @if (@RenderingContext.Current.Rendering.GetLayout().ToLower() == "vertical")
-            {
-                <h2>@Model.PromoItem.TitleBaseColor</h2>
-            }
-            <h3 class="accent mb-30"><strong>@Model.PromoItem.SectionTitle</strong></h3>
-            <p>@Model.PromoItem.Description</p>
-        </div>
+            <div>
+                @if (@RenderingContext.Current.Rendering.GetLayout().ToLower() == "vertical")
+                {
+                    <h2>@Model.PromoItem.TitleBaseColor</h2>
+                }
+                <h3 class="accent mb-30"><strong>@Model.PromoItem.SectionTitle</strong></h3>
+                @Html.Sitecore().Field("SectionTitle", Model.PromoItem)
+                <p>@Model.PromoItem.Description</p>
+                @Html.Sitecore().Field("Description", Model.PromoItem)
+            </div>
     </div>
 </section>

@@ -14,6 +14,8 @@ namespace WageWorks.Feature.Teasers.Models
         public HtmlString Name { get; set; }
 
         public HtmlString Title { get; set; }
+        public HtmlString SectionTitle { get; set; }
+
 
         public HtmlString Headline { get; set; }
 
@@ -45,6 +47,15 @@ namespace WageWorks.Feature.Teasers.Models
             Link = LinkModel.CreateModel(item, linkText, iconClass, linkClass);
         }
 
+
+        protected void PopulateCustomContentInfoModel(Item item, HtmlString linkText, HtmlString iconClass, HtmlString linkClass)
+        {
+            ContentType = GetContentType(item);
+            SectionTitle = new HtmlString(item.Render(Constants.Fields.SectionTitle));
+            //Headline = new HtmlString(item.Render(Constants.Fields.Headline));
+            Description = new HtmlString(item.Render(Constants.Fields.Description));
+            Link = LinkModel.CreateModel(item, linkText, iconClass, linkClass);
+        }
         //public string Render(this Item item, string fieldName)
         //{
         //    return WebControls.FieldRenderer.Render(item, fieldName);

@@ -74,7 +74,12 @@ namespace WageWorks.Feature.Teasers.Controller
             return View("~/Views/Teasers/PlainCards.cshtml", model);
         }
 
+        public ActionResult CustomImageCard()
+        {
+            var model = CustomImageCardModel.CreateModel(Context.Database, RenderingContext.Current.Rendering);
 
+            return View("~/Views/Teasers/CustomImageCard.cshtml", model);
+        }
 
         public ActionResult Promo()
         {
