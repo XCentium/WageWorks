@@ -20,30 +20,30 @@ namespace WageWorks.Feature.Teasers.Models.Glass
 	[SitecoreType(TemplateId = "{8F8BD4FF-2814-4FBE-B6E7-2712DF34E630}")]
 	public partial interface IPromotion
 	{
+        [SitecoreId]
+        Guid Id { get; set; }
 		#region Content
-
 	    [SitecoreField(FieldId = "{0E23B8D1-E4CB-4F4A-B14C-2D95BB6412E3}")]
 		string Description { get; set; }
 
-	    [SitecoreField(FieldId = "{DCCADB4D-CB5A-40E2-9A98-00F538A61E8B}")]
-		string TitleAccentColor { get; set; }
-
-	    [SitecoreField(FieldId = "{37A3A91D-DB7E-4C59-9736-23B9CC673C10}")]
-		string TitleBase { get; set; }
+	    [SitecoreField(FieldId = "{59AFC92E-FFFE-4AE8-B67A-31448F690137}")]
+		string SectionTitle { get; set; }
 
 	    [SitecoreField(FieldId = "{442B8E3A-BD43-446D-B7D2-6DD868593E88}")]
 		Guid Theme { get; set; }
 
+	    [SitecoreField(FieldId = "{DCCADB4D-CB5A-40E2-9A98-00F538A61E8B}")]
+		string TitleAccentColor { get; set; }
+
 	    [SitecoreField(FieldId = "{A5AB15E6-DEA2-4C14-9B2A-12241A58445F}")]
 		string TitleBaseColor { get; set; }
-        
-        [SitecoreField(FieldId = "{59AFC92E-FFFE-4AE8-B67A-31448F690137}")]
-        string SectionTitle { get; set; }
+
+	    [SitecoreField(FieldId = "{37A3A91D-DB7E-4C59-9736-23B9CC673C10}")]
+		string TitleBase { get; set; }
 
 		#endregion
 
 		#region Media
-
 	    [SitecoreField(FieldId = "{A8E58453-0B0C-445B-9D2F-25B4D2E9F0FD}")]
 		Image BackgroundImage { get; set; }
 

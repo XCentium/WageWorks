@@ -20,8 +20,9 @@ namespace WageWorks.Feature.Teasers.Models.Glass
 	[SitecoreType(TemplateId = "{E90D00B6-0BE9-48E0-9C3F-047274024270}")]
 	public partial interface IIcon
 	{
+        [SitecoreId]
+        Guid Id { get; set; }
 		#region Content
-
 		/// <summary>
 		/// Css クラス
 		/// </summary>

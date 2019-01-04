@@ -1,0 +1,14 @@
+﻿
+
+
+These files were generated:
+- IIcon.gen.cs
+- ICallToAction.gen.cs
+- IConditionalPromo.gen.cs
+- IDynamicTeaser.gen.cs
+- IHeadline.gen.cs
+- IPromoSection.gen.cs
+- IPromotion.gen.cs
+- ITeaserContent.gen.cs
+- ITeasersParameters.gen.cs
+- ITeaserVideoContent.gen.cs

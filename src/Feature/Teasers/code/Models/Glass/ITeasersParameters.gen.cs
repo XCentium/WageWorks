@@ -20,5 +20,7 @@ namespace WageWorks.Feature.Teasers.Models.Glass
 	[SitecoreType(TemplateId = "{20748D57-4EF6-49A8-B7E6-13818795E3B5}")]
 	public partial interface ITeasersParameters
 	{
+        [SitecoreId]
+        Guid Id { get; set; }
 	}
 }

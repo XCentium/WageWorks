@@ -20,9 +20,9 @@ namespace WageWorks.Feature.Navigation.Models.Glass
 	[SitecoreType(TemplateId = "{A16B74E9-01B8-439C-B44E-42B3FB2EE14B}")]
 	public partial interface ILink
 	{
-		#region Navigation
         [SitecoreId]
         Guid Id { get; set; }
+		#region Navigation
 		/// <summary>
 		/// リンク
 		/// </summary>

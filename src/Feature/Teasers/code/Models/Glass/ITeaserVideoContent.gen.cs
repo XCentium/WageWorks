@@ -21,8 +21,9 @@ namespace WageWorks.Feature.Teasers.Models.Glass
 	[SitecoreType(TemplateId = "{04075EB6-6D94-4BF2-9AEB-D29A89CDBA00}")]
 	public partial interface ITeaserVideoContent : ITeaserContent
 	{
+        [SitecoreId]
+        new Guid Id { get; set; }
 		#region Content
-
 		/// <summary>
 		/// ビデオリンク
 		/// </summary>

@@ -20,8 +20,9 @@ namespace WageWorks.Feature.Teasers.Models.Glass
 	[SitecoreType(TemplateId = "{C80D124B-B9AC-432E-8C26-DBF3A7F18D20}")]
 	public partial interface IHeadline
 	{
+        [SitecoreId]
+        Guid Id { get; set; }
 		#region Content
-
 		/// <summary>
 		/// ティザー アイコン
 		/// </summary>

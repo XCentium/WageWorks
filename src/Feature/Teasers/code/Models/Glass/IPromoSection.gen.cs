@@ -20,8 +20,9 @@ namespace WageWorks.Feature.Teasers.Models.Glass
 	[SitecoreType(TemplateId = "{9574A71F-AF6D-4B02-A30A-6184110F88E2}")]
 	public partial interface IPromoSection
 	{
+        [SitecoreId]
+        Guid Id { get; set; }
 		#region Content
-
 	    [SitecoreField(FieldId = "{8C69C046-E4D2-43CB-B9FC-B8D630B853B0}")]
 		Image BackgroundImage { get; set; }
 

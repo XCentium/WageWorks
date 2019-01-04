@@ -20,9 +20,9 @@ namespace WageWorks.Feature.Navigation.Models.Glass
 	[SitecoreType(TemplateId = "{A1CBA309-D22B-46D5-80F8-2972C185363F}")]
 	public partial interface INavigable
 	{
-		#region Navigation
         [SitecoreId]
         Guid Id { get; set; }
+		#region Navigation
 		/// <summary>
 		/// Short title - Title shown in menus and areas where space is limited
 		/// </summary>

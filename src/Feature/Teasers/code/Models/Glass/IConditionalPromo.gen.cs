@@ -20,8 +20,9 @@ namespace WageWorks.Feature.Teasers.Models.Glass
 	[SitecoreType(TemplateId = "{A543133D-0FEF-4FCA-9E97-0E5A5065E58C}")]
 	public partial interface IConditionalPromo
 	{
+        [SitecoreId]
+        Guid Id { get; set; }
 		#region Conditions
-
 	    [SitecoreField(FieldId = "{610F2FD0-43A1-454E-9A6D-E0FF49A7C967}")]
 		string ExpectedValue { get; set; }
 

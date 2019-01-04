@@ -21,8 +21,9 @@ namespace WageWorks.Feature.Teasers.Models.Glass
 	[SitecoreType(TemplateId = "{FEC0E62A-01FD-40E5-88F3-E5229FE79527}")]
 	public partial interface ITeaserContent : IHeadline
 	{
+        [SitecoreId]
+        new Guid Id { get; set; }
 		#region Content
-
 		/// <summary>
 		/// Label
 		/// </summary>

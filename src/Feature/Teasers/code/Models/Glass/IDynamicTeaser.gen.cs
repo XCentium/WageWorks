@@ -20,8 +20,9 @@ namespace WageWorks.Feature.Teasers.Models.Glass
 	[SitecoreType(TemplateId = "{20A56D46-F5E3-4DB8-8B96-081575363D44}")]
 	public partial interface IDynamicTeaser
 	{
+        [SitecoreId]
+        Guid Id { get; set; }
 		#region Content
-
 		/// <summary>
 		/// Index of the active teaser
 		/// </summary>

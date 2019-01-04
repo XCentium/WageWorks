@@ -20,8 +20,9 @@ namespace WageWorks.Feature.Teasers.Models.Glass
 	[SitecoreType(TemplateId = "{3F79A9D0-2210-49E4-BF67-DD8E022900F1}")]
 	public partial interface ICallToAction
 	{
+        [SitecoreId]
+        Guid Id { get; set; }
 		#region Content
-
 	    [SitecoreField(FieldId = "{27C1025D-DEF9-4108-9FC4-94DEE8716513}")]
 		Link Link { get; set; }
 

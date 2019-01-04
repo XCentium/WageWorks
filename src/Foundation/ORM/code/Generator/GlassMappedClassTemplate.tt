@@ -100,11 +100,6 @@ namespace <#= Namespace #>
 	[SitecoreType(TemplateId = "<#= Template.SyncItem.ID #>")]
 	public partial interface I<#=Identifier(Template.SyncItem.Name.Replace("_",""))#><#=Extends#>
 	{
-<#+
-		foreach(var section in Template.Sections)
-		{
-#>
-		#region <#=section.SyncItem.Name#>
         [SitecoreId]
 <#+
 		if(Extends == string.Empty)
@@ -118,6 +113,11 @@ namespace <#= Namespace #>
 <#+
 		}
 #>
+<#+
+		foreach(var section in Template.Sections)
+		{
+#>
+		#region <#=section.SyncItem.Name#>
 <#+
 			foreach(var field in section.Fields)
 			{

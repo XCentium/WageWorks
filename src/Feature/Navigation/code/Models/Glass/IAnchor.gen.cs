@@ -20,9 +20,9 @@ namespace WageWorks.Feature.Navigation.Models.Glass
 	[SitecoreType(TemplateId = "{58EB97A6-E28F-44CE-AF23-5CF6CD2B4924}")]
 	public partial interface IAnchor
 	{
-		#region Navigation
         [SitecoreId]
         Guid Id { get; set; }
+		#region Navigation
 	    [SitecoreField(FieldId = "{A2EC2913-59CC-4F88-933B-91076D2E956B}")]
 		string AnchorName { get; set; }
 
