@@ -85,9 +85,6 @@
     <Reference Include="Sitecore.Analytics.Model, Version=11.40.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.Analytics.Model.NoReferences.9.0.180604\lib\NET462\Sitecore.Analytics.Model.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Commerce.Engine.Connect">
-      <HintPath>..\..\..\..\lib\Commerce SXA\Sitecore.Commerce.Engine.Connect.dll</HintPath>
-    </Reference>
     <Reference Include="Sitecore.ContentSearch, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\..\packages\Sitecore.ContentSearch.NoReferences.9.0.180604\lib\NET462\Sitecore.ContentSearch.dll</HintPath>
     </Reference>
@@ -147,11 +144,6 @@
     <Compile Include="Attributes\HandleAntiForgeryError.cs" />
     <Compile Include="Attributes\ModelStateTransfer.cs" />
     <Compile Include="Attributes\ValidateJsonAntiForgeryTokenAttribute.cs" />
-    <Compile Include="Commands\ClearCache.cs" />
-    <Compile Include="Events\ClearCache\ClearCacheEvent.cs" />
-    <Compile Include="Events\ClearCache\ClearCacheEventArgs.cs" />
-    <Compile Include="Events\ClearCache\ClearCacheEventHandler.cs" />
-    <Compile Include="Events\ClearCache\ClearCacheHook.cs" />
     <Compile Include="Extensions\EnumExtensions.cs" />
     <Compile Include="Extensions\HttpContextExtensions.cs" />
     <Compile Include="Extensions\JsonExtensions.cs" />
@@ -225,7 +217,9 @@
       <Name>WageWorks.Foundation.DependencyInjection</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Events\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -1,1 +1,10 @@
-ErrorGeneratingOutput
+﻿
+
+
+These files were generated:
+- IAnchor.gen.cs
+- ILink.gen.cs
+- ILinkDescription.gen.cs
+- ILinkMenuItem.gen.cs
+- INavigable.gen.cs
+- INavigationRoot.gen.cs

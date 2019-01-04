@@ -105,7 +105,8 @@ namespace <#= Namespace #>
 		{
 #>
 		#region <#=section.SyncItem.Name#>
-
+        [SitecoreId]
+        Guid Id { get; set; }
 <#+
 			foreach(var field in section.Fields)
 			{
