@@ -20,5 +20,7 @@ namespace WageWorks.Feature.Navigation.Models.Glass
 	[SitecoreType(TemplateId = "{F9F4FC05-98D0-4C62-860F-F08AE7F0EE25}")]
 	public partial interface INavigationRoot
 	{
+        [SitecoreId]
+        Guid Id { get; set; }
 	}
 }

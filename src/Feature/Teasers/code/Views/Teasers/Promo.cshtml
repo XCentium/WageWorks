@@ -10,19 +10,18 @@
         <div class="content-wrapper">
             <div class="tag-wrapper">
                 @*@Html.Sitecore().ControllerRendering("Navigation", "BreadCrumb")*@
-                @Html.Glass().Editable(Model, x => x.TitleBaseColor)
+                
                 <h1>
-                    @Model.TitleBaseColor
-                    @*@Model.PromoItem.TitleBaseColor*@
+                    @Html.Glass().Editable(Model, x => x.TitleBaseColor)
                     <span class="accent">
-                        @*@Model.PromoItem.TitleAccentColor*@
+                        @Html.Glass().Editable(Model, x => x.TitleAccentColor)
                     </span>
-                    @*@Model.PromoItem.TitleBase*@
+                    @Html.Glass().Editable(Model, x => x.TitleBase)
                 </h1>
-                <p class="large mt-30">@*@Html.Sitecore().Field("Description", Model.PromoItem)*@</p>
+                <p class="large mt-30">@Html.Glass().Editable(Model, x => x.Description)</p>
             </div>
 
-            @*@if (Model.PromoItem.Links.Count() > 0)
+            @*@if (Model.Count() > 0)
             {
                 <div class="mt-60">
                     @foreach (var link in Model.PromoItem.Links)
@@ -37,16 +36,16 @@
                 @*<div class="hero-wrapper" style="background-image: url('@Model.PromoItem.BackgroundImage');"></div>*@
 
 
-            @*@if (Sitecore.Context.PageMode.IsExperienceEditor)
+            @if (Sitecore.Context.PageMode.IsExperienceEditor)
         {
             <div class="hero-wrapper">
-                @Html.Sitecore().Field("BackgroundImage", Model.PromoItem)
+                @Html.Glass().RenderImage(Model, x=>x.BackgroundImage)
             </div>
         }
-        else if (Model.PromoItem.BackgroundImage != null)
+        else if (Model.BackgroundImage != null)
         {
-            <div class="hero-wrapper" style="background-image:url(@Model.PromoItem.BackgroundImage)"></div>
-        }*@
+            <div class="hero-wrapper" style="background-image:url(@Model.BackgroundImage)"></div>
+        }
         </div>
     </header>
 }

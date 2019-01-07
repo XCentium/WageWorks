@@ -1,0 +1,24 @@
+﻿---
+ID: "537fe8f4-cf28-4fb3-8b95-af6d5e6662bd"
+Parent: "bd79e45b-0293-4d66-9ebd-164e6627b936"
+Template: "78970d8a-bcee-4cb7-8a4d-ccc7058861da"
+Path: /sitecore/content/Wageworks/Datasources/Teasers/Custom Image Card/Custom Image Card
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190107T215126Z
+    - ID: "75994dfa-60a1-48b8-b705-27a12c96937e"
+      Hint: Description
+      Value: <p>test test message</p>
+    - ID: "8c69c046-e4d2-43cb-b9fc-b8d630b853b0"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{4B48D87B-E463-42DD-B0F2-F45C382F6204}" />
+    - ID: "b2b3422b-8feb-4225-8465-d602463e91bf"
+      Hint: Name
+      Value: Custom Image Card

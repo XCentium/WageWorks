@@ -1,0 +1,9 @@
+﻿@model RenderingModel
+@using Sitecore.Mvc.Presentation
+@using WageWorks.Foundation.Theming.Extensions
+
+<section class="@RenderingContext.Current.Rendering.GetSpaceStyling()">
+    <div class="content-wrapper grid-3">
+        @Html.Sitecore().DynamicPlaceholder("cards")
+    </div>
+</section>

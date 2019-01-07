@@ -2,26 +2,25 @@
 @using Sitecore.Mvc.Presentation
 @using Sitecore.Data
 @using WageWorks.Foundation.Theming.Extensions
-@model WageWorks.Feature.Teasers.Models.PromoViewModel
+@using Glass.Mapper.Sc.Web.Mvc
+@model WageWorks.Feature.Teasers.Models.Glass.IPromotion
 
 <section class="@RenderingContext.Current.Rendering.GetSpaceStyling()">
     <div class="content-wrapper flex-sb">
-        @if (@RenderingContext.Current.Rendering.GetLayout().ToLower() !="vertical")
+        @if (@RenderingContext.Current.Rendering.GetLayout().ToLower() != "vertical")
         {
             <aside class="on-the-left">
-                <h2>@Model.PromoItem.TitleBaseColor</h2>
+                <h2>@Html.Glass().Editable(Model, x => x.TitleBaseColor)</h2>
 
             </aside>
         }
-            <div>
-                @if (@RenderingContext.Current.Rendering.GetLayout().ToLower() == "vertical")
-                {
-                    <h2>@Model.PromoItem.TitleBaseColor</h2>
-                }
-                <h3 class="accent mb-30"><strong>@Model.PromoItem.SectionTitle</strong></h3>
-                @Html.Sitecore().Field("SectionTitle", Model.PromoItem)
-                <p>@Model.PromoItem.Description</p>
-                @Html.Sitecore().Field("Description", Model.PromoItem)
-            </div>
+        <div>
+            @if (@RenderingContext.Current.Rendering.GetLayout().ToLower() == "vertical")
+            {
+            <h2>@Html.Glass().Editable(Model, x => x.TitleBaseColor)</h2>
+            }
+            <h3 class="accent mb-30"><strong>@Html.Glass().Editable(Model, x => x.SectionTitle)</strong></h3>
+            <p>@Html.Glass().Editable(Model, x => x.Description)</p>            
+        </div>
     </div>
 </section>

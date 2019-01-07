@@ -1,0 +1,22 @@
+﻿---
+ID: "a0f0ffe2-b3d4-4407-9dda-03a4280ab3a6"
+Parent: "a150435d-da28-46b2-a576-542f4ee053dc"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Project/Common/Teaser Placeholders/cards
+DB: master
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: cards
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Type: TreelistEx
+  Value: "{728A4AD7-6E7A-4A1D-92E0-1CB9BC83EFB6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190107T214732Z

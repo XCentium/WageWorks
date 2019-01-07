@@ -83,25 +83,17 @@ namespace WageWorks.Feature.Teasers.Controller
 
         public ActionResult Promo()
         {
-            //var carousel = _teaserRepository.GetPromo();
             var promo = _teaserRepository.GetPromoModel();
             return View(promo);
         }
-        //public ActionResult ProductPromoSection() {
-        //    var productPromo = _teaserRepository.GetProductPromo();
-        //    return View(productPromo);
-        //}
+        
         public ActionResult PromoSection()
         {
             var promoSection = _teaserRepository.GetPromoSection();
             return this.View("PromoSection",promoSection);
         }
 
-        //public ActionResult PromoGrid()
-        //{
-        //    var promoSection = _teaserRepository.GetPromoSection();
-        //    return View(promoSection);
-        //}
+        
 
         public ActionResult PromoSectionSlider()
         {
@@ -123,7 +115,7 @@ namespace WageWorks.Feature.Teasers.Controller
 
         public ActionResult HeadlineSection()
         {
-            var promoSection = _teaserRepository.GetPromo();
+            var promoSection = _teaserRepository.GetPromoModel(); 
             return this.View("HeadlineSection", promoSection);
         }
 
@@ -138,17 +130,7 @@ namespace WageWorks.Feature.Teasers.Controller
             var promoSection = _teaserRepository.GetPromo();
             return this.View("RoundSection", promoSection);
         }
-        //public ActionResult PromoSwitcher()
-        //{
-        //    var promoSection = _teaserRepository.GetPromoSection();
-        //    return View(promoSection);
-        //}
-
-        //public ActionResult SocialPromoSection()
-        //{
-        //    var promoSection = _teaserRepository.GetPromoSection();
-        //    return View(promoSection);
-        //}
+        
 
     }
 }

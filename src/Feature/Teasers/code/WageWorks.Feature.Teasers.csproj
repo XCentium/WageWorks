@@ -164,6 +164,7 @@
     <Content Include="Views\Teasers\PromoImage.cshtml" />
     <Content Include="Views\Teasers\PlainCards.cshtml" />
     <Content Include="Views\Teasers\CustomImageCard.cshtml" />
+    <Content Include="Views\Teasers\CustomImageCards.cshtml" />
     <None Include="Views\Web.config" />
     <Content Include="App_Config\Include\Feature\Feature.Teasers.Serialization.config" />
     <Content Include="packages.config" />

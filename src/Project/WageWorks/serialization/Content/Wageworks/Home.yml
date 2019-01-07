@@ -159,27 +159,40 @@ Languages:
       Type: Layout
       Value: |
         <r xmlns:p="p" xmlns:s="s"
-          p:p="1">
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
           <d
             id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
             <r
-              uid="{C9514513-4C09-4A6A-9D28-E2DA0166C9C0}"
+              uid="{F33B9E13-8900-4FAE-AD57-CD954C168DAD}"
               p:before="*"
+              s:ds="{537FE8F4-CF28-4FB3-8B95-AF6D5E6662BD}"
+              s:id="{728A4AD7-6E7A-4A1D-92E0-1CB9BC83EFB6}"
+              s:ph="/page-layout/cards-{31538695-C5DE-424C-9266-F9BD9C8BB07C}-0" />
+            <r
+              uid="{D510B9F7-1D5C-48FE-92CA-4969BCB97875}"
+              p:after="r[@uid='{F33B9E13-8900-4FAE-AD57-CD954C168DAD}']"
+              s:ds="{0373A580-ACDF-4FCB-BEB2-AA7FEF321336}"
+              s:id="{728A4AD7-6E7A-4A1D-92E0-1CB9BC83EFB6}"
+              s:ph="/page-layout/cards-{31538695-C5DE-424C-9266-F9BD9C8BB07C}-0" />
+            <r
+              uid="{C9514513-4C09-4A6A-9D28-E2DA0166C9C0}"
+              p:after="r[@uid='{D510B9F7-1D5C-48FE-92CA-4969BCB97875}']"
               s:ds="{BE1940EC-EE80-4233-95F6-EC8489E34E6A}"
               s:id="{F0BAB58E-D35D-4450-BAE7-283B1FBEB619}"
               s:par="CSS Variants"
               s:ph="page-layout" />
             <r
-              uid="{E9E5D47F-18F7-45F5-B5D5-B9C473F872EC}"
+              uid="{31538695-C5DE-424C-9266-F9BD9C8BB07C}"
               p:after="r[@uid='{C9514513-4C09-4A6A-9D28-E2DA0166C9C0}']"
+              s:id="{8CBA7BDB-9A4A-41DF-AC04-861C1B3ABCBB}"
+              s:ph="page-layout" />
+            <r
+              uid="{E9E5D47F-18F7-45F5-B5D5-B9C473F872EC}"
+              p:after="*[1=2]"
               s:ds="{03589CE8-079E-455A-B80F-EAC72A82F09C}"
               s:id="{EE5A9F3D-C2CB-4710-8053-04D1A7135EBE}"
               s:par="Layout=%7BDE7F9758-F0B0-47AF-946C-A8EB3C601F54%7D&amp;Space Styling&amp;Section Color=%7B1104BA26-7FF8-4955-879D-92E99CCBC694%7D&amp;Hashtag Text"
-              s:ph="page-layout" />
-            <r
-              uid="{4D0011B2-4F90-4D38-95A6-EF87288736D4}"
-              p:after="*[1=2]"
-              s:id="{728A4AD7-6E7A-4A1D-92E0-1CB9BC83EFB6}"
               s:ph="page-layout" />
           </d>
         </r>
