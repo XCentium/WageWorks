@@ -3,45 +3,36 @@ using Glass.Mapper.Configuration;
 using Glass.Mapper.IoC;
 using Glass.Mapper.Maps;
 using Glass.Mapper.Sc.IoC;
-using WageWorks.Foundation.ORM.Mappers;
 using IDependencyResolver = Glass.Mapper.Sc.IoC.IDependencyResolver;
 
 namespace WageWorks.Foundation.ORM.App_Start
 {
-    public static class GlassMapperScCustom
+    public static  class GlassMapperScCustom
     {
-        public static IDependencyResolver CreateResolver()
-        {
-            var config = new Glass.Mapper.Sc.Config();
+		public static IDependencyResolver CreateResolver(){
+			var config = new Glass.Mapper.Sc.Config();
 
-            var dependencyResolver = new DependencyResolver(config);
-            // add any changes to the standard resolver here
+			var dependencyResolver = new DependencyResolver(config);
+			// add any changes to the standard resolver here
 
-            dependencyResolver.DataMapperFactory?.Replace(21, () => new SitecoreFieldStringExtendedMapper());
+			 dependencyResolver.Finalise();
+			
+			return dependencyResolver;
+		}
 
-            // DO NOT DELETE THIS LINE!!
-            //dependencyResolver.DataMapperFactory.Insert(0, () => new LinkListDataHandler());
-
-            dependencyResolver.Finalise();
-
-            return dependencyResolver;
-        }
-
-        public static IConfigurationLoader[] GlassLoaders()
-        {
-
-            /* USE THIS AREA TO ADD FLUENT CONFIGURATION LOADERS
+		public static IConfigurationLoader[] GlassLoaders(){			
+			
+			/* USE THIS AREA TO ADD FLUENT CONFIGURATION LOADERS
              * 
              * If you are using Attribute Configuration or automapping/on-demand mapping you don't need to do anything!
              * 
              */
 
-            return new IConfigurationLoader[] { };
-        }
-        public static void PostLoad(IDependencyResolver dependencyResolver)
-        {
-            //Remove the comments to activate CodeFist
-            /* CODE FIRST START
+			return new IConfigurationLoader[]{};
+		}
+		public static void PostLoad(IDependencyResolver dependencyResolver){
+			//Remove the comments to activate CodeFist
+			/* CODE FIRST START
             var dbs = Sitecore.Configuration.Factory.GetDatabases();
             foreach (var db in dbs)
             {
@@ -57,10 +48,10 @@ namespace WageWorks.Foundation.ORM.App_Start
              * CODE FIRST END
              */
 
-        }
-        public static void AddMaps(IConfigFactory<IGlassMap> mapsConfigFactory)
+		}
+		public static void AddMaps(IConfigFactory<IGlassMap> mapsConfigFactory)
         {
-            // Add maps here
+			// Add maps here
             // mapsConfigFactory.Add(() => new SeoMap());
         }
     }
