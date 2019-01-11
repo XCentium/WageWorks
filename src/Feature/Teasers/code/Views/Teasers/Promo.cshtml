@@ -1,4 +1,4 @@
-﻿@model WageWorks.Feature.Teasers.Models.Glass.IPromotion
+﻿@model WageWorks.Feature.Teasers.Models.Glass.IPromotion 
 @using Sitecore.Diagnostics
 @using WageWorks.Foundation.SitecoreExtensions.Extensions
 @using Glass.Mapper.Sc.Web.Mvc
@@ -33,18 +33,17 @@
                 </div>
             }*@
 
-                @*<div class="hero-wrapper" style="background-image: url('@Model.PromoItem.BackgroundImage');"></div>*@
 
 
             @if (Sitecore.Context.PageMode.IsExperienceEditor)
         {
             <div class="hero-wrapper">
-                @Html.Glass().RenderImage(Model, x=>x.BackgroundImage)
+                @Html.Glass().RenderImage(Model, x=>x.BackgroundImage, isEditable: true)
             </div>
         }
         else if (Model.BackgroundImage != null)
         {
-            <div class="hero-wrapper" style="background-image:url(@Model.BackgroundImage)"></div>
+            <div class="hero-wrapper" style="background-image:url(@Model.BackgroundImage.Src)"></div>
         }
         </div>
     </header>

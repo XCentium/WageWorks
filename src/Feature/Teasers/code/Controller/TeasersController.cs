@@ -5,7 +5,9 @@ using WageWorks.Foundation.ORM.Context;
 
 namespace WageWorks.Feature.Teasers.Controller
 {
+    using Sitecore.Diagnostics;
     using Sitecore.Mvc.Presentation;
+    using System;
     using System.Web.Mvc;
     using WageWorks.Feature.Teasers.Models;
     using WageWorks.Feature.Teasers.Models.Glass;
@@ -89,8 +91,8 @@ namespace WageWorks.Feature.Teasers.Controller
         
         public ActionResult PromoSection()
         {
-            var promoSection = _teaserRepository.GetPromoSection();
-            return this.View("PromoSection",promoSection);
+            var promoSection = _teaserRepository.GetPromoModel();
+            return View(promoSection);
         }
 
         
@@ -121,8 +123,16 @@ namespace WageWorks.Feature.Teasers.Controller
 
         public ActionResult StorySection()
         {
-            var promoSection = _teaserRepository.GetPromo();
-            return this.View("StorySection", promoSection);
+            try
+            {
+                var promoSection = _teaserRepository.GetPromoModel();
+                return View(promoSection);
+            }
+            catch(Exception ex)
+            {
+                Log.Info(ex.Message, ex);
+            }
+            return null;
         }
 
         public ActionResult RoundSection()

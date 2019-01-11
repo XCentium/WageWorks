@@ -1,16 +1,17 @@
 ﻿@using Sitecore.Data
 @using Sitecore.Mvc.Presentation
-@model WageWorks.Feature.Teasers.Models.PromoSectionViewModel
 @using WageWorks.Foundation.Theming.Extensions
 @using WageWorks.Foundation.SitecoreExtensions.Extensions
+@using Glass.Mapper.Sc.Web.Mvc
+@model WageWorks.Feature.Teasers.Models.Glass.IPromoSection
 
 <section class="@RenderingContext.Current.Rendering.GetSpaceStyling() @RenderingContext.Current.Rendering.GetSectionColor()">
     <div class="content-wrapper flex-vam flex-cols">
         <aside class="on-the-left white">
-            <h3 class="mb-30"><strong>@Model.Title.ToHtmlString()</strong></h3>
+            <h3 class="mb-30"><strong>@Html.Glass().Editable(Model, x => x.Title)</strong></h3>
             @if (RenderingContext.Current.Rendering.GetLayout() == "Right")
             {
-                <p>@Model.Description.ToHtmlString()</p>
+            <p>@Html.Glass().Editable(Model, x => x.Description)</p>
             }
             else
             {
@@ -19,19 +20,19 @@
                 </div>
             }
         </aside>
-            @if (RenderingContext.Current.Rendering.GetLayout() == "Right")
-            {
-                <div class="white buttons-wrapper">
-                        <div class="ib mr-30">
-                            <a class="@Model.MoreLink.CssClass mr-30" href="@Model.MoreLink.Url" target="@Model.MoreLink.Target">@Model.MoreLink.Text</a>
-                        </div> 
+        @if (RenderingContext.Current.Rendering.GetLayout() == "Right")
+        {
+            <div class="white buttons-wrapper">
+                <div class="ib mr-30">
+                    <a class="@Model.MoreLink.CssClass mr-30" href="@Model.MoreLink.Url" target="@Model.MoreLink.Target">@Model.MoreLink.Text</a>
                 </div>
-            }
-            else
-            {
-                <div class="white">
-                    <p class="mb-30">@Model.Description.ToHtmlString()</p>
-                </div>
-            }
+            </div>
+        }
+        else
+        {
+            <div class="white">
+                <p class="mb-30">@Html.Glass().Editable(Model, x => x.Description)</p>
+            </div>
+        }
     </div>
 </section>

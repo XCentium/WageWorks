@@ -166,7 +166,12 @@
 ..\Models\Glass\ITeaserVideoContent.gen.cs
 .\Generate1.gen.txt
 </LastOutputs>
-      <LastGenOutput>Generate.cs</LastGenOutput>
+      <LastGenOutput>Generate1.gen.txt</LastGenOutput>
+    </Content>
+    <Content Include="Glass\Generate1.gen.txt">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Generate.tt</DependentUpon>
     </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />

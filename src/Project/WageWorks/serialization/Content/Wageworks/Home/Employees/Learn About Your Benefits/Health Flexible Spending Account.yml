@@ -64,14 +64,14 @@ Languages:
               p:after="r[@uid='{702AEF92-34FE-4075-8E59-578592A5E10B}']"
               s:ds=""
               s:id="{DD931366-717A-4557-BD3A-327FA1EE432B}"
-              s:par="Space Styling&amp;Title=Additional%20Resources&amp;Items=%7B14BB9116-DD68-446C-ADE4-D10A967EA671%7D%7C%7B6364526D-D905-496B-9605-D71E8D200570%7D%7C%7B8B0B2013-0C83-4899-8420-335C652AFEAD%7D&amp;Section Color&amp;Hashtag Text=Additional%20Resources"
+              s:par="Space Styling&amp;Title=Additional%20Resources&amp;Items=%7B8B0B2013-0C83-4899-8420-335C652AFEAD%7D%7C%7B7855468B-0332-42B8-AF8F-90E0AD9521C4%7D%7C%7B94152026-F943-42FD-B755-96E392F20680%7D&amp;Section Color&amp;Hashtag Text=Additional%20Resources"
               s:ph="page-layout" />
             <r
               uid="{58E5697D-9569-4239-8B26-F33E602CDC90}"
               p:after="r[@uid='{B4DBAAFD-3BF2-410B-9B79-58E7D6DE059E}']"
               s:ds=""
               s:id="{3A7977B5-6410-44B5-A897-0C115780C463}"
-              s:par="Title&amp;Space Styling&amp;Items=%7B288F2FB1-675D-4F61-A910-D202BED7D971%7D%7C%7B94152026-F943-42FD-B755-96E392F20680%7D%7C%7B81CFF116-3FED-4583-8FC9-91EEA50227C9%7D&amp;Section Color&amp;Open Item Text=Learn%20More&amp;Hashtag Text"
+              s:par="Title&amp;Space Styling&amp;Items=%7B94152026-F943-42FD-B755-96E392F20680%7D%7C%7B81CFF116-3FED-4583-8FC9-91EEA50227C9%7D%7C%7BCD53C59D-4AA7-4CFB-A5CE-05CCE85CF5B4%7D&amp;Section Color&amp;Open Item Text=Learn%20More&amp;Hashtag Text"
               s:ph="page-layout" />
             <r
               uid="{746AE80D-0B43-43D5-98BA-27A6044A5611}"

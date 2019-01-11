@@ -2,24 +2,29 @@
 @using Sitecore.Mvc.Presentation
 @using Sitecore.Data
 @using WageWorks.Foundation.Theming.Extensions
-@model WageWorks.Feature.Teasers.Models.PromoViewModel
+@model WageWorks.Feature.Teasers.Models.Glass.IPromotion
+@using Glass.Mapper.Sc.Web.Mvc
+
 
 <section class="@RenderingContext.Current.Rendering.GetSpaceStyling() @(string.IsNullOrEmpty(RenderingContext.Current.Rendering.GetLayout())? "story-left" :RenderingContext.Current.Rendering.GetLayout())">
-    <div class="content-wrapper">
-        <div class="story-bg @RenderingContext.Current.Rendering.GetSectionColor()"></div>
-        @if (Sitecore.Context.PageMode.IsExperienceEditor)
-        {
-            <div class="story-img">@Model.PromoItem.BackgroundImage</div>
-        }
-        else
-        {
+        <div class="content-wrapper">
+            <div class="story-bg @RenderingContext.Current.Rendering.GetSectionColor()"></div>
+            @if (Sitecore.Context.PageMode.IsExperienceEditor)
+            {
+                <div class="story-img">
+                    @Html.Glass().RenderImage(Model, x => x.BackgroundImage, isEditable: true)
+                </div>
+            }
+            else
+            {
 
-            <div class="story-img" style="background-image:url(@Model.PromoItem.BackgroundImage)"></div>
-        }
-        <div class="story-content">
-            <h6>@Model.PromoItem.TitleBaseColor</h6>
-            <h3 class="accent mt-30 mb-30"><strong>@Model.PromoItem.SectionTitle</strong></h3>
-            <p>@Model.PromoItem.Description</p>
+                <div class="story-img" style="background-image:url(@Model.BackgroundImage)"></div>
+            }
+            <div class="story-content">
+                <h6>@Html.Glass().Editable(Model, x => x.TitleBaseColor)</h6>
+                <h3 class="accent mt-30 mb-30"><strong>@Html.Glass().Editable(Model, x => x.SectionTitle)</strong></h3>
+                <p>@Html.Glass().Editable(Model, x => x.Description)</p>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+

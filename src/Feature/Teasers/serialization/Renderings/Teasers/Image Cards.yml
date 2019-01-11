@@ -5,6 +5,9 @@ Template: "2a3e91a0-7987-44b5-ab34-35c2d9de83b9"
 Path: /sitecore/layout/Renderings/Feature/Teasers/Image Cards
 DB: master
 SharedFields:
+- ID: "13f89250-ad6b-4548-882e-118a12c18094"
+  Hint: Parameters Template
+  Value: "{8CA328B2-BEED-463D-9813-9396FB0722AD}"
 - ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
   Hint: Path
   Value: /Views/Teasers/ImageCards.cshtml
